@@ -95,7 +95,7 @@ void core0_main(void)
     IfxCpu_emitEvent(&g_cpuSyncEvent);
     IfxCpu_waitEvent(&g_cpuSyncEvent, 1);
 
-__disable();
+//__disable();
 
     /* SERVICE REQUEST SETUP */
     p_src->STM.STM[0].SR[0].B.SRPN = TIMER_0_INTERRUPT_PRIORITY;    /* Set priority so the above handler will service it    */
@@ -150,7 +150,7 @@ __disable();
     p_pin33->OUT.B.P5       = 1;
     p_pin33->OUT.B.P6       = 1;
     p_pin33->OUT.B.P7       = 1;
-__enable();
+//__enable();
 
     while(1)
     {

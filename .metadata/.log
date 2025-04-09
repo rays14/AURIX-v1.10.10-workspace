@@ -1598,3 +1598,340 @@ Caused by: java.net.MalformedURLException: no protocol:
 
 !ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:10:35.797
 !MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+!SESSION 2025-04-08 17:25:18.823 -----------------------------------------------
+eclipse.buildId=1.10.10
+java.version=17.0.11
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -perspective com.infineon.aurix.buildmanager.perspective.c
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -perspective com.infineon.aurix.buildmanager.perspective.c
+
+!ENTRY org.eclipse.ui 2 0 2025-04-08 17:25:22.584
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-04-08 17:25:22.584
+!MESSAGE Commands should really have a category: plug-in='com.infineon.aurix.buildsystem.debug', id='com.infineon.aurix.buildsystem.debug.debugActiveProjectCommand', categoryId='com.infineon.aurix.buildsystem.debug.debugActiveProjectCommand'
+
+!ENTRY org.eclipse.ui 2 0 2025-04-08 17:25:22.997
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-04-08 17:25:22.997
+!MESSAGE Commands should really have a category: plug-in='com.infineon.aurix.buildsystem.debug', id='com.infineon.aurix.buildsystem.debug.debugActiveProjectCommand', categoryId='com.infineon.aurix.buildsystem.debug.debugActiveProjectCommand'
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2025-04-08 17:25:25.742
+!MESSAGE Cannot open remote device description from URL https://itools.infineon.com/aurix_ide/ADS/com.infineon.aurix.buildsystem/1.10.10/tc2-hardware.json. Resource does not exist
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2025-04-08 17:25:25.744
+!MESSAGE Cannot open cached device description from  C:\Users\sray\ADSDocuments\1.10.10\tc2-hardware.json. Resource does not exist
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2025-04-08 17:25:26.419
+!MESSAGE Cannot open remote device description from URL https://itools.infineon.com/aurix_ide/ADS/com.infineon.aurix.buildsystem/1.10.10/tc3-hardware.json. Resource does not exist
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2025-04-08 17:25:26.421
+!MESSAGE Cannot open cached device description from  C:\Users\sray\ADSDocuments\1.10.10\tc3-hardware.json. Resource does not exist
+
+!ENTRY com.infineon.aurix.buildsystem 4 0 2025-04-08 17:25:31.197
+!MESSAGE ConnectException
+!STACK 0
+java.net.ConnectException
+	at java.net.http/jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:573)
+	at java.net.http/jdk.internal.net.http.HttpClientFacade.send(HttpClientFacade.java:123)
+	at com.infineon.aurix.buildsystem.IFXNetworkUtils$1.run(IFXNetworkUtils.java:44)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.net.ConnectException
+	at java.net.http/jdk.internal.net.http.common.Utils.toConnectException(Utils.java:1055)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:198)
+	at java.net.http/jdk.internal.net.http.AsyncSSLConnection.connectAsync(AsyncSSLConnection.java:56)
+	at java.net.http/jdk.internal.net.http.Http1Exchange.sendHeadersAsync(Http1Exchange.java:239)
+	at java.net.http/jdk.internal.net.http.Exchange.lambda$responseAsyncImpl0$9(Exchange.java:472)
+	at java.net.http/jdk.internal.net.http.Exchange.checkFor407(Exchange.java:404)
+	at java.net.http/jdk.internal.net.http.Exchange.lambda$responseAsyncImpl0$10(Exchange.java:476)
+	at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:934)
+	at java.base/java.util.concurrent.CompletableFuture.uniHandleStage(CompletableFuture.java:950)
+	at java.base/java.util.concurrent.CompletableFuture.handle(CompletableFuture.java:2340)
+	at java.net.http/jdk.internal.net.http.Exchange.responseAsyncImpl0(Exchange.java:476)
+	at java.net.http/jdk.internal.net.http.Exchange.responseAsyncImpl(Exchange.java:380)
+	at java.net.http/jdk.internal.net.http.Exchange.responseAsync(Exchange.java:372)
+	at java.net.http/jdk.internal.net.http.MultiExchange.responseAsyncImpl(MultiExchange.java:408)
+	at java.net.http/jdk.internal.net.http.MultiExchange.lambda$responseAsyncImpl$7(MultiExchange.java:449)
+	at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:934)
+	at java.base/java.util.concurrent.CompletableFuture.uniHandleStage(CompletableFuture.java:950)
+	at java.base/java.util.concurrent.CompletableFuture.handle(CompletableFuture.java:2340)
+	at java.net.http/jdk.internal.net.http.MultiExchange.responseAsyncImpl(MultiExchange.java:439)
+	at java.net.http/jdk.internal.net.http.MultiExchange.lambda$responseAsync0$2(MultiExchange.java:341)
+	at java.base/java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1150)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$DelegatingExecutor.execute(HttpClientImpl.java:157)
+	at java.base/java.util.concurrent.CompletableFuture.completeAsync(CompletableFuture.java:2673)
+	at java.net.http/jdk.internal.net.http.MultiExchange.responseAsync(MultiExchange.java:294)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl.sendAsync(HttpClientImpl.java:654)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:552)
+	... 3 more
+Caused by: java.nio.channels.UnresolvedAddressException
+	at java.base/sun.nio.ch.Net.checkAddress(Net.java:149)
+	at java.base/sun.nio.ch.Net.checkAddress(Net.java:157)
+	at java.base/sun.nio.ch.SocketChannelImpl.checkRemote(SocketChannelImpl.java:816)
+	at java.base/sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:839)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$0(PlainHttpConnection.java:183)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:185)
+	... 29 more
+
+!ENTRY com.infineon.aurix.buildsystem.analytics 2 0 2025-04-08 17:25:31.367
+!MESSAGE Unable to initialize Analytics Service.
+
+!ENTRY com.infineon.aurix.buildsystem.analytics 2 0 2025-04-08 17:25:31.369
+!MESSAGE Unable to initialize Analytics Service.
+
+!ENTRY com.infineon.aurix.buildsystem.analytics 4 0 2025-04-08 17:25:31.369
+!MESSAGE java.net.MalformedURLException: no protocol: 
+!STACK 0
+java.lang.IllegalArgumentException: java.net.MalformedURLException: no protocol: 
+	at com.google.api.client.http.GenericUrl.parseURL(GenericUrl.java:679)
+	at com.google.api.client.http.GenericUrl.<init>(GenericUrl.java:125)
+	at com.google.api.client.http.GenericUrl.<init>(GenericUrl.java:108)
+	at com.infineon.aurix.buildsystem.analytics.AnalyticsService.<init>(AnalyticsService.java:69)
+	at com.infineon.aurix.buildsystem.analytics.AnalyticsService.getInstance(AnalyticsService.java:98)
+	at com.infineon.aurix.buildsystem.Logger.logError(Logger.java:34)
+	at com.infineon.aurix.buildsystem.IFXNetworkUtils$1.run(IFXNetworkUtils.java:47)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.net.MalformedURLException: no protocol: 
+	at java.base/java.net.URL.<init>(URL.java:674)
+	at java.base/java.net.URL.<init>(URL.java:569)
+	at java.base/java.net.URL.<init>(URL.java:516)
+	at com.google.api.client.http.GenericUrl.parseURL(GenericUrl.java:677)
+	... 7 more
+
+!ENTRY com.infineon.aurix.buildsystem.analytics 4 0 2025-04-08 17:25:31.371
+!MESSAGE java.net.MalformedURLException: no protocol: 
+!STACK 0
+java.lang.IllegalArgumentException: java.net.MalformedURLException: no protocol: 
+	at com.google.api.client.http.GenericUrl.parseURL(GenericUrl.java:679)
+	at com.google.api.client.http.GenericUrl.<init>(GenericUrl.java:125)
+	at com.google.api.client.http.GenericUrl.<init>(GenericUrl.java:108)
+	at com.infineon.aurix.buildsystem.analytics.AnalyticsService.<init>(AnalyticsService.java:69)
+	at com.infineon.aurix.buildsystem.analytics.AnalyticsService.getInstance(AnalyticsService.java:98)
+	at com.infineon.aurix.buildsystem.AnalyticsUtils.send(AnalyticsUtils.java:24)
+	at com.infineon.aurix.buildsystem.Analytics.sendToolStarted(Analytics.java:6)
+	at com.infineon.aurix.buildsystem.AurixIDEStartup.earlyStartup(AurixIDEStartup.java:25)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.runEarlyStartup(EarlyStartupRunnable.java:79)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.run(EarlyStartupRunnable.java:55)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.ui.internal.Workbench$39.run(Workbench.java:2699)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.net.MalformedURLException: no protocol: 
+	at java.base/java.net.URL.<init>(URL.java:674)
+	at java.base/java.net.URL.<init>(URL.java:569)
+	at java.base/java.net.URL.<init>(URL.java:516)
+	at com.google.api.client.http.GenericUrl.parseURL(GenericUrl.java:677)
+	... 12 more
+
+!ENTRY com.infineon.aurix.buildsystem.notification 2 0 2025-04-08 17:25:31.416
+!MESSAGE Unable to initialize Notification Service.
+
+!ENTRY com.infineon.aurix.buildsystem.notification 4 0 2025-04-08 17:25:31.417
+!MESSAGE java.net.MalformedURLException: no protocol: 
+!STACK 0
+java.lang.IllegalArgumentException: java.net.MalformedURLException: no protocol: 
+	at com.google.api.client.http.GenericUrl.parseURL(GenericUrl.java:679)
+	at com.google.api.client.http.GenericUrl.<init>(GenericUrl.java:125)
+	at com.google.api.client.http.GenericUrl.<init>(GenericUrl.java:108)
+	at com.infineon.aurix.buildsystem.notification.NotificationService.<init>(NotificationService.java:64)
+	at com.infineon.aurix.buildsystem.notification.NotificationService.getInstance(NotificationService.java:89)
+	at com.infineon.aurix.buildsystem.analytics.AnalyticsService.send(AnalyticsService.java:190)
+	at com.infineon.aurix.buildsystem.AnalyticsUtils.send(AnalyticsUtils.java:24)
+	at com.infineon.aurix.buildsystem.Analytics.sendToolStarted(Analytics.java:6)
+	at com.infineon.aurix.buildsystem.AurixIDEStartup.earlyStartup(AurixIDEStartup.java:25)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.runEarlyStartup(EarlyStartupRunnable.java:79)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.run(EarlyStartupRunnable.java:55)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.ui.internal.Workbench$39.run(Workbench.java:2699)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.net.MalformedURLException: no protocol: 
+	at java.base/java.net.URL.<init>(URL.java:674)
+	at java.base/java.net.URL.<init>(URL.java:569)
+	at java.base/java.net.URL.<init>(URL.java:516)
+	at com.google.api.client.http.GenericUrl.parseURL(GenericUrl.java:677)
+	... 13 more
+
+!ENTRY com.infineon.aurix.buildsystem.notification 4 0 2025-04-08 17:25:31.581
+!MESSAGE NullPointerException
+!STACK 0
+java.lang.NullPointerException
+	at com.google.common.base.Preconditions.checkNotNull(Preconditions.java:892)
+	at com.google.api.client.util.Preconditions.checkNotNull(Preconditions.java:125)
+	at com.google.api.client.http.GenericUrl.buildAuthority(GenericUrl.java:389)
+	at com.google.api.client.http.GenericUrl.build(GenericUrl.java:374)
+	at com.google.api.client.http.HttpRequest.execute(HttpRequest.java:883)
+	at com.infineon.aurix.buildsystem.notification.NotificationService$NotificationGetJob.run(NotificationService.java:205)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:25:32.307
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:25:32.309
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:25:32.670
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:25:32.901
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:25:33.108
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:25:33.519
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.notification 4 0 2025-04-08 17:25:37.311
+!MESSAGE NullPointerException
+!STACK 0
+java.lang.NullPointerException
+	at com.google.common.base.Preconditions.checkNotNull(Preconditions.java:892)
+	at com.google.api.client.util.Preconditions.checkNotNull(Preconditions.java:125)
+	at com.google.api.client.http.GenericUrl.buildAuthority(GenericUrl.java:389)
+	at com.google.api.client.http.GenericUrl.build(GenericUrl.java:374)
+	at com.google.api.client.http.HttpRequest.execute(HttpRequest.java:883)
+	at com.infineon.aurix.buildsystem.notification.NotificationService$NotificationGetJob.run(NotificationService.java:205)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2025-04-08 17:25:37.442
+!MESSAGE Project index is not complete, and cannot be used for boosting.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2025-04-08 17:25:37.445
+!MESSAGE Boosting configuration TriCore Debug (TASKING) of project hello_world_2 boosted in 1 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:25:37.453
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:25:37.576
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2025-04-08 17:25:37.656
+!MESSAGE Include paths were discovered in 204 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:25:37.723
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:25:37.893
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:27:00.850
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:27:01.037
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.notification 4 0 2025-04-08 17:27:05.535
+!MESSAGE NullPointerException
+!STACK 0
+java.lang.NullPointerException
+	at com.google.common.base.Preconditions.checkNotNull(Preconditions.java:892)
+	at com.google.api.client.util.Preconditions.checkNotNull(Preconditions.java:125)
+	at com.google.api.client.http.GenericUrl.buildAuthority(GenericUrl.java:389)
+	at com.google.api.client.http.GenericUrl.build(GenericUrl.java:374)
+	at com.google.api.client.http.HttpRequest.execute(HttpRequest.java:883)
+	at com.infineon.aurix.buildsystem.notification.NotificationService$NotificationGetJob.run(NotificationService.java:205)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:27:05.536
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:27:05.634
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:27:05.841
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2025-04-08 17:27:07.060
+!MESSAGE Boosting configuration TriCore Debug (TASKING) of project hello_world_2 boosted in 1515 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2025-04-08 17:27:07.107
+!MESSAGE Include paths were discovered in 45 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:27:09.319
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:27:09.520
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:27:13.348
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:27:13.551
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:27:14.188
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:27:14.382
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:27:14.511
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:27:14.648
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:27:14.759
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:27:15.271
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:27:15.442
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:27:15.730
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:27:15.897
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:27:16.817
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:27:16.962
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:27:17.130
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:27:20.129
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:27:29.650
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:27:29.820
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:27:56.208
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:27:56.332
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:27:59.881
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:28:02.774
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:28:03.456
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:28:38.977
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:28:39.117
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:30:18.584
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:30:18.691
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:30:23.847
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable

@@ -1,4 +1,4 @@
-17:07:05 **** Incremental Build of configuration TriCore Debug (TASKING) for project hello_world_2 ****
+17:27:07 **** Incremental Build of configuration TriCore Debug (TASKING) for project hello_world_2 ****
 amk -j16 all 
 TASKING VX-toolset for AURIX Development Studio (non-commercial): program builder v1.1r8 Build 22011964
 Building target: hello_world_2.elf
@@ -9,10 +9,10 @@ Finished building target: hello_world_2.elf
 Invoking: Print Size
 elfsize  "hello_world_2.elf"
 Total sizes:
-ROM: 0x41ee (16878) = code: 0x2d8a (11658) + romdata: 0x1464 (5220)
+ROM: 0x41e6 (16870) = code: 0x2d82 (11650) + romdata: 0x1464 (5220)
 RAM: 0xc2a9 (49833) = data + bss
 Finished building: hello_world_2.siz
  
 
-17:07:07 Build Finished. 0 errors, 0 warnings. (took 1s.553ms)
+17:27:09 Build Finished. 0 errors, 0 warnings. (took 1s.505ms)
 
