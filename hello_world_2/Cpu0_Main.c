@@ -51,9 +51,11 @@ volatile Ifx_STM *p_stm0    = (volatile Ifx_STM*)0xF0001000u;  /* IfxStm_reg.h  
 /* Variables */
 volatile int timer_0_isr_count  = 0;
 volatile int toggle             = 0;
+volatile int int_toggle         = 0;
 
 /* Constants */
-const int DELAY = 1000000;
+const unsigned int DELAY    = 1000000;
+const unsigned int BIT_NUM  = 25;
 
 
 /* Delay */
@@ -71,11 +73,27 @@ void delay(int d)
 //void __interrupt(TIMER_0_INTERRUPT_PRIORITY) __vector_table(0) timer_0_isr(void)
 IFX_INTERRUPT (timer_0_isr, 0, TIMER_0_INTERRUPT_PRIORITY)
 {
+    /* Disable interrupts so this is an atomic operation */
+    IfxCpu_disableInterrupts();
+
     timer_0_isr_count++;
     if (timer_0_isr_count >= 1000)
     {
         timer_0_isr_count = 0;
     }
+    /* Enable interrupts so this part can get preempted */
+    //IfxCpu_enableInterrupts();
+
+    /* Should make this toggle or it doesn't make sense, make all the bits in
+     * the compare register toggle so we can interrupt on any of the 32 bits
+     * of the compare register.  */
+    p_stm0->CMP[0].B.CMPVAL = p_stm0->CMP[0].B.CMPVAL == 0xffffffff ? 0 : 0xffffffff;
+
+    p_pin33->OUT.B.P6 = int_toggle; // (p_pin33->IN.B.P6 == 1) ? 0 : 1;
+
+    int_toggle = 1 - int_toggle;
+
+    IfxCpu_enableInterrupts();
 }
 
 /* SW Interrupt Handler */
@@ -96,6 +114,7 @@ void core0_main(void)
     IfxCpu_waitEvent(&g_cpuSyncEvent, 1);
 
 //__disable();
+    IfxCpu_disableInterrupts();
 
     /* SERVICE REQUEST SETUP */
     p_src->STM.STM[0].SR[0].B.SRPN = TIMER_0_INTERRUPT_PRIORITY;    /* Set priority so the above handler will service it    */
@@ -115,11 +134,11 @@ void core0_main(void)
      * ********************************** */
 
     /* TIMER SET UP */
-    p_stm0->CMP[0].B.CMPVAL = 0x00ffffff;
-    p_stm0->CMCON.B.MSIZE0  = 0x1F; /* 32 bit count value       */
-    p_stm0->CMCON.B.MSTART0 = 0;    /* CMP0 register            */
+    p_stm0->CMP[0].B.CMPVAL = 0xffffffff;
+    p_stm0->CMCON.B.MSIZE0  = 0;    /* 32 bit count value       */
+    p_stm0->CMCON.B.MSTART0 = 23;   /* CMP0 register start-bit  */
     p_stm0->CMCON.B.MSIZE1  = 0x1F; /* 32 bit count value       */
-    p_stm0->CMCON.B.MSTART1 = 0;    /* CMP1 register            */
+    p_stm0->CMCON.B.MSTART1 = 0;    /* CMP1 register start bit  */
     p_stm0->ICR.B.CMP0EN    = 1;    /* Enable CMP0              */
     /* p_stm0->ICR.B.CMP0IR */      /* Interrupt requested      */
     p_stm0->ICR.B.CMP0OS    = 0;    /* Sel STMIR0 as interrupt  */
@@ -150,13 +169,15 @@ void core0_main(void)
     p_pin33->OUT.B.P5       = 1;
     p_pin33->OUT.B.P6       = 1;
     p_pin33->OUT.B.P7       = 1;
+
 //__enable();
+    IfxCpu_enableInterrupts();
 
     while(1)
     {
 
         /* SERIAL PORT */
-        printf("Again !! \n");
+        //printf("Again !! \n");
 
 #if TEST_BLINK_LEDS == 1
 

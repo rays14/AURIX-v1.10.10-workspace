@@ -651,23 +651,11 @@
         <ActionShow>false</ActionShow>
         <Condition>false</Condition>
         <Count>0</Count>
-        <Enabled>true</Enabled>
+        <Enabled>false</Enabled>
         <Expression></Expression>
-        <Location>&quot;..\..\..\Cpu0_Main.c&quot;::73</Location>
+        <Location>&quot;..\..\..\Cpu0_Main.c&quot;::79</Location>
         <ProcessFilter></ProcessFilter>
        </__.0>
-       <__.1>
-        <ActionEnabled>false</ActionEnabled>
-        <ActionParams></ActionParams>
-        <ActionScript></ActionScript>
-        <ActionShow>false</ActionShow>
-        <Condition>false</Condition>
-        <Count>0</Count>
-        <Enabled>true</Enabled>
-        <Expression></Expression>
-        <Location>&quot;..\..\..\Cpu0_Main.c&quot;::74</Location>
-        <ProcessFilter></ProcessFilter>
-       </__.1>
       </BPs>
       <Processes>
        <__.0>
