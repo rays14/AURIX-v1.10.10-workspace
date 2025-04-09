@@ -1,0 +1,4 @@
+AbstractTextEditor.Color.Background.SystemDefault=false
+eclipse.preferences.version=1
+tabWidth=2
+wordwrap.enabled=true

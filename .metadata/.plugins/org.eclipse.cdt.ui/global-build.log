@@ -1,0 +1,1123 @@
+Build started...
+10:28:30 **** Build of configuration TriCore Debug (TASKING) for project hello_world_2 ****
+amk -j16 all 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): program builder v1.1r8 Build 22011964
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/_PinMap/IfxAsclin_PinMap.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/_PinMap/IfxAsclin_PinMap.src" "../Libraries/iLLD/TC38A/Tricore/_PinMap/IfxAsclin_PinMap.c"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/_PinMap/IfxCan_PinMap.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/_PinMap/IfxCan_PinMap.src" "../Libraries/iLLD/TC38A/Tricore/_PinMap/IfxCan_PinMap.c"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/_PinMap/IfxCcu6_PinMap.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/_PinMap/IfxCcu6_PinMap.src" "../Libraries/iLLD/TC38A/Tricore/_PinMap/IfxCcu6_PinMap.c"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/_PinMap/IfxDmu_PinMap.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/_PinMap/IfxDmu_PinMap.src" "../Libraries/iLLD/TC38A/Tricore/_PinMap/IfxDmu_PinMap.c"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/_PinMap/IfxEdsadc_PinMap.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/_PinMap/IfxEdsadc_PinMap.src" "../Libraries/iLLD/TC38A/Tricore/_PinMap/IfxEdsadc_PinMap.c"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/_PinMap/IfxEray_PinMap.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/_PinMap/IfxEray_PinMap.src" "../Libraries/iLLD/TC38A/Tricore/_PinMap/IfxEray_PinMap.c"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/_PinMap/IfxEvadc_PinMap.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/_PinMap/IfxEvadc_PinMap.src" "../Libraries/iLLD/TC38A/Tricore/_PinMap/IfxEvadc_PinMap.c"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/_PinMap/IfxGeth_PinMap.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/_PinMap/IfxGeth_PinMap.src" "../Libraries/iLLD/TC38A/Tricore/_PinMap/IfxGeth_PinMap.c"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/_PinMap/IfxGpt12_PinMap.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/_PinMap/IfxGpt12_PinMap.src" "../Libraries/iLLD/TC38A/Tricore/_PinMap/IfxGpt12_PinMap.c"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/_PinMap/IfxGtm_PinMap.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/_PinMap/IfxGtm_PinMap.src" "../Libraries/iLLD/TC38A/Tricore/_PinMap/IfxGtm_PinMap.c"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/_PinMap/IfxI2c_PinMap.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/_PinMap/IfxI2c_PinMap.src" "../Libraries/iLLD/TC38A/Tricore/_PinMap/IfxI2c_PinMap.c"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/_PinMap/IfxMsc_PinMap.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/_PinMap/IfxMsc_PinMap.src" "../Libraries/iLLD/TC38A/Tricore/_PinMap/IfxMsc_PinMap.c"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/_PinMap/IfxPms_PinMap.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/_PinMap/IfxPms_PinMap.src" "../Libraries/iLLD/TC38A/Tricore/_PinMap/IfxPms_PinMap.c"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/_PinMap/IfxPort_PinMap.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/_PinMap/IfxPort_PinMap.src" "../Libraries/iLLD/TC38A/Tricore/_PinMap/IfxPort_PinMap.c"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/_PinMap/IfxPsi5_PinMap.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/_PinMap/IfxPsi5_PinMap.src" "../Libraries/iLLD/TC38A/Tricore/_PinMap/IfxPsi5_PinMap.c"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/_PinMap/IfxPsi5s_PinMap.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/_PinMap/IfxPsi5s_PinMap.src" "../Libraries/iLLD/TC38A/Tricore/_PinMap/IfxPsi5s_PinMap.c"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/_PinMap/IfxQspi_PinMap.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/_PinMap/IfxQspi_PinMap.src" "../Libraries/iLLD/TC38A/Tricore/_PinMap/IfxQspi_PinMap.c"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/_PinMap/IfxCan_PinMap.o" "Libraries/iLLD/TC38A/Tricore/_PinMap/IfxCan_PinMap.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/_PinMap/IfxAsclin_PinMap.o" "Libraries/iLLD/TC38A/Tricore/_PinMap/IfxAsclin_PinMap.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/_PinMap/IfxCcu6_PinMap.o" "Libraries/iLLD/TC38A/Tricore/_PinMap/IfxCcu6_PinMap.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/_PinMap/IfxDmu_PinMap.o" "Libraries/iLLD/TC38A/Tricore/_PinMap/IfxDmu_PinMap.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/_PinMap/IfxEdsadc_PinMap.o" "Libraries/iLLD/TC38A/Tricore/_PinMap/IfxEdsadc_PinMap.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/_PinMap/IfxEray_PinMap.o" "Libraries/iLLD/TC38A/Tricore/_PinMap/IfxEray_PinMap.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/_PinMap/IfxGpt12_PinMap.o" "Libraries/iLLD/TC38A/Tricore/_PinMap/IfxGpt12_PinMap.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/_PinMap/IfxEvadc_PinMap.o" "Libraries/iLLD/TC38A/Tricore/_PinMap/IfxEvadc_PinMap.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/_PinMap/IfxGeth_PinMap.o" "Libraries/iLLD/TC38A/Tricore/_PinMap/IfxGeth_PinMap.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/_PinMap/IfxI2c_PinMap.o" "Libraries/iLLD/TC38A/Tricore/_PinMap/IfxI2c_PinMap.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/_PinMap/IfxMsc_PinMap.o" "Libraries/iLLD/TC38A/Tricore/_PinMap/IfxMsc_PinMap.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/_PinMap/IfxPms_PinMap.o" "Libraries/iLLD/TC38A/Tricore/_PinMap/IfxPms_PinMap.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/_PinMap/IfxPort_PinMap.o" "Libraries/iLLD/TC38A/Tricore/_PinMap/IfxPort_PinMap.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/_PinMap/IfxPsi5_PinMap.o" "Libraries/iLLD/TC38A/Tricore/_PinMap/IfxPsi5_PinMap.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/_PinMap/IfxPsi5s_PinMap.o" "Libraries/iLLD/TC38A/Tricore/_PinMap/IfxPsi5s_PinMap.src"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/_PinMap/IfxScu_PinMap.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/_PinMap/IfxScu_PinMap.src" "../Libraries/iLLD/TC38A/Tricore/_PinMap/IfxScu_PinMap.c"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/_PinMap/IfxSent_PinMap.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/_PinMap/IfxSent_PinMap.src" "../Libraries/iLLD/TC38A/Tricore/_PinMap/IfxSent_PinMap.c"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/_PinMap/IfxSmu_PinMap.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/_PinMap/IfxSmu_PinMap.src" "../Libraries/iLLD/TC38A/Tricore/_PinMap/IfxSmu_PinMap.c"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/_Impl/IfxAsclin_cfg.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/_Impl/IfxAsclin_cfg.src" "../Libraries/iLLD/TC38A/Tricore/_Impl/IfxAsclin_cfg.c"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/_PinMap/IfxQspi_PinMap.o" "Libraries/iLLD/TC38A/Tricore/_PinMap/IfxQspi_PinMap.src"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/_Impl/IfxCan_cfg.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/_Impl/IfxCan_cfg.src" "../Libraries/iLLD/TC38A/Tricore/_Impl/IfxCan_cfg.c"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/_Impl/IfxCcu6_cfg.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/_Impl/IfxCcu6_cfg.src" "../Libraries/iLLD/TC38A/Tricore/_Impl/IfxCcu6_cfg.c"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/_Impl/IfxCpu_cfg.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/_Impl/IfxCpu_cfg.src" "../Libraries/iLLD/TC38A/Tricore/_Impl/IfxCpu_cfg.c"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/_Impl/IfxDma_cfg.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/_Impl/IfxDma_cfg.src" "../Libraries/iLLD/TC38A/Tricore/_Impl/IfxDma_cfg.c"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/_Impl/IfxEray_cfg.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/_Impl/IfxEray_cfg.src" "../Libraries/iLLD/TC38A/Tricore/_Impl/IfxEray_cfg.c"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/_Impl/IfxEvadc_cfg.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/_Impl/IfxEvadc_cfg.src" "../Libraries/iLLD/TC38A/Tricore/_Impl/IfxEvadc_cfg.c"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/_Impl/IfxFlash_cfg.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/_Impl/IfxFlash_cfg.src" "../Libraries/iLLD/TC38A/Tricore/_Impl/IfxFlash_cfg.c"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/_Impl/IfxGeth_cfg.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/_Impl/IfxGeth_cfg.src" "../Libraries/iLLD/TC38A/Tricore/_Impl/IfxGeth_cfg.c"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/_Impl/IfxGtm_cfg.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/_Impl/IfxGtm_cfg.src" "../Libraries/iLLD/TC38A/Tricore/_Impl/IfxGtm_cfg.c"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/_Impl/IfxAsclin_cfg.o" "Libraries/iLLD/TC38A/Tricore/_Impl/IfxAsclin_cfg.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/_PinMap/IfxScu_PinMap.o" "Libraries/iLLD/TC38A/Tricore/_PinMap/IfxScu_PinMap.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/_PinMap/IfxSent_PinMap.o" "Libraries/iLLD/TC38A/Tricore/_PinMap/IfxSent_PinMap.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/_PinMap/IfxSmu_PinMap.o" "Libraries/iLLD/TC38A/Tricore/_PinMap/IfxSmu_PinMap.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/_Impl/IfxCan_cfg.o" "Libraries/iLLD/TC38A/Tricore/_Impl/IfxCan_cfg.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/_Impl/IfxCcu6_cfg.o" "Libraries/iLLD/TC38A/Tricore/_Impl/IfxCcu6_cfg.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/_Impl/IfxCpu_cfg.o" "Libraries/iLLD/TC38A/Tricore/_Impl/IfxCpu_cfg.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/_Impl/IfxDma_cfg.o" "Libraries/iLLD/TC38A/Tricore/_Impl/IfxDma_cfg.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/_Impl/IfxEray_cfg.o" "Libraries/iLLD/TC38A/Tricore/_Impl/IfxEray_cfg.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/_Impl/IfxEvadc_cfg.o" "Libraries/iLLD/TC38A/Tricore/_Impl/IfxEvadc_cfg.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/_Impl/IfxFlash_cfg.o" "Libraries/iLLD/TC38A/Tricore/_Impl/IfxFlash_cfg.src"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/_Impl/IfxHssl_cfg.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/_Impl/IfxHssl_cfg.src" "../Libraries/iLLD/TC38A/Tricore/_Impl/IfxHssl_cfg.c"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/_Impl/IfxI2c_cfg.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/_Impl/IfxI2c_cfg.src" "../Libraries/iLLD/TC38A/Tricore/_Impl/IfxI2c_cfg.c"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/_Impl/IfxGeth_cfg.o" "Libraries/iLLD/TC38A/Tricore/_Impl/IfxGeth_cfg.src"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/_Impl/IfxMsc_cfg.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/_Impl/IfxMsc_cfg.src" "../Libraries/iLLD/TC38A/Tricore/_Impl/IfxMsc_cfg.c"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/_Impl/IfxMtu_cfg.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/_Impl/IfxMtu_cfg.src" "../Libraries/iLLD/TC38A/Tricore/_Impl/IfxMtu_cfg.c"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/_Impl/IfxPort_cfg.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/_Impl/IfxPort_cfg.src" "../Libraries/iLLD/TC38A/Tricore/_Impl/IfxPort_cfg.c"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/_Impl/IfxPsi5_cfg.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/_Impl/IfxPsi5_cfg.src" "../Libraries/iLLD/TC38A/Tricore/_Impl/IfxPsi5_cfg.c"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/_Impl/IfxQspi_cfg.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/_Impl/IfxQspi_cfg.src" "../Libraries/iLLD/TC38A/Tricore/_Impl/IfxQspi_cfg.c"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/_Impl/IfxScu_cfg.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/_Impl/IfxScu_cfg.src" "../Libraries/iLLD/TC38A/Tricore/_Impl/IfxScu_cfg.c"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/_Impl/IfxSent_cfg.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/_Impl/IfxSent_cfg.src" "../Libraries/iLLD/TC38A/Tricore/_Impl/IfxSent_cfg.c"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/_Impl/IfxHssl_cfg.o" "Libraries/iLLD/TC38A/Tricore/_Impl/IfxHssl_cfg.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/_Impl/IfxI2c_cfg.o" "Libraries/iLLD/TC38A/Tricore/_Impl/IfxI2c_cfg.src"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/_Impl/IfxSmu_cfg.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/_Impl/IfxSmu_cfg.src" "../Libraries/iLLD/TC38A/Tricore/_Impl/IfxSmu_cfg.c"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/_Impl/IfxSrc_cfg.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/_Impl/IfxSrc_cfg.src" "../Libraries/iLLD/TC38A/Tricore/_Impl/IfxSrc_cfg.c"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/_Impl/IfxMsc_cfg.o" "Libraries/iLLD/TC38A/Tricore/_Impl/IfxMsc_cfg.src"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/_Impl/IfxStm_cfg.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/_Impl/IfxStm_cfg.src" "../Libraries/iLLD/TC38A/Tricore/_Impl/IfxStm_cfg.c"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/_Impl/IfxGtm_cfg.o" "Libraries/iLLD/TC38A/Tricore/_Impl/IfxGtm_cfg.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/_Impl/IfxPort_cfg.o" "Libraries/iLLD/TC38A/Tricore/_Impl/IfxPort_cfg.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/_Impl/IfxPsi5_cfg.o" "Libraries/iLLD/TC38A/Tricore/_Impl/IfxPsi5_cfg.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/_Impl/IfxQspi_cfg.o" "Libraries/iLLD/TC38A/Tricore/_Impl/IfxQspi_cfg.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/_Impl/IfxScu_cfg.o" "Libraries/iLLD/TC38A/Tricore/_Impl/IfxScu_cfg.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/_Impl/IfxSent_cfg.o" "Libraries/iLLD/TC38A/Tricore/_Impl/IfxSent_cfg.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/_Impl/IfxSmu_cfg.o" "Libraries/iLLD/TC38A/Tricore/_Impl/IfxSmu_cfg.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/_Impl/IfxSrc_cfg.o" "Libraries/iLLD/TC38A/Tricore/_Impl/IfxSrc_cfg.src"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/Src/Std/IfxSrc.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/Src/Std/IfxSrc.src" "../Libraries/iLLD/TC38A/Tricore/Src/Std/IfxSrc.c"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/_Impl/IfxStm_cfg.o" "Libraries/iLLD/TC38A/Tricore/_Impl/IfxStm_cfg.src"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/Scu/Std/IfxScuCcu.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/Scu/Std/IfxScuCcu.src" "../Libraries/iLLD/TC38A/Tricore/Scu/Std/IfxScuCcu.c"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/Scu/Std/IfxScuEru.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/Scu/Std/IfxScuEru.src" "../Libraries/iLLD/TC38A/Tricore/Scu/Std/IfxScuEru.c"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/Scu/Std/IfxScuLbist.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/Scu/Std/IfxScuLbist.src" "../Libraries/iLLD/TC38A/Tricore/Scu/Std/IfxScuLbist.c"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/Scu/Std/IfxScuRcu.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/Scu/Std/IfxScuRcu.src" "../Libraries/iLLD/TC38A/Tricore/Scu/Std/IfxScuRcu.c"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/Scu/Std/IfxScuWdt.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/Scu/Std/IfxScuWdt.src" "../Libraries/iLLD/TC38A/Tricore/Scu/Std/IfxScuWdt.c"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/Port/Std/IfxPort.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/Port/Std/IfxPort.src" "../Libraries/iLLD/TC38A/Tricore/Port/Std/IfxPort.c"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/Pms/Std/IfxPmsEvr.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/Pms/Std/IfxPmsEvr.src" "../Libraries/iLLD/TC38A/Tricore/Pms/Std/IfxPmsEvr.c"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/Pms/Std/IfxPmsPm.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/Pms/Std/IfxPmsPm.src" "../Libraries/iLLD/TC38A/Tricore/Pms/Std/IfxPmsPm.c"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/Src/Std/IfxSrc.o" "Libraries/iLLD/TC38A/Tricore/Src/Std/IfxSrc.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/_Impl/IfxMtu_cfg.o" "Libraries/iLLD/TC38A/Tricore/_Impl/IfxMtu_cfg.src"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/Mtu/Std/IfxMtu.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/Mtu/Std/IfxMtu.src" "../Libraries/iLLD/TC38A/Tricore/Mtu/Std/IfxMtu.c"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/Gtm/Std/IfxGtm.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/Gtm/Std/IfxGtm.src" "../Libraries/iLLD/TC38A/Tricore/Gtm/Std/IfxGtm.c"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/_PinMap/IfxGtm_PinMap.o" "Libraries/iLLD/TC38A/Tricore/_PinMap/IfxGtm_PinMap.src"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/Gtm/Std/IfxGtm_Atom.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/Gtm/Std/IfxGtm_Atom.src" "../Libraries/iLLD/TC38A/Tricore/Gtm/Std/IfxGtm_Atom.c"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/Gtm/Std/IfxGtm_Cmu.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/Gtm/Std/IfxGtm_Cmu.src" "../Libraries/iLLD/TC38A/Tricore/Gtm/Std/IfxGtm_Cmu.c"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/Gtm/Std/IfxGtm_Dpll.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/Gtm/Std/IfxGtm_Dpll.src" "../Libraries/iLLD/TC38A/Tricore/Gtm/Std/IfxGtm_Dpll.c"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/Gtm/Std/IfxGtm_Dtm.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/Gtm/Std/IfxGtm_Dtm.src" "../Libraries/iLLD/TC38A/Tricore/Gtm/Std/IfxGtm_Dtm.c"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/Gtm/Std/IfxGtm_Psm.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/Gtm/Std/IfxGtm_Psm.src" "../Libraries/iLLD/TC38A/Tricore/Gtm/Std/IfxGtm_Psm.c"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/Gtm/Std/IfxGtm_Spe.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/Gtm/Std/IfxGtm_Spe.src" "../Libraries/iLLD/TC38A/Tricore/Gtm/Std/IfxGtm_Spe.c"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/Port/Std/IfxPort.o" "Libraries/iLLD/TC38A/Tricore/Port/Std/IfxPort.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/Scu/Std/IfxScuLbist.o" "Libraries/iLLD/TC38A/Tricore/Scu/Std/IfxScuLbist.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/Scu/Std/IfxScuRcu.o" "Libraries/iLLD/TC38A/Tricore/Scu/Std/IfxScuRcu.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/Scu/Std/IfxScuEru.o" "Libraries/iLLD/TC38A/Tricore/Scu/Std/IfxScuEru.src"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/Gtm/Std/IfxGtm_Tbu.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/Gtm/Std/IfxGtm_Tbu.src" "../Libraries/iLLD/TC38A/Tricore/Gtm/Std/IfxGtm_Tbu.c"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/Scu/Std/IfxScuWdt.o" "Libraries/iLLD/TC38A/Tricore/Scu/Std/IfxScuWdt.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/Pms/Std/IfxPmsEvr.o" "Libraries/iLLD/TC38A/Tricore/Pms/Std/IfxPmsEvr.src"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/Gtm/Std/IfxGtm_Tim.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/Gtm/Std/IfxGtm_Tim.src" "../Libraries/iLLD/TC38A/Tricore/Gtm/Std/IfxGtm_Tim.c"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/Gtm/Std/IfxGtm_Tom.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/Gtm/Std/IfxGtm_Tom.src" "../Libraries/iLLD/TC38A/Tricore/Gtm/Std/IfxGtm_Tom.c"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/Scu/Std/IfxScuCcu.o" "Libraries/iLLD/TC38A/Tricore/Scu/Std/IfxScuCcu.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/Pms/Std/IfxPmsPm.o" "Libraries/iLLD/TC38A/Tricore/Pms/Std/IfxPmsPm.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/Gtm/Std/IfxGtm_Dpll.o" "Libraries/iLLD/TC38A/Tricore/Gtm/Std/IfxGtm_Dpll.src"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/Cpu/Trap/IfxCpu_Trap.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/Cpu/Trap/IfxCpu_Trap.src" "../Libraries/iLLD/TC38A/Tricore/Cpu/Trap/IfxCpu_Trap.c"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/Gtm/Std/IfxGtm.o" "Libraries/iLLD/TC38A/Tricore/Gtm/Std/IfxGtm.src"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/Cpu/Std/IfxCpu.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/Cpu/Std/IfxCpu.src" "../Libraries/iLLD/TC38A/Tricore/Cpu/Std/IfxCpu.c"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/Cpu/Irq/IfxCpu_Irq.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/Cpu/Irq/IfxCpu_Irq.src" "../Libraries/iLLD/TC38A/Tricore/Cpu/Irq/IfxCpu_Irq.c"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/Gtm/Std/IfxGtm_Atom.o" "Libraries/iLLD/TC38A/Tricore/Gtm/Std/IfxGtm_Atom.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/Gtm/Std/IfxGtm_Psm.o" "Libraries/iLLD/TC38A/Tricore/Gtm/Std/IfxGtm_Psm.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/Mtu/Std/IfxMtu.o" "Libraries/iLLD/TC38A/Tricore/Mtu/Std/IfxMtu.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/Gtm/Std/IfxGtm_Spe.o" "Libraries/iLLD/TC38A/Tricore/Gtm/Std/IfxGtm_Spe.src"
+cctc -cs --dep-file="Libraries/Infra/Ssw/TC38A/Tricore/Ifx_Ssw_Infra.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/Infra/Ssw/TC38A/Tricore/Ifx_Ssw_Infra.src" "../Libraries/Infra/Ssw/TC38A/Tricore/Ifx_Ssw_Infra.c"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/Gtm/Std/IfxGtm_Dtm.o" "Libraries/iLLD/TC38A/Tricore/Gtm/Std/IfxGtm_Dtm.src"
+cctc -cs --dep-file="Libraries/Infra/Ssw/TC38A/Tricore/Ifx_Ssw_Tc0.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/Infra/Ssw/TC38A/Tricore/Ifx_Ssw_Tc0.src" "../Libraries/Infra/Ssw/TC38A/Tricore/Ifx_Ssw_Tc0.c"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/Gtm/Std/IfxGtm_Cmu.o" "Libraries/iLLD/TC38A/Tricore/Gtm/Std/IfxGtm_Cmu.src"
+cctc -cs --dep-file="Libraries/Infra/Ssw/TC38A/Tricore/Ifx_Ssw_Tc1.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/Infra/Ssw/TC38A/Tricore/Ifx_Ssw_Tc1.src" "../Libraries/Infra/Ssw/TC38A/Tricore/Ifx_Ssw_Tc1.c"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/Gtm/Std/IfxGtm_Tbu.o" "Libraries/iLLD/TC38A/Tricore/Gtm/Std/IfxGtm_Tbu.src"
+cctc -cs --dep-file="Libraries/Infra/Ssw/TC38A/Tricore/Ifx_Ssw_Tc2.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/Infra/Ssw/TC38A/Tricore/Ifx_Ssw_Tc2.src" "../Libraries/Infra/Ssw/TC38A/Tricore/Ifx_Ssw_Tc2.c"
+cctc -cs --dep-file="Libraries/Infra/Ssw/TC38A/Tricore/Ifx_Ssw_Tc3.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/Infra/Ssw/TC38A/Tricore/Ifx_Ssw_Tc3.src" "../Libraries/Infra/Ssw/TC38A/Tricore/Ifx_Ssw_Tc3.c"
+cctc -cs --dep-file="Libraries/Infra/Platform/Tricore/Compilers/CompilerDcc.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/Infra/Platform/Tricore/Compilers/CompilerDcc.src" "../Libraries/Infra/Platform/Tricore/Compilers/CompilerDcc.c"
+cctc -cs --dep-file="Libraries/Infra/Platform/Tricore/Compilers/CompilerGcc.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/Infra/Platform/Tricore/Compilers/CompilerGcc.src" "../Libraries/Infra/Platform/Tricore/Compilers/CompilerGcc.c"
+cctc -cs --dep-file="Libraries/Infra/Platform/Tricore/Compilers/CompilerGhs.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/Infra/Platform/Tricore/Compilers/CompilerGhs.src" "../Libraries/Infra/Platform/Tricore/Compilers/CompilerGhs.c"
+cctc -cs --dep-file="Libraries/Infra/Platform/Tricore/Compilers/CompilerGnuc.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/Infra/Platform/Tricore/Compilers/CompilerGnuc.src" "../Libraries/Infra/Platform/Tricore/Compilers/CompilerGnuc.c"
+cctc -cs --dep-file="Libraries/Infra/Platform/Tricore/Compilers/CompilerTasking.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/Infra/Platform/Tricore/Compilers/CompilerTasking.src" "../Libraries/Infra/Platform/Tricore/Compilers/CompilerTasking.c"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/Gtm/Std/IfxGtm_Tim.o" "Libraries/iLLD/TC38A/Tricore/Gtm/Std/IfxGtm_Tim.src"
+cctc -cs --dep-file="Configurations/Debug/sync_on_halt.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Configurations/Debug/sync_on_halt.src" "../Configurations/Debug/sync_on_halt.c"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/Cpu/Irq/IfxCpu_Irq.o" "Libraries/iLLD/TC38A/Tricore/Cpu/Irq/IfxCpu_Irq.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/Gtm/Std/IfxGtm_Tom.o" "Libraries/iLLD/TC38A/Tricore/Gtm/Std/IfxGtm_Tom.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/Cpu/Trap/IfxCpu_Trap.o" "Libraries/iLLD/TC38A/Tricore/Cpu/Trap/IfxCpu_Trap.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/Infra/Platform/Tricore/Compilers/CompilerDcc.o" "Libraries/Infra/Platform/Tricore/Compilers/CompilerDcc.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/Infra/Platform/Tricore/Compilers/CompilerGcc.o" "Libraries/Infra/Platform/Tricore/Compilers/CompilerGcc.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/Cpu/Std/IfxCpu.o" "Libraries/iLLD/TC38A/Tricore/Cpu/Std/IfxCpu.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/Infra/Platform/Tricore/Compilers/CompilerGhs.o" "Libraries/Infra/Platform/Tricore/Compilers/CompilerGhs.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/Infra/Platform/Tricore/Compilers/CompilerGnuc.o" "Libraries/Infra/Platform/Tricore/Compilers/CompilerGnuc.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/Infra/Platform/Tricore/Compilers/CompilerTasking.o" "Libraries/Infra/Platform/Tricore/Compilers/CompilerTasking.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/Infra/Ssw/TC38A/Tricore/Ifx_Ssw_Infra.o" "Libraries/Infra/Ssw/TC38A/Tricore/Ifx_Ssw_Infra.src"
+cctc -cs --dep-file="Configurations/Ifx_Cfg_Ssw.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Configurations/Ifx_Cfg_Ssw.src" "../Configurations/Ifx_Cfg_Ssw.c"
+cctc -cs --dep-file="Configurations/Ifx_Cfg_SswBmhd.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Configurations/Ifx_Cfg_SswBmhd.src" "../Configurations/Ifx_Cfg_SswBmhd.c"
+cctc -cs --dep-file="Cpu0_Main.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Cpu0_Main.src" "../Cpu0_Main.c"
+cctc -cs --dep-file="Cpu1_Main.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Cpu1_Main.src" "../Cpu1_Main.c"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/Infra/Ssw/TC38A/Tricore/Ifx_Ssw_Tc1.o" "Libraries/Infra/Ssw/TC38A/Tricore/Ifx_Ssw_Tc1.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/Infra/Ssw/TC38A/Tricore/Ifx_Ssw_Tc0.o" "Libraries/Infra/Ssw/TC38A/Tricore/Ifx_Ssw_Tc0.src"
+cctc -cs --dep-file="Cpu2_Main.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Cpu2_Main.src" "../Cpu2_Main.c"
+cctc -cs --dep-file="Cpu3_Main.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Cpu3_Main.src" "../Cpu3_Main.c"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/Infra/Ssw/TC38A/Tricore/Ifx_Ssw_Tc2.o" "Libraries/Infra/Ssw/TC38A/Tricore/Ifx_Ssw_Tc2.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/Infra/Ssw/TC38A/Tricore/Ifx_Ssw_Tc3.o" "Libraries/Infra/Ssw/TC38A/Tricore/Ifx_Ssw_Tc3.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Configurations/Ifx_Cfg_SswBmhd.o" "Configurations/Ifx_Cfg_SswBmhd.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Configurations/Debug/sync_on_halt.o" "Configurations/Debug/sync_on_halt.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Cpu1_Main.o" "Cpu1_Main.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Cpu0_Main.o" "Cpu0_Main.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Configurations/Ifx_Cfg_Ssw.o" "Configurations/Ifx_Cfg_Ssw.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Cpu2_Main.o" "Cpu2_Main.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Cpu3_Main.o" "Cpu3_Main.src"
+Building target: hello_world_2.elf
+Invoking: TASKING Linker
+cctc -f .hello_world_2.elf.opt
+Finished building target: hello_world_2.elf
+ 
+Invoking: Print Size
+elfsize  "hello_world_2.elf"
+Total sizes:
+ROM: 0x4242 (16962) = code: 0x2de6 (11750) + romdata: 0x145c (5212)
+RAM: 0xc29d (49821) = data + bss
+Finished building: hello_world_2.siz
+ 
+Build started...
+10:30:49 **** Incremental Build of configuration TriCore Debug (TASKING) for project hello_world_2 ****
+amk -j16 all 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): program builder v1.1r8 Build 22011964
+cctc -cs --dep-file="Cpu0_Main.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Cpu0_Main.src" "../Cpu0_Main.c"
+ctc E472: ["../Cpu0_Main.c" 60/67] function timer_0_isr is qualified as __interrupt, but is not given an interrupt/trap number
+amk E452: ["subdir.mk" 33/0] target 'Cpu0_Main.src' returned exit code 1
+1 errors, 0 warnings
+amk E451: make stopped
+"amk -j16 all" terminated with exit code 1. Build might be incomplete.
+Build started...
+10:31:17 **** Incremental Build of configuration TriCore Debug (TASKING) for project hello_world_2 ****
+amk -j16 all 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): program builder v1.1r8 Build 22011964
+cctc -cs --dep-file="Cpu0_Main.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Cpu0_Main.src" "../Cpu0_Main.c"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Cpu0_Main.o" "Cpu0_Main.src"
+Building target: hello_world_2.elf
+Invoking: TASKING Linker
+cctc -f .hello_world_2.elf.opt
+Finished building target: hello_world_2.elf
+ 
+Invoking: Print Size
+elfsize  "hello_world_2.elf"
+Total sizes:
+ROM: 0x4242 (16962) = code: 0x2de6 (11750) + romdata: 0x145c (5212)
+RAM: 0xc29d (49821) = data + bss
+Finished building: hello_world_2.siz
+ 
+Build started...
+10:51:04 **** Incremental Build of configuration TriCore Debug (TASKING) for project hello_world_2 ****
+amk -j16 all 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): program builder v1.1r8 Build 22011964
+cctc -cs --dep-file="Cpu0_Main.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Cpu0_Main.src" "../Cpu0_Main.c"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Cpu0_Main.o" "Cpu0_Main.src"
+Building target: hello_world_2.elf
+Invoking: TASKING Linker
+cctc -f .hello_world_2.elf.opt
+Finished building target: hello_world_2.elf
+ 
+Invoking: Print Size
+elfsize  "hello_world_2.elf"
+Total sizes:
+ROM: 0x4242 (16962) = code: 0x2de6 (11750) + romdata: 0x145c (5212)
+RAM: 0xc29d (49821) = data + bss
+Finished building: hello_world_2.siz
+ 
+Build started...
+13:49:53 **** Incremental Build of configuration TriCore Debug (TASKING) for project hello_world_2 ****
+amk -j16 all 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): program builder v1.1r8 Build 22011964
+Building target: hello_world_2.elf
+Invoking: TASKING Linker
+cctc -f .hello_world_2.elf.opt
+Finished building target: hello_world_2.elf
+ 
+Invoking: Print Size
+elfsize  "hello_world_2.elf"
+Total sizes:
+ROM: 0x4242 (16962) = code: 0x2de6 (11750) + romdata: 0x145c (5212)
+RAM: 0xc29d (49821) = data + bss
+Finished building: hello_world_2.siz
+ 
+Build started...
+15:32:21 **** Incremental Build of configuration TriCore Debug (TASKING) for project hello_world_2 ****
+amk -j16 all 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): program builder v1.1r8 Build 22011964
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/_PinMap/IfxAsclin_PinMap.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/_PinMap/IfxAsclin_PinMap.src" "../Libraries/iLLD/TC38A/Tricore/_PinMap/IfxAsclin_PinMap.c"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/_PinMap/IfxCan_PinMap.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/_PinMap/IfxCan_PinMap.src" "../Libraries/iLLD/TC38A/Tricore/_PinMap/IfxCan_PinMap.c"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/_PinMap/IfxCcu6_PinMap.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/_PinMap/IfxCcu6_PinMap.src" "../Libraries/iLLD/TC38A/Tricore/_PinMap/IfxCcu6_PinMap.c"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/_PinMap/IfxDmu_PinMap.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/_PinMap/IfxDmu_PinMap.src" "../Libraries/iLLD/TC38A/Tricore/_PinMap/IfxDmu_PinMap.c"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/_PinMap/IfxEdsadc_PinMap.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/_PinMap/IfxEdsadc_PinMap.src" "../Libraries/iLLD/TC38A/Tricore/_PinMap/IfxEdsadc_PinMap.c"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/_PinMap/IfxEray_PinMap.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/_PinMap/IfxEray_PinMap.src" "../Libraries/iLLD/TC38A/Tricore/_PinMap/IfxEray_PinMap.c"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/_PinMap/IfxEvadc_PinMap.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/_PinMap/IfxEvadc_PinMap.src" "../Libraries/iLLD/TC38A/Tricore/_PinMap/IfxEvadc_PinMap.c"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/_PinMap/IfxGeth_PinMap.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/_PinMap/IfxGeth_PinMap.src" "../Libraries/iLLD/TC38A/Tricore/_PinMap/IfxGeth_PinMap.c"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/_PinMap/IfxGpt12_PinMap.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/_PinMap/IfxGpt12_PinMap.src" "../Libraries/iLLD/TC38A/Tricore/_PinMap/IfxGpt12_PinMap.c"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/_PinMap/IfxGtm_PinMap.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/_PinMap/IfxGtm_PinMap.src" "../Libraries/iLLD/TC38A/Tricore/_PinMap/IfxGtm_PinMap.c"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/_PinMap/IfxI2c_PinMap.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/_PinMap/IfxI2c_PinMap.src" "../Libraries/iLLD/TC38A/Tricore/_PinMap/IfxI2c_PinMap.c"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/_PinMap/IfxMsc_PinMap.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/_PinMap/IfxMsc_PinMap.src" "../Libraries/iLLD/TC38A/Tricore/_PinMap/IfxMsc_PinMap.c"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/_PinMap/IfxPms_PinMap.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/_PinMap/IfxPms_PinMap.src" "../Libraries/iLLD/TC38A/Tricore/_PinMap/IfxPms_PinMap.c"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/_PinMap/IfxPort_PinMap.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/_PinMap/IfxPort_PinMap.src" "../Libraries/iLLD/TC38A/Tricore/_PinMap/IfxPort_PinMap.c"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/_PinMap/IfxPsi5_PinMap.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/_PinMap/IfxPsi5_PinMap.src" "../Libraries/iLLD/TC38A/Tricore/_PinMap/IfxPsi5_PinMap.c"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/_PinMap/IfxPsi5s_PinMap.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/_PinMap/IfxPsi5s_PinMap.src" "../Libraries/iLLD/TC38A/Tricore/_PinMap/IfxPsi5s_PinMap.c"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/_PinMap/IfxQspi_PinMap.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/_PinMap/IfxQspi_PinMap.src" "../Libraries/iLLD/TC38A/Tricore/_PinMap/IfxQspi_PinMap.c"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/_PinMap/IfxEdsadc_PinMap.o" "Libraries/iLLD/TC38A/Tricore/_PinMap/IfxEdsadc_PinMap.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/_PinMap/IfxAsclin_PinMap.o" "Libraries/iLLD/TC38A/Tricore/_PinMap/IfxAsclin_PinMap.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/_PinMap/IfxCan_PinMap.o" "Libraries/iLLD/TC38A/Tricore/_PinMap/IfxCan_PinMap.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/_PinMap/IfxCcu6_PinMap.o" "Libraries/iLLD/TC38A/Tricore/_PinMap/IfxCcu6_PinMap.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/_PinMap/IfxDmu_PinMap.o" "Libraries/iLLD/TC38A/Tricore/_PinMap/IfxDmu_PinMap.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/_PinMap/IfxEray_PinMap.o" "Libraries/iLLD/TC38A/Tricore/_PinMap/IfxEray_PinMap.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/_PinMap/IfxEvadc_PinMap.o" "Libraries/iLLD/TC38A/Tricore/_PinMap/IfxEvadc_PinMap.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/_PinMap/IfxGeth_PinMap.o" "Libraries/iLLD/TC38A/Tricore/_PinMap/IfxGeth_PinMap.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/_PinMap/IfxGpt12_PinMap.o" "Libraries/iLLD/TC38A/Tricore/_PinMap/IfxGpt12_PinMap.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/_PinMap/IfxI2c_PinMap.o" "Libraries/iLLD/TC38A/Tricore/_PinMap/IfxI2c_PinMap.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/_PinMap/IfxMsc_PinMap.o" "Libraries/iLLD/TC38A/Tricore/_PinMap/IfxMsc_PinMap.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/_PinMap/IfxPms_PinMap.o" "Libraries/iLLD/TC38A/Tricore/_PinMap/IfxPms_PinMap.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/_PinMap/IfxPort_PinMap.o" "Libraries/iLLD/TC38A/Tricore/_PinMap/IfxPort_PinMap.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/_PinMap/IfxPsi5_PinMap.o" "Libraries/iLLD/TC38A/Tricore/_PinMap/IfxPsi5_PinMap.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/_PinMap/IfxPsi5s_PinMap.o" "Libraries/iLLD/TC38A/Tricore/_PinMap/IfxPsi5s_PinMap.src"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/_PinMap/IfxScu_PinMap.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/_PinMap/IfxScu_PinMap.src" "../Libraries/iLLD/TC38A/Tricore/_PinMap/IfxScu_PinMap.c"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/_PinMap/IfxSent_PinMap.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/_PinMap/IfxSent_PinMap.src" "../Libraries/iLLD/TC38A/Tricore/_PinMap/IfxSent_PinMap.c"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/_PinMap/IfxSmu_PinMap.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/_PinMap/IfxSmu_PinMap.src" "../Libraries/iLLD/TC38A/Tricore/_PinMap/IfxSmu_PinMap.c"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/_PinMap/IfxQspi_PinMap.o" "Libraries/iLLD/TC38A/Tricore/_PinMap/IfxQspi_PinMap.src"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/_Impl/IfxAsclin_cfg.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/_Impl/IfxAsclin_cfg.src" "../Libraries/iLLD/TC38A/Tricore/_Impl/IfxAsclin_cfg.c"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/_Impl/IfxCan_cfg.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/_Impl/IfxCan_cfg.src" "../Libraries/iLLD/TC38A/Tricore/_Impl/IfxCan_cfg.c"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/_Impl/IfxCcu6_cfg.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/_Impl/IfxCcu6_cfg.src" "../Libraries/iLLD/TC38A/Tricore/_Impl/IfxCcu6_cfg.c"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/_Impl/IfxCpu_cfg.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/_Impl/IfxCpu_cfg.src" "../Libraries/iLLD/TC38A/Tricore/_Impl/IfxCpu_cfg.c"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/_Impl/IfxDma_cfg.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/_Impl/IfxDma_cfg.src" "../Libraries/iLLD/TC38A/Tricore/_Impl/IfxDma_cfg.c"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/_Impl/IfxEray_cfg.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/_Impl/IfxEray_cfg.src" "../Libraries/iLLD/TC38A/Tricore/_Impl/IfxEray_cfg.c"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/_Impl/IfxEvadc_cfg.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/_Impl/IfxEvadc_cfg.src" "../Libraries/iLLD/TC38A/Tricore/_Impl/IfxEvadc_cfg.c"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/_Impl/IfxFlash_cfg.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/_Impl/IfxFlash_cfg.src" "../Libraries/iLLD/TC38A/Tricore/_Impl/IfxFlash_cfg.c"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/_Impl/IfxGeth_cfg.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/_Impl/IfxGeth_cfg.src" "../Libraries/iLLD/TC38A/Tricore/_Impl/IfxGeth_cfg.c"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/_Impl/IfxGtm_cfg.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/_Impl/IfxGtm_cfg.src" "../Libraries/iLLD/TC38A/Tricore/_Impl/IfxGtm_cfg.c"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/_Impl/IfxHssl_cfg.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/_Impl/IfxHssl_cfg.src" "../Libraries/iLLD/TC38A/Tricore/_Impl/IfxHssl_cfg.c"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/_Impl/IfxI2c_cfg.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/_Impl/IfxI2c_cfg.src" "../Libraries/iLLD/TC38A/Tricore/_Impl/IfxI2c_cfg.c"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/_PinMap/IfxScu_PinMap.o" "Libraries/iLLD/TC38A/Tricore/_PinMap/IfxScu_PinMap.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/_PinMap/IfxSmu_PinMap.o" "Libraries/iLLD/TC38A/Tricore/_PinMap/IfxSmu_PinMap.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/_Impl/IfxAsclin_cfg.o" "Libraries/iLLD/TC38A/Tricore/_Impl/IfxAsclin_cfg.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/_Impl/IfxCan_cfg.o" "Libraries/iLLD/TC38A/Tricore/_Impl/IfxCan_cfg.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/_Impl/IfxDma_cfg.o" "Libraries/iLLD/TC38A/Tricore/_Impl/IfxDma_cfg.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/_PinMap/IfxSent_PinMap.o" "Libraries/iLLD/TC38A/Tricore/_PinMap/IfxSent_PinMap.src"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/_Impl/IfxMsc_cfg.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/_Impl/IfxMsc_cfg.src" "../Libraries/iLLD/TC38A/Tricore/_Impl/IfxMsc_cfg.c"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/_Impl/IfxCcu6_cfg.o" "Libraries/iLLD/TC38A/Tricore/_Impl/IfxCcu6_cfg.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/_Impl/IfxCpu_cfg.o" "Libraries/iLLD/TC38A/Tricore/_Impl/IfxCpu_cfg.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/_Impl/IfxEray_cfg.o" "Libraries/iLLD/TC38A/Tricore/_Impl/IfxEray_cfg.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/_Impl/IfxEvadc_cfg.o" "Libraries/iLLD/TC38A/Tricore/_Impl/IfxEvadc_cfg.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/_Impl/IfxFlash_cfg.o" "Libraries/iLLD/TC38A/Tricore/_Impl/IfxFlash_cfg.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/_Impl/IfxHssl_cfg.o" "Libraries/iLLD/TC38A/Tricore/_Impl/IfxHssl_cfg.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/_Impl/IfxGeth_cfg.o" "Libraries/iLLD/TC38A/Tricore/_Impl/IfxGeth_cfg.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/_Impl/IfxI2c_cfg.o" "Libraries/iLLD/TC38A/Tricore/_Impl/IfxI2c_cfg.src"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/_Impl/IfxMtu_cfg.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/_Impl/IfxMtu_cfg.src" "../Libraries/iLLD/TC38A/Tricore/_Impl/IfxMtu_cfg.c"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/_Impl/IfxPort_cfg.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/_Impl/IfxPort_cfg.src" "../Libraries/iLLD/TC38A/Tricore/_Impl/IfxPort_cfg.c"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/_Impl/IfxMsc_cfg.o" "Libraries/iLLD/TC38A/Tricore/_Impl/IfxMsc_cfg.src"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/_Impl/IfxQspi_cfg.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/_Impl/IfxQspi_cfg.src" "../Libraries/iLLD/TC38A/Tricore/_Impl/IfxQspi_cfg.c"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/_Impl/IfxSmu_cfg.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/_Impl/IfxSmu_cfg.src" "../Libraries/iLLD/TC38A/Tricore/_Impl/IfxSmu_cfg.c"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/_Impl/IfxStm_cfg.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/_Impl/IfxStm_cfg.src" "../Libraries/iLLD/TC38A/Tricore/_Impl/IfxStm_cfg.c"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/Src/Std/IfxSrc.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/Src/Std/IfxSrc.src" "../Libraries/iLLD/TC38A/Tricore/Src/Std/IfxSrc.c"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/Scu/Std/IfxScuCcu.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/Scu/Std/IfxScuCcu.src" "../Libraries/iLLD/TC38A/Tricore/Scu/Std/IfxScuCcu.c"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/Scu/Std/IfxScuEru.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/Scu/Std/IfxScuEru.src" "../Libraries/iLLD/TC38A/Tricore/Scu/Std/IfxScuEru.c"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/_Impl/IfxGtm_cfg.o" "Libraries/iLLD/TC38A/Tricore/_Impl/IfxGtm_cfg.src"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/Scu/Std/IfxScuLbist.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/Scu/Std/IfxScuLbist.src" "../Libraries/iLLD/TC38A/Tricore/Scu/Std/IfxScuLbist.c"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/Scu/Std/IfxScuRcu.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/Scu/Std/IfxScuRcu.src" "../Libraries/iLLD/TC38A/Tricore/Scu/Std/IfxScuRcu.c"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/Scu/Std/IfxScuWdt.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/Scu/Std/IfxScuWdt.src" "../Libraries/iLLD/TC38A/Tricore/Scu/Std/IfxScuWdt.c"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/_Impl/IfxPort_cfg.o" "Libraries/iLLD/TC38A/Tricore/_Impl/IfxPort_cfg.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/_Impl/IfxQspi_cfg.o" "Libraries/iLLD/TC38A/Tricore/_Impl/IfxQspi_cfg.src"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/Port/Std/IfxPort.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/Port/Std/IfxPort.src" "../Libraries/iLLD/TC38A/Tricore/Port/Std/IfxPort.c"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/_Impl/IfxSmu_cfg.o" "Libraries/iLLD/TC38A/Tricore/_Impl/IfxSmu_cfg.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/_Impl/IfxStm_cfg.o" "Libraries/iLLD/TC38A/Tricore/_Impl/IfxStm_cfg.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/_PinMap/IfxGtm_PinMap.o" "Libraries/iLLD/TC38A/Tricore/_PinMap/IfxGtm_PinMap.src"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/Pms/Std/IfxPmsEvr.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/Pms/Std/IfxPmsEvr.src" "../Libraries/iLLD/TC38A/Tricore/Pms/Std/IfxPmsEvr.c"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/Pms/Std/IfxPmsPm.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/Pms/Std/IfxPmsPm.src" "../Libraries/iLLD/TC38A/Tricore/Pms/Std/IfxPmsPm.c"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/Src/Std/IfxSrc.o" "Libraries/iLLD/TC38A/Tricore/Src/Std/IfxSrc.src"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/Mtu/Std/IfxMtu.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/Mtu/Std/IfxMtu.src" "../Libraries/iLLD/TC38A/Tricore/Mtu/Std/IfxMtu.c"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/Gtm/Std/IfxGtm.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/Gtm/Std/IfxGtm.src" "../Libraries/iLLD/TC38A/Tricore/Gtm/Std/IfxGtm.c"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/Gtm/Std/IfxGtm_Atom.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/Gtm/Std/IfxGtm_Atom.src" "../Libraries/iLLD/TC38A/Tricore/Gtm/Std/IfxGtm_Atom.c"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/Gtm/Std/IfxGtm_Cmu.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/Gtm/Std/IfxGtm_Cmu.src" "../Libraries/iLLD/TC38A/Tricore/Gtm/Std/IfxGtm_Cmu.c"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/Gtm/Std/IfxGtm_Dpll.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/Gtm/Std/IfxGtm_Dpll.src" "../Libraries/iLLD/TC38A/Tricore/Gtm/Std/IfxGtm_Dpll.c"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/Gtm/Std/IfxGtm_Dtm.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/Gtm/Std/IfxGtm_Dtm.src" "../Libraries/iLLD/TC38A/Tricore/Gtm/Std/IfxGtm_Dtm.c"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/Gtm/Std/IfxGtm_Psm.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/Gtm/Std/IfxGtm_Psm.src" "../Libraries/iLLD/TC38A/Tricore/Gtm/Std/IfxGtm_Psm.c"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/_Impl/IfxMtu_cfg.o" "Libraries/iLLD/TC38A/Tricore/_Impl/IfxMtu_cfg.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/Port/Std/IfxPort.o" "Libraries/iLLD/TC38A/Tricore/Port/Std/IfxPort.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/Scu/Std/IfxScuRcu.o" "Libraries/iLLD/TC38A/Tricore/Scu/Std/IfxScuRcu.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/Scu/Std/IfxScuLbist.o" "Libraries/iLLD/TC38A/Tricore/Scu/Std/IfxScuLbist.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/Scu/Std/IfxScuEru.o" "Libraries/iLLD/TC38A/Tricore/Scu/Std/IfxScuEru.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/Scu/Std/IfxScuWdt.o" "Libraries/iLLD/TC38A/Tricore/Scu/Std/IfxScuWdt.src"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/Gtm/Std/IfxGtm_Spe.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/Gtm/Std/IfxGtm_Spe.src" "../Libraries/iLLD/TC38A/Tricore/Gtm/Std/IfxGtm_Spe.c"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/Gtm/Std/IfxGtm_Tbu.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/Gtm/Std/IfxGtm_Tbu.src" "../Libraries/iLLD/TC38A/Tricore/Gtm/Std/IfxGtm_Tbu.c"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/Scu/Std/IfxScuCcu.o" "Libraries/iLLD/TC38A/Tricore/Scu/Std/IfxScuCcu.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/Pms/Std/IfxPmsEvr.o" "Libraries/iLLD/TC38A/Tricore/Pms/Std/IfxPmsEvr.src"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/Gtm/Std/IfxGtm_Tim.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/Gtm/Std/IfxGtm_Tim.src" "../Libraries/iLLD/TC38A/Tricore/Gtm/Std/IfxGtm_Tim.c"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/Gtm/Std/IfxGtm_Tom.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/Gtm/Std/IfxGtm_Tom.src" "../Libraries/iLLD/TC38A/Tricore/Gtm/Std/IfxGtm_Tom.c"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/Pms/Std/IfxPmsPm.o" "Libraries/iLLD/TC38A/Tricore/Pms/Std/IfxPmsPm.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/Gtm/Std/IfxGtm.o" "Libraries/iLLD/TC38A/Tricore/Gtm/Std/IfxGtm.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/Gtm/Std/IfxGtm_Dpll.o" "Libraries/iLLD/TC38A/Tricore/Gtm/Std/IfxGtm_Dpll.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/Gtm/Std/IfxGtm_Psm.o" "Libraries/iLLD/TC38A/Tricore/Gtm/Std/IfxGtm_Psm.src"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/Cpu/Trap/IfxCpu_Trap.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/Cpu/Trap/IfxCpu_Trap.src" "../Libraries/iLLD/TC38A/Tricore/Cpu/Trap/IfxCpu_Trap.c"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/Cpu/Std/IfxCpu.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/Cpu/Std/IfxCpu.src" "../Libraries/iLLD/TC38A/Tricore/Cpu/Std/IfxCpu.c"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/Cpu/Irq/IfxCpu_Irq.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/Cpu/Irq/IfxCpu_Irq.src" "../Libraries/iLLD/TC38A/Tricore/Cpu/Irq/IfxCpu_Irq.c"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/Gtm/Std/IfxGtm_Atom.o" "Libraries/iLLD/TC38A/Tricore/Gtm/Std/IfxGtm_Atom.src"
+cctc -cs --dep-file="Libraries/Infra/Ssw/TC38A/Tricore/Ifx_Ssw_Infra.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/Infra/Ssw/TC38A/Tricore/Ifx_Ssw_Infra.src" "../Libraries/Infra/Ssw/TC38A/Tricore/Ifx_Ssw_Infra.c"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/Mtu/Std/IfxMtu.o" "Libraries/iLLD/TC38A/Tricore/Mtu/Std/IfxMtu.src"
+cctc -cs --dep-file="Libraries/Infra/Ssw/TC38A/Tricore/Ifx_Ssw_Tc0.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/Infra/Ssw/TC38A/Tricore/Ifx_Ssw_Tc0.src" "../Libraries/Infra/Ssw/TC38A/Tricore/Ifx_Ssw_Tc0.c"
+cctc -cs --dep-file="Libraries/Infra/Ssw/TC38A/Tricore/Ifx_Ssw_Tc1.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/Infra/Ssw/TC38A/Tricore/Ifx_Ssw_Tc1.src" "../Libraries/Infra/Ssw/TC38A/Tricore/Ifx_Ssw_Tc1.c"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/Gtm/Std/IfxGtm_Dtm.o" "Libraries/iLLD/TC38A/Tricore/Gtm/Std/IfxGtm_Dtm.src"
+cctc -cs --dep-file="Libraries/Infra/Ssw/TC38A/Tricore/Ifx_Ssw_Tc2.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/Infra/Ssw/TC38A/Tricore/Ifx_Ssw_Tc2.src" "../Libraries/Infra/Ssw/TC38A/Tricore/Ifx_Ssw_Tc2.c"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/Gtm/Std/IfxGtm_Cmu.o" "Libraries/iLLD/TC38A/Tricore/Gtm/Std/IfxGtm_Cmu.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/Gtm/Std/IfxGtm_Tbu.o" "Libraries/iLLD/TC38A/Tricore/Gtm/Std/IfxGtm_Tbu.src"
+cctc -cs --dep-file="Libraries/Infra/Ssw/TC38A/Tricore/Ifx_Ssw_Tc3.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/Infra/Ssw/TC38A/Tricore/Ifx_Ssw_Tc3.src" "../Libraries/Infra/Ssw/TC38A/Tricore/Ifx_Ssw_Tc3.c"
+cctc -cs --dep-file="Libraries/Infra/Platform/Tricore/Compilers/CompilerDcc.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/Infra/Platform/Tricore/Compilers/CompilerDcc.src" "../Libraries/Infra/Platform/Tricore/Compilers/CompilerDcc.c"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/Gtm/Std/IfxGtm_Spe.o" "Libraries/iLLD/TC38A/Tricore/Gtm/Std/IfxGtm_Spe.src"
+cctc -cs --dep-file="Libraries/Infra/Platform/Tricore/Compilers/CompilerGcc.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/Infra/Platform/Tricore/Compilers/CompilerGcc.src" "../Libraries/Infra/Platform/Tricore/Compilers/CompilerGcc.c"
+cctc -cs --dep-file="Libraries/Infra/Platform/Tricore/Compilers/CompilerGhs.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/Infra/Platform/Tricore/Compilers/CompilerGhs.src" "../Libraries/Infra/Platform/Tricore/Compilers/CompilerGhs.c"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/Gtm/Std/IfxGtm_Tim.o" "Libraries/iLLD/TC38A/Tricore/Gtm/Std/IfxGtm_Tim.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/Gtm/Std/IfxGtm_Tom.o" "Libraries/iLLD/TC38A/Tricore/Gtm/Std/IfxGtm_Tom.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/Cpu/Irq/IfxCpu_Irq.o" "Libraries/iLLD/TC38A/Tricore/Cpu/Irq/IfxCpu_Irq.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/Infra/Platform/Tricore/Compilers/CompilerDcc.o" "Libraries/Infra/Platform/Tricore/Compilers/CompilerDcc.src"
+cctc -cs --dep-file="Libraries/Infra/Platform/Tricore/Compilers/CompilerGnuc.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/Infra/Platform/Tricore/Compilers/CompilerGnuc.src" "../Libraries/Infra/Platform/Tricore/Compilers/CompilerGnuc.c"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/Cpu/Trap/IfxCpu_Trap.o" "Libraries/iLLD/TC38A/Tricore/Cpu/Trap/IfxCpu_Trap.src"
+cctc -cs --dep-file="Libraries/Infra/Platform/Tricore/Compilers/CompilerTasking.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/Infra/Platform/Tricore/Compilers/CompilerTasking.src" "../Libraries/Infra/Platform/Tricore/Compilers/CompilerTasking.c"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/Infra/Platform/Tricore/Compilers/CompilerGcc.o" "Libraries/Infra/Platform/Tricore/Compilers/CompilerGcc.src"
+cctc -cs --dep-file="Configurations/Ifx_Cfg_Ssw.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Configurations/Ifx_Cfg_Ssw.src" "../Configurations/Ifx_Cfg_Ssw.c"
+cctc -cs --dep-file="Cpu0_Main.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Cpu0_Main.src" "../Cpu0_Main.c"
+cctc -cs --dep-file="Cpu1_Main.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Cpu1_Main.src" "../Cpu1_Main.c"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/Infra/Platform/Tricore/Compilers/CompilerGhs.o" "Libraries/Infra/Platform/Tricore/Compilers/CompilerGhs.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/Cpu/Std/IfxCpu.o" "Libraries/iLLD/TC38A/Tricore/Cpu/Std/IfxCpu.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/Infra/Ssw/TC38A/Tricore/Ifx_Ssw_Infra.o" "Libraries/Infra/Ssw/TC38A/Tricore/Ifx_Ssw_Infra.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/Infra/Ssw/TC38A/Tricore/Ifx_Ssw_Tc0.o" "Libraries/Infra/Ssw/TC38A/Tricore/Ifx_Ssw_Tc0.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/Infra/Ssw/TC38A/Tricore/Ifx_Ssw_Tc1.o" "Libraries/Infra/Ssw/TC38A/Tricore/Ifx_Ssw_Tc1.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/Infra/Platform/Tricore/Compilers/CompilerGnuc.o" "Libraries/Infra/Platform/Tricore/Compilers/CompilerGnuc.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/Infra/Ssw/TC38A/Tricore/Ifx_Ssw_Tc2.o" "Libraries/Infra/Ssw/TC38A/Tricore/Ifx_Ssw_Tc2.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/Infra/Platform/Tricore/Compilers/CompilerTasking.o" "Libraries/Infra/Platform/Tricore/Compilers/CompilerTasking.src"
+cctc -cs --dep-file="Cpu2_Main.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Cpu2_Main.src" "../Cpu2_Main.c"
+cctc -cs --dep-file="Cpu3_Main.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Cpu3_Main.src" "../Cpu3_Main.c"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/Infra/Ssw/TC38A/Tricore/Ifx_Ssw_Tc3.o" "Libraries/Infra/Ssw/TC38A/Tricore/Ifx_Ssw_Tc3.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Cpu1_Main.o" "Cpu1_Main.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Cpu0_Main.o" "Cpu0_Main.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Configurations/Ifx_Cfg_Ssw.o" "Configurations/Ifx_Cfg_Ssw.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Cpu2_Main.o" "Cpu2_Main.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Cpu3_Main.o" "Cpu3_Main.src"
+Building target: hello_world_2.elf
+Invoking: TASKING Linker
+cctc -f .hello_world_2.elf.opt
+Finished building target: hello_world_2.elf
+ 
+Invoking: Print Size
+elfsize  "hello_world_2.elf"
+Total sizes:
+ROM: 0x4242 (16962) = code: 0x2de6 (11750) + romdata: 0x145c (5212)
+RAM: 0xc29d (49821) = data + bss
+Finished building: hello_world_2.siz
+ 
+Build started...
+15:33:27 **** Incremental Build of configuration TriCore Debug (TASKING) for project hello_world_2 ****
+amk -j16 all 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): program builder v1.1r8 Build 22011964
+Building target: hello_world_2.elf
+Invoking: TASKING Linker
+cctc -f .hello_world_2.elf.opt
+Finished building target: hello_world_2.elf
+ 
+Invoking: Print Size
+elfsize  "hello_world_2.elf"
+Total sizes:
+ROM: 0x4242 (16962) = code: 0x2de6 (11750) + romdata: 0x145c (5212)
+RAM: 0xc29d (49821) = data + bss
+Finished building: hello_world_2.siz
+ 
+Build started...
+12:23:15 **** Incremental Build of configuration TriCore Debug (TASKING) for project hello_world_2 ****
+amk -j16 all 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): program builder v1.1r8 Build 22011964
+cctc -cs --dep-file="Cpu0_Main.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Cpu0_Main.src" "../Cpu0_Main.c"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Cpu0_Main.o" "Cpu0_Main.src"
+Building target: hello_world_2.elf
+Invoking: TASKING Linker
+cctc -f .hello_world_2.elf.opt
+Finished building target: hello_world_2.elf
+ 
+Invoking: Print Size
+elfsize  "hello_world_2.elf"
+Total sizes:
+ROM: 0x4262 (16994) = code: 0x2e06 (11782) + romdata: 0x145c (5212)
+RAM: 0xc29d (49821) = data + bss
+Finished building: hello_world_2.siz
+ 
+Build started...
+13:03:18 **** Incremental Build of configuration TriCore Debug (TASKING) for project hello_world_2 ****
+amk -j16 all 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): program builder v1.1r8 Build 22011964
+Building target: hello_world_2.elf
+Invoking: TASKING Linker
+cctc -f .hello_world_2.elf.opt
+Finished building target: hello_world_2.elf
+ 
+Invoking: Print Size
+elfsize  "hello_world_2.elf"
+Total sizes:
+ROM: 0x4262 (16994) = code: 0x2e06 (11782) + romdata: 0x145c (5212)
+RAM: 0xc29d (49821) = data + bss
+Finished building: hello_world_2.siz
+ 
+Build started...
+13:32:27 **** Incremental Build of configuration TriCore Debug (TASKING) for project hello_world_2 ****
+amk -j16 all 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): program builder v1.1r8 Build 22011964
+Building target: hello_world_2.elf
+Invoking: TASKING Linker
+cctc -f .hello_world_2.elf.opt
+Finished building target: hello_world_2.elf
+ 
+Invoking: Print Size
+elfsize  "hello_world_2.elf"
+Total sizes:
+ROM: 0x4262 (16994) = code: 0x2e06 (11782) + romdata: 0x145c (5212)
+RAM: 0xc29d (49821) = data + bss
+Finished building: hello_world_2.siz
+ 
+Build started...
+18:06:55 **** Incremental Build of configuration TriCore Debug (TASKING) for project hello_world_2 ****
+amk -j16 all 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): program builder v1.1r8 Build 22011964
+cctc -cs --dep-file="Cpu0_Main.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Cpu0_Main.src" "../Cpu0_Main.c"
+ctc W505: ["../Cpu0_Main.c" 120/5] implicit declaration of function "IfxAsclin_enableModule"
+amk E452: ["subdir.mk" 33/0] target 'Cpu0_Main.src' returned exit code 1
+ctc W577: ["../Cpu0_Main.c" 120/27] calling a function without a prototype
+amk E451: make stopped
+ctc E210: ["../Cpu0_Main.c" 169/28] "p6" is not a member name
+1 errors, 2 warnings
+"amk -j16 all" terminated with exit code 1. Build might be incomplete.
+Build started...
+18:07:58 **** Incremental Build of configuration TriCore Debug (TASKING) for project hello_world_2 ****
+amk -j16 all 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): program builder v1.1r8 Build 22011964
+cctc -cs --dep-file="Cpu0_Main.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Cpu0_Main.src" "../Cpu0_Main.c"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Cpu0_Main.o" "Cpu0_Main.src"
+Building target: hello_world_2.elf
+Invoking: TASKING Linker
+cctc -f .hello_world_2.elf.opt
+Finished building target: hello_world_2.elf
+ 
+Invoking: Print Size
+elfsize  "hello_world_2.elf"
+Total sizes:
+ROM: 0x4098 (16536) = code: 0x2c38 (11320) + romdata: 0x1460 (5216)
+RAM: 0xc2a1 (49825) = data + bss
+Finished building: hello_world_2.siz
+ 
+Build started...
+18:08:06 **** Incremental Build of configuration TriCore Debug (TASKING) for project hello_world_2 ****
+amk -j16 all 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): program builder v1.1r8 Build 22011964
+Building target: hello_world_2.elf
+Invoking: TASKING Linker
+cctc -f .hello_world_2.elf.opt
+Finished building target: hello_world_2.elf
+ 
+Invoking: Print Size
+elfsize  "hello_world_2.elf"
+Total sizes:
+ROM: 0x4098 (16536) = code: 0x2c38 (11320) + romdata: 0x1460 (5216)
+RAM: 0xc2a1 (49825) = data + bss
+Finished building: hello_world_2.siz
+ 
+Build started...
+18:09:38 **** Incremental Build of configuration TriCore Debug (TASKING) for project hello_world_2 ****
+amk -j16 all 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): program builder v1.1r8 Build 22011964
+cctc -cs --dep-file="Cpu0_Main.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Cpu0_Main.src" "../Cpu0_Main.c"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Cpu0_Main.o" "Cpu0_Main.src"
+Building target: hello_world_2.elf
+Invoking: TASKING Linker
+cctc -f .hello_world_2.elf.opt
+Finished building target: hello_world_2.elf
+ 
+Invoking: Print Size
+elfsize  "hello_world_2.elf"
+Total sizes:
+ROM: 0x4098 (16536) = code: 0x2c38 (11320) + romdata: 0x1460 (5216)
+RAM: 0xc2a1 (49825) = data + bss
+Finished building: hello_world_2.siz
+ 
+Build started...
+18:10:00 **** Incremental Build of configuration TriCore Debug (TASKING) for project hello_world_2 ****
+amk -j16 all 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): program builder v1.1r8 Build 22011964
+Building target: hello_world_2.elf
+Invoking: TASKING Linker
+cctc -f .hello_world_2.elf.opt
+Finished building target: hello_world_2.elf
+ 
+Invoking: Print Size
+elfsize  "hello_world_2.elf"
+Total sizes:
+ROM: 0x4098 (16536) = code: 0x2c38 (11320) + romdata: 0x1460 (5216)
+RAM: 0xc2a1 (49825) = data + bss
+Finished building: hello_world_2.siz
+ 
+Build started...
+18:10:57 **** Incremental Build of configuration TriCore Debug (TASKING) for project hello_world_2 ****
+amk -j16 all 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): program builder v1.1r8 Build 22011964
+Building target: hello_world_2.elf
+Invoking: TASKING Linker
+cctc -f .hello_world_2.elf.opt
+Finished building target: hello_world_2.elf
+ 
+Invoking: Print Size
+elfsize  "hello_world_2.elf"
+Total sizes:
+ROM: 0x4098 (16536) = code: 0x2c38 (11320) + romdata: 0x1460 (5216)
+RAM: 0xc2a1 (49825) = data + bss
+Finished building: hello_world_2.siz
+ 
+Build started...
+18:11:04 **** Incremental Build of configuration TriCore Debug (TASKING) for project hello_world_2 ****
+amk -j16 all 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): program builder v1.1r8 Build 22011964
+Building target: hello_world_2.elf
+Invoking: TASKING Linker
+cctc -f .hello_world_2.elf.opt
+Finished building target: hello_world_2.elf
+ 
+Invoking: Print Size
+elfsize  "hello_world_2.elf"
+Total sizes:
+ROM: 0x4098 (16536) = code: 0x2c38 (11320) + romdata: 0x1460 (5216)
+RAM: 0xc2a1 (49825) = data + bss
+Finished building: hello_world_2.siz
+ 
+Build started...
+18:12:30 **** Incremental Build of configuration TriCore Debug (TASKING) for project hello_world_2 ****
+amk -j16 all 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): program builder v1.1r8 Build 22011964
+cctc -cs --dep-file="Cpu0_Main.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Cpu0_Main.src" "../Cpu0_Main.c"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Cpu0_Main.o" "Cpu0_Main.src"
+Building target: hello_world_2.elf
+Invoking: TASKING Linker
+cctc -f .hello_world_2.elf.opt
+Finished building target: hello_world_2.elf
+ 
+Invoking: Print Size
+elfsize  "hello_world_2.elf"
+Total sizes:
+ROM: 0x4066 (16486) = code: 0x2c0a (11274) + romdata: 0x145c (5212)
+RAM: 0xc2a1 (49825) = data + bss
+Finished building: hello_world_2.siz
+ 
+Build started...
+09:45:26 **** Incremental Build of configuration TriCore Debug (TASKING) for project hello_world_2 ****
+amk -j16 all 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): program builder v1.1r8 Build 22011964
+cctc -cs --dep-file="Cpu0_Main.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Cpu0_Main.src" "../Cpu0_Main.c"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Cpu0_Main.o" "Cpu0_Main.src"
+Building target: hello_world_2.elf
+Invoking: TASKING Linker
+cctc -f .hello_world_2.elf.opt
+Finished building target: hello_world_2.elf
+ 
+Invoking: Print Size
+elfsize  "hello_world_2.elf"
+Total sizes:
+ROM: 0x4066 (16486) = code: 0x2c0a (11274) + romdata: 0x145c (5212)
+RAM: 0xc2a1 (49825) = data + bss
+Finished building: hello_world_2.siz
+ 
+Build started...
+12:44:35 **** Incremental Build of configuration TriCore Debug (TASKING) for project hello_world_2 ****
+amk -j16 all 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): program builder v1.1r8 Build 22011964
+cctc -cs --dep-file="Cpu0_Main.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Cpu0_Main.src" "../Cpu0_Main.c"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Cpu0_Main.o" "Cpu0_Main.src"
+Building target: hello_world_2.elf
+Invoking: TASKING Linker
+cctc -f .hello_world_2.elf.opt
+Finished building target: hello_world_2.elf
+ 
+Invoking: Print Size
+elfsize  "hello_world_2.elf"
+Total sizes:
+ROM: 0x40ca (16586) = code: 0x2c6a (11370) + romdata: 0x1460 (5216)
+RAM: 0xc2a5 (49829) = data + bss
+Finished building: hello_world_2.siz
+ 
+Build started...
+13:04:49 **** Incremental Build of configuration TriCore Debug (TASKING) for project hello_world_2 ****
+amk -j16 all 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): program builder v1.1r8 Build 22011964
+cctc -cs --dep-file="Cpu0_Main.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Cpu0_Main.src" "../Cpu0_Main.c"
+ctc E260: ["../Cpu0_Main.c" 116/5] not an lvalue
+amk E452: ["subdir.mk" 33/0] target 'Cpu0_Main.src' returned exit code 1
+ctc E246: ["../Cpu0_Main.c" 116/16] left side of '.' or '->' is not struct or union
+amk E451: make stopped
+ctc E260: ["../Cpu0_Main.c" 116/5] not an lvalue
+ctc E246: ["../Cpu0_Main.c" 116/18] left side of '.' or '->' is not struct or union
+ctc E260: ["../Cpu0_Main.c" 116/5] not an lvalue
+ctc W559: ["../Cpu0_Main.c" 117/31] constant too large for bit field
+ctc W559: ["../Cpu0_Main.c" 119/31] constant too large for bit field
+ctc W559: ["../Cpu0_Main.c" 120/31] constant too large for bit field
+5 errors, 3 warnings
+"amk -j16 all" terminated with exit code 1. Build might be incomplete.
+Build started...
+13:06:47 **** Incremental Build of configuration TriCore Debug (TASKING) for project hello_world_2 ****
+amk -j16 all 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): program builder v1.1r8 Build 22011964
+cctc -cs --dep-file="Cpu0_Main.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Cpu0_Main.src" "../Cpu0_Main.c"
+ctc W559: ["../Cpu0_Main.c" 117/31] constant too large for bit field
+ctc W559: ["../Cpu0_Main.c" 119/31] constant too large for bit field
+ctc W559: ["../Cpu0_Main.c" 120/31] constant too large for bit field
+0 errors, 3 warnings
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Cpu0_Main.o" "Cpu0_Main.src"
+Building target: hello_world_2.elf
+Invoking: TASKING Linker
+cctc -f .hello_world_2.elf.opt
+Finished building target: hello_world_2.elf
+ 
+Invoking: Print Size
+elfsize  "hello_world_2.elf"
+Total sizes:
+ROM: 0x41e6 (16870) = code: 0x2d82 (11650) + romdata: 0x1464 (5220)
+RAM: 0xc2a9 (49833) = data + bss
+Finished building: hello_world_2.siz
+ 
+Build started...
+13:07:55 **** Incremental Build of configuration TriCore Debug (TASKING) for project hello_world_2 ****
+amk -j16 all 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): program builder v1.1r8 Build 22011964
+cctc -cs --dep-file="Cpu0_Main.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Cpu0_Main.src" "../Cpu0_Main.c"
+ctc W559: ["../Cpu0_Main.c" 120/31] constant too large for bit field
+0 errors, 1 warnings
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Cpu0_Main.o" "Cpu0_Main.src"
+Building target: hello_world_2.elf
+Invoking: TASKING Linker
+cctc -f .hello_world_2.elf.opt
+Finished building target: hello_world_2.elf
+ 
+Invoking: Print Size
+elfsize  "hello_world_2.elf"
+Total sizes:
+ROM: 0x41e2 (16866) = code: 0x2d7e (11646) + romdata: 0x1464 (5220)
+RAM: 0xc2a9 (49833) = data + bss
+Finished building: hello_world_2.siz
+ 
+Build started...
+13:11:02 **** Incremental Build of configuration TriCore Debug (TASKING) for project hello_world_2 ****
+amk -j16 all 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): program builder v1.1r8 Build 22011964
+cctc -cs --dep-file="Cpu0_Main.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Cpu0_Main.src" "../Cpu0_Main.c"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Cpu0_Main.o" "Cpu0_Main.src"
+Building target: hello_world_2.elf
+Invoking: TASKING Linker
+cctc -f .hello_world_2.elf.opt
+Finished building target: hello_world_2.elf
+ 
+Invoking: Print Size
+elfsize  "hello_world_2.elf"
+Total sizes:
+ROM: 0x41e2 (16866) = code: 0x2d7e (11646) + romdata: 0x1464 (5220)
+RAM: 0xc2a9 (49833) = data + bss
+Finished building: hello_world_2.siz
+ 
+Build started...
+13:11:10 **** Incremental Build of configuration TriCore Debug (TASKING) for project hello_world_2 ****
+amk -j16 all 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): program builder v1.1r8 Build 22011964
+Building target: hello_world_2.elf
+Invoking: TASKING Linker
+cctc -f .hello_world_2.elf.opt
+Finished building target: hello_world_2.elf
+ 
+Invoking: Print Size
+elfsize  "hello_world_2.elf"
+Total sizes:
+ROM: 0x41e2 (16866) = code: 0x2d7e (11646) + romdata: 0x1464 (5220)
+RAM: 0xc2a9 (49833) = data + bss
+Finished building: hello_world_2.siz
+ 
+Build started...
+13:21:46 **** Incremental Build of configuration TriCore Debug (TASKING) for project hello_world_2 ****
+amk -j16 all 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): program builder v1.1r8 Build 22011964
+Building target: hello_world_2.elf
+Invoking: TASKING Linker
+cctc -f .hello_world_2.elf.opt
+Finished building target: hello_world_2.elf
+ 
+Invoking: Print Size
+elfsize  "hello_world_2.elf"
+Total sizes:
+ROM: 0x41e2 (16866) = code: 0x2d7e (11646) + romdata: 0x1464 (5220)
+RAM: 0xc2a9 (49833) = data + bss
+Finished building: hello_world_2.siz
+ 
+Build started...
+13:31:09 **** Incremental Build of configuration TriCore Debug (TASKING) for project hello_world_2 ****
+amk -j16 all 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): program builder v1.1r8 Build 22011964
+cctc -cs --dep-file="Cpu0_Main.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Cpu0_Main.src" "../Cpu0_Main.c"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Cpu0_Main.o" "Cpu0_Main.src"
+Building target: hello_world_2.elf
+Invoking: TASKING Linker
+cctc -f .hello_world_2.elf.opt
+Finished building target: hello_world_2.elf
+ 
+Invoking: Print Size
+elfsize  "hello_world_2.elf"
+Total sizes:
+ROM: 0x41f0 (16880) = code: 0x2d8c (11660) + romdata: 0x1464 (5220)
+RAM: 0xc2a9 (49833) = data + bss
+Finished building: hello_world_2.siz
+ 
+Build started...
+13:31:14 **** Incremental Build of configuration TriCore Debug (TASKING) for project hello_world_2 ****
+amk -j16 all 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): program builder v1.1r8 Build 22011964
+Building target: hello_world_2.elf
+Invoking: TASKING Linker
+cctc -f .hello_world_2.elf.opt
+Finished building target: hello_world_2.elf
+ 
+Invoking: Print Size
+elfsize  "hello_world_2.elf"
+Total sizes:
+ROM: 0x41f0 (16880) = code: 0x2d8c (11660) + romdata: 0x1464 (5220)
+RAM: 0xc2a9 (49833) = data + bss
+Finished building: hello_world_2.siz
+ 
+Build started...
+16:47:27 **** Incremental Build of configuration TriCore Debug (TASKING) for project hello_world_2 ****
+amk -j16 all 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): program builder v1.1r8 Build 22011964
+Building target: hello_world_2.elf
+Invoking: TASKING Linker
+cctc -f .hello_world_2.elf.opt
+Finished building target: hello_world_2.elf
+ 
+Invoking: Print Size
+elfsize  "hello_world_2.elf"
+Total sizes:
+ROM: 0x41f0 (16880) = code: 0x2d8c (11660) + romdata: 0x1464 (5220)
+RAM: 0xc2a9 (49833) = data + bss
+Finished building: hello_world_2.siz
+ 
+Build started...
+16:47:31 **** Incremental Build of configuration TriCore Debug (TASKING) for project hello_world_2 ****
+amk -j16 all 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): program builder v1.1r8 Build 22011964
+Building target: hello_world_2.elf
+Invoking: TASKING Linker
+cctc -f .hello_world_2.elf.opt
+Finished building target: hello_world_2.elf
+ 
+Invoking: Print Size
+elfsize  "hello_world_2.elf"
+Total sizes:
+ROM: 0x41f0 (16880) = code: 0x2d8c (11660) + romdata: 0x1464 (5220)
+RAM: 0xc2a9 (49833) = data + bss
+Finished building: hello_world_2.siz
+ 
+Build started...
+16:51:11 **** Incremental Build of configuration TriCore Debug (TASKING) for project hello_world_2 ****
+amk -j16 all 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): program builder v1.1r8 Build 22011964
+Building target: hello_world_2.elf
+Invoking: TASKING Linker
+cctc -f .hello_world_2.elf.opt
+Finished building target: hello_world_2.elf
+ 
+Invoking: Print Size
+elfsize  "hello_world_2.elf"
+Total sizes:
+ROM: 0x41f0 (16880) = code: 0x2d8c (11660) + romdata: 0x1464 (5220)
+RAM: 0xc2a9 (49833) = data + bss
+Finished building: hello_world_2.siz
+ 
+Build started...
+16:51:29 **** Incremental Build of configuration TriCore Debug (TASKING) for project hello_world_2 ****
+amk -j16 all 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): program builder v1.1r8 Build 22011964
+Building target: hello_world_2.elf
+Invoking: TASKING Linker
+cctc -f .hello_world_2.elf.opt
+Finished building target: hello_world_2.elf
+ 
+Invoking: Print Size
+elfsize  "hello_world_2.elf"
+Total sizes:
+ROM: 0x41f0 (16880) = code: 0x2d8c (11660) + romdata: 0x1464 (5220)
+RAM: 0xc2a9 (49833) = data + bss
+Finished building: hello_world_2.siz
+ 
+Build started...
+16:52:34 **** Incremental Build of configuration TriCore Debug (TASKING) for project hello_world_2 ****
+amk -j16 all 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): program builder v1.1r8 Build 22011964
+Building target: hello_world_2.elf
+Invoking: TASKING Linker
+cctc -f .hello_world_2.elf.opt
+Finished building target: hello_world_2.elf
+ 
+Invoking: Print Size
+elfsize  "hello_world_2.elf"
+Total sizes:
+ROM: 0x41f0 (16880) = code: 0x2d8c (11660) + romdata: 0x1464 (5220)
+RAM: 0xc2a9 (49833) = data + bss
+Finished building: hello_world_2.siz
+ 
+Build started...
+16:55:01 **** Incremental Build of configuration TriCore Debug (TASKING) for project hello_world_2 ****
+amk -j16 all 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): program builder v1.1r8 Build 22011964
+cctc -cs --dep-file="Cpu0_Main.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Cpu0_Main.src" "../Cpu0_Main.c"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Cpu0_Main.o" "Cpu0_Main.src"
+Building target: hello_world_2.elf
+Invoking: TASKING Linker
+cctc -f .hello_world_2.elf.opt
+Finished building target: hello_world_2.elf
+ 
+Invoking: Print Size
+elfsize  "hello_world_2.elf"
+Total sizes:
+ROM: 0x41f2 (16882) = code: 0x2d8e (11662) + romdata: 0x1464 (5220)
+RAM: 0xc2a9 (49833) = data + bss
+Finished building: hello_world_2.siz
+ 
+Build started...
+16:55:06 **** Incremental Build of configuration TriCore Debug (TASKING) for project hello_world_2 ****
+amk -j16 all 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): program builder v1.1r8 Build 22011964
+Building target: hello_world_2.elf
+Invoking: TASKING Linker
+cctc -f .hello_world_2.elf.opt
+Finished building target: hello_world_2.elf
+ 
+Invoking: Print Size
+elfsize  "hello_world_2.elf"
+Total sizes:
+ROM: 0x41f2 (16882) = code: 0x2d8e (11662) + romdata: 0x1464 (5220)
+RAM: 0xc2a9 (49833) = data + bss
+Finished building: hello_world_2.siz
+ 
+Build started...
+16:55:56 **** Incremental Build of configuration TriCore Debug (TASKING) for project hello_world_2 ****
+amk -j16 all 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): program builder v1.1r8 Build 22011964
+cctc -cs --dep-file="Cpu0_Main.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Cpu0_Main.src" "../Cpu0_Main.c"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Cpu0_Main.o" "Cpu0_Main.src"
+Building target: hello_world_2.elf
+Invoking: TASKING Linker
+cctc -f .hello_world_2.elf.opt
+Finished building target: hello_world_2.elf
+ 
+Invoking: Print Size
+elfsize  "hello_world_2.elf"
+Total sizes:
+ROM: 0x41ee (16878) = code: 0x2d8a (11658) + romdata: 0x1464 (5220)
+RAM: 0xc2a9 (49833) = data + bss
+Finished building: hello_world_2.siz
+ 
+Build started...
+17:00:44 **** Incremental Build of configuration TriCore Debug (TASKING) for project hello_world_2 ****
+amk -j16 all 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): program builder v1.1r8 Build 22011964
+cctc -cs --dep-file="Cpu0_Main.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Cpu0_Main.src" "../Cpu0_Main.c"
+ctc E207: ["../Cpu0_Main.c" 72/1] syntax error - token "<float>" deleted
+amk E452: ["subdir.mk" 33/0] target 'Cpu0_Main.src' returned exit code 1
+ctc E208: ["../Cpu0_Main.c" 72/1] syntax error - token ")" inserted before ","
+amk E451: make stopped
+ctc I805: ["../Cpu0_Main.c" 72/1] start of current external declaration
+ctc E207: ["../Cpu0_Main.c" 72/1] syntax error - token "<integer>" deleted
+ctc E208: ["../Cpu0_Main.c" 72/1] syntax error - token "<identifier>" inserted before ","
+ctc E207: ["../Cpu0_Main.c" 72/1] syntax error - token "<integer>" deleted
+ctc E207: ["../Cpu0_Main.c" 72/1] syntax error - token ")" deleted
+ctc E207: ["../Cpu0_Main.c" 73/1] syntax error - token "{" deleted
+ctc E207: ["../Cpu0_Main.c" 74/22] syntax error - token "++" deleted
+ctc E207: ["../Cpu0_Main.c" 75/5] syntax error - token "if" deleted
+ctc E207: ["../Cpu0_Main.c" 75/27] syntax error - token ">=" deleted
+ctc E207: ["../Cpu0_Main.c" 75/30] syntax error - token "<integer>" deleted
+ctc E207: ["../Cpu0_Main.c" 79/1] syntax error - token "}" deleted
+12 errors, 0 warnings
+"amk -j16 all" terminated with exit code 1. Build might be incomplete.
+Build started...
+17:06:52 **** Incremental Build of configuration TriCore Debug (TASKING) for project hello_world_2 ****
+amk -j16 all 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): program builder v1.1r8 Build 22011964
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/_PinMap/IfxAsclin_PinMap.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/_PinMap/IfxAsclin_PinMap.src" "../Libraries/iLLD/TC38A/Tricore/_PinMap/IfxAsclin_PinMap.c"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/_PinMap/IfxCan_PinMap.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/_PinMap/IfxCan_PinMap.src" "../Libraries/iLLD/TC38A/Tricore/_PinMap/IfxCan_PinMap.c"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/_PinMap/IfxCcu6_PinMap.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/_PinMap/IfxCcu6_PinMap.src" "../Libraries/iLLD/TC38A/Tricore/_PinMap/IfxCcu6_PinMap.c"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/_PinMap/IfxDmu_PinMap.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/_PinMap/IfxDmu_PinMap.src" "../Libraries/iLLD/TC38A/Tricore/_PinMap/IfxDmu_PinMap.c"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/_PinMap/IfxEdsadc_PinMap.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/_PinMap/IfxEdsadc_PinMap.src" "../Libraries/iLLD/TC38A/Tricore/_PinMap/IfxEdsadc_PinMap.c"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/_PinMap/IfxEray_PinMap.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/_PinMap/IfxEray_PinMap.src" "../Libraries/iLLD/TC38A/Tricore/_PinMap/IfxEray_PinMap.c"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/_PinMap/IfxEvadc_PinMap.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/_PinMap/IfxEvadc_PinMap.src" "../Libraries/iLLD/TC38A/Tricore/_PinMap/IfxEvadc_PinMap.c"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/_PinMap/IfxGeth_PinMap.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/_PinMap/IfxGeth_PinMap.src" "../Libraries/iLLD/TC38A/Tricore/_PinMap/IfxGeth_PinMap.c"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/_PinMap/IfxGpt12_PinMap.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/_PinMap/IfxGpt12_PinMap.src" "../Libraries/iLLD/TC38A/Tricore/_PinMap/IfxGpt12_PinMap.c"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/_PinMap/IfxGtm_PinMap.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/_PinMap/IfxGtm_PinMap.src" "../Libraries/iLLD/TC38A/Tricore/_PinMap/IfxGtm_PinMap.c"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/_PinMap/IfxI2c_PinMap.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/_PinMap/IfxI2c_PinMap.src" "../Libraries/iLLD/TC38A/Tricore/_PinMap/IfxI2c_PinMap.c"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/_PinMap/IfxMsc_PinMap.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/_PinMap/IfxMsc_PinMap.src" "../Libraries/iLLD/TC38A/Tricore/_PinMap/IfxMsc_PinMap.c"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/_PinMap/IfxPms_PinMap.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/_PinMap/IfxPms_PinMap.src" "../Libraries/iLLD/TC38A/Tricore/_PinMap/IfxPms_PinMap.c"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/_PinMap/IfxPort_PinMap.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/_PinMap/IfxPort_PinMap.src" "../Libraries/iLLD/TC38A/Tricore/_PinMap/IfxPort_PinMap.c"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/_PinMap/IfxPsi5_PinMap.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/_PinMap/IfxPsi5_PinMap.src" "../Libraries/iLLD/TC38A/Tricore/_PinMap/IfxPsi5_PinMap.c"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/_PinMap/IfxPsi5s_PinMap.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/_PinMap/IfxPsi5s_PinMap.src" "../Libraries/iLLD/TC38A/Tricore/_PinMap/IfxPsi5s_PinMap.c"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/_PinMap/IfxQspi_PinMap.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/_PinMap/IfxQspi_PinMap.src" "../Libraries/iLLD/TC38A/Tricore/_PinMap/IfxQspi_PinMap.c"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/_PinMap/IfxCcu6_PinMap.o" "Libraries/iLLD/TC38A/Tricore/_PinMap/IfxCcu6_PinMap.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/_PinMap/IfxAsclin_PinMap.o" "Libraries/iLLD/TC38A/Tricore/_PinMap/IfxAsclin_PinMap.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/_PinMap/IfxCan_PinMap.o" "Libraries/iLLD/TC38A/Tricore/_PinMap/IfxCan_PinMap.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/_PinMap/IfxDmu_PinMap.o" "Libraries/iLLD/TC38A/Tricore/_PinMap/IfxDmu_PinMap.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/_PinMap/IfxEray_PinMap.o" "Libraries/iLLD/TC38A/Tricore/_PinMap/IfxEray_PinMap.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/_PinMap/IfxEdsadc_PinMap.o" "Libraries/iLLD/TC38A/Tricore/_PinMap/IfxEdsadc_PinMap.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/_PinMap/IfxGpt12_PinMap.o" "Libraries/iLLD/TC38A/Tricore/_PinMap/IfxGpt12_PinMap.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/_PinMap/IfxEvadc_PinMap.o" "Libraries/iLLD/TC38A/Tricore/_PinMap/IfxEvadc_PinMap.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/_PinMap/IfxGeth_PinMap.o" "Libraries/iLLD/TC38A/Tricore/_PinMap/IfxGeth_PinMap.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/_PinMap/IfxI2c_PinMap.o" "Libraries/iLLD/TC38A/Tricore/_PinMap/IfxI2c_PinMap.src"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/_PinMap/IfxScu_PinMap.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/_PinMap/IfxScu_PinMap.src" "../Libraries/iLLD/TC38A/Tricore/_PinMap/IfxScu_PinMap.c"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/_PinMap/IfxSent_PinMap.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/_PinMap/IfxSent_PinMap.src" "../Libraries/iLLD/TC38A/Tricore/_PinMap/IfxSent_PinMap.c"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/_PinMap/IfxSmu_PinMap.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/_PinMap/IfxSmu_PinMap.src" "../Libraries/iLLD/TC38A/Tricore/_PinMap/IfxSmu_PinMap.c"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/_PinMap/IfxMsc_PinMap.o" "Libraries/iLLD/TC38A/Tricore/_PinMap/IfxMsc_PinMap.src"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/_Impl/IfxAsclin_cfg.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/_Impl/IfxAsclin_cfg.src" "../Libraries/iLLD/TC38A/Tricore/_Impl/IfxAsclin_cfg.c"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/_PinMap/IfxPsi5_PinMap.o" "Libraries/iLLD/TC38A/Tricore/_PinMap/IfxPsi5_PinMap.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/_PinMap/IfxPms_PinMap.o" "Libraries/iLLD/TC38A/Tricore/_PinMap/IfxPms_PinMap.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/_PinMap/IfxPort_PinMap.o" "Libraries/iLLD/TC38A/Tricore/_PinMap/IfxPort_PinMap.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/_PinMap/IfxPsi5s_PinMap.o" "Libraries/iLLD/TC38A/Tricore/_PinMap/IfxPsi5s_PinMap.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/_PinMap/IfxQspi_PinMap.o" "Libraries/iLLD/TC38A/Tricore/_PinMap/IfxQspi_PinMap.src"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/_Impl/IfxCan_cfg.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/_Impl/IfxCan_cfg.src" "../Libraries/iLLD/TC38A/Tricore/_Impl/IfxCan_cfg.c"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/_Impl/IfxCcu6_cfg.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/_Impl/IfxCcu6_cfg.src" "../Libraries/iLLD/TC38A/Tricore/_Impl/IfxCcu6_cfg.c"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/_Impl/IfxCpu_cfg.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/_Impl/IfxCpu_cfg.src" "../Libraries/iLLD/TC38A/Tricore/_Impl/IfxCpu_cfg.c"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/_Impl/IfxDma_cfg.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/_Impl/IfxDma_cfg.src" "../Libraries/iLLD/TC38A/Tricore/_Impl/IfxDma_cfg.c"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/_Impl/IfxEray_cfg.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/_Impl/IfxEray_cfg.src" "../Libraries/iLLD/TC38A/Tricore/_Impl/IfxEray_cfg.c"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/_Impl/IfxAsclin_cfg.o" "Libraries/iLLD/TC38A/Tricore/_Impl/IfxAsclin_cfg.src"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/_Impl/IfxEvadc_cfg.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/_Impl/IfxEvadc_cfg.src" "../Libraries/iLLD/TC38A/Tricore/_Impl/IfxEvadc_cfg.c"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/_PinMap/IfxScu_PinMap.o" "Libraries/iLLD/TC38A/Tricore/_PinMap/IfxScu_PinMap.src"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/_Impl/IfxFlash_cfg.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/_Impl/IfxFlash_cfg.src" "../Libraries/iLLD/TC38A/Tricore/_Impl/IfxFlash_cfg.c"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/_PinMap/IfxSmu_PinMap.o" "Libraries/iLLD/TC38A/Tricore/_PinMap/IfxSmu_PinMap.src"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/_Impl/IfxGeth_cfg.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/_Impl/IfxGeth_cfg.src" "../Libraries/iLLD/TC38A/Tricore/_Impl/IfxGeth_cfg.c"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/_Impl/IfxGtm_cfg.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/_Impl/IfxGtm_cfg.src" "../Libraries/iLLD/TC38A/Tricore/_Impl/IfxGtm_cfg.c"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/_Impl/IfxHssl_cfg.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/_Impl/IfxHssl_cfg.src" "../Libraries/iLLD/TC38A/Tricore/_Impl/IfxHssl_cfg.c"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/_PinMap/IfxSent_PinMap.o" "Libraries/iLLD/TC38A/Tricore/_PinMap/IfxSent_PinMap.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/_Impl/IfxCan_cfg.o" "Libraries/iLLD/TC38A/Tricore/_Impl/IfxCan_cfg.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/_Impl/IfxCcu6_cfg.o" "Libraries/iLLD/TC38A/Tricore/_Impl/IfxCcu6_cfg.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/_Impl/IfxCpu_cfg.o" "Libraries/iLLD/TC38A/Tricore/_Impl/IfxCpu_cfg.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/_Impl/IfxDma_cfg.o" "Libraries/iLLD/TC38A/Tricore/_Impl/IfxDma_cfg.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/_Impl/IfxEray_cfg.o" "Libraries/iLLD/TC38A/Tricore/_Impl/IfxEray_cfg.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/_Impl/IfxEvadc_cfg.o" "Libraries/iLLD/TC38A/Tricore/_Impl/IfxEvadc_cfg.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/_Impl/IfxFlash_cfg.o" "Libraries/iLLD/TC38A/Tricore/_Impl/IfxFlash_cfg.src"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/_Impl/IfxI2c_cfg.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/_Impl/IfxI2c_cfg.src" "../Libraries/iLLD/TC38A/Tricore/_Impl/IfxI2c_cfg.c"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/_Impl/IfxHssl_cfg.o" "Libraries/iLLD/TC38A/Tricore/_Impl/IfxHssl_cfg.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/_Impl/IfxGeth_cfg.o" "Libraries/iLLD/TC38A/Tricore/_Impl/IfxGeth_cfg.src"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/_Impl/IfxMsc_cfg.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/_Impl/IfxMsc_cfg.src" "../Libraries/iLLD/TC38A/Tricore/_Impl/IfxMsc_cfg.c"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/_Impl/IfxMtu_cfg.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/_Impl/IfxMtu_cfg.src" "../Libraries/iLLD/TC38A/Tricore/_Impl/IfxMtu_cfg.c"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/_Impl/IfxPort_cfg.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/_Impl/IfxPort_cfg.src" "../Libraries/iLLD/TC38A/Tricore/_Impl/IfxPort_cfg.c"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/_Impl/IfxQspi_cfg.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/_Impl/IfxQspi_cfg.src" "../Libraries/iLLD/TC38A/Tricore/_Impl/IfxQspi_cfg.c"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/_Impl/IfxSmu_cfg.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/_Impl/IfxSmu_cfg.src" "../Libraries/iLLD/TC38A/Tricore/_Impl/IfxSmu_cfg.c"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/_Impl/IfxStm_cfg.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/_Impl/IfxStm_cfg.src" "../Libraries/iLLD/TC38A/Tricore/_Impl/IfxStm_cfg.c"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/_Impl/IfxI2c_cfg.o" "Libraries/iLLD/TC38A/Tricore/_Impl/IfxI2c_cfg.src"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/Src/Std/IfxSrc.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/Src/Std/IfxSrc.src" "../Libraries/iLLD/TC38A/Tricore/Src/Std/IfxSrc.c"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/Scu/Std/IfxScuCcu.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/Scu/Std/IfxScuCcu.src" "../Libraries/iLLD/TC38A/Tricore/Scu/Std/IfxScuCcu.c"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/_Impl/IfxMsc_cfg.o" "Libraries/iLLD/TC38A/Tricore/_Impl/IfxMsc_cfg.src"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/Scu/Std/IfxScuEru.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/Scu/Std/IfxScuEru.src" "../Libraries/iLLD/TC38A/Tricore/Scu/Std/IfxScuEru.c"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/Scu/Std/IfxScuLbist.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/Scu/Std/IfxScuLbist.src" "../Libraries/iLLD/TC38A/Tricore/Scu/Std/IfxScuLbist.c"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/_Impl/IfxPort_cfg.o" "Libraries/iLLD/TC38A/Tricore/_Impl/IfxPort_cfg.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/_Impl/IfxQspi_cfg.o" "Libraries/iLLD/TC38A/Tricore/_Impl/IfxQspi_cfg.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/_Impl/IfxSmu_cfg.o" "Libraries/iLLD/TC38A/Tricore/_Impl/IfxSmu_cfg.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/_Impl/IfxGtm_cfg.o" "Libraries/iLLD/TC38A/Tricore/_Impl/IfxGtm_cfg.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/_Impl/IfxStm_cfg.o" "Libraries/iLLD/TC38A/Tricore/_Impl/IfxStm_cfg.src"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/Scu/Std/IfxScuRcu.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/Scu/Std/IfxScuRcu.src" "../Libraries/iLLD/TC38A/Tricore/Scu/Std/IfxScuRcu.c"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/Src/Std/IfxSrc.o" "Libraries/iLLD/TC38A/Tricore/Src/Std/IfxSrc.src"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/Scu/Std/IfxScuWdt.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/Scu/Std/IfxScuWdt.src" "../Libraries/iLLD/TC38A/Tricore/Scu/Std/IfxScuWdt.c"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/Port/Std/IfxPort.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/Port/Std/IfxPort.src" "../Libraries/iLLD/TC38A/Tricore/Port/Std/IfxPort.c"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/Pms/Std/IfxPmsEvr.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/Pms/Std/IfxPmsEvr.src" "../Libraries/iLLD/TC38A/Tricore/Pms/Std/IfxPmsEvr.c"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/Pms/Std/IfxPmsPm.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/Pms/Std/IfxPmsPm.src" "../Libraries/iLLD/TC38A/Tricore/Pms/Std/IfxPmsPm.c"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/Mtu/Std/IfxMtu.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/Mtu/Std/IfxMtu.src" "../Libraries/iLLD/TC38A/Tricore/Mtu/Std/IfxMtu.c"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/Gtm/Std/IfxGtm.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/Gtm/Std/IfxGtm.src" "../Libraries/iLLD/TC38A/Tricore/Gtm/Std/IfxGtm.c"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/Gtm/Std/IfxGtm_Atom.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/Gtm/Std/IfxGtm_Atom.src" "../Libraries/iLLD/TC38A/Tricore/Gtm/Std/IfxGtm_Atom.c"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/Gtm/Std/IfxGtm_Cmu.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/Gtm/Std/IfxGtm_Cmu.src" "../Libraries/iLLD/TC38A/Tricore/Gtm/Std/IfxGtm_Cmu.c"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/Gtm/Std/IfxGtm_Dpll.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/Gtm/Std/IfxGtm_Dpll.src" "../Libraries/iLLD/TC38A/Tricore/Gtm/Std/IfxGtm_Dpll.c"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/Gtm/Std/IfxGtm_Dtm.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/Gtm/Std/IfxGtm_Dtm.src" "../Libraries/iLLD/TC38A/Tricore/Gtm/Std/IfxGtm_Dtm.c"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/Gtm/Std/IfxGtm_Psm.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/Gtm/Std/IfxGtm_Psm.src" "../Libraries/iLLD/TC38A/Tricore/Gtm/Std/IfxGtm_Psm.c"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/_Impl/IfxMtu_cfg.o" "Libraries/iLLD/TC38A/Tricore/_Impl/IfxMtu_cfg.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/_PinMap/IfxGtm_PinMap.o" "Libraries/iLLD/TC38A/Tricore/_PinMap/IfxGtm_PinMap.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/Scu/Std/IfxScuLbist.o" "Libraries/iLLD/TC38A/Tricore/Scu/Std/IfxScuLbist.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/Port/Std/IfxPort.o" "Libraries/iLLD/TC38A/Tricore/Port/Std/IfxPort.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/Scu/Std/IfxScuEru.o" "Libraries/iLLD/TC38A/Tricore/Scu/Std/IfxScuEru.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/Scu/Std/IfxScuRcu.o" "Libraries/iLLD/TC38A/Tricore/Scu/Std/IfxScuRcu.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/Scu/Std/IfxScuWdt.o" "Libraries/iLLD/TC38A/Tricore/Scu/Std/IfxScuWdt.src"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/Gtm/Std/IfxGtm_Spe.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/Gtm/Std/IfxGtm_Spe.src" "../Libraries/iLLD/TC38A/Tricore/Gtm/Std/IfxGtm_Spe.c"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/Gtm/Std/IfxGtm_Tbu.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/Gtm/Std/IfxGtm_Tbu.src" "../Libraries/iLLD/TC38A/Tricore/Gtm/Std/IfxGtm_Tbu.c"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/Pms/Std/IfxPmsEvr.o" "Libraries/iLLD/TC38A/Tricore/Pms/Std/IfxPmsEvr.src"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/Gtm/Std/IfxGtm_Tim.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/Gtm/Std/IfxGtm_Tim.src" "../Libraries/iLLD/TC38A/Tricore/Gtm/Std/IfxGtm_Tim.c"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/Scu/Std/IfxScuCcu.o" "Libraries/iLLD/TC38A/Tricore/Scu/Std/IfxScuCcu.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/Gtm/Std/IfxGtm_Dpll.o" "Libraries/iLLD/TC38A/Tricore/Gtm/Std/IfxGtm_Dpll.src"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/Gtm/Std/IfxGtm_Tom.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/Gtm/Std/IfxGtm_Tom.src" "../Libraries/iLLD/TC38A/Tricore/Gtm/Std/IfxGtm_Tom.c"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/Cpu/Trap/IfxCpu_Trap.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/Cpu/Trap/IfxCpu_Trap.src" "../Libraries/iLLD/TC38A/Tricore/Cpu/Trap/IfxCpu_Trap.c"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/Gtm/Std/IfxGtm_Atom.o" "Libraries/iLLD/TC38A/Tricore/Gtm/Std/IfxGtm_Atom.src"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/Cpu/Std/IfxCpu.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/Cpu/Std/IfxCpu.src" "../Libraries/iLLD/TC38A/Tricore/Cpu/Std/IfxCpu.c"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/Mtu/Std/IfxMtu.o" "Libraries/iLLD/TC38A/Tricore/Mtu/Std/IfxMtu.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/Pms/Std/IfxPmsPm.o" "Libraries/iLLD/TC38A/Tricore/Pms/Std/IfxPmsPm.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/Gtm/Std/IfxGtm.o" "Libraries/iLLD/TC38A/Tricore/Gtm/Std/IfxGtm.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/Gtm/Std/IfxGtm_Psm.o" "Libraries/iLLD/TC38A/Tricore/Gtm/Std/IfxGtm_Psm.src"
+cctc -cs --dep-file="Libraries/iLLD/TC38A/Tricore/Cpu/Irq/IfxCpu_Irq.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/iLLD/TC38A/Tricore/Cpu/Irq/IfxCpu_Irq.src" "../Libraries/iLLD/TC38A/Tricore/Cpu/Irq/IfxCpu_Irq.c"
+cctc -cs --dep-file="Libraries/Infra/Ssw/TC38A/Tricore/Ifx_Ssw_Infra.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/Infra/Ssw/TC38A/Tricore/Ifx_Ssw_Infra.src" "../Libraries/Infra/Ssw/TC38A/Tricore/Ifx_Ssw_Infra.c"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/Gtm/Std/IfxGtm_Dtm.o" "Libraries/iLLD/TC38A/Tricore/Gtm/Std/IfxGtm_Dtm.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/Gtm/Std/IfxGtm_Cmu.o" "Libraries/iLLD/TC38A/Tricore/Gtm/Std/IfxGtm_Cmu.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/Gtm/Std/IfxGtm_Tbu.o" "Libraries/iLLD/TC38A/Tricore/Gtm/Std/IfxGtm_Tbu.src"
+cctc -cs --dep-file="Libraries/Infra/Ssw/TC38A/Tricore/Ifx_Ssw_Tc0.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/Infra/Ssw/TC38A/Tricore/Ifx_Ssw_Tc0.src" "../Libraries/Infra/Ssw/TC38A/Tricore/Ifx_Ssw_Tc0.c"
+cctc -cs --dep-file="Libraries/Infra/Ssw/TC38A/Tricore/Ifx_Ssw_Tc1.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/Infra/Ssw/TC38A/Tricore/Ifx_Ssw_Tc1.src" "../Libraries/Infra/Ssw/TC38A/Tricore/Ifx_Ssw_Tc1.c"
+cctc -cs --dep-file="Libraries/Infra/Ssw/TC38A/Tricore/Ifx_Ssw_Tc2.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/Infra/Ssw/TC38A/Tricore/Ifx_Ssw_Tc2.src" "../Libraries/Infra/Ssw/TC38A/Tricore/Ifx_Ssw_Tc2.c"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/Gtm/Std/IfxGtm_Spe.o" "Libraries/iLLD/TC38A/Tricore/Gtm/Std/IfxGtm_Spe.src"
+cctc -cs --dep-file="Libraries/Infra/Ssw/TC38A/Tricore/Ifx_Ssw_Tc3.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/Infra/Ssw/TC38A/Tricore/Ifx_Ssw_Tc3.src" "../Libraries/Infra/Ssw/TC38A/Tricore/Ifx_Ssw_Tc3.c"
+cctc -cs --dep-file="Libraries/Infra/Platform/Tricore/Compilers/CompilerDcc.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/Infra/Platform/Tricore/Compilers/CompilerDcc.src" "../Libraries/Infra/Platform/Tricore/Compilers/CompilerDcc.c"
+cctc -cs --dep-file="Libraries/Infra/Platform/Tricore/Compilers/CompilerGcc.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/Infra/Platform/Tricore/Compilers/CompilerGcc.src" "../Libraries/Infra/Platform/Tricore/Compilers/CompilerGcc.c"
+cctc -cs --dep-file="Libraries/Infra/Platform/Tricore/Compilers/CompilerGhs.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/Infra/Platform/Tricore/Compilers/CompilerGhs.src" "../Libraries/Infra/Platform/Tricore/Compilers/CompilerGhs.c"
+cctc -cs --dep-file="Libraries/Infra/Platform/Tricore/Compilers/CompilerGnuc.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/Infra/Platform/Tricore/Compilers/CompilerGnuc.src" "../Libraries/Infra/Platform/Tricore/Compilers/CompilerGnuc.c"
+cctc -cs --dep-file="Libraries/Infra/Platform/Tricore/Compilers/CompilerTasking.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Libraries/Infra/Platform/Tricore/Compilers/CompilerTasking.src" "../Libraries/Infra/Platform/Tricore/Compilers/CompilerTasking.c"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/Gtm/Std/IfxGtm_Tim.o" "Libraries/iLLD/TC38A/Tricore/Gtm/Std/IfxGtm_Tim.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/Gtm/Std/IfxGtm_Tom.o" "Libraries/iLLD/TC38A/Tricore/Gtm/Std/IfxGtm_Tom.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/Cpu/Trap/IfxCpu_Trap.o" "Libraries/iLLD/TC38A/Tricore/Cpu/Trap/IfxCpu_Trap.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/Infra/Platform/Tricore/Compilers/CompilerGcc.o" "Libraries/Infra/Platform/Tricore/Compilers/CompilerGcc.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/Cpu/Irq/IfxCpu_Irq.o" "Libraries/iLLD/TC38A/Tricore/Cpu/Irq/IfxCpu_Irq.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/Infra/Platform/Tricore/Compilers/CompilerDcc.o" "Libraries/Infra/Platform/Tricore/Compilers/CompilerDcc.src"
+cctc -cs --dep-file="Configurations/Ifx_Cfg_Ssw.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Configurations/Ifx_Cfg_Ssw.src" "../Configurations/Ifx_Cfg_Ssw.c"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/Infra/Platform/Tricore/Compilers/CompilerGhs.o" "Libraries/Infra/Platform/Tricore/Compilers/CompilerGhs.src"
+cctc -cs --dep-file="Cpu0_Main.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Cpu0_Main.src" "../Cpu0_Main.c"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/Infra/Platform/Tricore/Compilers/CompilerGnuc.o" "Libraries/Infra/Platform/Tricore/Compilers/CompilerGnuc.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/Infra/Ssw/TC38A/Tricore/Ifx_Ssw_Infra.o" "Libraries/Infra/Ssw/TC38A/Tricore/Ifx_Ssw_Infra.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC38A/Tricore/Cpu/Std/IfxCpu.o" "Libraries/iLLD/TC38A/Tricore/Cpu/Std/IfxCpu.src"
+cctc -cs --dep-file="Cpu1_Main.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Cpu1_Main.src" "../Cpu1_Main.c"
+cctc -cs --dep-file="Cpu2_Main.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Cpu2_Main.src" "../Cpu2_Main.c"
+cctc -cs --dep-file="Cpu3_Main.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Cpu3_Main.src" "../Cpu3_Main.c"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/Infra/Ssw/TC38A/Tricore/Ifx_Ssw_Tc0.o" "Libraries/Infra/Ssw/TC38A/Tricore/Ifx_Ssw_Tc0.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/Infra/Ssw/TC38A/Tricore/Ifx_Ssw_Tc2.o" "Libraries/Infra/Ssw/TC38A/Tricore/Ifx_Ssw_Tc2.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/Infra/Ssw/TC38A/Tricore/Ifx_Ssw_Tc1.o" "Libraries/Infra/Ssw/TC38A/Tricore/Ifx_Ssw_Tc1.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/Infra/Platform/Tricore/Compilers/CompilerTasking.o" "Libraries/Infra/Platform/Tricore/Compilers/CompilerTasking.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/Infra/Ssw/TC38A/Tricore/Ifx_Ssw_Tc3.o" "Libraries/Infra/Ssw/TC38A/Tricore/Ifx_Ssw_Tc3.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Cpu0_Main.o" "Cpu0_Main.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Cpu1_Main.o" "Cpu1_Main.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Cpu2_Main.o" "Cpu2_Main.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Cpu3_Main.o" "Cpu3_Main.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Configurations/Ifx_Cfg_Ssw.o" "Configurations/Ifx_Cfg_Ssw.src"
+Building target: hello_world_2.elf
+Invoking: TASKING Linker
+cctc -f .hello_world_2.elf.opt
+Finished building target: hello_world_2.elf
+ 
+Invoking: Print Size
+elfsize  "hello_world_2.elf"
+Total sizes:
+ROM: 0x41ee (16878) = code: 0x2d8a (11658) + romdata: 0x1464 (5220)
+RAM: 0xc2a9 (49833) = data + bss
+Finished building: hello_world_2.siz
+ 
+Build started...
+17:07:05 **** Incremental Build of configuration TriCore Debug (TASKING) for project hello_world_2 ****
+amk -j16 all 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): program builder v1.1r8 Build 22011964
+Building target: hello_world_2.elf
+Invoking: TASKING Linker
+cctc -f .hello_world_2.elf.opt
+Finished building target: hello_world_2.elf
+ 
+Invoking: Print Size
+elfsize  "hello_world_2.elf"
+Total sizes:
+ROM: 0x41ee (16878) = code: 0x2d8a (11658) + romdata: 0x1464 (5220)
+RAM: 0xc2a9 (49833) = data + bss
+Finished building: hello_world_2.siz
+ 

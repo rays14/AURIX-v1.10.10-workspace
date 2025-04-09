@@ -1,0 +1,1600 @@
+!SESSION 2025-04-08 10:59:26.936 -----------------------------------------------
+eclipse.buildId=1.10.10
+java.version=17.0.11
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -perspective com.infineon.aurix.buildmanager.perspective.c
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -perspective com.infineon.aurix.buildmanager.perspective.c
+
+This is a continuation of log file C:\Users\sray\AURIX-v1.10.10-workspace\.metadata\.bak_0.log
+Created Time: 2025-04-08 16:50:38.726
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:50:38.736
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:50:41.899
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2025-04-08 16:50:49.295
+!MESSAGE Request monitor: 'RequestMonitor (si.isystem.dsf.services.ISysBreakpointService$6@6d97db62): Status CANCEL: si.isystem.eclipse.debug code=0 Command Control was shut down - cancelled queueing of command ISysCmdBpRemove[ISysDebuggerDmContext(0, hello_world_2.elf).LineBreakpointDMContext(C:\Users\sray\AURIX-v1.10.10-workspace\hello_world_2\Cpu0_Main.c:73)]().
+' resulted in a cancel status: Status CANCEL: si.isystem.eclipse.debug code=0 Command Control was shut down - cancelled queueing of command ISysCmdBpRemove[ISysDebuggerDmContext(0, hello_world_2.elf).LineBreakpointDMContext(C:\Users\sray\AURIX-v1.10.10-workspace\hello_world_2\Cpu0_Main.c:73)]().
+, even though the request is not set to cancel.
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:50:49.503
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:50:52.503
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:50:52.661
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:51:09.067
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:51:09.207
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:51:09.550
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:51:09.755
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:51:11.115
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:51:11.116
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:51:11.257
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2025-04-08 16:51:11.331
+!MESSAGE Boosting configuration TriCore Debug (TASKING) of project hello_world_2 boosted in 185 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2025-04-08 16:51:11.361
+!MESSAGE Include paths were discovered in 28 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:51:11.431
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:51:13.380
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:51:13.582
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:51:17.253
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:51:17.456
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:51:26.548
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:51:26.727
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2025-04-08 16:51:29.417
+!MESSAGE Boosting configuration TriCore Debug (TASKING) of project hello_world_2 boosted in 333 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2025-04-08 16:51:29.446
+!MESSAGE Include paths were discovered in 26 milliseconds.
+
+!ENTRY si.isystem.eclipse.debug 4 0 2025-04-08 16:51:37.083
+!MESSAGE Currently TASKING winIDEA plugin supports only one consecutive debug session.
+
+Please stop the currently running debug session before starting a new one.
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:51:37.223
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:51:37.431
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:51:38.503
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:51:38.694
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:51:39.649
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:51:39.788
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:51:39.911
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:51:40.013
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2025-04-08 16:51:40.280
+!MESSAGE Request monitor: 'RequestMonitor (si.isystem.dsf.services.ISysBreakpointService$6@423243bb): Status CANCEL: si.isystem.eclipse.debug code=0 Command Control was shut down - cancelled queueing of command ISysCmdBpRemove[ISysDebuggerDmContext(0, hello_world_2.elf).LineBreakpointDMContext(C:\Users\sray\AURIX-v1.10.10-workspace\hello_world_2\Cpu0_Main.c:73)]().
+' resulted in a cancel status: Status CANCEL: si.isystem.eclipse.debug code=0 Command Control was shut down - cancelled queueing of command ISysCmdBpRemove[ISysDebuggerDmContext(0, hello_world_2.elf).LineBreakpointDMContext(C:\Users\sray\AURIX-v1.10.10-workspace\hello_world_2\Cpu0_Main.c:73)]().
+, even though the request is not set to cancel.
+!SESSION 2025-04-08 16:51:42.491 -----------------------------------------------
+eclipse.buildId=1.10.10
+java.version=17.0.11
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -perspective com.infineon.aurix.buildmanager.perspective.c
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -perspective com.infineon.aurix.buildmanager.perspective.c
+
+!ENTRY org.eclipse.ui 2 0 2025-04-08 16:51:45.544
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-04-08 16:51:45.544
+!MESSAGE Commands should really have a category: plug-in='com.infineon.aurix.buildsystem.debug', id='com.infineon.aurix.buildsystem.debug.debugActiveProjectCommand', categoryId='com.infineon.aurix.buildsystem.debug.debugActiveProjectCommand'
+
+!ENTRY org.eclipse.ui 2 0 2025-04-08 16:51:45.981
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-04-08 16:51:45.981
+!MESSAGE Commands should really have a category: plug-in='com.infineon.aurix.buildsystem.debug', id='com.infineon.aurix.buildsystem.debug.debugActiveProjectCommand', categoryId='com.infineon.aurix.buildsystem.debug.debugActiveProjectCommand'
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2025-04-08 16:51:47.308
+!MESSAGE Cannot open remote device description from URL https://itools.infineon.com/aurix_ide/ADS/com.infineon.aurix.buildsystem/1.10.10/tc2-hardware.json. Resource does not exist
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2025-04-08 16:51:47.311
+!MESSAGE Cannot open cached device description from  C:\Users\sray\ADSDocuments\1.10.10\tc2-hardware.json. Resource does not exist
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2025-04-08 16:51:47.907
+!MESSAGE Cannot open remote device description from URL https://itools.infineon.com/aurix_ide/ADS/com.infineon.aurix.buildsystem/1.10.10/tc3-hardware.json. Resource does not exist
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2025-04-08 16:51:47.909
+!MESSAGE Cannot open cached device description from  C:\Users\sray\ADSDocuments\1.10.10\tc3-hardware.json. Resource does not exist
+
+!ENTRY com.infineon.aurix.buildsystem 4 0 2025-04-08 16:51:52.843
+!MESSAGE ConnectException
+!STACK 0
+java.net.ConnectException
+	at java.net.http/jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:573)
+	at java.net.http/jdk.internal.net.http.HttpClientFacade.send(HttpClientFacade.java:123)
+	at com.infineon.aurix.buildsystem.IFXNetworkUtils$1.run(IFXNetworkUtils.java:44)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.net.ConnectException
+	at java.net.http/jdk.internal.net.http.common.Utils.toConnectException(Utils.java:1055)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:198)
+	at java.net.http/jdk.internal.net.http.AsyncSSLConnection.connectAsync(AsyncSSLConnection.java:56)
+	at java.net.http/jdk.internal.net.http.Http1Exchange.sendHeadersAsync(Http1Exchange.java:239)
+	at java.net.http/jdk.internal.net.http.Exchange.lambda$responseAsyncImpl0$9(Exchange.java:472)
+	at java.net.http/jdk.internal.net.http.Exchange.checkFor407(Exchange.java:404)
+	at java.net.http/jdk.internal.net.http.Exchange.lambda$responseAsyncImpl0$10(Exchange.java:476)
+	at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:934)
+	at java.base/java.util.concurrent.CompletableFuture.uniHandleStage(CompletableFuture.java:950)
+	at java.base/java.util.concurrent.CompletableFuture.handle(CompletableFuture.java:2340)
+	at java.net.http/jdk.internal.net.http.Exchange.responseAsyncImpl0(Exchange.java:476)
+	at java.net.http/jdk.internal.net.http.Exchange.responseAsyncImpl(Exchange.java:380)
+	at java.net.http/jdk.internal.net.http.Exchange.responseAsync(Exchange.java:372)
+	at java.net.http/jdk.internal.net.http.MultiExchange.responseAsyncImpl(MultiExchange.java:408)
+	at java.net.http/jdk.internal.net.http.MultiExchange.lambda$responseAsyncImpl$7(MultiExchange.java:449)
+	at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:934)
+	at java.base/java.util.concurrent.CompletableFuture.uniHandleStage(CompletableFuture.java:950)
+	at java.base/java.util.concurrent.CompletableFuture.handle(CompletableFuture.java:2340)
+	at java.net.http/jdk.internal.net.http.MultiExchange.responseAsyncImpl(MultiExchange.java:439)
+	at java.net.http/jdk.internal.net.http.MultiExchange.lambda$responseAsync0$2(MultiExchange.java:341)
+	at java.base/java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1150)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$DelegatingExecutor.execute(HttpClientImpl.java:157)
+	at java.base/java.util.concurrent.CompletableFuture.completeAsync(CompletableFuture.java:2673)
+	at java.net.http/jdk.internal.net.http.MultiExchange.responseAsync(MultiExchange.java:294)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl.sendAsync(HttpClientImpl.java:654)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:552)
+	... 3 more
+Caused by: java.nio.channels.UnresolvedAddressException
+	at java.base/sun.nio.ch.Net.checkAddress(Net.java:149)
+	at java.base/sun.nio.ch.Net.checkAddress(Net.java:157)
+	at java.base/sun.nio.ch.SocketChannelImpl.checkRemote(SocketChannelImpl.java:816)
+	at java.base/sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:839)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$0(PlainHttpConnection.java:183)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:185)
+	... 29 more
+
+!ENTRY com.infineon.aurix.buildsystem.analytics 2 0 2025-04-08 16:51:52.943
+!MESSAGE Unable to initialize Analytics Service.
+
+!ENTRY com.infineon.aurix.buildsystem.analytics 4 0 2025-04-08 16:51:52.945
+!MESSAGE java.net.MalformedURLException: no protocol: 
+!STACK 0
+java.lang.IllegalArgumentException: java.net.MalformedURLException: no protocol: 
+	at com.google.api.client.http.GenericUrl.parseURL(GenericUrl.java:679)
+	at com.google.api.client.http.GenericUrl.<init>(GenericUrl.java:125)
+	at com.google.api.client.http.GenericUrl.<init>(GenericUrl.java:108)
+	at com.infineon.aurix.buildsystem.analytics.AnalyticsService.<init>(AnalyticsService.java:69)
+	at com.infineon.aurix.buildsystem.analytics.AnalyticsService.getInstance(AnalyticsService.java:98)
+	at com.infineon.aurix.buildsystem.AnalyticsUtils.send(AnalyticsUtils.java:24)
+	at com.infineon.aurix.buildsystem.Analytics.sendToolStarted(Analytics.java:6)
+	at com.infineon.aurix.buildsystem.AurixIDEStartup.earlyStartup(AurixIDEStartup.java:25)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.runEarlyStartup(EarlyStartupRunnable.java:79)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.run(EarlyStartupRunnable.java:55)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.ui.internal.Workbench$39.run(Workbench.java:2699)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.net.MalformedURLException: no protocol: 
+	at java.base/java.net.URL.<init>(URL.java:674)
+	at java.base/java.net.URL.<init>(URL.java:569)
+	at java.base/java.net.URL.<init>(URL.java:516)
+	at com.google.api.client.http.GenericUrl.parseURL(GenericUrl.java:677)
+	... 12 more
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:51:54.139
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:51:54.142
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:51:54.385
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:51:54.896
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:51:55.020
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:52:27.662
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:52:27.865
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:52:32.215
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:52:32.259
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:52:32.526
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2025-04-08 16:52:33.987
+!MESSAGE Boosting configuration TriCore Debug (TASKING) of project hello_world_2 boosted in 1732 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2025-04-08 16:52:34.070
+!MESSAGE Include paths were discovered in 74 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:52:36.903
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:52:37.098
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:52:40.755
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:52:40.956
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:52:41.624
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:52:41.784
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:52:42.036
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:52:42.153
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:52:42.511
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:52:42.693
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:52:42.910
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:52:43.024
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:52:43.396
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:52:43.993
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:52:44.183
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:52:44.353
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:52:47.583
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:52:49.379
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:52:49.569
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:52:49.849
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:52:50.939
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:52:51.059
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:52:51.194
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:52:51.396
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:52:54.431
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:52:54.644
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:52:57.338
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:52:57.467
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:52:57.710
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:52:58.895
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:53:10.098
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:53:10.301
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:53:11.598
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:53:11.801
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:53:12.787
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:53:13.004
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:53:16.161
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:53:16.347
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:53:18.991
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:53:19.473
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:53:21.161
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:53:22.714
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:53:22.956
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:53:24.224
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:53:24.350
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:53:27.645
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:53:30.973
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:53:33.354
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:53:33.566
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:53:44.806
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:53:45.059
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:53:45.255
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:53:46.135
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:53:46.331
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:53:46.739
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:53:46.943
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:53:47.691
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:53:47.896
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:53:48.209
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:53:48.433
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:53:48.656
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:53:48.992
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:53:49.161
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:53:49.355
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:53:49.557
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:53:49.815
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:53:50.004
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:53:50.397
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:53:50.711
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:53:51.742
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:53:51.913
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:53:54.799
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:53:55.005
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:54:00.956
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:54:06.444
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:54:07.303
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:54:10.597
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:54:10.801
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:54:15.286
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:54:15.492
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:54:15.754
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:54:49.567
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:54:52.315
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:54:52.568
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2025-04-08 16:54:57.207
+!MESSAGE Request monitor: 'RequestMonitor (si.isystem.dsf.services.ISysBreakpointService$6@42514deb): Status CANCEL: si.isystem.eclipse.debug code=0 Command Control was shut down - cancelled queueing of command ISysCmdBpRemove[ISysDebuggerDmContext(0, hello_world_2.elf).LineBreakpointDMContext(C:\Users\sray\AURIX-v1.10.10-workspace\hello_world_2\Cpu0_Main.c:73)]().
+' resulted in a cancel status: Status CANCEL: si.isystem.eclipse.debug code=0 Command Control was shut down - cancelled queueing of command ISysCmdBpRemove[ISysDebuggerDmContext(0, hello_world_2.elf).LineBreakpointDMContext(C:\Users\sray\AURIX-v1.10.10-workspace\hello_world_2\Cpu0_Main.c:73)]().
+, even though the request is not set to cancel.
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:54:57.472
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:54:57.628
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:54:59.258
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:54:59.457
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2025-04-08 16:55:01.539
+!MESSAGE Project index is not complete, and cannot be used for boosting.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2025-04-08 16:55:01.539
+!MESSAGE Boosting configuration TriCore Debug (TASKING) of project hello_world_2 boosted in 0 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:55:01.553
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2025-04-08 16:55:01.583
+!MESSAGE Include paths were discovered in 41 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:55:01.776
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:55:06.340
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:55:06.343
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:55:06.462
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2025-04-08 16:55:06.573
+!MESSAGE Boosting configuration TriCore Debug (TASKING) of project hello_world_2 boosted in 215 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2025-04-08 16:55:06.615
+!MESSAGE Include paths were discovered in 38 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:55:06.659
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:55:08.820
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:55:09.019
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:55:12.757
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:55:12.956
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:55:13.371
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:55:13.515
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:55:13.692
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:55:13.868
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:55:17.020
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:55:17.242
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:55:17.380
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:55:18.957
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:55:19.160
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:55:19.363
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:55:23.956
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:55:28.424
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:55:28.624
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:55:28.847
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:55:29.865
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:55:30.067
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:55:31.336
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:55:32.272
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:55:33.941
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:55:34.129
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2025-04-08 16:55:37.172
+!MESSAGE Request monitor: 'RequestMonitor (si.isystem.dsf.services.ISysBreakpointService$6@58c772cd): Status CANCEL: si.isystem.eclipse.debug code=0 Command Control was shut down - cancelled queueing of command ISysCmdBpRemove[ISysDebuggerDmContext(0, hello_world_2.elf).LineBreakpointDMContext(C:\Users\sray\AURIX-v1.10.10-workspace\hello_world_2\Cpu0_Main.c:73)]().
+' resulted in a cancel status: Status CANCEL: si.isystem.eclipse.debug code=0 Command Control was shut down - cancelled queueing of command ISysCmdBpRemove[ISysDebuggerDmContext(0, hello_world_2.elf).LineBreakpointDMContext(C:\Users\sray\AURIX-v1.10.10-workspace\hello_world_2\Cpu0_Main.c:73)]().
+, even though the request is not set to cancel.
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:55:37.441
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:55:37.587
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:55:38.614
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:55:38.801
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:55:45.706
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:55:47.067
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:55:48.395
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:55:51.574
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:55:51.821
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:55:53.629
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:55:53.816
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:55:54.020
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:55:55.172
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:55:55.173
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:55:55.332
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:55:55.491
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2025-04-08 16:55:56.387
+!MESSAGE Boosting configuration TriCore Debug (TASKING) of project hello_world_2 boosted in 1195 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2025-04-08 16:55:56.424
+!MESSAGE Include paths were discovered in 34 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:55:58.742
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:55:58.943
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:56:02.737
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:56:02.941
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:56:03.357
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:56:03.566
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:56:07.367
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:56:07.660
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:56:07.848
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:56:08.618
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:56:08.807
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:56:09.140
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:56:09.276
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:56:09.490
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:56:10.177
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:56:10.365
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:56:11.727
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:56:11.912
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:56:12.487
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:56:12.693
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:56:13.003
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:56:13.214
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:56:13.350
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:56:13.489
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:56:13.685
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:56:13.879
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:56:14.082
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:56:14.288
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:56:14.478
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:56:14.629
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:56:14.880
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:56:15.217
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:56:15.332
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:56:15.460
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:56:15.693
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:56:15.878
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:56:16.066
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:56:16.864
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:56:17.067
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:56:17.650
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:56:17.839
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:56:17.985
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:56:18.161
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:56:18.347
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:56:18.911
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:56:19.084
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:56:19.196
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:56:19.381
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:56:19.493
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:56:19.706
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:56:19.961
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:56:20.194
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:56:20.332
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:56:20.599
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:56:20.837
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:56:21.005
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:56:21.253
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:56:21.490
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:56:21.710
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:56:21.866
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:56:22.126
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:56:22.375
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:56:22.570
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:56:22.777
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:56:23.194
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:56:24.525
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:56:24.725
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:56:25.000
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:56:25.171
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:56:25.414
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:56:25.598
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:56:25.894
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:56:26.030
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:56:26.193
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:56:26.457
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:56:26.821
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:56:26.995
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:56:27.185
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:56:27.398
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:56:27.615
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:56:27.801
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:56:27.932
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:56:28.121
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:56:28.419
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:56:28.582
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:56:28.810
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:56:29.032
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:56:29.212
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:56:29.441
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:56:29.645
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:56:30.317
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:56:30.463
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:56:32.463
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:56:32.583
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:56:32.692
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:56:32.879
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:56:37.960
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:56:38.128
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:56:50.644
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:56:56.457
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:56:56.650
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:56:56.847
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:56:59.163
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:56:59.347
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:57:01.399
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:57:02.943
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 16:57:03.070
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:00:38.849
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2025-04-08 17:00:40.542
+!MESSAGE Request monitor: 'RequestMonitor (si.isystem.dsf.services.ISysBreakpointService$6@5f3936b2): Status CANCEL: si.isystem.eclipse.debug code=0 Command Control was shut down - cancelled queueing of command ISysCmdBpRemove[ISysDebuggerDmContext(0, hello_world_2.elf).LineBreakpointDMContext(C:\Users\sray\AURIX-v1.10.10-workspace\hello_world_2\Cpu0_Main.c:73)]().
+' resulted in a cancel status: Status CANCEL: si.isystem.eclipse.debug code=0 Command Control was shut down - cancelled queueing of command ISysCmdBpRemove[ISysDebuggerDmContext(0, hello_world_2.elf).LineBreakpointDMContext(C:\Users\sray\AURIX-v1.10.10-workspace\hello_world_2\Cpu0_Main.c:73)]().
+, even though the request is not set to cancel.
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:00:40.819
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:00:40.972
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:00:42.463
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:00:42.662
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2025-04-08 17:00:44.057
+!MESSAGE Project index is not complete, and cannot be used for boosting.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2025-04-08 17:00:44.057
+!MESSAGE Boosting configuration TriCore Debug (TASKING) of project hello_world_2 boosted in 0 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:00:44.081
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2025-04-08 17:00:44.095
+!MESSAGE Include paths were discovered in 36 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:00:44.270
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:00:47.788
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:00:47.971
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:00:48.754
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:00:53.131
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:00:53.316
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:00:53.770
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:00:54.255
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:00:54.425
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:00:54.612
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:00:55.020
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:00:55.212
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:00:55.587
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:00:55.755
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:04:02.584
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:04:02.737
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:04:14.503
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:04:15.024
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:04:15.197
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:04:15.334
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:04:45.711
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:04:45.893
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:05:04.503
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:05:06.347
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:05:06.472
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:05:06.675
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:05:09.584
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:05:56.934
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:05:57.087
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:06:06.706
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:06:06.885
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:06:07.067
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:06:19.479
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:06:19.612
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:06:23.758
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:06:23.895
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:06:32.341
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:06:32.490
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:06:34.748
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:06:34.911
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:06:35.971
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:06:36.318
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:06:37.867
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:06:39.008
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:06:39.161
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:06:40.444
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:06:41.081
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:06:43.462
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:06:43.588
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:06:43.785
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:06:44.712
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:06:44.911
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:06:47.456
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:06:49.493
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:06:49.643
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:06:50.440
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:06:50.598
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:06:51.223
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:06:51.410
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2025-04-08 17:06:52.355
+!MESSAGE Boosting configuration TriCore Debug (TASKING) of project hello_world_2 boosted in 1162 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2025-04-08 17:06:52.388
+!MESSAGE Include paths were discovered in 30 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:06:52.914
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:06:53.082
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:07:01.821
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:07:02.051
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:07:05.217
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:07:05.219
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:07:05.333
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2025-04-08 17:07:05.485
+!MESSAGE Boosting configuration TriCore Debug (TASKING) of project hello_world_2 boosted in 261 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2025-04-08 17:07:05.519
+!MESSAGE Include paths were discovered in 31 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:07:07.628
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:07:07.833
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:07:11.662
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:07:11.847
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:07:12.236
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:07:12.447
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:07:18.148
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:07:18.303
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:07:18.535
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:07:19.520
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:07:19.693
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:07:20.532
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:07:20.713
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:07:21.210
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:07:21.385
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:07:21.603
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:07:21.943
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:07:22.145
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:07:22.383
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:07:23.112
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:07:23.297
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:07:23.492
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:07:23.741
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:07:23.912
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:07:24.224
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:07:24.419
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:07:24.662
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:07:24.871
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:07:25.050
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:07:25.250
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:07:25.445
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:07:25.619
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:07:25.830
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:07:25.974
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:07:26.224
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:07:26.433
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:07:26.637
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:07:26.973
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:07:27.182
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:07:27.729
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:07:27.943
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:07:28.240
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:07:28.660
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:07:28.833
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:07:29.036
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:07:29.249
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:07:29.552
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:07:29.817
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:07:30.242
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:07:30.507
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:07:30.692
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:07:31.022
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:07:31.223
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:07:31.517
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:07:31.742
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:07:31.961
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:07:32.194
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:07:32.465
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:07:32.617
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:07:33.105
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:07:33.288
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:07:33.582
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:07:33.784
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:07:33.988
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:07:34.256
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:07:34.470
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:07:34.690
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:07:35.098
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:07:35.481
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:07:35.678
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:07:35.879
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:07:36.003
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:07:36.303
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:07:36.741
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:07:36.960
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:07:37.237
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:07:37.441
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:07:38.739
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:07:50.990
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:07:51.722
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:07:51.862
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:07:52.068
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:07:54.561
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:08:00.692
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:08:04.049
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:08:04.268
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:08:04.460
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:08:06.005
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:08:36.926
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:08:37.051
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:08:41.038
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:08:48.128
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:08:48.255
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:08:49.461
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:09:20.120
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:09:20.237
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:09:24.318
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:09:24.428
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:09:24.567
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:10:00.817
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:10:02.916
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:10:03.051
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2025-04-08 17:10:13.850
+!MESSAGE Request monitor: 'RequestMonitor (si.isystem.dsf.services.ISysBreakpointService$6@6ddcbe3d): Status CANCEL: si.isystem.eclipse.debug code=0 Command Control was shut down - cancelled queueing of command ISysCmdBpRemove[ISysDebuggerDmContext(0, hello_world_2.elf).LineBreakpointDMContext(C:\Users\sray\AURIX-v1.10.10-workspace\hello_world_2\Cpu0_Main.c:73)]().
+' resulted in a cancel status: Status CANCEL: si.isystem.eclipse.debug code=0 Command Control was shut down - cancelled queueing of command ISysCmdBpRemove[ISysDebuggerDmContext(0, hello_world_2.elf).LineBreakpointDMContext(C:\Users\sray\AURIX-v1.10.10-workspace\hello_world_2\Cpu0_Main.c:73)]().
+, even though the request is not set to cancel.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2025-04-08 17:10:13.851
+!MESSAGE Request monitor: 'RequestMonitor (si.isystem.dsf.services.ISysBreakpointService$6@5ce85a4d): Status CANCEL: si.isystem.eclipse.debug code=0 Command Control was shut down - cancelled queueing of command ISysCmdBpRemove[ISysDebuggerDmContext(0, hello_world_2.elf).LineBreakpointDMContext(C:\Users\sray\AURIX-v1.10.10-workspace\hello_world_2\Cpu0_Main.c:74)]().
+' resulted in a cancel status: Status CANCEL: si.isystem.eclipse.debug code=0 Command Control was shut down - cancelled queueing of command ISysCmdBpRemove[ISysDebuggerDmContext(0, hello_world_2.elf).LineBreakpointDMContext(C:\Users\sray\AURIX-v1.10.10-workspace\hello_world_2\Cpu0_Main.c:74)]().
+, even though the request is not set to cancel.
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:10:13.878
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:10:14.146
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:10:14.301
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:10:16.420
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:10:16.520
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:10:16.648
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:10:35.366
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:10:35.519
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:10:35.691
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-04-08 17:10:35.797
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
