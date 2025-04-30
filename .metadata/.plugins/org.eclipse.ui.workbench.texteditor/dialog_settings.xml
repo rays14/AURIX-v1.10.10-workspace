@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
-		<item key="selection" value=""/>
+		<item key="selection" value="Ifx_GPT12_CAPREL_Bits"/>
 		<item key="wrap" value="true"/>
 		<item key="casesensitive" value="false"/>
 		<item key="wholeword" value="true"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
+			<item value="Ifx_GPT12_CAPREL_Bits"/>
+			<item value="Ifx_GPT12_CAPREL"/>
+			<item value="Ifx_SRC_GPT12_GPT12"/>
+			<item value="Ifx_SRC_GPT12"/>
+			<item value="Ifx_GPT12_T3CON_Bits"/>
+			<item value="Ifx_GPT12_T3CON"/>
+			<item value="Ifx_SRC_SRCR_Bits"/>
+			<item value="SRPN"/>
+			<item value="Ifx_GPT12_CLC_Bits"/>
+			<item value="Ifx_GPT12_CLC"/>
 			<item value="enable"/>
 			<item value="Ifx__enable"/>
 			<item value="timer_0_isr_count"/>
 			<item value="Ifx_ASCLIN"/>
 			<item value="CPU0_ICR"/>
-			<item value="STM0"/>
-			<item value="P33_OUT"/>
-			<item value="P20_OUT"/>
-			<item value="P13_OUT"/>
-			<item value="0xF003AD00u"/>
-			<item value="Ifx_P_IOCR0"/>
-			<item value="Ifx_P_OUT"/>
-			<item value="Ifx_P_OMSR0_Bits"/>
-			<item value="Ifx_P_OMSR0"/>
-			<item value="Ifx_P_OMCR0"/>
 		</list>
 		<list key="replacehistory">
 		</list>
