@@ -24,6 +24,7 @@
  * CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
  * IN THE SOFTWARE.
  *********************************************************************************************************************/
+#include <stdio.h>
 #include "Ifx_Types.h"
 #include "IfxCpu.h"
 #include "IfxScuWdt.h"
@@ -31,7 +32,7 @@
 #include "IfxStm_reg.h"
 #include "IfxGPt12_reg.h"
 #include "stdint.h"
-#include <stdio.h>
+#include "task.h"
 IFX_ALIGN(4) IfxCpu_syncEvent g_cpuSyncEvent = 0;
 ///////////////////////////////////////////////////////////////////////////////
 // Defines
@@ -39,7 +40,7 @@ IFX_ALIGN(4) IfxCpu_syncEvent g_cpuSyncEvent = 0;
 #define TEST_BLINK_LEDS             0
 #define TEST_GPIO_OUT_IN            1
 #define SW_INTERRUPT_PRIORITY       0
-#define TIMER_0_INTERRUPT_PRIORITY  254
+#define TIMER_0_INTERRUPT_PRIORITY  255
 #define GPT1_INTERRUPT_PRIORITY     0
 ///////////////////////////////////////////////////////////////////////////////
 // If CLK == 100Mhz:
@@ -73,7 +74,7 @@ volatile int        gpt1_isr_count      = 0;
 volatile int        toggle              = 0;
 volatile int        int_toggle_p6       = 0;
 volatile int        int_toggle_p7       = 0;
-const uint16_t      TOGGLE_VALUE        = 0x0ff0;
+const uint16_t      TOGGLE_VALUE        = 0xfffe;
 volatile uint64_t   compare_value       = (uint64_t)0;
 ///////////////////////////////////////////////////////////////////////////////
 // Delay
@@ -88,64 +89,56 @@ void delay(int d) {
 // GPT1 Timer Interrupt Handler
 ///////////////////////////////////////////////////////////////////////////////
 IFX_INTERRUPT (gpt1_isr, 0, GPT1_INTERRUPT_PRIORITY) {
-    //IfxCpu_disableInterrupts();
+    p_pin33->OUT.B.P7 = ~p_pin33->OUT.B.P7;
     p_gpt12->T3CON.B.T3R  = 0;    // Timer run, timer run bit, 1 - timer run, 0 - timer stop
     p_gpt12->T3.B.T3      = TOGGLE_VALUE; // Put some value into the timer
-    //IfxCpu_enableInterrupts();
-    //p_gpt12->T3CON.B.T3R  = 1;
+    p_gpt12->T3CON.B.T3R  = 1;    // Timer run, timer run bit, 1 - timer run, 0 - timer stop
+    IfxCpu_enableInterrupts();
     gpt1_isr_count++;
     if (gpt1_isr_count >= 10) {
         gpt1_isr_count = 0;
-        p_pin33->OUT.B.P7 = int_toggle_p7;
-        p_pin33->OUT.B.P7 = int_toggle_p7;
-        p_pin33->OUT.B.P7 = int_toggle_p7;
-        int_toggle_p7     = 1 - int_toggle_p7;
     }
-    //IfxCpu_enableInterrupts();
-    p_gpt12->T3CON.B.T3R  = 1;    // Timer run, timer run bit, 1 - timer run, 0 - timer stop
 }
 
 // ----------------------------------------------------------------------------
+///////////////////////////////////////////////////////////////////////////////
 // Timer-0 Interrupt Handler
 // ----------------------------------------------------------------------------
+///////////////////////////////////////////////////////////////////////////////
+struct exec_t {
+    int data;
+};
+static struct exec_t exec_data = {{0}};
 IFX_INTERRUPT (timer_0_isr, 0, TIMER_0_INTERRUPT_PRIORITY) {
-    // ---------------------------------------------------
-    // Disable interrupts so this is an atomic operation
-    // ---------------------------------------------------
-    //IfxCpu_disableInterrupts();
-    IfxCpu_enableInterrupts();
-    //p_stm0->ICR.B.CMP0IR = 1; // Clear interrupt flag WRONG REGISTER!!!
-    p_stm0->ISCR.B.CMP0IRR = 1; // Clear interrupt flag CORRECT REGISTER!!!
-    p_stm0->ISCR.B.CMP0IRR = 0; // Clear interrupt flag CORRECT REGISTER!!!
+    IfxCpu_disableInterrupts();
+    //p_pin33->OUT.B.P6 = ~p_pin33->OUT.B.P6;
+    p_stm0->ISCR.B.CMP0IRR = 1;
+    p_stm0->CMP[0].B.CMPVAL = (p_stm0->CMP[0].B.CMPVAL == (uint32_t)((uint32_t)0x1 << (BIT_NUM)))
+            ? (uint32_t)0 : (uint32_t)((uint32_t)0x1 << (BIT_NUM));
+    //p_stm0->CMP[0].B.CMPVAL = ~p_stm0->CMP[0].B.CMPVAL;
+    p_stm0->ISCR.B.CMP0IRR = 0;
+    task_exec((void *)&exec_data);
     //IfxCpu_enableInterrupts();
     //timer_0_isr_count++;
     //if (timer_0_isr_count >= 1000) {
     //    timer_0_isr_count = 0;
     //}
-    // Enable interrupts so this part can get preempted
-    //IfxCpu_enableInterrupts();
-    // ----------------------------------------------------
-    // Should make this toggle or it doesn't make sense,
-    // make all the bits in the compare register toggle so
-    // we can interrupt on any of the 32 bits of the
-    // compare register.
-    // ----------------------------------------------------
-    p_stm0->CMP[0].B.CMPVAL = (p_stm0->CMP[0].B.CMPVAL == (uint32_t)(1 << (BIT_NUM)))
-            ? (uint32_t)0 : (uint32_t)(1 << (BIT_NUM));
-    //p_stm0->CMP[1].B.CMPVAL = 0;
-    //compare_value += (uint64_t)TIME_ADD;
-    //p_stm0->CMP[0].B.CMPVAL = (uint32_t)compare_value; // (1 << (BIT_NUM + 1));
-    //p_stm0->CMP[1].B.CMPVAL = (uint32_t)(compare_value >> 32);
-    //p_pin33->OUT.B.P6 = int_toggle_p6;
-    //int_toggle_p6     = 1 - int_toggle_p6;
-    p_pin33->OUT.B.P6 = ~p_pin33->OUT.B.P6;
-
-    // ----------------------------------------------------
-    // Enable interrupts
-    // ----------------------------------------------------
-    //IfxCpu_enableInterrupts();
 }
+///////////////////////////////////////////////////////////////////////////////
 // SW Interrupt Handler
+///////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////
+// Tasks
+///////////////////////////////////////////////////////////////////////////////
+void task_5ms() {
+    p_pin20->OUT.B.P11 = ~p_pin20->OUT.B.P11;    // LED should turn off
+}
+void task_10ms() {
+    p_pin20->OUT.B.P12 = ~p_pin20->OUT.B.P12;
+}
+void task_20ms() {
+    p_pin20->OUT.B.P13 = ~p_pin20->OUT.B.P13;
+}
 void core0_main(void) {
     IfxCpu_enableInterrupts();
     // !!WATCHDOG0 AND SAFETY WATCHDOG ARE DISABLED HERE!!
@@ -155,61 +148,56 @@ void core0_main(void) {
     // Wait for CPU sync event
     IfxCpu_emitEvent(&g_cpuSyncEvent);
     IfxCpu_waitEvent(&g_cpuSyncEvent, 1);
-    // __disable();
-    // IfxCpu_disableInterrupts();
-    // ------------------------------------------------------------------------
+    // Tasks
+    task_init();
+    task_add(task_5ms,  4, 0);  // Approx. 5ms
+    task_add(task_10ms, 8, 0);  // Approx. 10ms
+    task_add(task_20ms, 16, 0); // Approx. 20ms
+    ///////////////////////////////////////////////////////////////////////////
     // SERVICE REQUEST SET UP
-    // ------------------------------------------------------------------------
-    // GPT1 Service Request Setup, timer-3 is SR1, see Figure 216 -------------
+    ///////////////////////////////////////////////////////////////////////////
+    // GPT1 Service Request Setup, timer-3 is SR1, see Figure 216
     p_src->GPT12.GPT12[0].T3.B.SRPN = GPT1_INTERRUPT_PRIORITY; // Set priority
     p_src->GPT12.GPT12[0].T3.B.SRE  = 1;                       // Enable service request
     p_src->GPT12.GPT12[0].T3.B.TOS  = 0;                       // CPU0 is the service provider
-    // STM0 Service Request Setup ---------------------------------------------
+    // STM0 Service Request Setup
     p_src->STM.STM[0].SR[0].B.SRPN = TIMER_0_INTERRUPT_PRIORITY; // Set priority so the above handler will service it
     p_src->STM.STM[0].SR[0].B.SRE  = 1;                          // Enable service request
     p_src->STM.STM[0].SR[0].B.TOS  = 0;                          // CPU0 is the service provider
-    // ------------------------------------------------------------------------
+    ///////////////////////////////////////////////////////////////////////////
     // MODULE SET UP
-    // ------------------------------------------------------------------------
-    // GPT1 Set Up ------------------------------------------------------------
-    p_gpt12->CLC.B.DISR   = 0;    // Enable the clock module
-    p_gpt12->CLC.B.EDIS   = 1;    // Disable sleep mode request
+    ///////////////////////////////////////////////////////////////////////////
+    //
+    // GPT12 SET UP
+    //
+    p_gpt12->CLC.B.DISR   = 0; // Enable the clock module
+    p_gpt12->CLC.B.EDIS   = 1; // Disable sleep mode request
     p_gpt12->ACCEN0.U     = 0xffffffffu; // Enable everything
     p_gpt12->T3.B.T3      = TOGGLE_VALUE; // Put some value into the timer
-    p_gpt12->T3CON.B.T3I  = 0;    // Timer mode, input parameter selection
-    p_gpt12->T3CON.B.BPS1 = 0;    // f/32
-    p_gpt12->T3CON.B.T3M  = 0;    // Timer mode, timer mode control
-    p_gpt12->T3CON.B.T3UD = 1;    // Count down, count direction, should underflow and produce interrupt
-    p_gpt12->T3CON.B.T3UDE = 0;   // External up/down disabled
-    p_gpt12->T3CON.B.T3OE = 0;    // alternate function disabled
-    p_gpt12->T3CON.B.T3R  = 0;    // Timer run, timer run bit, 1 - timer run, 0 - timer stop
-    //p_gpt12->CAPREL.B.CAPREL = 0x0fffu;
-    // GPT1 Status Bits
-    // p_gpt12->T3CON.B.T3OTL   = 0; // overflow/underflow toggle latch
-    // p_gpt12->T3CON.B.T3EDGE  = 0; // edge detected flag
-    // p_gpt12->T3CON.B.T3CHDIR = 0; // direction change detected flag
-    // p_gpt12->T3CON.B.T3RDIR  = 0; // rotation direction flag
-    // STM0 Set Up ------------------------------------------------------------
-    //p_stm0->CLC.B.DISR = 1;
-    //delay(1000);
-    p_stm0->CMP[0].B.CMPVAL = (uint32_t)(1 << (BIT_NUM));
+    p_gpt12->T3CON.B.T3I  = 0x2; // Timer mode, input parameter selection
+    p_gpt12->T3CON.B.BPS1 = 3;   // f/64
+    p_gpt12->T3CON.B.T3M  = 0;   // Timer mode, timer mode control
+    p_gpt12->T3CON.B.T3UD = 1;   // Count down, count direction, should underflow and produce interrupt
+    p_gpt12->T3CON.B.T3UDE = 0;  // External up/down disabled
+    p_gpt12->T3CON.B.T3OE = 0;   // alternate function disabled
+    p_gpt12->T3CON.B.T3R  = 1;   // Timer run, timer run bit, 1 - timer run, 0 - timer stop
+    //
+    // STM0 Set Up
+    //
+    p_stm0->CMP[0].B.CMPVAL = (uint32_t)((uint32_t)0x1 << (BIT_NUM));
     p_stm0->CMP[1].B.CMPVAL = (uint32_t)0;
-    //p_stm0->CMP[0].B.CMPVAL = (uint32_t)compare_value; // (1 << (BIT_NUM + 1));
-    //p_stm0->CMP[1].B.CMPVAL = (uint32_t)(compare_value >> 32);
-    p_stm0->CMCON.B.MSIZE0  = BIT_SZ;     // 32 bit count value CMP[0]
-    p_stm0->CMCON.B.MSTART0 = BIT_NUM;    // CMP0 register start-bit
-    p_stm0->CMCON.B.MSIZE1  = BIT_SZ;     // 32 bit count value
-    p_stm0->CMCON.B.MSTART1 = BIT_SZ;         // CMP1 register start bit
-    p_stm0->ICR.B.CMP0EN    = 1;          // Enable CMP0
-    // p_stm0->ICR.B.CMP0IR               // Interrupt requested
-    p_stm0->ICR.B.CMP0OS    = 0;          // Sel STMIR0 as interrupt
-    p_stm0->ICR.B.CMP1EN    = 0;          // Enable CMP1
-    // p_stm0->ICR.B.CMP1IR               // Interrupt requested
-    p_stm0->ICR.B.CMP1OS    = 0;          // Sel STMIR1 if enabled
-    //p_stm0->CLC.B.DISR = 0;
-
-    // GPIO Set Up ------------------------------------------------------------
-    // -- BLUE LEDS - PORT 20, PINS 11 to 14
+    p_stm0->CMCON.B.MSIZE0  = BIT_SZ;  // 32 bit count value CMP[0]
+    p_stm0->CMCON.B.MSTART0 = BIT_NUM; // CMP0 register start-bit
+    p_stm0->CMCON.B.MSIZE1  = BIT_SZ;  // 32 bit count value
+    p_stm0->CMCON.B.MSTART1 = BIT_SZ;  // CMP1 register start bit
+    p_stm0->ICR.B.CMP0EN    = 1;       // Enable CMP0
+    p_stm0->ICR.B.CMP0OS    = 0;       // Sel STMIR0 as interrupt
+    p_stm0->ICR.B.CMP1EN    = 0;       // Enable CMP1
+    p_stm0->ICR.B.CMP1OS    = 0;       // Sel STMIR1 if enabled
+    //
+    // GPIO Set Up
+    //
+    // BLUE LEDS - PORT 20, PINS 11 to 14
     p_pin20->PDISC.U       = 0;    // Set the input as digital input via the schmidtt trigger
     p_pin20->IOCR8.B.PC11  = 0x10; // Digital output, not alt-func, LED should turn on immediately
     p_pin20->IOCR12.B.PC12 = 0x10;
@@ -219,7 +207,7 @@ void core0_main(void) {
     p_pin20->OUT.B.P12     = 1;
     p_pin20->OUT.B.P13     = 1;
     p_pin20->OUT.B.P14     = 1;
-    // -- GREEN LEDS - PORT 33, PINS 4 to 7
+    // GREEN LEDS - PORT 33, PINS 4 to 7
     p_pin33->PDISC.U     = 0;    // Set the input as digital input via the schmidtt trigger
     p_pin33->IOCR4.B.PC4 = 0x10; // Digital output, not alt-func, LED should turn on immediately
     p_pin33->IOCR4.B.PC5 = 0x10;
@@ -229,53 +217,9 @@ void core0_main(void) {
     p_pin33->OUT.B.P5    = 1;
     p_pin33->OUT.B.P6    = 1;
     p_pin33->OUT.B.P7    = 1;
-    //__enable();
-    //    IfxCpu_enableInterrupts();
     while(1) {
-        // SERIAL PORT
-        //printf("Again !! \n");
-#if TEST_BLINK_LEDS == 1
-        // BLUE LEDS
-        p_pin20->OUT.B.P11 = 1;
-        delay(DELAY);
-        p_pin20->OUT.B.P12 = 1;
-        delay(DELAY);
-        p_pin20->OUT.B.P13 = 1;
-        delay(DELAY);
-        p_pin20->OUT.B.P14 = 1;
-        delay(DELAY);
-        p_pin20->OUT.B.P11 = 0;
-        delay(DELAY);
-        p_pin20->OUT.B.P12 = 0;
-        delay(DELAY);
-        p_pin20->OUT.B.P13 = 0;
-        delay(DELAY);
-        p_pin20->OUT.B.P14 = 0;
-        delay(DELAY);
-        // GREEN LEDS
-        p_pin33->OUT.B.P4 = 1;
-        delay(DELAY);
-        p_pin33->OUT.B.P5 = 1;
-        delay(DELAY);
-        p_pin33->OUT.B.P6 = 1;
-        delay(DELAY);
-        p_pin33->OUT.B.P7 = 1;
-        delay(DELAY);
-        p_pin33->OUT.B.P4 = 0;
-        delay(DELAY);
-        p_pin33->OUT.B.P5 = 0;
-        delay(DELAY);
-        p_pin33->OUT.B.P6 = 0;
-        delay(DELAY);
-        p_pin33->OUT.B.P7 = 0;
-        delay(DELAY);
-#elif TEST_GPIO_OUT_IN == 1
-        // Test-Case : Set OUT register, Read back IN register, Verify they are the same
         p_pin33->OUT.B.P4 = toggle;
         p_pin33->OUT.B.P5 = p_pin33->IN.B.P4;
-        // LED is ON when pin is set to 0
-        //p_pin33->OUT.B.P7 = (p_pin33->IN.B.P4 == p_pin33->IN.B.P5) ? 0 : 1;
-        toggle = 1 - toggle;
-#endif
+        toggle            = 1 - toggle;
     }
 }
