@@ -90,9 +90,9 @@ void delay(int d) {
 ///////////////////////////////////////////////////////////////////////////////
 IFX_INTERRUPT (gpt1_isr, 0, GPT1_INTERRUPT_PRIORITY) {
     p_pin33->OUT.B.P7 = ~p_pin33->OUT.B.P7;
-    p_gpt12->T3CON.B.T3R  = 0;    // Timer run, timer run bit, 1 - timer run, 0 - timer stop
+    p_gpt12->T3CON.B.T3R  = 0;            // Timer run, timer run bit, 1 - timer run, 0 - timer stop
     p_gpt12->T3.B.T3      = TOGGLE_VALUE; // Put some value into the timer
-    p_gpt12->T3CON.B.T3R  = 1;    // Timer run, timer run bit, 1 - timer run, 0 - timer stop
+    p_gpt12->T3CON.B.T3R  = 1;            // Timer run, timer run bit, 1 - timer run, 0 - timer stop
     IfxCpu_enableInterrupts();
     gpt1_isr_count++;
     if (gpt1_isr_count >= 10) {
@@ -111,27 +111,20 @@ struct exec_t {
 static struct exec_t exec_data = {{0}};
 IFX_INTERRUPT (timer_0_isr, 0, TIMER_0_INTERRUPT_PRIORITY) {
     IfxCpu_disableInterrupts();
-    //p_pin33->OUT.B.P6 = ~p_pin33->OUT.B.P6;
     p_stm0->ISCR.B.CMP0IRR = 1;
     p_stm0->CMP[0].B.CMPVAL = (p_stm0->CMP[0].B.CMPVAL == (uint32_t)((uint32_t)0x1 << (BIT_NUM)))
             ? (uint32_t)0 : (uint32_t)((uint32_t)0x1 << (BIT_NUM));
-    //p_stm0->CMP[0].B.CMPVAL = ~p_stm0->CMP[0].B.CMPVAL;
     p_stm0->ISCR.B.CMP0IRR = 0;
     task_exec((void *)&exec_data);
-    //IfxCpu_enableInterrupts();
-    //timer_0_isr_count++;
-    //if (timer_0_isr_count >= 1000) {
-    //    timer_0_isr_count = 0;
-    //}
 }
 ///////////////////////////////////////////////////////////////////////////////
 // SW Interrupt Handler
 ///////////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////////
-// Tasks
+// Tasks - Foreground task
 ///////////////////////////////////////////////////////////////////////////////
 void task_5ms() {
-    p_pin20->OUT.B.P11 = ~p_pin20->OUT.B.P11;    // LED should turn off
+    p_pin20->OUT.B.P11 = ~p_pin20->OUT.B.P11;
 }
 void task_10ms() {
     p_pin20->OUT.B.P12 = ~p_pin20->OUT.B.P12;
@@ -139,51 +132,66 @@ void task_10ms() {
 void task_20ms() {
     p_pin20->OUT.B.P13 = ~p_pin20->OUT.B.P13;
 }
+void task_40ms() {
+    p_pin20->OUT.B.P14 = ~p_pin20->OUT.B.P14;
+}
+///////////////////////////////////////////////////////////////////////////
+// Main - Background task
+///////////////////////////////////////////////////////////////////////////
 void core0_main(void) {
     IfxCpu_enableInterrupts();
+    ///////////////////////////////////////////////////////////////////////////
     // !!WATCHDOG0 AND SAFETY WATCHDOG ARE DISABLED HERE!!
     // Enable the watchdogs and service them periodically if it is required
+    ///////////////////////////////////////////////////////////////////////////
     IfxScuWdt_disableCpuWatchdog(IfxScuWdt_getCpuWatchdogPassword());
     IfxScuWdt_disableSafetyWatchdog(IfxScuWdt_getSafetyWatchdogPassword());
+    ///////////////////////////////////////////////////////////////////////////
     // Wait for CPU sync event
+    ///////////////////////////////////////////////////////////////////////////
     IfxCpu_emitEvent(&g_cpuSyncEvent);
     IfxCpu_waitEvent(&g_cpuSyncEvent, 1);
+    ///////////////////////////////////////////////////////////////////////////
     // Tasks
+    ///////////////////////////////////////////////////////////////////////////
     task_init();
-    task_add(task_5ms,  4, 0);  // Approx. 5ms
-    task_add(task_10ms, 8, 0);  // Approx. 10ms
+    task_add(task_5ms,  4,  0); // Approx. 5ms
+    task_add(task_10ms, 8,  0); // Approx. 10ms
     task_add(task_20ms, 16, 0); // Approx. 20ms
+    task_add(task_40ms, 32, 0); // Approx. 40ms
     ///////////////////////////////////////////////////////////////////////////
     // SERVICE REQUEST SET UP
     ///////////////////////////////////////////////////////////////////////////
     // GPT1 Service Request Setup, timer-3 is SR1, see Figure 216
-    p_src->GPT12.GPT12[0].T3.B.SRPN = GPT1_INTERRUPT_PRIORITY; // Set priority
-    p_src->GPT12.GPT12[0].T3.B.SRE  = 1;                       // Enable service request
-    p_src->GPT12.GPT12[0].T3.B.TOS  = 0;                       // CPU0 is the service provider
+    ///////////////////////////////////////////////////////////////////////////
+    p_src->GPT12.GPT12[0].T3.B.SRPN = GPT1_INTERRUPT_PRIORITY;   // Set priority
+    p_src->GPT12.GPT12[0].T3.B.SRE  = 1;                         // Enable service request
+    p_src->GPT12.GPT12[0].T3.B.TOS  = 0;                         // CPU0 is the service provider
+    ///////////////////////////////////////////////////////////////////////////
     // STM0 Service Request Setup
+    ///////////////////////////////////////////////////////////////////////////
     p_src->STM.STM[0].SR[0].B.SRPN = TIMER_0_INTERRUPT_PRIORITY; // Set priority so the above handler will service it
     p_src->STM.STM[0].SR[0].B.SRE  = 1;                          // Enable service request
     p_src->STM.STM[0].SR[0].B.TOS  = 0;                          // CPU0 is the service provider
     ///////////////////////////////////////////////////////////////////////////
     // MODULE SET UP
     ///////////////////////////////////////////////////////////////////////////
-    //
     // GPT12 SET UP
-    //
-    p_gpt12->CLC.B.DISR   = 0; // Enable the clock module
-    p_gpt12->CLC.B.EDIS   = 1; // Disable sleep mode request
-    p_gpt12->ACCEN0.U     = 0xffffffffu; // Enable everything
+    ///////////////////////////////////////////////////////////////////////////
+    p_gpt12->CLC.B.DISR   = 0;            // Enable the clock module
+    p_gpt12->CLC.B.EDIS   = 1;            // Disable sleep mode request
+    p_gpt12->ACCEN0.U     = 0xffffffffu;  // Enable everything
     p_gpt12->T3.B.T3      = TOGGLE_VALUE; // Put some value into the timer
-    p_gpt12->T3CON.B.T3I  = 0x2; // Timer mode, input parameter selection
-    p_gpt12->T3CON.B.BPS1 = 3;   // f/64
-    p_gpt12->T3CON.B.T3M  = 0;   // Timer mode, timer mode control
-    p_gpt12->T3CON.B.T3UD = 1;   // Count down, count direction, should underflow and produce interrupt
-    p_gpt12->T3CON.B.T3UDE = 0;  // External up/down disabled
-    p_gpt12->T3CON.B.T3OE = 0;   // alternate function disabled
-    p_gpt12->T3CON.B.T3R  = 1;   // Timer run, timer run bit, 1 - timer run, 0 - timer stop
-    //
+    p_gpt12->T3CON.B.T3I  = 0x2;          // Timer mode, input parameter selection
+    p_gpt12->T3CON.B.BPS1 = 3;            // f/64
+    p_gpt12->T3CON.B.T3M  = 0;            // Timer mode, timer mode control
+    p_gpt12->T3CON.B.T3UD = 1;            // Count down, count direction, should underflow and produce interrupt
+    p_gpt12->T3CON.B.T3UDE = 0;           // External up/down disabled
+    p_gpt12->T3CON.B.T3OE = 0;            // alternate function disabled
+    p_gpt12->T3CON.B.T3R  = 1;            // Timer run, timer run bit, 1 - timer run, 0 - timer stop
+    ///////////////////////////////////////////////////////////////////////////
     // STM0 Set Up
-    //
+    ///////////////////////////////////////////////////////////////////////////
     p_stm0->CMP[0].B.CMPVAL = (uint32_t)((uint32_t)0x1 << (BIT_NUM));
     p_stm0->CMP[1].B.CMPVAL = (uint32_t)0;
     p_stm0->CMCON.B.MSIZE0  = BIT_SZ;  // 32 bit count value CMP[0]
@@ -194,10 +202,11 @@ void core0_main(void) {
     p_stm0->ICR.B.CMP0OS    = 0;       // Sel STMIR0 as interrupt
     p_stm0->ICR.B.CMP1EN    = 0;       // Enable CMP1
     p_stm0->ICR.B.CMP1OS    = 0;       // Sel STMIR1 if enabled
-    //
+    ///////////////////////////////////////////////////////////////////////////
     // GPIO Set Up
-    //
+    ///////////////////////////////////////////////////////////////////////////
     // BLUE LEDS - PORT 20, PINS 11 to 14
+    ///////////////////////////////////////////////////////////////////////////
     p_pin20->PDISC.U       = 0;    // Set the input as digital input via the schmidtt trigger
     p_pin20->IOCR8.B.PC11  = 0x10; // Digital output, not alt-func, LED should turn on immediately
     p_pin20->IOCR12.B.PC12 = 0x10;
@@ -207,7 +216,9 @@ void core0_main(void) {
     p_pin20->OUT.B.P12     = 1;
     p_pin20->OUT.B.P13     = 1;
     p_pin20->OUT.B.P14     = 1;
+    ///////////////////////////////////////////////////////////////////////////
     // GREEN LEDS - PORT 33, PINS 4 to 7
+    ///////////////////////////////////////////////////////////////////////////
     p_pin33->PDISC.U     = 0;    // Set the input as digital input via the schmidtt trigger
     p_pin33->IOCR4.B.PC4 = 0x10; // Digital output, not alt-func, LED should turn on immediately
     p_pin33->IOCR4.B.PC5 = 0x10;
@@ -217,6 +228,9 @@ void core0_main(void) {
     p_pin33->OUT.B.P5    = 1;
     p_pin33->OUT.B.P6    = 1;
     p_pin33->OUT.B.P7    = 1;
+    ///////////////////////////////////////////////////////////////////////////
+    // Background Task
+    ///////////////////////////////////////////////////////////////////////////
     while(1) {
         p_pin33->OUT.B.P4 = toggle;
         p_pin33->OUT.B.P5 = p_pin33->IN.B.P4;

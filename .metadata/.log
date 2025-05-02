@@ -3995,3 +3995,1373 @@ Caused by: org.eclipse.core.runtime.CoreException: Failed to initialize connecti
 
 !ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-01 23:42:11.358
 !MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-01 23:48:02.268
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-01 23:48:02.437
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2025-05-01 23:52:59.152
+!MESSAGE Request monitor: 'RequestMonitor (si.isystem.dsf.services.ISysBreakpointService$6@6b891e7a): Status CANCEL: si.isystem.eclipse.debug code=0 Command Control was shut down - cancelled queueing of command ISysCmdBpRemove[ISysDebuggerDmContext(0, hello_world_2.elf).LineBreakpointDMContext(C:\Users\sray\AURIX-v1.10.10-workspace\hello_world_2\Cpu0_Main.c:115)]().
+' resulted in a cancel status: Status CANCEL: si.isystem.eclipse.debug code=0 Command Control was shut down - cancelled queueing of command ISysCmdBpRemove[ISysDebuggerDmContext(0, hello_world_2.elf).LineBreakpointDMContext(C:\Users\sray\AURIX-v1.10.10-workspace\hello_world_2\Cpu0_Main.c:115)]().
+, even though the request is not set to cancel.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2025-05-01 23:52:59.153
+!MESSAGE Request monitor: 'RequestMonitor (si.isystem.dsf.services.ISysBreakpointService$6@7291b1f8): Status CANCEL: si.isystem.eclipse.debug code=0 Command Control was shut down - cancelled queueing of command ISysCmdBpRemove[ISysDebuggerDmContext(0, hello_world_2.elf).LineBreakpointDMContext(C:\Users\sray\AURIX-v1.10.10-workspace\hello_world_2\Cpu0_Main.c:119)]().
+' resulted in a cancel status: Status CANCEL: si.isystem.eclipse.debug code=0 Command Control was shut down - cancelled queueing of command ISysCmdBpRemove[ISysDebuggerDmContext(0, hello_world_2.elf).LineBreakpointDMContext(C:\Users\sray\AURIX-v1.10.10-workspace\hello_world_2\Cpu0_Main.c:119)]().
+, even though the request is not set to cancel.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2025-05-01 23:52:59.153
+!MESSAGE Request monitor: 'RequestMonitor (si.isystem.dsf.services.ISysBreakpointService$6@5078bf7): Status CANCEL: si.isystem.eclipse.debug code=0 Command Control was shut down - cancelled queueing of command ISysCmdBpRemove[ISysDebuggerDmContext(0, hello_world_2.elf).LineBreakpointDMContext(C:\Users\sray\AURIX-v1.10.10-workspace\hello_world_2\Cpu0_Main.c:140)]().
+' resulted in a cancel status: Status CANCEL: si.isystem.eclipse.debug code=0 Command Control was shut down - cancelled queueing of command ISysCmdBpRemove[ISysDebuggerDmContext(0, hello_world_2.elf).LineBreakpointDMContext(C:\Users\sray\AURIX-v1.10.10-workspace\hello_world_2\Cpu0_Main.c:140)]().
+, even though the request is not set to cancel.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2025-05-01 23:52:59.154
+!MESSAGE Request monitor: 'RequestMonitor (si.isystem.dsf.services.ISysBreakpointService$6@13f6f886): Status CANCEL: si.isystem.eclipse.debug code=0 Command Control was shut down - cancelled queueing of command ISysCmdBpRemove[ISysDebuggerDmContext(0, hello_world_2.elf).LineBreakpointDMContext(C:\Users\sray\AURIX-v1.10.10-workspace\hello_world_2\Cpu0_Main.c:134)]().
+' resulted in a cancel status: Status CANCEL: si.isystem.eclipse.debug code=0 Command Control was shut down - cancelled queueing of command ISysCmdBpRemove[ISysDebuggerDmContext(0, hello_world_2.elf).LineBreakpointDMContext(C:\Users\sray\AURIX-v1.10.10-workspace\hello_world_2\Cpu0_Main.c:134)]().
+, even though the request is not set to cancel.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2025-05-01 23:52:59.154
+!MESSAGE Request monitor: 'RequestMonitor (si.isystem.dsf.services.ISysBreakpointService$6@302f5e4c): Status CANCEL: si.isystem.eclipse.debug code=0 Command Control was shut down - cancelled queueing of command ISysCmdBpRemove[ISysDebuggerDmContext(0, hello_world_2.elf).LineBreakpointDMContext(C:\Users\sray\AURIX-v1.10.10-workspace\hello_world_2\Cpu0_Main.c:137)]().
+' resulted in a cancel status: Status CANCEL: si.isystem.eclipse.debug code=0 Command Control was shut down - cancelled queueing of command ISysCmdBpRemove[ISysDebuggerDmContext(0, hello_world_2.elf).LineBreakpointDMContext(C:\Users\sray\AURIX-v1.10.10-workspace\hello_world_2\Cpu0_Main.c:137)]().
+, even though the request is not set to cancel.
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-01 23:52:59.343
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-01 23:52:59.561
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-01 23:56:40.468
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-01 23:56:40.640
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-01 23:56:52.687
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-01 23:56:55.251
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-01 23:56:57.597
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-01 23:56:58.187
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-01 23:56:59.453
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-01 23:56:59.671
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-01 23:56:59.799
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-01 23:57:00.224
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-01 23:57:01.280
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-01 23:57:25.765
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-01 23:57:27.969
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-01 23:57:33.452
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-01 23:58:59.593
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-01 23:59:41.609
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:00:21.734
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:00:21.883
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:00:21.985
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:00:22.191
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:00:22.359
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:00:22.567
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:00:23.922
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:00:24.283
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:00:24.507
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:00:24.692
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:00:24.893
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:00:25.079
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:00:25.296
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:00:25.474
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:00:25.674
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:00:25.829
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:00:26.034
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:00:26.828
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:01:01.187
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:01:07.223
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:01:08.786
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:01:10.641
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:01:11.797
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:01:14.171
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:01:29.345
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:01:30.970
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:01:33.126
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:01:34.047
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:01:39.768
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:01:40.986
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:01:45.737
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:02:08.843
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:02:10.704
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:02:11.191
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:02:11.519
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:02:12.876
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:02:13.097
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:02:13.376
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:02:17.030
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:02:18.612
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:02:20.578
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:02:20.756
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:02:20.954
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:02:21.142
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:02:21.328
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:02:22.394
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:02:22.580
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:02:22.881
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:02:23.078
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:02:26.191
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:02:27.222
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:02:28.923
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:02:29.143
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:02:29.423
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:02:30.594
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:02:30.782
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:02:30.985
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:02:31.223
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:02:32.705
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:02:36.846
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:02:37.702
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:02:43.234
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:02:44.126
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:02:49.204
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:03:35.375
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:03:36.640
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:03:52.347
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:04:36.565
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:04:36.755
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:04:41.733
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:04:41.906
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:05:10.390
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:05:17.767
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:05:25.031
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:05:25.205
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:05:27.656
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:05:27.843
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:06:42.648
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:06:42.759
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:06:42.922
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:06:44.892
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:06:46.018
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:06:59.688
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:06:59.877
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:07:05.329
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:07:08.328
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:07:12.344
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:07:12.531
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:07:14.531
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:07:14.705
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:07:16.362
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:07:17.329
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:07:31.938
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:07:41.642
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:07:43.566
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:07:43.862
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:07:52.142
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2025-05-02 00:07:55.030
+!MESSAGE Project index is not complete, and cannot be used for boosting.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2025-05-02 00:07:55.031
+!MESSAGE Boosting configuration TriCore Debug (TASKING) of project hello_world_2 boosted in 0 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2025-05-02 00:07:55.058
+!MESSAGE Include paths were discovered in 26 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:07:55.063
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:07:55.250
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:08:02.606
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:08:02.607
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:08:02.721
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2025-05-02 00:08:02.801
+!MESSAGE Boosting configuration TriCore Debug (TASKING) of project hello_world_2 boosted in 181 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2025-05-02 00:08:02.829
+!MESSAGE Include paths were discovered in 25 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:08:04.813
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:08:05.018
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:08:06.406
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:08:06.579
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY winIDEA 4 4 2025-05-02 00:08:07.988
+!MESSAGE ISysConnectionService initialization(sub) failed: 'Failed to initialize connection service.'!
+!STACK 0
+java.io.IOException: ICONNECT_E_ERROR: Error occurred while performing the requested operation. / Unable to initialize: Requested target not detected
+BBK Probe(IFXDAS) init failed. / isys::CSessionCtrl::begin_program() failed! winIDEA error:   [WrapperBase.cpp, 91]
+	at si.isystem.connect.connectJNI.CSessionCtrl_begin_program(Native Method)
+	at si.isystem.connect.CSessionCtrl.begin_program(CSessionCtrl.java:65)
+	at si.isystem.debug.core.proxy.SessionControllerProxy.beginProgram(Unknown Source)
+	at si.isystem.debug.core.proxy.ISysSessionManager.begin(Unknown Source)
+	at si.isystem.debug.core.winidea.IConLaunchManager.startDebugSession(Unknown Source)
+	at si.isystem.dsf.services.ISysConnectionService.startWinIdeaDebugSession(Unknown Source)
+	at si.isystem.dsf.services.ISysConnectionService.startWinIdeaDebugSessionWithProgressDialog(Unknown Source)
+	at si.isystem.dsf.services.ISysConnectionService.doInitialize(Unknown Source)
+	at si.isystem.dsf.ISysAbstractDsfService.initialize(Unknown Source)
+	at si.isystem.dsf.launch.ISysServiceInitializationSequence$1.execute(Unknown Source)
+	at org.eclipse.cdt.dsf.concurrent.Sequence.executeStep(Sequence.java:475)
+	at org.eclipse.cdt.dsf.concurrent.Sequence.run(Sequence.java:380)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+!ENTRY winIDEA 4 4 2025-05-02 00:08:07.989
+!MESSAGE Launch failed.
+!STACK 1
+org.eclipse.debug.core.DebugException: TASKING winIDEA services initialization failed.
+	at si.isystem.dsf.launch.ISysLaunchDelegate.initializeServices(Unknown Source)
+	at si.isystem.dsf.launch.ISysLaunchDelegate.launch(Unknown Source)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:805)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:716)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1038)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$1.run(DebugUIPlugin.java:1241)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.util.concurrent.ExecutionException: org.eclipse.core.runtime.CoreException: Failed to initialize connection service.
+	at org.eclipse.cdt.dsf.concurrent.Query.get(Query.java:112)
+	... 7 more
+Caused by: org.eclipse.core.runtime.CoreException: Failed to initialize connection service.
+	... 8 more
+!SUBENTRY 1 si.isystem.eclipse.debug 4 0 2025-05-02 00:08:07.989
+!MESSAGE TASKING winIDEA services initialization failed.
+!STACK 0
+java.util.concurrent.ExecutionException: org.eclipse.core.runtime.CoreException: Failed to initialize connection service.
+	at org.eclipse.cdt.dsf.concurrent.Query.get(Query.java:112)
+	at si.isystem.dsf.launch.ISysLaunchDelegate.initializeServices(Unknown Source)
+	at si.isystem.dsf.launch.ISysLaunchDelegate.launch(Unknown Source)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:805)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:716)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1038)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$1.run(DebugUIPlugin.java:1241)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.core.runtime.CoreException: Failed to initialize connection service.
+	... 8 more
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:08:07.991
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:08:08.036
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:08:08.218
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:08:28.608
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:08:28.724
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2025-05-02 00:08:28.815
+!MESSAGE Boosting configuration TriCore Debug (TASKING) of project hello_world_2 boosted in 191 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2025-05-02 00:08:28.846
+!MESSAGE Include paths were discovered in 29 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:08:30.833
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:08:31.032
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:08:34.812
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:08:35.015
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:08:35.487
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:08:35.640
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:08:38.190
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2025-05-02 00:10:08.030
+!MESSAGE Request monitor: 'RequestMonitor (si.isystem.dsf.services.ISysBreakpointService$6@7fb5abb9): Status CANCEL: si.isystem.eclipse.debug code=0 Command Control was shut down - cancelled queueing of command ISysCmdBpRemove[ISysDebuggerDmContext(0, hello_world_2.elf).LineBreakpointDMContext(C:\Users\sray\AURIX-v1.10.10-workspace\hello_world_2\Cpu0_Main.c:114)]().
+' resulted in a cancel status: Status CANCEL: si.isystem.eclipse.debug code=0 Command Control was shut down - cancelled queueing of command ISysCmdBpRemove[ISysDebuggerDmContext(0, hello_world_2.elf).LineBreakpointDMContext(C:\Users\sray\AURIX-v1.10.10-workspace\hello_world_2\Cpu0_Main.c:114)]().
+, even though the request is not set to cancel.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2025-05-02 00:10:08.030
+!MESSAGE Request monitor: 'RequestMonitor (si.isystem.dsf.services.ISysBreakpointService$6@ca67148): Status CANCEL: si.isystem.eclipse.debug code=0 Command Control was shut down - cancelled queueing of command ISysCmdBpRemove[ISysDebuggerDmContext(0, hello_world_2.elf).LineBreakpointDMContext(C:\Users\sray\AURIX-v1.10.10-workspace\hello_world_2\Cpu0_Main.c:117)]().
+' resulted in a cancel status: Status CANCEL: si.isystem.eclipse.debug code=0 Command Control was shut down - cancelled queueing of command ISysCmdBpRemove[ISysDebuggerDmContext(0, hello_world_2.elf).LineBreakpointDMContext(C:\Users\sray\AURIX-v1.10.10-workspace\hello_world_2\Cpu0_Main.c:117)]().
+, even though the request is not set to cancel.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2025-05-02 00:10:08.031
+!MESSAGE Request monitor: 'RequestMonitor (si.isystem.dsf.services.ISysBreakpointService$6@1fd6ed1a): Status CANCEL: si.isystem.eclipse.debug code=0 Command Control was shut down - cancelled queueing of command ISysCmdBpRemove[ISysDebuggerDmContext(0, hello_world_2.elf).LineBreakpointDMContext(C:\Users\sray\AURIX-v1.10.10-workspace\hello_world_2\Cpu0_Main.c:133)]().
+' resulted in a cancel status: Status CANCEL: si.isystem.eclipse.debug code=0 Command Control was shut down - cancelled queueing of command ISysCmdBpRemove[ISysDebuggerDmContext(0, hello_world_2.elf).LineBreakpointDMContext(C:\Users\sray\AURIX-v1.10.10-workspace\hello_world_2\Cpu0_Main.c:133)]().
+, even though the request is not set to cancel.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2025-05-02 00:10:08.031
+!MESSAGE Request monitor: 'RequestMonitor (si.isystem.dsf.services.ISysBreakpointService$6@254705eb): Status CANCEL: si.isystem.eclipse.debug code=0 Command Control was shut down - cancelled queueing of command ISysCmdBpRemove[ISysDebuggerDmContext(0, hello_world_2.elf).LineBreakpointDMContext(C:\Users\sray\AURIX-v1.10.10-workspace\hello_world_2\Cpu0_Main.c:127)]().
+' resulted in a cancel status: Status CANCEL: si.isystem.eclipse.debug code=0 Command Control was shut down - cancelled queueing of command ISysCmdBpRemove[ISysDebuggerDmContext(0, hello_world_2.elf).LineBreakpointDMContext(C:\Users\sray\AURIX-v1.10.10-workspace\hello_world_2\Cpu0_Main.c:127)]().
+, even though the request is not set to cancel.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2025-05-02 00:10:08.032
+!MESSAGE Request monitor: 'RequestMonitor (si.isystem.dsf.services.ISysBreakpointService$6@777d9a99): Status CANCEL: si.isystem.eclipse.debug code=0 Command Control was shut down - cancelled queueing of command ISysCmdBpRemove[ISysDebuggerDmContext(0, hello_world_2.elf).LineBreakpointDMContext(C:\Users\sray\AURIX-v1.10.10-workspace\hello_world_2\Cpu0_Main.c:130)]().
+' resulted in a cancel status: Status CANCEL: si.isystem.eclipse.debug code=0 Command Control was shut down - cancelled queueing of command ISysCmdBpRemove[ISysDebuggerDmContext(0, hello_world_2.elf).LineBreakpointDMContext(C:\Users\sray\AURIX-v1.10.10-workspace\hello_world_2\Cpu0_Main.c:130)]().
+, even though the request is not set to cancel.
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:10:08.237
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:10:08.455
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:12:07.296
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:12:07.469
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:12:09.501
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:12:09.688
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:12:22.094
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:12:24.952
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2025-05-02 00:12:26.601
+!MESSAGE Project index is not complete, and cannot be used for boosting.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2025-05-02 00:12:26.601
+!MESSAGE Boosting configuration TriCore Debug (TASKING) of project hello_world_2 boosted in 0 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:12:26.624
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2025-05-02 00:12:26.630
+!MESSAGE Include paths were discovered in 27 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:12:26.847
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:12:34.402
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:12:34.403
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:12:34.521
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2025-05-02 00:12:34.624
+!MESSAGE Boosting configuration TriCore Debug (TASKING) of project hello_world_2 boosted in 207 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2025-05-02 00:12:34.653
+!MESSAGE Include paths were discovered in 27 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:12:34.724
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:12:36.642
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:12:36.844
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:12:38.234
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:12:38.406
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY winIDEA 4 4 2025-05-02 00:12:44.389
+!MESSAGE ISysConnectionService initialization(sub) failed: 'Failed to initialize connection service.'!
+!STACK 0
+java.io.IOException: ICONNECT_E_ERROR: Error occurred while performing the requested operation. / Unable to initialize: Requested target not detected
+BBK Probe(IFXDAS) init failed. / isys::CSessionCtrl::begin_program() failed! winIDEA error:   [WrapperBase.cpp, 91]
+	at si.isystem.connect.connectJNI.CSessionCtrl_begin_program(Native Method)
+	at si.isystem.connect.CSessionCtrl.begin_program(CSessionCtrl.java:65)
+	at si.isystem.debug.core.proxy.SessionControllerProxy.beginProgram(Unknown Source)
+	at si.isystem.debug.core.proxy.ISysSessionManager.begin(Unknown Source)
+	at si.isystem.debug.core.winidea.IConLaunchManager.startDebugSession(Unknown Source)
+	at si.isystem.dsf.services.ISysConnectionService.startWinIdeaDebugSession(Unknown Source)
+	at si.isystem.dsf.services.ISysConnectionService.startWinIdeaDebugSessionWithProgressDialog(Unknown Source)
+	at si.isystem.dsf.services.ISysConnectionService.doInitialize(Unknown Source)
+	at si.isystem.dsf.ISysAbstractDsfService.initialize(Unknown Source)
+	at si.isystem.dsf.launch.ISysServiceInitializationSequence$1.execute(Unknown Source)
+	at org.eclipse.cdt.dsf.concurrent.Sequence.executeStep(Sequence.java:475)
+	at org.eclipse.cdt.dsf.concurrent.Sequence.run(Sequence.java:380)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+!ENTRY winIDEA 4 4 2025-05-02 00:12:44.391
+!MESSAGE Launch failed.
+!STACK 1
+org.eclipse.debug.core.DebugException: TASKING winIDEA services initialization failed.
+	at si.isystem.dsf.launch.ISysLaunchDelegate.initializeServices(Unknown Source)
+	at si.isystem.dsf.launch.ISysLaunchDelegate.launch(Unknown Source)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:805)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:716)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1038)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$1.run(DebugUIPlugin.java:1241)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.util.concurrent.ExecutionException: org.eclipse.core.runtime.CoreException: Failed to initialize connection service.
+	at org.eclipse.cdt.dsf.concurrent.Query.get(Query.java:112)
+	... 7 more
+Caused by: org.eclipse.core.runtime.CoreException: Failed to initialize connection service.
+	... 8 more
+!SUBENTRY 1 si.isystem.eclipse.debug 4 0 2025-05-02 00:12:44.391
+!MESSAGE TASKING winIDEA services initialization failed.
+!STACK 0
+java.util.concurrent.ExecutionException: org.eclipse.core.runtime.CoreException: Failed to initialize connection service.
+	at org.eclipse.cdt.dsf.concurrent.Query.get(Query.java:112)
+	at si.isystem.dsf.launch.ISysLaunchDelegate.initializeServices(Unknown Source)
+	at si.isystem.dsf.launch.ISysLaunchDelegate.launch(Unknown Source)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:805)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:716)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1038)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$1.run(DebugUIPlugin.java:1241)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.core.runtime.CoreException: Failed to initialize connection service.
+	... 8 more
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:12:44.392
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:12:44.441
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:12:44.625
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:12:45.984
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:12:46.093
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2025-05-02 00:12:46.177
+!MESSAGE Boosting configuration TriCore Debug (TASKING) of project hello_world_2 boosted in 180 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2025-05-02 00:12:46.212
+!MESSAGE Include paths were discovered in 33 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:12:48.188
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:12:48.393
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:12:52.186
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:12:52.390
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:12:52.897
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:12:53.056
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:12:56.483
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2025-05-02 00:13:27.235
+!MESSAGE Request monitor: 'RequestMonitor (si.isystem.dsf.services.ISysBreakpointService$6@68546c88): Status CANCEL: si.isystem.eclipse.debug code=0 Command Control was shut down - cancelled queueing of command ISysCmdBpRemove[ISysDebuggerDmContext(0, hello_world_2.elf).LineBreakpointDMContext(C:\Users\sray\AURIX-v1.10.10-workspace\hello_world_2\Cpu0_Main.c:114)]().
+' resulted in a cancel status: Status CANCEL: si.isystem.eclipse.debug code=0 Command Control was shut down - cancelled queueing of command ISysCmdBpRemove[ISysDebuggerDmContext(0, hello_world_2.elf).LineBreakpointDMContext(C:\Users\sray\AURIX-v1.10.10-workspace\hello_world_2\Cpu0_Main.c:114)]().
+, even though the request is not set to cancel.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2025-05-02 00:13:27.236
+!MESSAGE Request monitor: 'RequestMonitor (si.isystem.dsf.services.ISysBreakpointService$6@7b1acdc0): Status CANCEL: si.isystem.eclipse.debug code=0 Command Control was shut down - cancelled queueing of command ISysCmdBpRemove[ISysDebuggerDmContext(0, hello_world_2.elf).LineBreakpointDMContext(C:\Users\sray\AURIX-v1.10.10-workspace\hello_world_2\Cpu0_Main.c:117)]().
+' resulted in a cancel status: Status CANCEL: si.isystem.eclipse.debug code=0 Command Control was shut down - cancelled queueing of command ISysCmdBpRemove[ISysDebuggerDmContext(0, hello_world_2.elf).LineBreakpointDMContext(C:\Users\sray\AURIX-v1.10.10-workspace\hello_world_2\Cpu0_Main.c:117)]().
+, even though the request is not set to cancel.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2025-05-02 00:13:27.236
+!MESSAGE Request monitor: 'RequestMonitor (si.isystem.dsf.services.ISysBreakpointService$6@1bca6357): Status CANCEL: si.isystem.eclipse.debug code=0 Command Control was shut down - cancelled queueing of command ISysCmdBpRemove[ISysDebuggerDmContext(0, hello_world_2.elf).LineBreakpointDMContext(C:\Users\sray\AURIX-v1.10.10-workspace\hello_world_2\Cpu0_Main.c:133)]().
+' resulted in a cancel status: Status CANCEL: si.isystem.eclipse.debug code=0 Command Control was shut down - cancelled queueing of command ISysCmdBpRemove[ISysDebuggerDmContext(0, hello_world_2.elf).LineBreakpointDMContext(C:\Users\sray\AURIX-v1.10.10-workspace\hello_world_2\Cpu0_Main.c:133)]().
+, even though the request is not set to cancel.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2025-05-02 00:13:27.237
+!MESSAGE Request monitor: 'RequestMonitor (si.isystem.dsf.services.ISysBreakpointService$6@148c7954): Status CANCEL: si.isystem.eclipse.debug code=0 Command Control was shut down - cancelled queueing of command ISysCmdBpRemove[ISysDebuggerDmContext(0, hello_world_2.elf).LineBreakpointDMContext(C:\Users\sray\AURIX-v1.10.10-workspace\hello_world_2\Cpu0_Main.c:127)]().
+' resulted in a cancel status: Status CANCEL: si.isystem.eclipse.debug code=0 Command Control was shut down - cancelled queueing of command ISysCmdBpRemove[ISysDebuggerDmContext(0, hello_world_2.elf).LineBreakpointDMContext(C:\Users\sray\AURIX-v1.10.10-workspace\hello_world_2\Cpu0_Main.c:127)]().
+, even though the request is not set to cancel.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2025-05-02 00:13:27.237
+!MESSAGE Request monitor: 'RequestMonitor (si.isystem.dsf.services.ISysBreakpointService$6@5ff77761): Status CANCEL: si.isystem.eclipse.debug code=0 Command Control was shut down - cancelled queueing of command ISysCmdBpRemove[ISysDebuggerDmContext(0, hello_world_2.elf).LineBreakpointDMContext(C:\Users\sray\AURIX-v1.10.10-workspace\hello_world_2\Cpu0_Main.c:130)]().
+' resulted in a cancel status: Status CANCEL: si.isystem.eclipse.debug code=0 Command Control was shut down - cancelled queueing of command ISysCmdBpRemove[ISysDebuggerDmContext(0, hello_world_2.elf).LineBreakpointDMContext(C:\Users\sray\AURIX-v1.10.10-workspace\hello_world_2\Cpu0_Main.c:130)]().
+, even though the request is not set to cancel.
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:13:27.440
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:13:27.656
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:13:28.423
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:13:28.612
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:13:38.421
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:13:40.066
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:13:41.193
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:13:44.142
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:13:45.554
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:13:45.555
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:13:45.673
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:13:45.877
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2025-05-02 00:13:46.708
+!MESSAGE Boosting configuration TriCore Debug (TASKING) of project hello_world_2 boosted in 1138 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2025-05-02 00:13:46.736
+!MESSAGE Include paths were discovered in 26 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:13:49.108
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:13:49.312
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:13:53.207
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:13:53.411
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:13:54.006
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:13:54.109
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:13:55.767
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:14:18.344
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:14:18.515
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:14:20.097
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:14:22.348
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2025-05-02 00:14:32.481
+!MESSAGE Request monitor: 'RequestMonitor (si.isystem.dsf.services.ISysBreakpointService$6@bf09555): Status CANCEL: si.isystem.eclipse.debug code=0 Command Control was shut down - cancelled queueing of command ISysCmdBpRemove[ISysDebuggerDmContext(0, hello_world_2.elf).LineBreakpointDMContext(C:\Users\sray\AURIX-v1.10.10-workspace\hello_world_2\Cpu0_Main.c:114)]().
+' resulted in a cancel status: Status CANCEL: si.isystem.eclipse.debug code=0 Command Control was shut down - cancelled queueing of command ISysCmdBpRemove[ISysDebuggerDmContext(0, hello_world_2.elf).LineBreakpointDMContext(C:\Users\sray\AURIX-v1.10.10-workspace\hello_world_2\Cpu0_Main.c:114)]().
+, even though the request is not set to cancel.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2025-05-02 00:14:32.481
+!MESSAGE Request monitor: 'RequestMonitor (si.isystem.dsf.services.ISysBreakpointService$6@76613101): Status CANCEL: si.isystem.eclipse.debug code=0 Command Control was shut down - cancelled queueing of command ISysCmdBpRemove[ISysDebuggerDmContext(0, hello_world_2.elf).LineBreakpointDMContext(C:\Users\sray\AURIX-v1.10.10-workspace\hello_world_2\Cpu0_Main.c:117)]().
+' resulted in a cancel status: Status CANCEL: si.isystem.eclipse.debug code=0 Command Control was shut down - cancelled queueing of command ISysCmdBpRemove[ISysDebuggerDmContext(0, hello_world_2.elf).LineBreakpointDMContext(C:\Users\sray\AURIX-v1.10.10-workspace\hello_world_2\Cpu0_Main.c:117)]().
+, even though the request is not set to cancel.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2025-05-02 00:14:32.482
+!MESSAGE Request monitor: 'RequestMonitor (si.isystem.dsf.services.ISysBreakpointService$6@11c830bd): Status CANCEL: si.isystem.eclipse.debug code=0 Command Control was shut down - cancelled queueing of command ISysCmdBpRemove[ISysDebuggerDmContext(0, hello_world_2.elf).LineBreakpointDMContext(C:\Users\sray\AURIX-v1.10.10-workspace\hello_world_2\Cpu0_Main.c:133)]().
+' resulted in a cancel status: Status CANCEL: si.isystem.eclipse.debug code=0 Command Control was shut down - cancelled queueing of command ISysCmdBpRemove[ISysDebuggerDmContext(0, hello_world_2.elf).LineBreakpointDMContext(C:\Users\sray\AURIX-v1.10.10-workspace\hello_world_2\Cpu0_Main.c:133)]().
+, even though the request is not set to cancel.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2025-05-02 00:14:32.482
+!MESSAGE Request monitor: 'RequestMonitor (si.isystem.dsf.services.ISysBreakpointService$6@3417b1a): Status CANCEL: si.isystem.eclipse.debug code=0 Command Control was shut down - cancelled queueing of command ISysCmdBpRemove[ISysDebuggerDmContext(0, hello_world_2.elf).LineBreakpointDMContext(C:\Users\sray\AURIX-v1.10.10-workspace\hello_world_2\Cpu0_Main.c:127)]().
+' resulted in a cancel status: Status CANCEL: si.isystem.eclipse.debug code=0 Command Control was shut down - cancelled queueing of command ISysCmdBpRemove[ISysDebuggerDmContext(0, hello_world_2.elf).LineBreakpointDMContext(C:\Users\sray\AURIX-v1.10.10-workspace\hello_world_2\Cpu0_Main.c:127)]().
+, even though the request is not set to cancel.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2025-05-02 00:14:32.483
+!MESSAGE Request monitor: 'RequestMonitor (si.isystem.dsf.services.ISysBreakpointService$6@c141c1a): Status CANCEL: si.isystem.eclipse.debug code=0 Command Control was shut down - cancelled queueing of command ISysCmdBpRemove[ISysDebuggerDmContext(0, hello_world_2.elf).LineBreakpointDMContext(C:\Users\sray\AURIX-v1.10.10-workspace\hello_world_2\Cpu0_Main.c:130)]().
+' resulted in a cancel status: Status CANCEL: si.isystem.eclipse.debug code=0 Command Control was shut down - cancelled queueing of command ISysCmdBpRemove[ISysDebuggerDmContext(0, hello_world_2.elf).LineBreakpointDMContext(C:\Users\sray\AURIX-v1.10.10-workspace\hello_world_2\Cpu0_Main.c:130)]().
+, even though the request is not set to cancel.
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:14:32.673
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:14:32.890
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:14:33.918
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:14:33.919
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:14:34.035
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2025-05-02 00:14:35.058
+!MESSAGE Boosting configuration TriCore Debug (TASKING) of project hello_world_2 boosted in 1127 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2025-05-02 00:14:35.086
+!MESSAGE Include paths were discovered in 27 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:14:37.375
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:14:37.579
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:14:41.350
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:14:41.546
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:14:41.975
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:14:42.089
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:14:44.346
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2025-05-02 00:14:47.285
+!MESSAGE Request monitor: 'RequestMonitor (si.isystem.dsf.services.ISysBreakpointService$6@1d4716d8): Status CANCEL: si.isystem.eclipse.debug code=0 Command Control was shut down - cancelled queueing of command ISysCmdBpRemove[ISysDebuggerDmContext(0, hello_world_2.elf).LineBreakpointDMContext(C:\Users\sray\AURIX-v1.10.10-workspace\hello_world_2\Cpu0_Main.c:114)]().
+' resulted in a cancel status: Status CANCEL: si.isystem.eclipse.debug code=0 Command Control was shut down - cancelled queueing of command ISysCmdBpRemove[ISysDebuggerDmContext(0, hello_world_2.elf).LineBreakpointDMContext(C:\Users\sray\AURIX-v1.10.10-workspace\hello_world_2\Cpu0_Main.c:114)]().
+, even though the request is not set to cancel.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2025-05-02 00:14:47.286
+!MESSAGE Request monitor: 'RequestMonitor (si.isystem.dsf.services.ISysBreakpointService$6@18695282): Status CANCEL: si.isystem.eclipse.debug code=0 Command Control was shut down - cancelled queueing of command ISysCmdBpRemove[ISysDebuggerDmContext(0, hello_world_2.elf).LineBreakpointDMContext(C:\Users\sray\AURIX-v1.10.10-workspace\hello_world_2\Cpu0_Main.c:117)]().
+' resulted in a cancel status: Status CANCEL: si.isystem.eclipse.debug code=0 Command Control was shut down - cancelled queueing of command ISysCmdBpRemove[ISysDebuggerDmContext(0, hello_world_2.elf).LineBreakpointDMContext(C:\Users\sray\AURIX-v1.10.10-workspace\hello_world_2\Cpu0_Main.c:117)]().
+, even though the request is not set to cancel.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2025-05-02 00:14:47.286
+!MESSAGE Request monitor: 'RequestMonitor (si.isystem.dsf.services.ISysBreakpointService$6@1f8e53c1): Status CANCEL: si.isystem.eclipse.debug code=0 Command Control was shut down - cancelled queueing of command ISysCmdBpRemove[ISysDebuggerDmContext(0, hello_world_2.elf).LineBreakpointDMContext(C:\Users\sray\AURIX-v1.10.10-workspace\hello_world_2\Cpu0_Main.c:133)]().
+' resulted in a cancel status: Status CANCEL: si.isystem.eclipse.debug code=0 Command Control was shut down - cancelled queueing of command ISysCmdBpRemove[ISysDebuggerDmContext(0, hello_world_2.elf).LineBreakpointDMContext(C:\Users\sray\AURIX-v1.10.10-workspace\hello_world_2\Cpu0_Main.c:133)]().
+, even though the request is not set to cancel.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2025-05-02 00:14:47.287
+!MESSAGE Request monitor: 'RequestMonitor (si.isystem.dsf.services.ISysBreakpointService$6@7c6208e0): Status CANCEL: si.isystem.eclipse.debug code=0 Command Control was shut down - cancelled queueing of command ISysCmdBpRemove[ISysDebuggerDmContext(0, hello_world_2.elf).LineBreakpointDMContext(C:\Users\sray\AURIX-v1.10.10-workspace\hello_world_2\Cpu0_Main.c:127)]().
+' resulted in a cancel status: Status CANCEL: si.isystem.eclipse.debug code=0 Command Control was shut down - cancelled queueing of command ISysCmdBpRemove[ISysDebuggerDmContext(0, hello_world_2.elf).LineBreakpointDMContext(C:\Users\sray\AURIX-v1.10.10-workspace\hello_world_2\Cpu0_Main.c:127)]().
+, even though the request is not set to cancel.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2025-05-02 00:14:47.287
+!MESSAGE Request monitor: 'RequestMonitor (si.isystem.dsf.services.ISysBreakpointService$6@59362062): Status CANCEL: si.isystem.eclipse.debug code=0 Command Control was shut down - cancelled queueing of command ISysCmdBpRemove[ISysDebuggerDmContext(0, hello_world_2.elf).LineBreakpointDMContext(C:\Users\sray\AURIX-v1.10.10-workspace\hello_world_2\Cpu0_Main.c:130)]().
+' resulted in a cancel status: Status CANCEL: si.isystem.eclipse.debug code=0 Command Control was shut down - cancelled queueing of command ISysCmdBpRemove[ISysDebuggerDmContext(0, hello_world_2.elf).LineBreakpointDMContext(C:\Users\sray\AURIX-v1.10.10-workspace\hello_world_2\Cpu0_Main.c:130)]().
+, even though the request is not set to cancel.
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:14:47.484
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:14:47.705
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:14:54.235
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:14:54.423
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:16:01.126
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:16:10.635
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:16:12.837
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:16:12.838
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:16:12.974
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2025-05-02 00:16:13.992
+!MESSAGE Boosting configuration TriCore Debug (TASKING) of project hello_world_2 boosted in 1147 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2025-05-02 00:16:14.017
+!MESSAGE Include paths were discovered in 24 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:16:16.297
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:16:16.499
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:16:20.296
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:16:20.501
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:16:20.932
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:16:21.049
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:16:23.735
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:16:57.268
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:16:57.453
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:17:02.411
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:17:12.298
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2025-05-02 00:17:13.286
+!MESSAGE Request monitor: 'RequestMonitor (si.isystem.dsf.services.ISysBreakpointService$6@4e9ca07d): Status CANCEL: si.isystem.eclipse.debug code=0 Command Control was shut down - cancelled queueing of command ISysCmdBpRemove[ISysDebuggerDmContext(0, hello_world_2.elf).LineBreakpointDMContext(C:\Users\sray\AURIX-v1.10.10-workspace\hello_world_2\Cpu0_Main.c:114)]().
+' resulted in a cancel status: Status CANCEL: si.isystem.eclipse.debug code=0 Command Control was shut down - cancelled queueing of command ISysCmdBpRemove[ISysDebuggerDmContext(0, hello_world_2.elf).LineBreakpointDMContext(C:\Users\sray\AURIX-v1.10.10-workspace\hello_world_2\Cpu0_Main.c:114)]().
+, even though the request is not set to cancel.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2025-05-02 00:17:13.287
+!MESSAGE Request monitor: 'RequestMonitor (si.isystem.dsf.services.ISysBreakpointService$6@4c0242e9): Status CANCEL: si.isystem.eclipse.debug code=0 Command Control was shut down - cancelled queueing of command ISysCmdBpRemove[ISysDebuggerDmContext(0, hello_world_2.elf).LineBreakpointDMContext(C:\Users\sray\AURIX-v1.10.10-workspace\hello_world_2\Cpu0_Main.c:117)]().
+' resulted in a cancel status: Status CANCEL: si.isystem.eclipse.debug code=0 Command Control was shut down - cancelled queueing of command ISysCmdBpRemove[ISysDebuggerDmContext(0, hello_world_2.elf).LineBreakpointDMContext(C:\Users\sray\AURIX-v1.10.10-workspace\hello_world_2\Cpu0_Main.c:117)]().
+, even though the request is not set to cancel.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2025-05-02 00:17:13.288
+!MESSAGE Request monitor: 'RequestMonitor (si.isystem.dsf.services.ISysBreakpointService$6@76ac242e): Status CANCEL: si.isystem.eclipse.debug code=0 Command Control was shut down - cancelled queueing of command ISysCmdBpRemove[ISysDebuggerDmContext(0, hello_world_2.elf).LineBreakpointDMContext(C:\Users\sray\AURIX-v1.10.10-workspace\hello_world_2\Cpu0_Main.c:133)]().
+' resulted in a cancel status: Status CANCEL: si.isystem.eclipse.debug code=0 Command Control was shut down - cancelled queueing of command ISysCmdBpRemove[ISysDebuggerDmContext(0, hello_world_2.elf).LineBreakpointDMContext(C:\Users\sray\AURIX-v1.10.10-workspace\hello_world_2\Cpu0_Main.c:133)]().
+, even though the request is not set to cancel.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2025-05-02 00:17:13.288
+!MESSAGE Request monitor: 'RequestMonitor (si.isystem.dsf.services.ISysBreakpointService$6@4ed8a80c): Status CANCEL: si.isystem.eclipse.debug code=0 Command Control was shut down - cancelled queueing of command ISysCmdBpRemove[ISysDebuggerDmContext(0, hello_world_2.elf).LineBreakpointDMContext(C:\Users\sray\AURIX-v1.10.10-workspace\hello_world_2\Cpu0_Main.c:127)]().
+' resulted in a cancel status: Status CANCEL: si.isystem.eclipse.debug code=0 Command Control was shut down - cancelled queueing of command ISysCmdBpRemove[ISysDebuggerDmContext(0, hello_world_2.elf).LineBreakpointDMContext(C:\Users\sray\AURIX-v1.10.10-workspace\hello_world_2\Cpu0_Main.c:127)]().
+, even though the request is not set to cancel.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2025-05-02 00:17:13.289
+!MESSAGE Request monitor: 'RequestMonitor (si.isystem.dsf.services.ISysBreakpointService$6@65ec66e2): Status CANCEL: si.isystem.eclipse.debug code=0 Command Control was shut down - cancelled queueing of command ISysCmdBpRemove[ISysDebuggerDmContext(0, hello_world_2.elf).LineBreakpointDMContext(C:\Users\sray\AURIX-v1.10.10-workspace\hello_world_2\Cpu0_Main.c:130)]().
+' resulted in a cancel status: Status CANCEL: si.isystem.eclipse.debug code=0 Command Control was shut down - cancelled queueing of command ISysCmdBpRemove[ISysDebuggerDmContext(0, hello_world_2.elf).LineBreakpointDMContext(C:\Users\sray\AURIX-v1.10.10-workspace\hello_world_2\Cpu0_Main.c:130)]().
+, even though the request is not set to cancel.
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:17:13.484
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:17:13.687
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:17:14.647
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:17:14.648
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:17:14.749
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2025-05-02 00:17:15.857
+!MESSAGE Boosting configuration TriCore Debug (TASKING) of project hello_world_2 boosted in 1202 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2025-05-02 00:17:15.895
+!MESSAGE Include paths were discovered in 25 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:17:18.172
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:17:18.374
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:17:22.143
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:17:22.345
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:17:22.894
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:17:23.092
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:17:25.189
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2025-05-02 00:18:50.086
+!MESSAGE Request monitor: 'RequestMonitor (si.isystem.dsf.services.ISysBreakpointService$6@1570d8c7): Status CANCEL: si.isystem.eclipse.debug code=0 Command Control was shut down - cancelled queueing of command ISysCmdBpRemove[ISysDebuggerDmContext(0, hello_world_2.elf).LineBreakpointDMContext(C:\Users\sray\AURIX-v1.10.10-workspace\hello_world_2\Cpu0_Main.c:114)]().
+' resulted in a cancel status: Status CANCEL: si.isystem.eclipse.debug code=0 Command Control was shut down - cancelled queueing of command ISysCmdBpRemove[ISysDebuggerDmContext(0, hello_world_2.elf).LineBreakpointDMContext(C:\Users\sray\AURIX-v1.10.10-workspace\hello_world_2\Cpu0_Main.c:114)]().
+, even though the request is not set to cancel.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2025-05-02 00:18:50.086
+!MESSAGE Request monitor: 'RequestMonitor (si.isystem.dsf.services.ISysBreakpointService$6@171c3a2d): Status CANCEL: si.isystem.eclipse.debug code=0 Command Control was shut down - cancelled queueing of command ISysCmdBpRemove[ISysDebuggerDmContext(0, hello_world_2.elf).LineBreakpointDMContext(C:\Users\sray\AURIX-v1.10.10-workspace\hello_world_2\Cpu0_Main.c:117)]().
+' resulted in a cancel status: Status CANCEL: si.isystem.eclipse.debug code=0 Command Control was shut down - cancelled queueing of command ISysCmdBpRemove[ISysDebuggerDmContext(0, hello_world_2.elf).LineBreakpointDMContext(C:\Users\sray\AURIX-v1.10.10-workspace\hello_world_2\Cpu0_Main.c:117)]().
+, even though the request is not set to cancel.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2025-05-02 00:18:50.087
+!MESSAGE Request monitor: 'RequestMonitor (si.isystem.dsf.services.ISysBreakpointService$6@3544fb56): Status CANCEL: si.isystem.eclipse.debug code=0 Command Control was shut down - cancelled queueing of command ISysCmdBpRemove[ISysDebuggerDmContext(0, hello_world_2.elf).LineBreakpointDMContext(C:\Users\sray\AURIX-v1.10.10-workspace\hello_world_2\Cpu0_Main.c:133)]().
+' resulted in a cancel status: Status CANCEL: si.isystem.eclipse.debug code=0 Command Control was shut down - cancelled queueing of command ISysCmdBpRemove[ISysDebuggerDmContext(0, hello_world_2.elf).LineBreakpointDMContext(C:\Users\sray\AURIX-v1.10.10-workspace\hello_world_2\Cpu0_Main.c:133)]().
+, even though the request is not set to cancel.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2025-05-02 00:18:50.087
+!MESSAGE Request monitor: 'RequestMonitor (si.isystem.dsf.services.ISysBreakpointService$6@7976244): Status CANCEL: si.isystem.eclipse.debug code=0 Command Control was shut down - cancelled queueing of command ISysCmdBpRemove[ISysDebuggerDmContext(0, hello_world_2.elf).LineBreakpointDMContext(C:\Users\sray\AURIX-v1.10.10-workspace\hello_world_2\Cpu0_Main.c:127)]().
+' resulted in a cancel status: Status CANCEL: si.isystem.eclipse.debug code=0 Command Control was shut down - cancelled queueing of command ISysCmdBpRemove[ISysDebuggerDmContext(0, hello_world_2.elf).LineBreakpointDMContext(C:\Users\sray\AURIX-v1.10.10-workspace\hello_world_2\Cpu0_Main.c:127)]().
+, even though the request is not set to cancel.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2025-05-02 00:18:50.088
+!MESSAGE Request monitor: 'RequestMonitor (si.isystem.dsf.services.ISysBreakpointService$6@14322491): Status CANCEL: si.isystem.eclipse.debug code=0 Command Control was shut down - cancelled queueing of command ISysCmdBpRemove[ISysDebuggerDmContext(0, hello_world_2.elf).LineBreakpointDMContext(C:\Users\sray\AURIX-v1.10.10-workspace\hello_world_2\Cpu0_Main.c:130)]().
+' resulted in a cancel status: Status CANCEL: si.isystem.eclipse.debug code=0 Command Control was shut down - cancelled queueing of command ISysCmdBpRemove[ISysDebuggerDmContext(0, hello_world_2.elf).LineBreakpointDMContext(C:\Users\sray\AURIX-v1.10.10-workspace\hello_world_2\Cpu0_Main.c:130)]().
+, even though the request is not set to cancel.
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:18:50.297
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:18:50.517
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:19:59.172
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:19:59.359
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:20:04.955
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:20:06.331
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:20:28.000
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:20:31.532
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2025-05-02 00:20:32.530
+!MESSAGE Project index is not complete, and cannot be used for boosting.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2025-05-02 00:20:32.531
+!MESSAGE Boosting configuration TriCore Debug (TASKING) of project hello_world_2 boosted in 0 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2025-05-02 00:20:32.559
+!MESSAGE Include paths were discovered in 26 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:20:32.584
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:20:32.751
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:20:41.671
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:20:41.672
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:20:41.781
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2025-05-02 00:20:41.896
+!MESSAGE Boosting configuration TriCore Debug (TASKING) of project hello_world_2 boosted in 210 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2025-05-02 00:20:41.927
+!MESSAGE Include paths were discovered in 29 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:20:43.968
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:20:44.174
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:20:47.921
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:20:48.125
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:20:48.589
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:20:48.798
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:20:51.161
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:20:51.359
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2025-05-02 00:21:04.533
+!MESSAGE Request monitor: 'RequestMonitor (si.isystem.dsf.services.ISysBreakpointService$6@60ae02e): Status CANCEL: si.isystem.eclipse.debug code=0 Command Control was shut down - cancelled queueing of command ISysCmdBpRemove[ISysDebuggerDmContext(0, hello_world_2.elf).LineBreakpointDMContext(C:\Users\sray\AURIX-v1.10.10-workspace\hello_world_2\Cpu0_Main.c:114)]().
+' resulted in a cancel status: Status CANCEL: si.isystem.eclipse.debug code=0 Command Control was shut down - cancelled queueing of command ISysCmdBpRemove[ISysDebuggerDmContext(0, hello_world_2.elf).LineBreakpointDMContext(C:\Users\sray\AURIX-v1.10.10-workspace\hello_world_2\Cpu0_Main.c:114)]().
+, even though the request is not set to cancel.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2025-05-02 00:21:04.534
+!MESSAGE Request monitor: 'RequestMonitor (si.isystem.dsf.services.ISysBreakpointService$6@4f1bef04): Status CANCEL: si.isystem.eclipse.debug code=0 Command Control was shut down - cancelled queueing of command ISysCmdBpRemove[ISysDebuggerDmContext(0, hello_world_2.elf).LineBreakpointDMContext(C:\Users\sray\AURIX-v1.10.10-workspace\hello_world_2\Cpu0_Main.c:117)]().
+' resulted in a cancel status: Status CANCEL: si.isystem.eclipse.debug code=0 Command Control was shut down - cancelled queueing of command ISysCmdBpRemove[ISysDebuggerDmContext(0, hello_world_2.elf).LineBreakpointDMContext(C:\Users\sray\AURIX-v1.10.10-workspace\hello_world_2\Cpu0_Main.c:117)]().
+, even though the request is not set to cancel.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2025-05-02 00:21:04.534
+!MESSAGE Request monitor: 'RequestMonitor (si.isystem.dsf.services.ISysBreakpointService$6@6d8401b7): Status CANCEL: si.isystem.eclipse.debug code=0 Command Control was shut down - cancelled queueing of command ISysCmdBpRemove[ISysDebuggerDmContext(0, hello_world_2.elf).LineBreakpointDMContext(C:\Users\sray\AURIX-v1.10.10-workspace\hello_world_2\Cpu0_Main.c:133)]().
+' resulted in a cancel status: Status CANCEL: si.isystem.eclipse.debug code=0 Command Control was shut down - cancelled queueing of command ISysCmdBpRemove[ISysDebuggerDmContext(0, hello_world_2.elf).LineBreakpointDMContext(C:\Users\sray\AURIX-v1.10.10-workspace\hello_world_2\Cpu0_Main.c:133)]().
+, even though the request is not set to cancel.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2025-05-02 00:21:04.535
+!MESSAGE Request monitor: 'RequestMonitor (si.isystem.dsf.services.ISysBreakpointService$6@6cfe47b0): Status CANCEL: si.isystem.eclipse.debug code=0 Command Control was shut down - cancelled queueing of command ISysCmdBpRemove[ISysDebuggerDmContext(0, hello_world_2.elf).LineBreakpointDMContext(C:\Users\sray\AURIX-v1.10.10-workspace\hello_world_2\Cpu0_Main.c:127)]().
+' resulted in a cancel status: Status CANCEL: si.isystem.eclipse.debug code=0 Command Control was shut down - cancelled queueing of command ISysCmdBpRemove[ISysDebuggerDmContext(0, hello_world_2.elf).LineBreakpointDMContext(C:\Users\sray\AURIX-v1.10.10-workspace\hello_world_2\Cpu0_Main.c:127)]().
+, even though the request is not set to cancel.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2025-05-02 00:21:04.535
+!MESSAGE Request monitor: 'RequestMonitor (si.isystem.dsf.services.ISysBreakpointService$6@3da4c191): Status CANCEL: si.isystem.eclipse.debug code=0 Command Control was shut down - cancelled queueing of command ISysCmdBpRemove[ISysDebuggerDmContext(0, hello_world_2.elf).LineBreakpointDMContext(C:\Users\sray\AURIX-v1.10.10-workspace\hello_world_2\Cpu0_Main.c:130)]().
+' resulted in a cancel status: Status CANCEL: si.isystem.eclipse.debug code=0 Command Control was shut down - cancelled queueing of command ISysCmdBpRemove[ISysDebuggerDmContext(0, hello_world_2.elf).LineBreakpointDMContext(C:\Users\sray\AURIX-v1.10.10-workspace\hello_world_2\Cpu0_Main.c:130)]().
+, even though the request is not set to cancel.
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:21:04.734
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:21:04.956
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:22:40.768
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:22:40.877
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:22:52.673
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:22:58.816
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:22:58.922
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:22:59.220
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:22:59.422
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:23:00.079
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:23:06.797
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:23:20.112
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:23:20.422
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:23:21.360
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2025-05-02 00:23:23.124
+!MESSAGE Project index is not complete, and cannot be used for boosting.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2025-05-02 00:23:23.125
+!MESSAGE Boosting configuration TriCore Debug (TASKING) of project hello_world_2 boosted in 0 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2025-05-02 00:23:23.153
+!MESSAGE Include paths were discovered in 27 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:23:23.178
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:23:23.343
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:23:25.442
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:23:25.443
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:23:25.548
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2025-05-02 00:23:25.642
+!MESSAGE Boosting configuration TriCore Debug (TASKING) of project hello_world_2 boosted in 192 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2025-05-02 00:23:25.667
+!MESSAGE Include paths were discovered in 24 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:23:27.625
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:23:27.831
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:23:29.221
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:23:29.407
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY winIDEA 4 4 2025-05-02 00:23:30.256
+!MESSAGE ISysConnectionService initialization(sub) failed: 'Failed to initialize connection service.'!
+!STACK 0
+java.io.IOException: ICONNECT_E_ERROR: Error occurred while performing the requested operation. / Unable to initialize: Requested target not detected
+BBK Probe(IFXDAS) init failed. / isys::CSessionCtrl::begin_program() failed! winIDEA error:   [WrapperBase.cpp, 91]
+	at si.isystem.connect.connectJNI.CSessionCtrl_begin_program(Native Method)
+	at si.isystem.connect.CSessionCtrl.begin_program(CSessionCtrl.java:65)
+	at si.isystem.debug.core.proxy.SessionControllerProxy.beginProgram(Unknown Source)
+	at si.isystem.debug.core.proxy.ISysSessionManager.begin(Unknown Source)
+	at si.isystem.debug.core.winidea.IConLaunchManager.startDebugSession(Unknown Source)
+	at si.isystem.dsf.services.ISysConnectionService.startWinIdeaDebugSession(Unknown Source)
+	at si.isystem.dsf.services.ISysConnectionService.startWinIdeaDebugSessionWithProgressDialog(Unknown Source)
+	at si.isystem.dsf.services.ISysConnectionService.doInitialize(Unknown Source)
+	at si.isystem.dsf.ISysAbstractDsfService.initialize(Unknown Source)
+	at si.isystem.dsf.launch.ISysServiceInitializationSequence$1.execute(Unknown Source)
+	at org.eclipse.cdt.dsf.concurrent.Sequence.executeStep(Sequence.java:475)
+	at org.eclipse.cdt.dsf.concurrent.Sequence.run(Sequence.java:380)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+!ENTRY winIDEA 4 4 2025-05-02 00:23:30.257
+!MESSAGE Launch failed.
+!STACK 1
+org.eclipse.debug.core.DebugException: TASKING winIDEA services initialization failed.
+	at si.isystem.dsf.launch.ISysLaunchDelegate.initializeServices(Unknown Source)
+	at si.isystem.dsf.launch.ISysLaunchDelegate.launch(Unknown Source)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:805)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:716)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1038)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$1.run(DebugUIPlugin.java:1241)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.util.concurrent.ExecutionException: org.eclipse.core.runtime.CoreException: Failed to initialize connection service.
+	at org.eclipse.cdt.dsf.concurrent.Query.get(Query.java:112)
+	... 7 more
+Caused by: org.eclipse.core.runtime.CoreException: Failed to initialize connection service.
+	... 8 more
+!SUBENTRY 1 si.isystem.eclipse.debug 4 0 2025-05-02 00:23:30.257
+!MESSAGE TASKING winIDEA services initialization failed.
+!STACK 0
+java.util.concurrent.ExecutionException: org.eclipse.core.runtime.CoreException: Failed to initialize connection service.
+	at org.eclipse.cdt.dsf.concurrent.Query.get(Query.java:112)
+	at si.isystem.dsf.launch.ISysLaunchDelegate.initializeServices(Unknown Source)
+	at si.isystem.dsf.launch.ISysLaunchDelegate.launch(Unknown Source)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:805)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:716)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1038)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$1.run(DebugUIPlugin.java:1241)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.core.runtime.CoreException: Failed to initialize connection service.
+	... 8 more
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:23:30.259
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:23:30.298
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:23:30.502
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:23:37.789
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:23:37.906
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2025-05-02 00:23:37.981
+!MESSAGE Boosting configuration TriCore Debug (TASKING) of project hello_world_2 boosted in 181 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2025-05-02 00:23:38.010
+!MESSAGE Include paths were discovered in 27 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:23:39.968
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:23:40.171
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:23:43.937
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:23:44.142
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:23:44.742
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:23:44.902
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:23:48.454
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:23:57.173
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:23:57.359
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:27:03.937
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:27:04.124
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:27:32.624
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:27:32.813
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:27:34.969
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:27:35.095
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:27:36.078
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable
+
+!ENTRY com.infineon.aurix.buildsystem.oneeye 2 0 2025-05-02 00:27:36.251
+!MESSAGE OneEye program C:\Infineon\Tools\OneEye\2.56.0.202303101530\startOneEye.batdoesn't exist, or is not executable

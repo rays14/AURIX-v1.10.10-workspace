@@ -1,5 +1,6 @@
 # ude report files
 __connection_failed_report*
+.metadata
 
 # Prerequisites
 *.d

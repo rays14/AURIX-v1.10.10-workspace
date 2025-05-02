@@ -10,7 +10,7 @@
 
 #include "stdint.h"
 
-#define TICK_PERIOD 64
+#define TICK_PERIOD 256
 #define MAX_TASKS   100
 typedef enum task_state_t {
     STOPPED = 0,
