@@ -6,9 +6,9 @@
  */
 #include "IfxCpu.h"
 #include "task.h"
-uint32_t           num_tasks;
-uint32_t           tick_period;
-uint32_t           tick;
+uint32_t num_tasks;
+uint32_t tick_period;
+uint32_t tick;
 struct task_list_t task_list[MAX_TASKS];
 static void task_interrupt_disable() {
     IfxCpu_disableInterrupts();

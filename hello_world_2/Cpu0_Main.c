@@ -37,11 +37,11 @@ IFX_ALIGN(4) IfxCpu_syncEvent g_cpuSyncEvent = 0;
 ///////////////////////////////////////////////////////////////////////////////
 // Defines
 ///////////////////////////////////////////////////////////////////////////////
-#define TEST_BLINK_LEDS             0
-#define TEST_GPIO_OUT_IN            1
-#define SW_INTERRUPT_PRIORITY       0
-#define TIMER_0_INTERRUPT_PRIORITY  255
-#define GPT1_INTERRUPT_PRIORITY     0
+#define TEST_BLINK_LEDS            0
+#define TEST_GPIO_OUT_IN           1
+#define SW_INTERRUPT_PRIORITY      0
+#define TIMER_0_INTERRUPT_PRIORITY 255
+#define GPT1_INTERRUPT_PRIORITY    0
 ///////////////////////////////////////////////////////////////////////////////
 // If CLK == 100Mhz:
 //      10ms = 0.010, CLK = 100Mhz (ie bit-0 toogles at 0.000,000,01s, 10ns)
@@ -51,31 +51,31 @@ IFX_ALIGN(4) IfxCpu_syncEvent g_cpuSyncEvent = 0;
 //      Therefore x = 20, so 2^20 is approximately 10ms toggle, so every 10ms the
 //      LED should toggle
 ///////////////////////////////////////////////////////////////////////////////
-#define BIT_NUM                     16
-#define BIT_SZ                      0
-#define TIME_ADD                    20000
+#define BIT_NUM  16
+#define BIT_SZ   0
+#define TIME_ADD 20000
 ///////////////////////////////////////////////////////////////////////////////
 // Constants
 ///////////////////////////////////////////////////////////////////////////////
-const unsigned int DELAY            = 1000000;
+const unsigned int DELAY = 1000000;
 ///////////////////////////////////////////////////////////////////////////////
 // Modules
 ///////////////////////////////////////////////////////////////////////////////
-volatile Ifx_P     *p_pin20         = (volatile Ifx_P     *)0xF003B400u; // IfxPort_reg.h  - LED
-volatile Ifx_P     *p_pin33         = (volatile Ifx_P     *)0xF003C100u; // IfxPort_reg.h  - LED
-volatile Ifx_SRC   *p_src           = (volatile Ifx_SRC   *)0xF0038000u; // IfxSrc_reg.h   - Service Request Controller
-volatile Ifx_STM   *p_stm0          = (volatile Ifx_STM   *)0xF0001000u; // IfxStm_reg.h   - Timer using p-src
-volatile Ifx_GPT12 *p_gpt12         = (volatile Ifx_GPT12 *)0xF0001800u; // IfxGPt12_reg.h -
+volatile Ifx_P     *p_pin20 = (volatile Ifx_P     *)0xF003B400u; // IfxPort_reg.h  - LED
+volatile Ifx_P     *p_pin33 = (volatile Ifx_P     *)0xF003C100u; // IfxPort_reg.h  - LED
+volatile Ifx_SRC   *p_src   = (volatile Ifx_SRC   *)0xF0038000u; // IfxSrc_reg.h   - Service Request Controller
+volatile Ifx_STM   *p_stm0  = (volatile Ifx_STM   *)0xF0001000u; // IfxStm_reg.h   - Timer using p-src
+volatile Ifx_GPT12 *p_gpt12 = (volatile Ifx_GPT12 *)0xF0001800u; // IfxGPt12_reg.h -
 ///////////////////////////////////////////////////////////////////////////////
 // Globals
 ///////////////////////////////////////////////////////////////////////////////
-volatile int        timer_0_isr_count   = 0;
-volatile int        gpt1_isr_count      = 0;
-volatile int        toggle              = 0;
-volatile int        int_toggle_p6       = 0;
-volatile int        int_toggle_p7       = 0;
-const uint16_t      TOGGLE_VALUE        = 0xfffe;
-volatile uint64_t   compare_value       = (uint64_t)0;
+const    uint16_t TOGGLE_VALUE      = 0xfffe;
+volatile uint32_t timer_0_isr_count = 0;
+volatile uint32_t gpt1_isr_count    = 0;
+volatile uint32_t toggle            = 0;
+volatile uint32_t int_toggle_p6     = 0;
+volatile uint32_t int_toggle_p7     = 0;
+volatile uint64_t compare_value     = (uint64_t)0;
 ///////////////////////////////////////////////////////////////////////////////
 // Delay
 ///////////////////////////////////////////////////////////////////////////////
@@ -89,7 +89,7 @@ void delay(int d) {
 // GPT1 Timer Interrupt Handler
 ///////////////////////////////////////////////////////////////////////////////
 void gpt1_isr_exec() {
-    p_pin33->OUT.B.P7 = ~p_pin33->OUT.B.P7;
+    p_pin33->OUT.B.P7     = ~p_pin33->OUT.B.P7;
     p_gpt12->T3CON.B.T3R  = 0;            // Timer run, timer run bit, 1 - timer run, 0 - timer stop
     p_gpt12->T3.B.T3      = TOGGLE_VALUE; // Put some value into the timer
     p_gpt12->T3CON.B.T3R  = 1;            // Timer run, timer run bit, 1 - timer run, 0 - timer stop
@@ -113,10 +113,10 @@ struct exec_t {
 static struct exec_t exec_data = {{0}};
 void timer_0_isr_exec(void) {
     IfxCpu_disableInterrupts();
-    p_stm0->ISCR.B.CMP0IRR = 1;
+    p_stm0->ISCR.B.CMP0IRR  = 1;
     p_stm0->CMP[0].B.CMPVAL = (p_stm0->CMP[0].B.CMPVAL == (uint32_t)((uint32_t)0x1 << (BIT_NUM)))
             ? (uint32_t)0 : (uint32_t)((uint32_t)0x1 << (BIT_NUM));
-    p_stm0->ISCR.B.CMP0IRR = 0;
+    p_stm0->ISCR.B.CMP0IRR  = 0;
     task_exec((void *)&exec_data);
 }
 IFX_INTERRUPT (timer_0_isr, 0, TIMER_0_INTERRUPT_PRIORITY) {
