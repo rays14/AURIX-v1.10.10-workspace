@@ -39,10 +39,9 @@ void task_add(task_ptr_t tb, uint32_t period, uint32_t offset) {
     // array.
 }
 void task_exec(void *data) {
-    // Not a reentrant procedure.
     static uint32_t tick = 0;
-    static uint32_t time_mod;
-    // Turn off interrupts.
+    static uint32_t time_mod = 0;
+
     task_interrupt_disable();
     tick = (tick + 1) % tick_period;
     for (uint32_t i = 0; i < num_tasks; i++) {
@@ -54,11 +53,9 @@ void task_exec(void *data) {
         } else if (0 == time_mod) {
             tp->state = STARTED;
             task_interrupt_enable();
-            //task_interrupt_nesting_enable();  // Pushes stuff onto stack
             if (tp->task) {
                 tp->task();
             }
-            //task_interrupt_nesting_disable(); // Pops stuff off the stack
             task_interrupt_disable();
             tp->state = STOPPED;
         }
