@@ -88,7 +88,7 @@ void delay(int d) {
 ///////////////////////////////////////////////////////////////////////////////
 // GPT1 Timer Interrupt Handler
 ///////////////////////////////////////////////////////////////////////////////
-IFX_INTERRUPT (gpt1_isr, 0, GPT1_INTERRUPT_PRIORITY) {
+void gpt1_isr_exec() {
     p_pin33->OUT.B.P7 = ~p_pin33->OUT.B.P7;
     p_gpt12->T3CON.B.T3R  = 0;            // Timer run, timer run bit, 1 - timer run, 0 - timer stop
     p_gpt12->T3.B.T3      = TOGGLE_VALUE; // Put some value into the timer
@@ -99,7 +99,9 @@ IFX_INTERRUPT (gpt1_isr, 0, GPT1_INTERRUPT_PRIORITY) {
         gpt1_isr_count = 0;
     }
 }
-
+IFX_INTERRUPT (gpt1_isr, 0, GPT1_INTERRUPT_PRIORITY) {
+    gpt1_isr_exec();
+}
 // ----------------------------------------------------------------------------
 ///////////////////////////////////////////////////////////////////////////////
 // Timer-0 Interrupt Handler
@@ -109,13 +111,16 @@ struct exec_t {
     int data;
 };
 static struct exec_t exec_data = {{0}};
-IFX_INTERRUPT (timer_0_isr, 0, TIMER_0_INTERRUPT_PRIORITY) {
+void timer_0_isr_exec(void) {
     IfxCpu_disableInterrupts();
     p_stm0->ISCR.B.CMP0IRR = 1;
     p_stm0->CMP[0].B.CMPVAL = (p_stm0->CMP[0].B.CMPVAL == (uint32_t)((uint32_t)0x1 << (BIT_NUM)))
             ? (uint32_t)0 : (uint32_t)((uint32_t)0x1 << (BIT_NUM));
     p_stm0->ISCR.B.CMP0IRR = 0;
     task_exec((void *)&exec_data);
+}
+IFX_INTERRUPT (timer_0_isr, 0, TIMER_0_INTERRUPT_PRIORITY) {
+    timer_0_isr_exec();
 }
 ///////////////////////////////////////////////////////////////////////////////
 // SW Interrupt Handler

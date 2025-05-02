@@ -643,68 +643,6 @@
     </Mode>
     <Op_System>
      <Debug>
-      <BPs>
-       <__.0>
-        <ActionEnabled>false</ActionEnabled>
-        <ActionParams></ActionParams>
-        <ActionScript></ActionScript>
-        <ActionShow>false</ActionShow>
-        <Condition>false</Condition>
-        <Count>0</Count>
-        <Enabled>false</Enabled>
-        <Expression></Expression>
-        <Location>&quot;..\..\..\Cpu0_Main.c&quot;::133</Location>
-        <ProcessFilter></ProcessFilter>
-       </__.0>
-       <__.1>
-        <ActionEnabled>false</ActionEnabled>
-        <ActionParams></ActionParams>
-        <ActionScript></ActionScript>
-        <ActionShow>false</ActionShow>
-        <Condition>false</Condition>
-        <Count>0</Count>
-        <Enabled>false</Enabled>
-        <Expression></Expression>
-        <Location>&quot;..\..\..\Cpu0_Main.c&quot;::127</Location>
-        <ProcessFilter></ProcessFilter>
-       </__.1>
-       <__.2>
-        <ActionEnabled>false</ActionEnabled>
-        <ActionParams></ActionParams>
-        <ActionScript></ActionScript>
-        <ActionShow>false</ActionShow>
-        <Condition>false</Condition>
-        <Count>0</Count>
-        <Enabled>false</Enabled>
-        <Expression></Expression>
-        <Location>&quot;..\..\..\Cpu0_Main.c&quot;::130</Location>
-        <ProcessFilter></ProcessFilter>
-       </__.2>
-       <__.3>
-        <ActionEnabled>false</ActionEnabled>
-        <ActionParams></ActionParams>
-        <ActionScript></ActionScript>
-        <ActionShow>false</ActionShow>
-        <Condition>false</Condition>
-        <Count>0</Count>
-        <Enabled>false</Enabled>
-        <Expression></Expression>
-        <Location>&quot;..\..\..\Cpu0_Main.c&quot;::114</Location>
-        <ProcessFilter></ProcessFilter>
-       </__.3>
-       <__.4>
-        <ActionEnabled>false</ActionEnabled>
-        <ActionParams></ActionParams>
-        <ActionScript></ActionScript>
-        <ActionShow>false</ActionShow>
-        <Condition>false</Condition>
-        <Count>0</Count>
-        <Enabled>false</Enabled>
-        <Expression></Expression>
-        <Location>&quot;..\..\..\Cpu0_Main.c&quot;::117</Location>
-        <ProcessFilter></ProcessFilter>
-       </__.4>
-      </BPs>
       <Processes>
        <__.0>
         <URL>App/SMP</URL>
