@@ -1,6 +1,8 @@
-08:22:43 **** Incremental Build of configuration TriCore Debug (TASKING) for project hello_world_2 ****
+15:14:26 **** Incremental Build of configuration TriCore Debug (TASKING) for project hello_world_2 ****
 amk -j16 all 
 TASKING VX-toolset for AURIX Development Studio (non-commercial): program builder v1.1r8 Build 22011964
+cctc -cs --dep-file="task.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "task.src" "../task.c"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "task.o" "task.src"
 Building target: hello_world_2.elf
 Invoking: TASKING Linker
 cctc -f .hello_world_2.elf.opt
@@ -9,10 +11,10 @@ Finished building target: hello_world_2.elf
 Invoking: Print Size
 elfsize  "hello_world_2.elf"
 Total sizes:
-ROM: 0x440b (17419) = code: 0x305c (12380) + romdata: 0x13af (5039)
+ROM: 0x43f3 (17395) = code: 0x3044 (12356) + romdata: 0x13af (5039)
 RAM: 0xc919 (51481) = data + bss
 Finished building: hello_world_2.siz
  
 
-08:22:45 Build Finished. 0 errors, 0 warnings. (took 1s.558ms)
+15:14:28 Build Finished. 0 errors, 0 warnings. (took 1s.754ms)
 

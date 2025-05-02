@@ -8751,3 +8751,623 @@ ROM: 0x440b (17419) = code: 0x305c (12380) + romdata: 0x13af (5039)
 RAM: 0xc919 (51481) = data + bss
 Finished building: hello_world_2.siz
  
+Build started...
+14:24:08 **** Incremental Build of configuration TriCore Debug (TASKING) for project hello_world_2 ****
+amk -j16 all 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): program builder v1.1r8 Build 22011964
+cctc -cs --dep-file="Cpu0_Main.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Cpu0_Main.src" "../Cpu0_Main.c"
+cctc -cs --dep-file="task.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "task.src" "../task.c"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "task.o" "task.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Cpu0_Main.o" "Cpu0_Main.src"
+Building target: hello_world_2.elf
+Invoking: TASKING Linker
+cctc -f .hello_world_2.elf.opt
+Finished building target: hello_world_2.elf
+ 
+Invoking: Print Size
+elfsize  "hello_world_2.elf"
+Total sizes:
+ROM: 0x43f5 (17397) = code: 0x3046 (12358) + romdata: 0x13af (5039)
+RAM: 0xc919 (51481) = data + bss
+Finished building: hello_world_2.siz
+ 
+Build started...
+14:24:14 **** Incremental Build of configuration TriCore Debug (TASKING) for project hello_world_2 ****
+amk -j16 all 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): program builder v1.1r8 Build 22011964
+Building target: hello_world_2.elf
+Invoking: TASKING Linker
+cctc -f .hello_world_2.elf.opt
+Finished building target: hello_world_2.elf
+ 
+Invoking: Print Size
+elfsize  "hello_world_2.elf"
+Total sizes:
+ROM: 0x43f5 (17397) = code: 0x3046 (12358) + romdata: 0x13af (5039)
+RAM: 0xc919 (51481) = data + bss
+Finished building: hello_world_2.siz
+ 
+Build started...
+14:25:33 **** Incremental Build of configuration TriCore Debug (TASKING) for project hello_world_2 ****
+amk -j16 all 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): program builder v1.1r8 Build 22011964
+cctc -cs --dep-file="Cpu0_Main.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Cpu0_Main.src" "../Cpu0_Main.c"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Cpu0_Main.o" "Cpu0_Main.src"
+Building target: hello_world_2.elf
+Invoking: TASKING Linker
+cctc -f .hello_world_2.elf.opt
+Finished building target: hello_world_2.elf
+ 
+Invoking: Print Size
+elfsize  "hello_world_2.elf"
+Total sizes:
+ROM: 0x43f5 (17397) = code: 0x3046 (12358) + romdata: 0x13af (5039)
+RAM: 0xc919 (51481) = data + bss
+Finished building: hello_world_2.siz
+ 
+Build started...
+14:25:40 **** Incremental Build of configuration TriCore Debug (TASKING) for project hello_world_2 ****
+amk -j16 all 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): program builder v1.1r8 Build 22011964
+Building target: hello_world_2.elf
+Invoking: TASKING Linker
+cctc -f .hello_world_2.elf.opt
+Finished building target: hello_world_2.elf
+ 
+Invoking: Print Size
+elfsize  "hello_world_2.elf"
+Total sizes:
+ROM: 0x43f5 (17397) = code: 0x3046 (12358) + romdata: 0x13af (5039)
+RAM: 0xc919 (51481) = data + bss
+Finished building: hello_world_2.siz
+ 
+Build started...
+14:28:13 **** Incremental Build of configuration TriCore Debug (TASKING) for project hello_world_2 ****
+amk -j16 all 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): program builder v1.1r8 Build 22011964
+cctc -cs --dep-file="Cpu0_Main.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Cpu0_Main.src" "../Cpu0_Main.c"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Cpu0_Main.o" "Cpu0_Main.src"
+Building target: hello_world_2.elf
+Invoking: TASKING Linker
+cctc -f .hello_world_2.elf.opt
+Finished building target: hello_world_2.elf
+ 
+Invoking: Print Size
+elfsize  "hello_world_2.elf"
+Total sizes:
+ROM: 0x4403 (17411) = code: 0x3054 (12372) + romdata: 0x13af (5039)
+RAM: 0xc919 (51481) = data + bss
+Finished building: hello_world_2.siz
+ 
+Build started...
+14:28:17 **** Incremental Build of configuration TriCore Debug (TASKING) for project hello_world_2 ****
+amk -j16 all 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): program builder v1.1r8 Build 22011964
+Building target: hello_world_2.elf
+Invoking: TASKING Linker
+cctc -f .hello_world_2.elf.opt
+Finished building target: hello_world_2.elf
+ 
+Invoking: Print Size
+elfsize  "hello_world_2.elf"
+Total sizes:
+ROM: 0x4403 (17411) = code: 0x3054 (12372) + romdata: 0x13af (5039)
+RAM: 0xc919 (51481) = data + bss
+Finished building: hello_world_2.siz
+ 
+Build started...
+14:30:31 **** Incremental Build of configuration TriCore Debug (TASKING) for project hello_world_2 ****
+amk -j16 all 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): program builder v1.1r8 Build 22011964
+cctc -cs --dep-file="Cpu0_Main.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Cpu0_Main.src" "../Cpu0_Main.c"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Cpu0_Main.o" "Cpu0_Main.src"
+Building target: hello_world_2.elf
+Invoking: TASKING Linker
+cctc -f .hello_world_2.elf.opt
+Finished building target: hello_world_2.elf
+ 
+Invoking: Print Size
+elfsize  "hello_world_2.elf"
+Total sizes:
+ROM: 0x4407 (17415) = code: 0x3058 (12376) + romdata: 0x13af (5039)
+RAM: 0xc919 (51481) = data + bss
+Finished building: hello_world_2.siz
+ 
+Build started...
+14:34:52 **** Incremental Build of configuration TriCore Debug (TASKING) for project hello_world_2 ****
+amk -j16 all 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): program builder v1.1r8 Build 22011964
+cctc -cs --dep-file="Cpu0_Main.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Cpu0_Main.src" "../Cpu0_Main.c"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Cpu0_Main.o" "Cpu0_Main.src"
+Building target: hello_world_2.elf
+Invoking: TASKING Linker
+cctc -f .hello_world_2.elf.opt
+Finished building target: hello_world_2.elf
+ 
+Invoking: Print Size
+elfsize  "hello_world_2.elf"
+Total sizes:
+ROM: 0x440f (17423) = code: 0x3060 (12384) + romdata: 0x13af (5039)
+RAM: 0xc919 (51481) = data + bss
+Finished building: hello_world_2.siz
+ 
+Build started...
+14:37:18 **** Incremental Build of configuration TriCore Debug (TASKING) for project hello_world_2 ****
+amk -j16 all 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): program builder v1.1r8 Build 22011964
+cctc -cs --dep-file="Cpu0_Main.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Cpu0_Main.src" "../Cpu0_Main.c"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Cpu0_Main.o" "Cpu0_Main.src"
+Building target: hello_world_2.elf
+Invoking: TASKING Linker
+cctc -f .hello_world_2.elf.opt
+Finished building target: hello_world_2.elf
+ 
+Invoking: Print Size
+elfsize  "hello_world_2.elf"
+Total sizes:
+ROM: 0x440b (17419) = code: 0x305c (12380) + romdata: 0x13af (5039)
+RAM: 0xc919 (51481) = data + bss
+Finished building: hello_world_2.siz
+ 
+Build started...
+14:37:23 **** Incremental Build of configuration TriCore Debug (TASKING) for project hello_world_2 ****
+amk -j16 all 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): program builder v1.1r8 Build 22011964
+Building target: hello_world_2.elf
+Invoking: TASKING Linker
+cctc -f .hello_world_2.elf.opt
+Finished building target: hello_world_2.elf
+ 
+Invoking: Print Size
+elfsize  "hello_world_2.elf"
+Total sizes:
+ROM: 0x440b (17419) = code: 0x305c (12380) + romdata: 0x13af (5039)
+RAM: 0xc919 (51481) = data + bss
+Finished building: hello_world_2.siz
+ 
+Build started...
+14:38:24 **** Incremental Build of configuration TriCore Debug (TASKING) for project hello_world_2 ****
+amk -j16 all 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): program builder v1.1r8 Build 22011964
+cctc -cs --dep-file="Cpu0_Main.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Cpu0_Main.src" "../Cpu0_Main.c"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Cpu0_Main.o" "Cpu0_Main.src"
+Building target: hello_world_2.elf
+Invoking: TASKING Linker
+cctc -f .hello_world_2.elf.opt
+Finished building target: hello_world_2.elf
+ 
+Invoking: Print Size
+elfsize  "hello_world_2.elf"
+Total sizes:
+ROM: 0x440b (17419) = code: 0x305c (12380) + romdata: 0x13af (5039)
+RAM: 0xc919 (51481) = data + bss
+Finished building: hello_world_2.siz
+ 
+Build started...
+14:41:47 **** Incremental Build of configuration TriCore Debug (TASKING) for project hello_world_2 ****
+amk -j16 all 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): program builder v1.1r8 Build 22011964
+cctc -cs --dep-file="Cpu0_Main.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Cpu0_Main.src" "../Cpu0_Main.c"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Cpu0_Main.o" "Cpu0_Main.src"
+Building target: hello_world_2.elf
+Invoking: TASKING Linker
+cctc -f .hello_world_2.elf.opt
+Finished building target: hello_world_2.elf
+ 
+Invoking: Print Size
+elfsize  "hello_world_2.elf"
+Total sizes:
+ROM: 0x440b (17419) = code: 0x305c (12380) + romdata: 0x13af (5039)
+RAM: 0xc919 (51481) = data + bss
+Finished building: hello_world_2.siz
+ 
+Build started...
+14:41:51 **** Incremental Build of configuration TriCore Debug (TASKING) for project hello_world_2 ****
+amk -j16 all 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): program builder v1.1r8 Build 22011964
+Building target: hello_world_2.elf
+Invoking: TASKING Linker
+cctc -f .hello_world_2.elf.opt
+Finished building target: hello_world_2.elf
+ 
+Invoking: Print Size
+elfsize  "hello_world_2.elf"
+Total sizes:
+ROM: 0x440b (17419) = code: 0x305c (12380) + romdata: 0x13af (5039)
+RAM: 0xc919 (51481) = data + bss
+Finished building: hello_world_2.siz
+ 
+Build started...
+14:43:07 **** Incremental Build of configuration TriCore Debug (TASKING) for project hello_world_2 ****
+amk -j16 all 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): program builder v1.1r8 Build 22011964
+cctc -cs --dep-file="Cpu0_Main.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Cpu0_Main.src" "../Cpu0_Main.c"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Cpu0_Main.o" "Cpu0_Main.src"
+Building target: hello_world_2.elf
+Invoking: TASKING Linker
+cctc -f .hello_world_2.elf.opt
+Finished building target: hello_world_2.elf
+ 
+Invoking: Print Size
+elfsize  "hello_world_2.elf"
+Total sizes:
+ROM: 0x440b (17419) = code: 0x305c (12380) + romdata: 0x13af (5039)
+RAM: 0xc919 (51481) = data + bss
+Finished building: hello_world_2.siz
+ 
+Build started...
+14:46:05 **** Incremental Build of configuration TriCore Debug (TASKING) for project hello_world_2 ****
+amk -j16 all 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): program builder v1.1r8 Build 22011964
+cctc -cs --dep-file="Cpu0_Main.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Cpu0_Main.src" "../Cpu0_Main.c"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Cpu0_Main.o" "Cpu0_Main.src"
+Building target: hello_world_2.elf
+Invoking: TASKING Linker
+cctc -f .hello_world_2.elf.opt
+Finished building target: hello_world_2.elf
+ 
+Invoking: Print Size
+elfsize  "hello_world_2.elf"
+Total sizes:
+ROM: 0x440b (17419) = code: 0x305c (12380) + romdata: 0x13af (5039)
+RAM: 0xc919 (51481) = data + bss
+Finished building: hello_world_2.siz
+ 
+Build started...
+14:47:04 **** Incremental Build of configuration TriCore Debug (TASKING) for project hello_world_2 ****
+amk -j16 all 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): program builder v1.1r8 Build 22011964
+cctc -cs --dep-file="Cpu0_Main.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Cpu0_Main.src" "../Cpu0_Main.c"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Cpu0_Main.o" "Cpu0_Main.src"
+Building target: hello_world_2.elf
+Invoking: TASKING Linker
+cctc -f .hello_world_2.elf.opt
+Finished building target: hello_world_2.elf
+ 
+Invoking: Print Size
+elfsize  "hello_world_2.elf"
+Total sizes:
+ROM: 0x440b (17419) = code: 0x305c (12380) + romdata: 0x13af (5039)
+RAM: 0xc919 (51481) = data + bss
+Finished building: hello_world_2.siz
+ 
+Build started...
+14:53:24 **** Incremental Build of configuration TriCore Debug (TASKING) for project hello_world_2 ****
+amk -j16 all 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): program builder v1.1r8 Build 22011964
+cctc -cs --dep-file="Cpu0_Main.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Cpu0_Main.src" "../Cpu0_Main.c"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Cpu0_Main.o" "Cpu0_Main.src"
+Building target: hello_world_2.elf
+Invoking: TASKING Linker
+cctc -f .hello_world_2.elf.opt
+Finished building target: hello_world_2.elf
+ 
+Invoking: Print Size
+elfsize  "hello_world_2.elf"
+Total sizes:
+ROM: 0x443f (17471) = code: 0x3090 (12432) + romdata: 0x13af (5039)
+RAM: 0xc919 (51481) = data + bss
+Finished building: hello_world_2.siz
+ 
+Build started...
+14:53:28 **** Incremental Build of configuration TriCore Debug (TASKING) for project hello_world_2 ****
+amk -j16 all 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): program builder v1.1r8 Build 22011964
+Building target: hello_world_2.elf
+Invoking: TASKING Linker
+cctc -f .hello_world_2.elf.opt
+Finished building target: hello_world_2.elf
+ 
+Invoking: Print Size
+elfsize  "hello_world_2.elf"
+Total sizes:
+ROM: 0x443f (17471) = code: 0x3090 (12432) + romdata: 0x13af (5039)
+RAM: 0xc919 (51481) = data + bss
+Finished building: hello_world_2.siz
+ 
+Build started...
+14:54:46 **** Build of configuration TriCore Debug (TASKING) for project hello_world ****
+amk -j16 all 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): program builder v1.1r8 Build 22011964
+Building target: hello_world.elf
+Invoking: TASKING Linker
+cctc -f .hello_world.elf.opt
+Finished building target: hello_world.elf
+ 
+Invoking: Print Size
+elfsize  "hello_world.elf"
+Total sizes:
+ROM: 0x3e70 (15984) = code: 0x2a2e (10798) + romdata: 0x1442 (5186)
+RAM: 0xc295 (49813) = data + bss
+Finished building: hello_world.siz
+ 
+Build started...
+14:54:50 **** Build of configuration TriCore Debug (TASKING) for project hello_world_1 ****
+amk -j16 all 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): program builder v1.1r8 Build 22011964
+Building target: hello_world_1.elf
+Invoking: TASKING Linker
+cctc -f .hello_world_1.elf.opt
+Finished building target: hello_world_1.elf
+ 
+Invoking: Print Size
+elfsize  "hello_world_1.elf"
+Total sizes:
+ROM: 0x3d48 (15688) = code: 0x2908 (10504) + romdata: 0x1440 (5184)
+RAM: 0xc291 (49809) = data + bss
+Finished building: hello_world_1.siz
+ 
+Build started...
+14:54:53 **** Incremental Build of configuration TriCore Debug (TASKING) for project hello_world_2 ****
+amk -j16 all 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): program builder v1.1r8 Build 22011964
+cctc -cs --dep-file="Cpu0_Main.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Cpu0_Main.src" "../Cpu0_Main.c"
+cctc -cs --dep-file="task.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "task.src" "../task.c"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "task.o" "task.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Cpu0_Main.o" "Cpu0_Main.src"
+Building target: hello_world_2.elf
+Invoking: TASKING Linker
+cctc -f .hello_world_2.elf.opt
+Finished building target: hello_world_2.elf
+ 
+Invoking: Print Size
+elfsize  "hello_world_2.elf"
+Total sizes:
+ROM: 0x4439 (17465) = code: 0x308a (12426) + romdata: 0x13af (5039)
+RAM: 0xc919 (51481) = data + bss
+Finished building: hello_world_2.siz
+ 
+Build started...
+14:54:56 **** Incremental Build of configuration TriCore Debug (TASKING) for project hello_world_2 ****
+amk -j16 all 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): program builder v1.1r8 Build 22011964
+Building target: hello_world_2.elf
+Invoking: TASKING Linker
+cctc -f .hello_world_2.elf.opt
+Finished building target: hello_world_2.elf
+ 
+Invoking: Print Size
+elfsize  "hello_world_2.elf"
+Total sizes:
+ROM: 0x4439 (17465) = code: 0x308a (12426) + romdata: 0x13af (5039)
+RAM: 0xc919 (51481) = data + bss
+Finished building: hello_world_2.siz
+ 
+Build started...
+14:56:09 **** Incremental Build of configuration TriCore Debug (TASKING) for project hello_world_2 ****
+amk -j16 all 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): program builder v1.1r8 Build 22011964
+cctc -cs --dep-file="Cpu0_Main.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Cpu0_Main.src" "../Cpu0_Main.c"
+cctc -cs --dep-file="task.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "task.src" "../task.c"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "task.o" "task.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Cpu0_Main.o" "Cpu0_Main.src"
+Building target: hello_world_2.elf
+Invoking: TASKING Linker
+cctc -f .hello_world_2.elf.opt
+Finished building target: hello_world_2.elf
+ 
+Invoking: Print Size
+elfsize  "hello_world_2.elf"
+Total sizes:
+ROM: 0x4405 (17413) = code: 0x3056 (12374) + romdata: 0x13af (5039)
+RAM: 0xc919 (51481) = data + bss
+Finished building: hello_world_2.siz
+ 
+Build started...
+14:56:15 **** Incremental Build of configuration TriCore Debug (TASKING) for project hello_world_2 ****
+amk -j16 all 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): program builder v1.1r8 Build 22011964
+Building target: hello_world_2.elf
+Invoking: TASKING Linker
+cctc -f .hello_world_2.elf.opt
+Finished building target: hello_world_2.elf
+ 
+Invoking: Print Size
+elfsize  "hello_world_2.elf"
+Total sizes:
+ROM: 0x4405 (17413) = code: 0x3056 (12374) + romdata: 0x13af (5039)
+RAM: 0xc919 (51481) = data + bss
+Finished building: hello_world_2.siz
+ 
+Build started...
+14:58:45 **** Incremental Build of configuration TriCore Debug (TASKING) for project hello_world_2 ****
+amk -j16 all 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): program builder v1.1r8 Build 22011964
+cctc -cs --dep-file="Cpu0_Main.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Cpu0_Main.src" "../Cpu0_Main.c"
+cctc -cs --dep-file="task.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "task.src" "../task.c"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "task.o" "task.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Cpu0_Main.o" "Cpu0_Main.src"
+Building target: hello_world_2.elf
+Invoking: TASKING Linker
+cctc -f .hello_world_2.elf.opt
+Finished building target: hello_world_2.elf
+ 
+Invoking: Print Size
+elfsize  "hello_world_2.elf"
+Total sizes:
+ROM: 0x4405 (17413) = code: 0x3056 (12374) + romdata: 0x13af (5039)
+RAM: 0xc919 (51481) = data + bss
+Finished building: hello_world_2.siz
+ 
+Build started...
+14:59:50 **** Incremental Build of configuration TriCore Debug (TASKING) for project hello_world_2 ****
+amk -j16 all 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): program builder v1.1r8 Build 22011964
+cctc -cs --dep-file="task.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "task.src" "../task.c"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "task.o" "task.src"
+Building target: hello_world_2.elf
+Invoking: TASKING Linker
+cctc -f .hello_world_2.elf.opt
+Finished building target: hello_world_2.elf
+ 
+Invoking: Print Size
+elfsize  "hello_world_2.elf"
+Total sizes:
+ROM: 0x4405 (17413) = code: 0x3056 (12374) + romdata: 0x13af (5039)
+RAM: 0xc919 (51481) = data + bss
+Finished building: hello_world_2.siz
+ 
+Build started...
+15:00:26 **** Incremental Build of configuration TriCore Debug (TASKING) for project hello_world_2 ****
+amk -j16 all 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): program builder v1.1r8 Build 22011964
+cctc -cs --dep-file="task.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "task.src" "../task.c"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "task.o" "task.src"
+Building target: hello_world_2.elf
+Invoking: TASKING Linker
+cctc -f .hello_world_2.elf.opt
+Finished building target: hello_world_2.elf
+ 
+Invoking: Print Size
+elfsize  "hello_world_2.elf"
+Total sizes:
+ROM: 0x4405 (17413) = code: 0x3056 (12374) + romdata: 0x13af (5039)
+RAM: 0xc919 (51481) = data + bss
+Finished building: hello_world_2.siz
+ 
+Build started...
+15:03:37 **** Incremental Build of configuration TriCore Debug (TASKING) for project hello_world_2 ****
+amk -j16 all 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): program builder v1.1r8 Build 22011964
+cctc -cs --dep-file="Cpu0_Main.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Cpu0_Main.src" "../Cpu0_Main.c"
+cctc -cs --dep-file="task.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "task.src" "../task.c"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "task.o" "task.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Cpu0_Main.o" "Cpu0_Main.src"
+Building target: hello_world_2.elf
+Invoking: TASKING Linker
+cctc -f .hello_world_2.elf.opt
+Finished building target: hello_world_2.elf
+ 
+Invoking: Print Size
+elfsize  "hello_world_2.elf"
+Total sizes:
+ROM: 0x4405 (17413) = code: 0x3056 (12374) + romdata: 0x13af (5039)
+RAM: 0xc919 (51481) = data + bss
+Finished building: hello_world_2.siz
+ 
+Build started...
+15:06:31 **** Incremental Build of configuration TriCore Debug (TASKING) for project hello_world_2 ****
+amk -j16 all 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): program builder v1.1r8 Build 22011964
+cctc -cs --dep-file="Cpu0_Main.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Cpu0_Main.src" "../Cpu0_Main.c"
+cctc -cs --dep-file="task.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "task.src" "../task.c"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "task.o" "task.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Cpu0_Main.o" "Cpu0_Main.src"
+Building target: hello_world_2.elf
+Invoking: TASKING Linker
+cctc -f .hello_world_2.elf.opt
+Finished building target: hello_world_2.elf
+ 
+Invoking: Print Size
+elfsize  "hello_world_2.elf"
+Total sizes:
+ROM: 0x4405 (17413) = code: 0x3056 (12374) + romdata: 0x13af (5039)
+RAM: 0xc919 (51481) = data + bss
+Finished building: hello_world_2.siz
+ 
+Build started...
+15:08:03 **** Incremental Build of configuration TriCore Debug (TASKING) for project hello_world_2 ****
+amk -j16 all 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): program builder v1.1r8 Build 22011964
+cctc -cs --dep-file="task.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "task.src" "../task.c"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "task.o" "task.src"
+Building target: hello_world_2.elf
+Invoking: TASKING Linker
+cctc -f .hello_world_2.elf.opt
+Finished building target: hello_world_2.elf
+ 
+Invoking: Print Size
+elfsize  "hello_world_2.elf"
+Total sizes:
+ROM: 0x4405 (17413) = code: 0x3056 (12374) + romdata: 0x13af (5039)
+RAM: 0xc919 (51481) = data + bss
+Finished building: hello_world_2.siz
+ 
+Build started...
+15:08:08 **** Incremental Build of configuration TriCore Debug (TASKING) for project hello_world_2 ****
+amk -j16 all 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): program builder v1.1r8 Build 22011964
+Building target: hello_world_2.elf
+Invoking: TASKING Linker
+cctc -f .hello_world_2.elf.opt
+Finished building target: hello_world_2.elf
+ 
+Invoking: Print Size
+elfsize  "hello_world_2.elf"
+Total sizes:
+ROM: 0x4405 (17413) = code: 0x3056 (12374) + romdata: 0x13af (5039)
+RAM: 0xc919 (51481) = data + bss
+Finished building: hello_world_2.siz
+ 
+Build started...
+15:11:31 **** Incremental Build of configuration TriCore Debug (TASKING) for project hello_world_2 ****
+amk -j16 all 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): program builder v1.1r8 Build 22011964
+cctc -cs --dep-file="task.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "task.src" "../task.c"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "task.o" "task.src"
+Building target: hello_world_2.elf
+Invoking: TASKING Linker
+cctc -f .hello_world_2.elf.opt
+Finished building target: hello_world_2.elf
+ 
+Invoking: Print Size
+elfsize  "hello_world_2.elf"
+Total sizes:
+ROM: 0x4405 (17413) = code: 0x3056 (12374) + romdata: 0x13af (5039)
+RAM: 0xc919 (51481) = data + bss
+Finished building: hello_world_2.siz
+ 
+Build started...
+15:11:46 **** Incremental Build of configuration TriCore Debug (TASKING) for project hello_world_2 ****
+amk -j16 all 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): program builder v1.1r8 Build 22011964
+Building target: hello_world_2.elf
+Invoking: TASKING Linker
+cctc -f .hello_world_2.elf.opt
+Finished building target: hello_world_2.elf
+ 
+Invoking: Print Size
+elfsize  "hello_world_2.elf"
+Total sizes:
+ROM: 0x4405 (17413) = code: 0x3056 (12374) + romdata: 0x13af (5039)
+RAM: 0xc919 (51481) = data + bss
+Finished building: hello_world_2.siz
+ 
+Build started...
+15:12:18 **** Incremental Build of configuration TriCore Debug (TASKING) for project hello_world_2 ****
+amk -j16 all 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): program builder v1.1r8 Build 22011964
+cctc -cs --dep-file="Cpu0_Main.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Cpu0_Main.src" "../Cpu0_Main.c"
+cctc -cs --dep-file="task.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "task.src" "../task.c"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "task.o" "task.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Cpu0_Main.o" "Cpu0_Main.src"
+Building target: hello_world_2.elf
+Invoking: TASKING Linker
+cctc -f .hello_world_2.elf.opt
+Finished building target: hello_world_2.elf
+ 
+Invoking: Print Size
+elfsize  "hello_world_2.elf"
+Total sizes:
+ROM: 0x440b (17419) = code: 0x305c (12380) + romdata: 0x13af (5039)
+RAM: 0xc919 (51481) = data + bss
+Finished building: hello_world_2.siz
+ 
+Build started...
+15:14:26 **** Incremental Build of configuration TriCore Debug (TASKING) for project hello_world_2 ****
+amk -j16 all 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): program builder v1.1r8 Build 22011964
+cctc -cs --dep-file="task.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "task.src" "../task.c"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "task.o" "task.src"
+Building target: hello_world_2.elf
+Invoking: TASKING Linker
+cctc -f .hello_world_2.elf.opt
+Finished building target: hello_world_2.elf
+ 
+Invoking: Print Size
+elfsize  "hello_world_2.elf"
+Total sizes:
+ROM: 0x43f3 (17395) = code: 0x3044 (12356) + romdata: 0x13af (5039)
+RAM: 0xc919 (51481) = data + bss
+Finished building: hello_world_2.siz
+ 

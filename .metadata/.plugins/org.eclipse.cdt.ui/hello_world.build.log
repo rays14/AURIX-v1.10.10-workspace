@@ -1,4 +1,4 @@
-14:03:27 **** Incremental Build of configuration TriCore Debug (TASKING) for project hello_world ****
+14:54:46 **** Build of configuration TriCore Debug (TASKING) for project hello_world ****
 amk -j16 all 
 TASKING VX-toolset for AURIX Development Studio (non-commercial): program builder v1.1r8 Build 22011964
 Building target: hello_world.elf
@@ -14,5 +14,5 @@ RAM: 0xc295 (49813) = data + bss
 Finished building: hello_world.siz
  
 
-14:03:29 Build Finished. 0 errors, 0 warnings. (took 1s.508ms)
+14:54:48 Build Finished. 0 errors, 0 warnings. (took 1s.643ms)
 

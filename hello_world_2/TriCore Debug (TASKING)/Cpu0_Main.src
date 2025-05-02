@@ -1,6 +1,6 @@
 	; Module start
 	.compiler_version	"TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler v1.1r8 Build 22011964"
-	.compiler_invocation	"ctc -f cc43712a --dep-file=Cpu0_Main.d -c99 --fp-model=3cflnrSTz -D__CPU__=tc38x -D__CPU_TC38X__ --core=tc1.6.2 --fp-model=+float -D__CPU__=tc38x -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2 -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Configurations -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\Infra -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\Infra\\\\Platform -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore\\\\Compilers -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\Infra\\\\Sfr -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\Infra\\\\Sfr\\\\TC38A -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\Infra\\\\Sfr\\\\TC38A\\\\_Reg -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\Infra\\\\Ssw -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\Infra\\\\Ssw\\\\TC38A -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\Infra\\\\Ssw\\\\TC38A\\\\Tricore -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\Service -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\Service\\\\CpuGeneric -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\Service\\\\CpuGeneric\\\\_Utilities -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\iLLD -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\iLLD\\\\TC38A -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\iLLD\\\\TC38A\\\\Tricore -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Cpu -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Cpu\\\\Irq -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Cpu\\\\Std -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Cpu\\\\Trap -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Gtm -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Gtm\\\\Std -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Mtu -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Mtu\\\\Std -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Pms -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Pms\\\\Std -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Port -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Port\\\\Std -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Scu -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Scu\\\\Std -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Src -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Src\\\\Std -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\_Impl -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\_PinMap -g2 -w544 -w557 -t4 --language=+volatile -N0 -O0 -Y0 -Z0 --compact-max-size=200 --misrac-version=2004 -o Cpu0_Main.src ../Cpu0_Main.c"
+	.compiler_invocation	"ctc -f cc41672a --dep-file=Cpu0_Main.d -c99 --fp-model=3cflnrSTz -D__CPU__=tc38x -D__CPU_TC38X__ --core=tc1.6.2 --fp-model=+float -D__CPU__=tc38x -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2 -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Configurations -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\Infra -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\Infra\\\\Platform -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore\\\\Compilers -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\Infra\\\\Sfr -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\Infra\\\\Sfr\\\\TC38A -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\Infra\\\\Sfr\\\\TC38A\\\\_Reg -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\Infra\\\\Ssw -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\Infra\\\\Ssw\\\\TC38A -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\Infra\\\\Ssw\\\\TC38A\\\\Tricore -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\Service -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\Service\\\\CpuGeneric -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\Service\\\\CpuGeneric\\\\_Utilities -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\iLLD -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\iLLD\\\\TC38A -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\iLLD\\\\TC38A\\\\Tricore -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Cpu -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Cpu\\\\Irq -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Cpu\\\\Std -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Cpu\\\\Trap -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Gtm -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Gtm\\\\Std -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Mtu -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Mtu\\\\Std -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Pms -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Pms\\\\Std -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Port -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Port\\\\Std -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Scu -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Scu\\\\Std -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Src -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Src\\\\Std -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\_Impl -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\_PinMap -g2 -w544 -w557 -t4 --language=+volatile -N0 -O0 -Y0 -Z0 --compact-max-size=200 --misrac-version=2004 -o Cpu0_Main.src ../Cpu0_Main.c"
 	.compiler_name		"ctc"
 	;source	'../Cpu0_Main.c'
 
@@ -13,40 +13,40 @@ $TC162
 	
 	.global	delay
 ; Function delay
-.L12:
+.L10:
 delay:	.type	func
 	sub.a	a10,#8
-.L156:
+.L154:
+	mov	d15,#0
+.L165:
+	st.w	[a10],d15
+.L166:
 	mov	d15,#0
 .L167:
 	st.w	[a10],d15
 .L168:
-	mov	d15,#0
-.L169:
-	st.w	[a10],d15
-.L170:
 	j	.L2
 .L3:
+	ld.w	d15,[a10]
+.L169:
+	add	d15,#1
+	st.w	[a10],d15
+.L170:
 	ld.w	d15,[a10]
 .L171:
 	add	d15,#1
 	st.w	[a10],d15
-.L172:
-	ld.w	d15,[a10]
-.L173:
-	add	d15,#1
-	st.w	[a10],d15
 .L2:
 	ld.w	d15,[a10]
-.L174:
+.L172:
 	jlt	d15,d4,.L3
-.L175:
+.L173:
 	ret
-.L115:
+.L113:
 	
 __delay_function_end:
 	.size	delay,__delay_function_end-delay
-.L39:
+.L37:
 	; End of function
 	
 	.sdecl	'.text.Cpu0_Main.gpt1_isr_exec',code,cluster('gpt1_isr_exec')
@@ -55,7 +55,7 @@ __delay_function_end:
 	
 	.global	gpt1_isr_exec
 ; Function gpt1_isr_exec
-.L14:
+.L12:
 gpt1_isr_exec:	.type	func
 	movh.a	a15,#@his(p_pin33)
 	lea	a15,[a15]@los(p_pin33)
@@ -63,95 +63,93 @@ gpt1_isr_exec:	.type	func
 	movh.a	a2,#@his(p_pin33)
 	lea	a2,[a2]@los(p_pin33)
 	ld.a	a2,[a2]
-.L180:
+.L178:
 	ld.bu	d15,[a2]
-.L181:
+.L179:
 	movh.a	a2,#@his(p_pin33)
 	lea	a2,[a2]@los(p_pin33)
 	ld.a	a2,[a2]
-.L182:
+.L180:
 	ld.bu	d0,[a2]
 	extr.u	d0,d0,#7,#1
-.L183:
+.L181:
 	mov	d1,#-1
 	xor	d0,d1
 	extr.u	d0,d0,#0,#8
-.L184:
+.L182:
 	insert	d15,d15,d0,#7,#1
 	st.b	[a15],d15
-.L185:
+.L183:
 	movh.a	a15,#@his(p_gpt12)
 	lea	a15,[a15]@los(p_gpt12)
 	ld.a	a15,[a15]
 	movh.a	a2,#@his(p_gpt12)
 	lea	a2,[a2]@los(p_gpt12)
 	ld.a	a2,[a2]
-.L186:
+.L184:
 	ld.bu	d15,[a2]20
-.L187:
+.L185:
 	insert	d15,d15,#0,#6,#1
 	st.b	[a15]20,d15
-.L188:
+.L186:
 	movh.a	a15,#@his(p_gpt12)
 	lea	a15,[a15]@los(p_gpt12)
 	ld.a	a15,[a15]
 	movh.a	a2,#@his(p_gpt12)
 	lea	a2,[a2]@los(p_gpt12)
 	ld.a	a2,[a2]
-.L189:
+.L187:
 	ld.hu	d15,[a2]56
-.L190:
+.L188:
 	movh.a	a2,#@his(TOGGLE_VALUE)
 	lea	a2,[a2]@los(TOGGLE_VALUE)
 	ld.hu	d0,[a2]0
-.L191:
+.L189:
 	insert	d15,d15,d0,#0,#16
 	st.h	[a15]56,d15
-.L192:
+.L190:
 	movh.a	a15,#@his(p_gpt12)
 	lea	a15,[a15]@los(p_gpt12)
 	ld.a	a15,[a15]
 	movh.a	a2,#@his(p_gpt12)
 	lea	a2,[a2]@los(p_gpt12)
 	ld.a	a2,[a2]
-.L193:
+.L191:
 	ld.bu	d15,[a2]20
-.L194:
+.L192:
 	or	d15,#64
 	st.b	[a15]20,d15
-.L122:
+.L120:
 	enable
-.L123:
+.L121:
 	movh.a	a15,#@his(gpt1_isr_count)
 	lea	a15,[a15]@los(gpt1_isr_count)
 	movh.a	a2,#@his(gpt1_isr_count)
 	lea	a2,[a2]@los(gpt1_isr_count)
 	ld.w	d15,[a2]
-.L195:
+.L193:
 	add	d15,#1
 	st.w	[a15],d15
+.L194:
+	movh.a	a15,#@his(gpt1_isr_count)
+	lea	a15,[a15]@los(gpt1_isr_count)
+	ld.w	d15,[a15]
+.L195:
+	jlt.u	d15,#10,.L4
 .L196:
 	movh.a	a15,#@his(gpt1_isr_count)
 	lea	a15,[a15]@los(gpt1_isr_count)
-	ld.w	d0,[a15]
 .L197:
-	mov	d15,#10
-.L198:
-	jlt	d0,d15,.L4
-.L199:
-	movh.a	a15,#@his(gpt1_isr_count)
-	lea	a15,[a15]@los(gpt1_isr_count)
-.L200:
 	mov	d15,#0
-.L201:
+.L198:
 	st.w	[a15],d15
 .L4:
 	ret
-.L120:
+.L118:
 	
 __gpt1_isr_exec_function_end:
 	.size	gpt1_isr_exec,__gpt1_isr_exec_function_end-gpt1_isr_exec
-.L44:
+.L42:
 	; End of function
 	
 	.sdecl	'.text.inttab0.intvec.000',code
@@ -165,19 +163,19 @@ __gpt1_isr_exec_function_end:
 	
 	.global	gpt1_isr
 ; Function gpt1_isr
-.L16:
+.L14:
 gpt1_isr:	.type	func
 	svlcx
-.L206:
+.L203:
 	call	gpt1_isr_exec
-.L207:
+.L204:
 	rslcx
 	rfe
-.L125:
+.L123:
 	
 __gpt1_isr_function_end:
 	.size	gpt1_isr,__gpt1_isr_function_end-gpt1_isr
-.L49:
+.L47:
 	; End of function
 	
 	.sdecl	'.text.Cpu0_Main.timer_0_isr_exec',code,cluster('timer_0_isr_exec')
@@ -186,16 +184,16 @@ __gpt1_isr_function_end:
 	
 	.global	timer_0_isr_exec
 ; Function timer_0_isr_exec
-.L18:
+.L16:
 timer_0_isr_exec:	.type	func
 	mfcr	d15,#65068
-.L157:
+.L155:
 	j	.L5
 .L5:
 	disable
-.L212:
+.L209:
 	nop
-.L213:
+.L210:
 	j	.L6
 .L6:
 	movh.a	a15,#@his(p_stm0)
@@ -204,62 +202,56 @@ timer_0_isr_exec:	.type	func
 	movh.a	a2,#@his(p_stm0)
 	lea	a2,[a2]@los(p_stm0)
 	ld.a	a2,[a2]
-.L214:
+.L211:
 	ld.bu	d15,[a2]64
-.L158:
+.L156:
 	or	d15,#1
 	st.b	[a15]64,d15
-.L215:
-	movh.a	a15,#@his(p_stm0)
-	lea	a15,[a15]@los(p_stm0)
-	ld.a	a15,[a15]
-.L216:
-	ld.w	d15,[a15]48
-.L217:
-	movh	d0,#1
-.L218:
-	jne	d15,d0,.L7
-.L219:
-	mov	d15,#0
-.L220:
-	j	.L8
-.L7:
-	movh	d15,#1
-.L8:
+.L212:
 	movh.a	a15,#@his(p_stm0)
 	lea	a15,[a15]@los(p_stm0)
 	ld.a	a2,[a15]
 	movh.a	a15,#@his(p_stm0)
 	lea	a15,[a15]@los(p_stm0)
 	ld.a	a15,[a15]
-.L221:
-	ld.w	d0,[a15]48
-.L222:
+.L213:
+	ld.w	d15,[a15]48
+.L214:
+	movh.a	a15,#@his(p_stm0)
+	lea	a15,[a15]@los(p_stm0)
+	ld.a	a15,[a15]
+.L215:
+	ld.w	d15,[a15]48
+.L216:
+	mov	d0,#15625
+	sh	d0,#3
+.L217:
+	add	d15,d0
 	st.w	[a2]48,d15
-.L223:
+.L218:
 	movh.a	a15,#@his(p_stm0)
 	lea	a15,[a15]@los(p_stm0)
 	ld.a	a15,[a15]
 	movh.a	a2,#@his(p_stm0)
 	lea	a2,[a2]@los(p_stm0)
 	ld.a	a2,[a2]
-.L224:
+.L219:
 	ld.bu	d15,[a2]64
-.L225:
+.L220:
 	insert	d15,d15,#0,#0,#1
 	st.b	[a15]64,d15
-.L226:
+.L221:
 	movh.a	a4,#@his(exec_data)
 	lea	a4,[a4]@los(exec_data)
-.L227:
+.L222:
 	call	task_exec
-.L228:
+.L223:
 	ret
-.L126:
+.L124:
 	
 __timer_0_isr_exec_function_end:
 	.size	timer_0_isr_exec,__timer_0_isr_exec_function_end-timer_0_isr_exec
-.L54:
+.L52:
 	; End of function
 	
 	.sdecl	'.text.inttab0.intvec.0ff',code
@@ -273,19 +265,19 @@ __timer_0_isr_exec_function_end:
 	
 	.global	timer_0_isr
 ; Function timer_0_isr
-.L20:
+.L18:
 timer_0_isr:	.type	func
 	svlcx
-.L233:
+.L228:
 	call	timer_0_isr_exec
-.L234:
+.L229:
 	rslcx
 	rfe
-.L135:
+.L133:
 	
 __timer_0_isr_function_end:
 	.size	timer_0_isr,__timer_0_isr_function_end-timer_0_isr
-.L59:
+.L57:
 	; End of function
 	
 	.sdecl	'.text.Cpu0_Main.task_5ms',code,cluster('task_5ms')
@@ -294,7 +286,7 @@ __timer_0_isr_function_end:
 	
 	.global	task_5ms
 ; Function task_5ms
-.L22:
+.L20:
 task_5ms:	.type	func
 	movh.a	a15,#@his(p_pin20)
 	lea	a15,[a15]@los(p_pin20)
@@ -302,29 +294,29 @@ task_5ms:	.type	func
 	movh.a	a15,#@his(p_pin20)
 	lea	a15,[a15]@los(p_pin20)
 	ld.a	a15,[a15]
-.L239:
+.L234:
 	ld.bu	d0,[a15]1
-.L240:
+.L235:
 	movh.a	a15,#@his(p_pin20)
 	lea	a15,[a15]@los(p_pin20)
 	ld.a	a15,[a15]
-.L241:
+.L236:
 	ld.bu	d15,[a15]1
 	extr.u	d15,d15,#3,#1
-.L242:
+.L237:
 	mov	d1,#-1
 	xor	d15,d1
 	extr.u	d15,d15,#0,#8
-.L243:
+.L238:
 	insert	d15,d0,d15,#3,#1
 	st.b	[a2]1,d15
-.L244:
+.L239:
 	ret
-.L136:
+.L134:
 	
 __task_5ms_function_end:
 	.size	task_5ms,__task_5ms_function_end-task_5ms
-.L64:
+.L62:
 	; End of function
 	
 	.sdecl	'.text.Cpu0_Main.task_10ms',code,cluster('task_10ms')
@@ -333,7 +325,7 @@ __task_5ms_function_end:
 	
 	.global	task_10ms
 ; Function task_10ms
-.L24:
+.L22:
 task_10ms:	.type	func
 	movh.a	a15,#@his(p_pin20)
 	lea	a15,[a15]@los(p_pin20)
@@ -341,29 +333,29 @@ task_10ms:	.type	func
 	movh.a	a15,#@his(p_pin20)
 	lea	a15,[a15]@los(p_pin20)
 	ld.a	a15,[a15]
-.L249:
+.L244:
 	ld.bu	d0,[a15]1
-.L250:
+.L245:
 	movh.a	a15,#@his(p_pin20)
 	lea	a15,[a15]@los(p_pin20)
 	ld.a	a15,[a15]
-.L251:
+.L246:
 	ld.bu	d15,[a15]1
 	extr.u	d15,d15,#4,#1
-.L252:
+.L247:
 	mov	d1,#-1
 	xor	d15,d1
 	extr.u	d15,d15,#0,#8
-.L253:
+.L248:
 	insert	d15,d0,d15,#4,#1
 	st.b	[a2]1,d15
-.L254:
+.L249:
 	ret
-.L137:
+.L135:
 	
 __task_10ms_function_end:
 	.size	task_10ms,__task_10ms_function_end-task_10ms
-.L69:
+.L67:
 	; End of function
 	
 	.sdecl	'.text.Cpu0_Main.task_20ms',code,cluster('task_20ms')
@@ -372,7 +364,7 @@ __task_10ms_function_end:
 	
 	.global	task_20ms
 ; Function task_20ms
-.L26:
+.L24:
 task_20ms:	.type	func
 	movh.a	a15,#@his(p_pin20)
 	lea	a15,[a15]@los(p_pin20)
@@ -380,29 +372,29 @@ task_20ms:	.type	func
 	movh.a	a15,#@his(p_pin20)
 	lea	a15,[a15]@los(p_pin20)
 	ld.a	a15,[a15]
-.L259:
+.L254:
 	ld.bu	d0,[a15]1
-.L260:
+.L255:
 	movh.a	a15,#@his(p_pin20)
 	lea	a15,[a15]@los(p_pin20)
 	ld.a	a15,[a15]
-.L261:
+.L256:
 	ld.bu	d15,[a15]1
 	extr.u	d15,d15,#5,#1
-.L262:
+.L257:
 	mov	d1,#-1
 	xor	d15,d1
 	extr.u	d15,d15,#0,#8
-.L263:
+.L258:
 	insert	d15,d0,d15,#5,#1
 	st.b	[a2]1,d15
-.L264:
+.L259:
 	ret
-.L138:
+.L136:
 	
 __task_20ms_function_end:
 	.size	task_20ms,__task_20ms_function_end-task_20ms
-.L74:
+.L72:
 	; End of function
 	
 	.sdecl	'.text.Cpu0_Main.task_40ms',code,cluster('task_40ms')
@@ -411,7 +403,7 @@ __task_20ms_function_end:
 	
 	.global	task_40ms
 ; Function task_40ms
-.L28:
+.L26:
 task_40ms:	.type	func
 	movh.a	a15,#@his(p_pin20)
 	lea	a15,[a15]@los(p_pin20)
@@ -419,29 +411,29 @@ task_40ms:	.type	func
 	movh.a	a15,#@his(p_pin20)
 	lea	a15,[a15]@los(p_pin20)
 	ld.a	a15,[a15]
-.L269:
+.L264:
 	ld.bu	d0,[a15]1
-.L270:
+.L265:
 	movh.a	a15,#@his(p_pin20)
 	lea	a15,[a15]@los(p_pin20)
 	ld.a	a15,[a15]
-.L271:
+.L266:
 	ld.bu	d15,[a15]1
 	extr.u	d15,d15,#6,#1
-.L272:
+.L267:
 	mov	d1,#-1
 	xor	d15,d1
 	extr.u	d15,d15,#0,#8
-.L273:
+.L268:
 	insert	d15,d0,d15,#6,#1
 	st.b	[a2]1,d15
-.L274:
+.L269:
 	ret
-.L139:
+.L137:
 	
 __task_40ms_function_end:
 	.size	task_40ms,__task_40ms_function_end-task_40ms
-.L79:
+.L77:
 	; End of function
 	
 	.sdecl	'.text.Cpu0_Main.core0_main',code,cluster('core0_main')
@@ -450,317 +442,336 @@ __task_40ms_function_end:
 	
 	.global	core0_main
 ; Function core0_main
-.L30:
+.L28:
 core0_main:	.type	func
 	enable
-.L141:
+.L139:
 	call	IfxScuWdt_getCpuWatchdogPassword
 	mov	d4,d2
 	call	IfxScuWdt_disableCpuWatchdog
-.L279:
+.L274:
 	call	IfxScuWdt_getSafetyWatchdogPassword
 	mov	d4,d2
 	call	IfxScuWdt_disableSafetyWatchdog
-.L280:
+.L275:
 	movh.a	a4,#@his(g_cpuSyncEvent)
 	lea	a4,[a4]@los(g_cpuSyncEvent)
 	call	IfxCpu_emitEvent
-.L281:
+.L276:
 	movh.a	a4,#@his(g_cpuSyncEvent)
 	lea	a4,[a4]@los(g_cpuSyncEvent)
-.L282:
+.L277:
 	mov	d4,#1
 	call	IfxCpu_waitEvent
-.L283:
+.L278:
 	call	task_init
-.L284:
+.L279:
 	movh.a	a4,#@his(task_5ms)
 	lea	a4,[a4]@los(task_5ms)
-.L285:
+.L280:
 	mov	d4,#4
-.L286:
+.L281:
 	mov	d5,#0
 	call	task_add
-.L287:
+.L282:
 	movh.a	a4,#@his(task_10ms)
 	lea	a4,[a4]@los(task_10ms)
-.L288:
+.L283:
 	mov	d4,#8
-.L289:
+.L284:
 	mov	d5,#0
 	call	task_add
-.L290:
+.L285:
 	movh.a	a4,#@his(task_20ms)
 	lea	a4,[a4]@los(task_20ms)
-.L291:
+.L286:
 	mov	d4,#16
-.L292:
+.L287:
 	mov	d5,#0
 	call	task_add
-.L293:
+.L288:
 	movh.a	a4,#@his(task_40ms)
 	lea	a4,[a4]@los(task_40ms)
-.L294:
+.L289:
 	mov	d4,#32
-.L295:
+.L290:
 	mov	d5,#0
 	call	task_add
-.L296:
+.L291:
 	movh.a	a15,#@his(p_src)
 	lea	a15,[a15]@los(p_src)
 	ld.a	a15,[a15]
 	movh.a	a2,#@his(p_src)
 	lea	a2,[a2]@los(p_src)
 	ld.a	a2,[a2]
-.L297:
+.L292:
 	ld.bu	d15,[a2]744
-.L298:
+.L293:
 	insert	d15,d15,#0,#0,#8
 	st.b	[a15]744,d15
-.L299:
+.L294:
 	movh.a	a15,#@his(p_src)
 	lea	a15,[a15]@los(p_src)
 	ld.a	a15,[a15]
 	movh.a	a2,#@his(p_src)
 	lea	a2,[a2]@los(p_src)
 	ld.a	a2,[a2]
-.L300:
+.L295:
 	ld.bu	d15,[a2]745
-.L301:
+.L296:
 	or	d15,#4
 	st.b	[a15]745,d15
-.L302:
+.L297:
 	movh.a	a15,#@his(p_src)
 	lea	a15,[a15]@los(p_src)
 	ld.a	a15,[a15]
 	movh.a	a2,#@his(p_src)
 	lea	a2,[a2]@los(p_src)
 	ld.a	a2,[a2]
-.L303:
+.L298:
 	ld.bu	d15,[a2]745
-.L304:
+.L299:
 	insert	d15,d15,#0,#3,#3
 	st.b	[a15]745,d15
-.L305:
+.L300:
 	movh.a	a15,#@his(p_src)
 	lea	a15,[a15]@los(p_src)
 	ld.a	a15,[a15]
 	movh.a	a2,#@his(p_src)
 	lea	a2,[a2]@los(p_src)
 	ld.a	a2,[a2]
-.L306:
+.L301:
 	ld.bu	d15,[a2]768
-.L307:
+.L302:
 	or	d15,#255
 	st.b	[a15]768,d15
-.L308:
+.L303:
 	movh.a	a15,#@his(p_src)
 	lea	a15,[a15]@los(p_src)
 	ld.a	a15,[a15]
 	movh.a	a2,#@his(p_src)
 	lea	a2,[a2]@los(p_src)
 	ld.a	a2,[a2]
-.L309:
+.L304:
 	ld.bu	d15,[a2]769
-.L310:
+.L305:
 	or	d15,#4
 	st.b	[a15]769,d15
-.L311:
+.L306:
 	movh.a	a15,#@his(p_src)
 	lea	a15,[a15]@los(p_src)
 	ld.a	a15,[a15]
 	movh.a	a2,#@his(p_src)
 	lea	a2,[a2]@los(p_src)
 	ld.a	a2,[a2]
-.L312:
+.L307:
 	ld.bu	d15,[a2]769
-.L313:
+.L308:
 	insert	d15,d15,#0,#3,#3
 	st.b	[a15]769,d15
-.L314:
+.L309:
 	movh.a	a15,#@his(p_gpt12)
 	lea	a15,[a15]@los(p_gpt12)
 	ld.a	a15,[a15]
 	movh.a	a2,#@his(p_gpt12)
 	lea	a2,[a2]@los(p_gpt12)
 	ld.a	a2,[a2]
-.L315:
+.L310:
 	ld.bu	d15,[a2]
-.L316:
+.L311:
 	insert	d15,d15,#0,#0,#1
 	st.b	[a15],d15
-.L317:
+.L312:
 	movh.a	a15,#@his(p_gpt12)
 	lea	a15,[a15]@los(p_gpt12)
 	ld.a	a15,[a15]
 	movh.a	a2,#@his(p_gpt12)
 	lea	a2,[a2]@los(p_gpt12)
 	ld.a	a2,[a2]
-.L318:
+.L313:
 	ld.bu	d15,[a2]
-.L319:
+.L314:
 	or	d15,#8
 	st.b	[a15],d15
-.L320:
+.L315:
 	movh.a	a15,#@his(p_gpt12)
 	lea	a15,[a15]@los(p_gpt12)
 	ld.a	a15,[a15]
-.L321:
+.L316:
 	mov	d15,#-1
-.L322:
+.L317:
 	st.w	[a15]252,d15
-.L323:
+.L318:
 	movh.a	a15,#@his(p_gpt12)
 	lea	a15,[a15]@los(p_gpt12)
 	ld.a	a15,[a15]
 	movh.a	a2,#@his(p_gpt12)
 	lea	a2,[a2]@los(p_gpt12)
 	ld.a	a2,[a2]
-.L324:
+.L319:
 	ld.hu	d15,[a2]56
-.L325:
+.L320:
 	movh.a	a2,#@his(TOGGLE_VALUE)
 	lea	a2,[a2]@los(TOGGLE_VALUE)
 	ld.hu	d0,[a2]0
-.L326:
+.L321:
 	insert	d15,d15,d0,#0,#16
 	st.h	[a15]56,d15
-.L327:
+.L322:
 	movh.a	a15,#@his(p_gpt12)
 	lea	a15,[a15]@los(p_gpt12)
 	ld.a	a15,[a15]
 	movh.a	a2,#@his(p_gpt12)
 	lea	a2,[a2]@los(p_gpt12)
 	ld.a	a2,[a2]
-.L328:
+.L323:
 	ld.bu	d15,[a2]20
-.L329:
+.L324:
 	insert	d15,d15,#2,#0,#3
 	st.b	[a15]20,d15
-.L330:
+.L325:
 	movh.a	a15,#@his(p_gpt12)
 	lea	a15,[a15]@los(p_gpt12)
 	ld.a	a15,[a15]
 	movh.a	a2,#@his(p_gpt12)
 	lea	a2,[a2]@los(p_gpt12)
 	ld.a	a2,[a2]
-.L331:
+.L326:
 	ld.bu	d15,[a2]21
-.L332:
+.L327:
 	or	d15,#24
 	st.b	[a15]21,d15
-.L333:
+.L328:
 	movh.a	a15,#@his(p_gpt12)
 	lea	a15,[a15]@los(p_gpt12)
 	ld.a	a15,[a15]
 	movh.a	a2,#@his(p_gpt12)
 	lea	a2,[a2]@los(p_gpt12)
 	ld.a	a2,[a2]
-.L334:
+.L329:
 	ld.bu	d15,[a2]20
-.L335:
+.L330:
 	insert	d15,d15,#0,#3,#3
 	st.b	[a15]20,d15
-.L336:
+.L331:
 	movh.a	a15,#@his(p_gpt12)
 	lea	a15,[a15]@los(p_gpt12)
 	ld.a	a15,[a15]
 	movh.a	a2,#@his(p_gpt12)
 	lea	a2,[a2]@los(p_gpt12)
 	ld.a	a2,[a2]
-.L337:
+.L332:
 	ld.bu	d15,[a2]20
-.L338:
+.L333:
 	or	d15,#128
 	st.b	[a15]20,d15
-.L339:
+.L334:
 	movh.a	a15,#@his(p_gpt12)
 	lea	a15,[a15]@los(p_gpt12)
 	ld.a	a15,[a15]
 	movh.a	a2,#@his(p_gpt12)
 	lea	a2,[a2]@los(p_gpt12)
 	ld.a	a2,[a2]
-.L340:
+.L335:
 	ld.bu	d15,[a2]21
-.L341:
+.L336:
 	insert	d15,d15,#0,#0,#1
 	st.b	[a15]21,d15
-.L342:
+.L337:
 	movh.a	a15,#@his(p_gpt12)
 	lea	a15,[a15]@los(p_gpt12)
 	ld.a	a15,[a15]
 	movh.a	a2,#@his(p_gpt12)
 	lea	a2,[a2]@los(p_gpt12)
 	ld.a	a2,[a2]
-.L343:
+.L338:
 	ld.bu	d15,[a2]21
-.L344:
+.L339:
 	insert	d15,d15,#0,#1,#1
 	st.b	[a15]21,d15
-.L345:
+.L340:
 	movh.a	a15,#@his(p_gpt12)
 	lea	a15,[a15]@los(p_gpt12)
 	ld.a	a15,[a15]
 	movh.a	a2,#@his(p_gpt12)
 	lea	a2,[a2]@los(p_gpt12)
 	ld.a	a2,[a2]
-.L346:
+.L341:
 	ld.bu	d15,[a2]20
-.L347:
+.L342:
 	or	d15,#64
 	st.b	[a15]20,d15
-.L348:
+.L343:
 	movh.a	a15,#@his(p_stm0)
 	lea	a15,[a15]@los(p_stm0)
 	ld.a	a2,[a15]
 	movh.a	a15,#@his(p_stm0)
 	lea	a15,[a15]@los(p_stm0)
 	ld.a	a15,[a15]
-.L349:
+.L344:
 	ld.w	d15,[a15]48
-.L350:
-	movh	d15,#1
-.L351:
+.L345:
+	movh.a	a15,#@his(p_stm0)
+	lea	a15,[a15]@los(p_stm0)
+	ld.a	a15,[a15]
+.L346:
+	ld.w	d15,[a15]16
+.L347:
+	mov	d0,#15625
+	sh	d0,#3
+.L348:
+	add	d15,d0
+.L349:
 	st.w	[a2]48,d15
-.L352:
+.L350:
 	movh.a	a15,#@his(p_stm0)
 	lea	a15,[a15]@los(p_stm0)
 	ld.a	a2,[a15]
 	movh.a	a15,#@his(p_stm0)
 	lea	a15,[a15]@los(p_stm0)
 	ld.a	a15,[a15]
-.L353:
+.L351:
 	ld.w	d15,[a15]52
-.L354:
+.L352:
 	mov	d15,#0
-.L355:
+.L353:
 	st.w	[a2]52,d15
-.L356:
+.L354:
 	movh.a	a15,#@his(p_stm0)
 	lea	a15,[a15]@los(p_stm0)
 	ld.a	a15,[a15]
 	movh.a	a2,#@his(p_stm0)
 	lea	a2,[a2]@los(p_stm0)
 	ld.a	a2,[a2]
-.L357:
+.L355:
 	ld.bu	d15,[a2]56
-.L358:
-	insert	d15,d15,#0,#0,#5
+.L356:
+	or	d15,#31
 	st.b	[a15]56,d15
-.L359:
+.L357:
 	movh.a	a15,#@his(p_stm0)
 	lea	a15,[a15]@los(p_stm0)
 	ld.a	a15,[a15]
 	movh.a	a2,#@his(p_stm0)
 	lea	a2,[a2]@los(p_stm0)
 	ld.a	a2,[a2]
-.L360:
-	ld.bu	d0,[a2]57
-.L361:
-	mov	d15,#16
-.L362:
-	insert	d15,d0,d15,#0,#5
+.L358:
+	ld.bu	d15,[a2]57
+.L359:
+	insert	d15,d15,#0,#0,#5
 	st.b	[a15]57,d15
+.L360:
+	movh.a	a15,#@his(p_stm0)
+	lea	a15,[a15]@los(p_stm0)
+	ld.a	a15,[a15]
+	movh.a	a2,#@his(p_stm0)
+	lea	a2,[a2]@los(p_stm0)
+	ld.a	a2,[a2]
+.L361:
+	ld.bu	d15,[a2]58
+.L362:
+	or	d15,#31
+	st.b	[a15]58,d15
 .L363:
 	movh.a	a15,#@his(p_stm0)
 	lea	a15,[a15]@los(p_stm0)
@@ -769,10 +780,10 @@ core0_main:	.type	func
 	lea	a2,[a2]@los(p_stm0)
 	ld.a	a2,[a2]
 .L364:
-	ld.bu	d15,[a2]58
+	ld.bu	d15,[a2]59
 .L365:
-	insert	d15,d15,#0,#0,#5
-	st.b	[a15]58,d15
+	or	d15,#31
+	st.b	[a15]59,d15
 .L366:
 	movh.a	a15,#@his(p_stm0)
 	lea	a15,[a15]@los(p_stm0)
@@ -781,10 +792,10 @@ core0_main:	.type	func
 	lea	a2,[a2]@los(p_stm0)
 	ld.a	a2,[a2]
 .L367:
-	ld.bu	d15,[a2]59
+	ld.bu	d15,[a2]60
 .L368:
-	insert	d15,d15,#0,#0,#5
-	st.b	[a15]59,d15
+	or	d15,#1
+	st.b	[a15]60,d15
 .L369:
 	movh.a	a15,#@his(p_stm0)
 	lea	a15,[a15]@los(p_stm0)
@@ -795,7 +806,7 @@ core0_main:	.type	func
 .L370:
 	ld.bu	d15,[a2]60
 .L371:
-	or	d15,#1
+	insert	d15,d15,#0,#2,#1
 	st.b	[a15]60,d15
 .L372:
 	movh.a	a15,#@his(p_stm0)
@@ -807,7 +818,7 @@ core0_main:	.type	func
 .L373:
 	ld.bu	d15,[a2]60
 .L374:
-	insert	d15,d15,#0,#2,#1
+	insert	d15,d15,#0,#4,#1
 	st.b	[a15]60,d15
 .L375:
 	movh.a	a15,#@his(p_stm0)
@@ -819,84 +830,84 @@ core0_main:	.type	func
 .L376:
 	ld.bu	d15,[a2]60
 .L377:
-	insert	d15,d15,#0,#4,#1
-	st.b	[a15]60,d15
-.L378:
-	movh.a	a15,#@his(p_stm0)
-	lea	a15,[a15]@los(p_stm0)
-	ld.a	a15,[a15]
-	movh.a	a2,#@his(p_stm0)
-	lea	a2,[a2]@los(p_stm0)
-	ld.a	a2,[a2]
-.L379:
-	ld.bu	d15,[a2]60
-.L380:
 	insert	d15,d15,#0,#6,#1
 	st.b	[a15]60,d15
+.L378:
+	movh.a	a15,#@his(p_pin20)
+	lea	a15,[a15]@los(p_pin20)
+	ld.a	a15,[a15]
+.L379:
+	mov	d15,#0
+.L380:
+	st.w	[a15]96,d15
 .L381:
 	movh.a	a15,#@his(p_pin20)
 	lea	a15,[a15]@los(p_pin20)
 	ld.a	a15,[a15]
-.L382:
-	mov	d15,#0
-.L383:
-	st.w	[a15]96,d15
-.L384:
-	movh.a	a15,#@his(p_pin20)
-	lea	a15,[a15]@los(p_pin20)
-	ld.a	a15,[a15]
 	movh.a	a2,#@his(p_pin20)
 	lea	a2,[a2]@los(p_pin20)
 	ld.a	a2,[a2]
-.L385:
+.L382:
 	ld.bu	d0,[a2]27
-.L386:
+.L383:
 	mov	d15,#16
-.L387:
+.L384:
 	insert	d15,d0,d15,#3,#5
 	st.b	[a15]27,d15
-.L388:
+.L385:
 	movh.a	a15,#@his(p_pin20)
 	lea	a15,[a15]@los(p_pin20)
 	ld.a	a15,[a15]
 	movh.a	a2,#@his(p_pin20)
 	lea	a2,[a2]@los(p_pin20)
 	ld.a	a2,[a2]
-.L389:
+.L386:
 	ld.bu	d0,[a2]28
-.L390:
+.L387:
 	mov	d15,#16
-.L391:
+.L388:
 	insert	d15,d0,d15,#3,#5
 	st.b	[a15]28,d15
-.L392:
+.L389:
 	movh.a	a15,#@his(p_pin20)
 	lea	a15,[a15]@los(p_pin20)
 	ld.a	a15,[a15]
 	movh.a	a2,#@his(p_pin20)
 	lea	a2,[a2]@los(p_pin20)
 	ld.a	a2,[a2]
-.L393:
+.L390:
 	ld.bu	d0,[a2]29
-.L394:
+.L391:
 	mov	d15,#16
-.L395:
+.L392:
 	insert	d15,d0,d15,#3,#5
 	st.b	[a15]29,d15
-.L396:
+.L393:
 	movh.a	a15,#@his(p_pin20)
 	lea	a15,[a15]@los(p_pin20)
 	ld.a	a15,[a15]
 	movh.a	a2,#@his(p_pin20)
 	lea	a2,[a2]@los(p_pin20)
 	ld.a	a2,[a2]
-.L397:
+.L394:
 	ld.bu	d0,[a2]30
-.L398:
+.L395:
 	mov	d15,#16
-.L399:
+.L396:
 	insert	d15,d0,d15,#3,#5
 	st.b	[a15]30,d15
+.L397:
+	movh.a	a15,#@his(p_pin20)
+	lea	a15,[a15]@los(p_pin20)
+	ld.a	a2,[a15]
+	movh.a	a15,#@his(p_pin20)
+	lea	a15,[a15]@los(p_pin20)
+	ld.a	a15,[a15]
+.L398:
+	ld.bu	d15,[a15]1
+.L399:
+	or	d15,#8
+	st.b	[a2]1,d15
 .L400:
 	movh.a	a15,#@his(p_pin20)
 	lea	a15,[a15]@los(p_pin20)
@@ -907,7 +918,7 @@ core0_main:	.type	func
 .L401:
 	ld.bu	d15,[a15]1
 .L402:
-	or	d15,#8
+	or	d15,#16
 	st.b	[a2]1,d15
 .L403:
 	movh.a	a15,#@his(p_pin20)
@@ -919,7 +930,7 @@ core0_main:	.type	func
 .L404:
 	ld.bu	d15,[a15]1
 .L405:
-	or	d15,#16
+	or	d15,#32
 	st.b	[a2]1,d15
 .L406:
 	movh.a	a15,#@his(p_pin20)
@@ -931,84 +942,84 @@ core0_main:	.type	func
 .L407:
 	ld.bu	d15,[a15]1
 .L408:
-	or	d15,#32
-	st.b	[a2]1,d15
-.L409:
-	movh.a	a15,#@his(p_pin20)
-	lea	a15,[a15]@los(p_pin20)
-	ld.a	a2,[a15]
-	movh.a	a15,#@his(p_pin20)
-	lea	a15,[a15]@los(p_pin20)
-	ld.a	a15,[a15]
-.L410:
-	ld.bu	d15,[a15]1
-.L411:
 	or	d15,#64
 	st.b	[a2]1,d15
+.L409:
+	movh.a	a15,#@his(p_pin33)
+	lea	a15,[a15]@los(p_pin33)
+	ld.a	a15,[a15]
+.L410:
+	mov	d15,#0
+.L411:
+	st.w	[a15]96,d15
 .L412:
 	movh.a	a15,#@his(p_pin33)
 	lea	a15,[a15]@los(p_pin33)
 	ld.a	a15,[a15]
-.L413:
-	mov	d15,#0
-.L414:
-	st.w	[a15]96,d15
-.L415:
-	movh.a	a15,#@his(p_pin33)
-	lea	a15,[a15]@los(p_pin33)
-	ld.a	a15,[a15]
 	movh.a	a2,#@his(p_pin33)
 	lea	a2,[a2]@los(p_pin33)
 	ld.a	a2,[a2]
-.L416:
+.L413:
 	ld.bu	d0,[a2]20
-.L417:
+.L414:
 	mov	d15,#16
-.L418:
+.L415:
 	insert	d15,d0,d15,#3,#5
 	st.b	[a15]20,d15
-.L419:
+.L416:
 	movh.a	a15,#@his(p_pin33)
 	lea	a15,[a15]@los(p_pin33)
 	ld.a	a15,[a15]
 	movh.a	a2,#@his(p_pin33)
 	lea	a2,[a2]@los(p_pin33)
 	ld.a	a2,[a2]
-.L420:
+.L417:
 	ld.bu	d0,[a2]21
-.L421:
+.L418:
 	mov	d15,#16
-.L422:
+.L419:
 	insert	d15,d0,d15,#3,#5
 	st.b	[a15]21,d15
-.L423:
+.L420:
 	movh.a	a15,#@his(p_pin33)
 	lea	a15,[a15]@los(p_pin33)
 	ld.a	a15,[a15]
 	movh.a	a2,#@his(p_pin33)
 	lea	a2,[a2]@los(p_pin33)
 	ld.a	a2,[a2]
-.L424:
+.L421:
 	ld.bu	d0,[a2]22
-.L425:
+.L422:
 	mov	d15,#16
-.L426:
+.L423:
 	insert	d15,d0,d15,#3,#5
 	st.b	[a15]22,d15
-.L427:
+.L424:
 	movh.a	a15,#@his(p_pin33)
 	lea	a15,[a15]@los(p_pin33)
 	ld.a	a15,[a15]
 	movh.a	a2,#@his(p_pin33)
 	lea	a2,[a2]@los(p_pin33)
 	ld.a	a2,[a2]
-.L428:
+.L425:
 	ld.bu	d0,[a2]23
-.L429:
+.L426:
 	mov	d15,#16
-.L430:
+.L427:
 	insert	d15,d0,d15,#3,#5
 	st.b	[a15]23,d15
+.L428:
+	movh.a	a15,#@his(p_pin33)
+	lea	a15,[a15]@los(p_pin33)
+	ld.a	a15,[a15]
+	movh.a	a2,#@his(p_pin33)
+	lea	a2,[a2]@los(p_pin33)
+	ld.a	a2,[a2]
+.L429:
+	ld.bu	d15,[a2]
+.L430:
+	or	d15,#16
+	st.b	[a15],d15
 .L431:
 	movh.a	a15,#@his(p_pin33)
 	lea	a15,[a15]@los(p_pin33)
@@ -1019,7 +1030,7 @@ core0_main:	.type	func
 .L432:
 	ld.bu	d15,[a2]
 .L433:
-	or	d15,#16
+	or	d15,#32
 	st.b	[a15],d15
 .L434:
 	movh.a	a15,#@his(p_pin33)
@@ -1031,7 +1042,7 @@ core0_main:	.type	func
 .L435:
 	ld.bu	d15,[a2]
 .L436:
-	or	d15,#32
+	or	d15,#64
 	st.b	[a15],d15
 .L437:
 	movh.a	a15,#@his(p_pin33)
@@ -1043,9 +1054,11 @@ core0_main:	.type	func
 .L438:
 	ld.bu	d15,[a2]
 .L439:
-	or	d15,#64
+	or	d15,#128
 	st.b	[a15],d15
 .L440:
+	j	.L7
+.L8:
 	movh.a	a15,#@his(p_pin33)
 	lea	a15,[a15]@los(p_pin33)
 	ld.a	a15,[a15]
@@ -1055,66 +1068,52 @@ core0_main:	.type	func
 .L441:
 	ld.bu	d15,[a2]
 .L442:
-	or	d15,#128
-	st.b	[a15],d15
-.L443:
-	j	.L9
-.L10:
-	movh.a	a15,#@his(p_pin33)
-	lea	a15,[a15]@los(p_pin33)
-	ld.a	a15,[a15]
-	movh.a	a2,#@his(p_pin33)
-	lea	a2,[a2]@los(p_pin33)
-	ld.a	a2,[a2]
-.L444:
-	ld.bu	d15,[a2]
-.L445:
 	movh.a	a2,#@his(toggle)
 	lea	a2,[a2]@los(toggle)
 	ld.w	d0,[a2]
 	extr.u	d0,d0,#0,#8
-.L446:
+.L443:
 	insert	d15,d15,d0,#4,#1
 	st.b	[a15],d15
-.L447:
+.L444:
 	movh.a	a15,#@his(p_pin33)
 	lea	a15,[a15]@los(p_pin33)
 	ld.a	a15,[a15]
 	movh.a	a2,#@his(p_pin33)
 	lea	a2,[a2]@los(p_pin33)
 	ld.a	a2,[a2]
-.L448:
+.L445:
 	ld.bu	d15,[a2]
-.L449:
+.L446:
 	movh.a	a2,#@his(p_pin33)
 	lea	a2,[a2]@los(p_pin33)
 	ld.a	a2,[a2]
-.L450:
+.L447:
 	ld.bu	d0,[a2]36
 	extr.u	d0,d0,#4,#1
-.L451:
+.L448:
 	insert	d15,d15,d0,#5,#1
 	st.b	[a15],d15
-.L452:
+.L449:
 	movh.a	a15,#@his(toggle)
 	lea	a15,[a15]@los(toggle)
-.L453:
+.L450:
 	movh.a	a2,#@his(toggle)
 	lea	a2,[a2]@los(toggle)
 	ld.w	d15,[a2]
-.L454:
+.L451:
 	rsub	d15,d15,#1
-.L455:
+.L452:
 	st.w	[a15],d15
-.L9:
-	j	.L10
-.L456:
+.L7:
+	j	.L8
+.L453:
 	ret
-.L140:
+.L138:
 	
 __core0_main_function_end:
 	.size	core0_main,__core0_main_function_end-core0_main
-.L84:
+.L82:
 	; End of function
 	
 	.sdecl	'.data.Cpu0_Main.g_cpuSyncEvent',data,cluster('g_cpuSyncEvent')
@@ -1166,6 +1165,13 @@ p_stm0:	.type	object
 p_gpt12:	.type	object
 	.size	p_gpt12,4
 	.word	-268429312
+	.sdecl	'.rodata.Cpu0_Main.TOGGLE_VALUE',data,rom,cluster('TOGGLE_VALUE')
+	.sect	'.rodata.Cpu0_Main.TOGGLE_VALUE'
+	.global	TOGGLE_VALUE
+	.align	2
+TOGGLE_VALUE:	.type	object
+	.size	TOGGLE_VALUE,2
+	.half	65534
 	.sdecl	'.data.Cpu0_Main.timer_0_isr_count',data,cluster('timer_0_isr_count')
 	.sect	'.data.Cpu0_Main.timer_0_isr_count'
 	.global	timer_0_isr_count
@@ -1201,13 +1207,6 @@ int_toggle_p6:	.type	object
 int_toggle_p7:	.type	object
 	.size	int_toggle_p7,4
 	.space	4
-	.sdecl	'.rodata.Cpu0_Main.TOGGLE_VALUE',data,rom,cluster('TOGGLE_VALUE')
-	.sect	'.rodata.Cpu0_Main.TOGGLE_VALUE'
-	.global	TOGGLE_VALUE
-	.align	2
-TOGGLE_VALUE:	.type	object
-	.size	TOGGLE_VALUE,2
-	.half	65534
 	.sdecl	'.data.Cpu0_Main.compare_value',data,cluster('compare_value')
 	.sect	'.data.Cpu0_Main.compare_value'
 	.global	compare_value
@@ -1258,17 +1257,17 @@ exec_data:	.type	object
 	.calls	'core0_main','',0
 	.sdecl	'.debug_info',debug
 	.sect	'.debug_info'
-.L32:
+.L30:
 	.word	136833
 	.half	3
-	.word	.L33
+	.word	.L31
 	.byte	4
-.L31:
+.L29:
 	.byte	1
 	.byte	'../Cpu0_Main.c',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
 	.byte	'C:\\Users\\sray\\AURIX-v1.10.10-workspace\\hello_world_2\\TriCore Debug (TASKING)\\',0,12,1
-	.word	.L34
+	.word	.L32
 	.byte	2,1,1,3
 	.word	188
 	.byte	4
@@ -1302,10 +1301,10 @@ exec_data:	.type	object
 	.byte	'value',0,2,143,1,43
 	.word	334
 	.byte	6,0
-.L142:
+.L140:
 	.byte	7
 	.byte	'unsigned int',0,4,7
-.L116:
+.L114:
 	.byte	7
 	.byte	'int',0,4,5,7
 	.byte	'unsigned int',0,4,7,10
@@ -1331,7 +1330,7 @@ exec_data:	.type	object
 	.byte	'B',0
 	.word	491
 	.byte	4,2,35,0,0
-.L129:
+.L127:
 	.byte	7
 	.byte	'unsigned char',0,1,8,7
 	.byte	'unsigned short int',0,2,7,10
@@ -2778,7 +2777,7 @@ exec_data:	.type	object
 	.word	8523
 	.byte	4,3,35,252,1,0,14
 	.word	8563
-.L144:
+.L142:
 	.byte	3
 	.word	9133
 	.byte	17,5,189,1,9,4,18
@@ -2811,24 +2810,24 @@ exec_data:	.type	object
 	.byte	'IfxCpu_getCoreIndex',0,3,8,233,6,31
 	.word	9408
 	.byte	1,1,6,0
-.L131:
+.L129:
 	.byte	8
 	.byte	'IfxCpu_areInterruptsEnabled',0,3,8,231,5,20
 	.word	627
 	.byte	1,1
-.L132:
+.L130:
 	.byte	6,0
-.L127:
+.L125:
 	.byte	8
 	.byte	'IfxCpu_disableInterrupts',0,3,8,239,5,20
 	.word	627
 	.byte	1,1
-.L128:
+.L126:
 	.byte	19,6,0,0
-.L121:
+.L119:
 	.byte	4
 	.byte	'IfxCpu_enableInterrupts',0,3,8,249,5,17,1,1
-.L124:
+.L122:
 	.byte	6,0,7
 	.byte	'unsigned long int',0,4,7,8
 	.byte	'IfxCpu_getPerformanceCounter',0,3,8,253,6,19
@@ -2999,7 +2998,7 @@ exec_data:	.type	object
 	.byte	'data',0,10,35,29
 	.word	366
 	.byte	0
-.L118:
+.L116:
 	.byte	14
 	.word	468
 	.byte	10
@@ -3019,7 +3018,7 @@ exec_data:	.type	object
 	.byte	'reserved_24',0,4
 	.word	475
 	.byte	8,0,2,35,0,0
-.L133:
+.L131:
 	.byte	12,11,204,13,9,4,13
 	.byte	'U',0
 	.word	452
@@ -21689,54 +21688,54 @@ exec_data:	.type	object
 	.byte	31
 	.byte	'uint64_t',0,23,134,2,41
 	.word	334
-.L143:
+.L141:
 	.byte	35
 	.word	452
 	.byte	14
 	.word	48758
-.L145:
+.L143:
 	.byte	3
 	.word	136744
 	.byte	14
 	.word	82836
-.L146:
+.L144:
 	.byte	3
 	.word	136754
 	.byte	14
 	.word	136285
-.L147:
+.L145:
 	.byte	3
 	.word	136764
-.L148:
-	.byte	14
-	.word	468
-.L149:
-	.byte	14
-	.word	468
-.L150:
-	.byte	14
-	.word	468
-.L151:
-	.byte	14
-	.word	468
-.L152:
-	.byte	14
-	.word	468
-.L153:
+.L146:
 	.byte	35
 	.word	644
-.L154:
+.L147:
+	.byte	14
+	.word	452
+.L148:
+	.byte	14
+	.word	452
+.L149:
+	.byte	14
+	.word	452
+.L150:
+	.byte	14
+	.word	452
+.L151:
+	.byte	14
+	.word	452
+.L152:
 	.byte	14
 	.word	334
-.L155:
+.L153:
 	.byte	10
-	.byte	'exec_t',0,12,110,8,4,13
+	.byte	'exec_t',0,12,116,8,4,13
 	.byte	'data',0
 	.word	468
 	.byte	4,2,35,0,0,0
 	.sdecl	'.debug_abbrev',debug
 	.sect	'.debug_abbrev'
-.L33:
+.L31:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,16,6,0,0,2,21,0,54,15,39,12,0,0,3,15,0,73,19,0,0,4,46,1,3,8,32,13
 	.byte	58,15,59,15,57,15,54,15,39,12,0,0,5,5,0,3,8,58,15,59,15,57,15,73,19,0,0,6,11,0,0,0,7,36,0,3,8,11,15,62
 	.byte	15,0,0,8,46,1,3,8,32,13,58,15,59,15,57,15,73,19,54,15,39,12,0,0,9,59,0,3,8,0,0,10,19,1,3,8,58,15,59,15
@@ -21751,12 +21750,12 @@ exec_data:	.type	object
 	.byte	35,38,0,73,19,0,0,0
 	.sdecl	'.debug_line',debug
 	.sect	'.debug_line'
-.L34:
+.L32:
+	.word	.L158-.L157
+.L157:
+	.half	3
 	.word	.L160-.L159
 .L159:
-	.half	3
-	.word	.L162-.L161
-.L161:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1
 	.byte	'C:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\Infra\\\\Sfr\\\\TC38A\\\\_Reg',0
 	.byte	'C:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Cpu\\\\Std',0
@@ -21791,833 +21790,833 @@ exec_data:	.type	object
 	.byte	'IfxDmu_regdef.h',0,1,0,0
 	.byte	'IfxGpt12_regdef.h',0,1,0,0
 	.byte	'stdint.h',0,3,0,0,0
-.L162:
 .L160:
+.L158:
 	.sdecl	'.debug_info',debug,cluster('delay')
 	.sect	'.debug_info'
-.L35:
+.L33:
 	.word	258
 	.half	3
-	.word	.L36
+	.word	.L34
 	.byte	4,1
 	.byte	'../Cpu0_Main.c',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
 	.byte	'C:\\Users\\sray\\AURIX-v1.10.10-workspace\\hello_world_2\\TriCore Debug (TASKING)\\',0,12,1
-	.word	.L38,.L37
+	.word	.L36,.L35
 	.byte	2
-	.word	.L31
+	.word	.L29
 	.byte	3
-	.byte	'delay',0,1,82,6,1,1,1
-	.word	.L12,.L115,.L11
+	.byte	'delay',0,1,88,6,1,1,1
+	.word	.L10,.L113,.L9
 	.byte	4
-	.byte	'd',0,1,82,16
-	.word	.L116,.L117
+	.byte	'd',0,1,88,16
+	.word	.L114,.L115
 	.byte	5
-	.word	.L12,.L115
+	.word	.L10,.L113
 	.byte	6
-	.byte	'i',0,1,83,18
-	.word	.L118,.L119
+	.byte	'i',0,1,89,18
+	.word	.L116,.L117
 	.byte	0,0,0
 	.sdecl	'.debug_abbrev',debug,cluster('delay')
 	.sect	'.debug_abbrev'
-.L36:
+.L34:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
 	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6,52,0,3
 	.byte	8,58,15,59,15,57,15,73,16,2,6,0,0,0
 	.sdecl	'.debug_line',debug,cluster('delay')
 	.sect	'.debug_line'
-.L37:
+.L35:
+	.word	.L162-.L161
+.L161:
+	.half	3
 	.word	.L164-.L163
 .L163:
-	.half	3
-	.word	.L166-.L165
-.L165:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
 	.byte	'../Cpu0_Main.c',0,0,0,0,0
-.L166:
-	.byte	5,6,7,0,5,2
-	.word	.L12
-	.byte	3,209,0,1,5,22,9
-	.half	.L156-.L12
-	.byte	3,1,1,5,20,9
-	.half	.L167-.L156
-	.byte	1,5,14,9
-	.half	.L168-.L167
-	.byte	3,1,1,5,12,9
-	.half	.L169-.L168
-	.byte	1,5,22,9
-	.half	.L170-.L169
-	.byte	1,5,9,9
-	.half	.L3-.L170
-	.byte	3,1,1,5,10,9
-	.half	.L171-.L3
-	.byte	1,5,24,9
-	.half	.L172-.L171
-	.byte	3,127,1,5,25,9
-	.half	.L173-.L172
-	.byte	1,5,17,9
-	.half	.L2-.L173
-	.byte	1,5,22,9
-	.half	.L174-.L2
-	.byte	1,5,1,7,9
-	.half	.L175-.L174
-	.byte	3,3,1,7,9
-	.half	.L39-.L175
-	.byte	0,1,1
 .L164:
+	.byte	5,6,7,0,5,2
+	.word	.L10
+	.byte	3,215,0,1,5,22,9
+	.half	.L154-.L10
+	.byte	3,1,1,5,20,9
+	.half	.L165-.L154
+	.byte	1,5,14,9
+	.half	.L166-.L165
+	.byte	3,1,1,5,12,9
+	.half	.L167-.L166
+	.byte	1,5,22,9
+	.half	.L168-.L167
+	.byte	1,5,9,9
+	.half	.L3-.L168
+	.byte	3,1,1,5,10,9
+	.half	.L169-.L3
+	.byte	1,5,24,9
+	.half	.L170-.L169
+	.byte	3,127,1,5,25,9
+	.half	.L171-.L170
+	.byte	1,5,17,9
+	.half	.L2-.L171
+	.byte	1,5,22,9
+	.half	.L172-.L2
+	.byte	1,5,1,7,9
+	.half	.L173-.L172
+	.byte	3,3,1,7,9
+	.half	.L37-.L173
+	.byte	0,1,1
+.L162:
 	.sdecl	'.debug_ranges',debug,cluster('delay')
 	.sect	'.debug_ranges'
-.L38:
-	.word	-1,.L12,0,.L39-.L12,0,0
+.L36:
+	.word	-1,.L10,0,.L37-.L10,0,0
 	.sdecl	'.debug_info',debug,cluster('gpt1_isr_exec')
 	.sect	'.debug_info'
-.L40:
+.L38:
 	.word	264
 	.half	3
-	.word	.L41
+	.word	.L39
 	.byte	4,1
 	.byte	'../Cpu0_Main.c',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
 	.byte	'C:\\Users\\sray\\AURIX-v1.10.10-workspace\\hello_world_2\\TriCore Debug (TASKING)\\',0,12,1
-	.word	.L43,.L42
+	.word	.L41,.L40
 	.byte	2
-	.word	.L31
+	.word	.L29
 	.byte	3
-	.byte	'gpt1_isr_exec',0,1,91,6,1,1
-	.word	.L14,.L120,.L13
+	.byte	'gpt1_isr_exec',0,1,97,6,1,1
+	.word	.L12,.L118,.L11
 	.byte	4
-	.word	.L14,.L120
+	.word	.L12,.L118
 	.byte	5
-	.word	.L121,.L122,.L123
+	.word	.L119,.L120,.L121
 	.byte	6
-	.word	.L124,.L122,.L123
+	.word	.L122,.L120,.L121
 	.byte	0,0,0,0
 	.sdecl	'.debug_abbrev',debug,cluster('gpt1_isr_exec')
 	.sect	'.debug_abbrev'
-.L41:
+.L39:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
 	.byte	63,12,17,1,18,1,64,6,0,0,4,11,1,17,1,18,1,0,0,5,29,1,49,16,17,1,18,1,0,0,6,11,0,49,16,17,1,18,1,0,0,0
 	.sdecl	'.debug_line',debug,cluster('gpt1_isr_exec')
 	.sect	'.debug_line'
-.L42:
+.L40:
+	.word	.L175-.L174
+.L174:
+	.half	3
 	.word	.L177-.L176
 .L176:
-	.half	3
-	.word	.L179-.L178
-.L178:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1
 	.byte	'C:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Cpu\\\\Std',0
 	.byte	0
 	.byte	'../Cpu0_Main.c',0,0,0,0
 	.byte	'IfxCpu.h',0,1,0,0,0
-.L179:
-	.byte	5,5,7,0,5,2
-	.word	.L14
-	.byte	3,219,0,1,5,19,9
-	.half	.L180-.L14
-	.byte	1,5,26,9
-	.half	.L181-.L180
-	.byte	1,5,40,9
-	.half	.L182-.L181
-	.byte	1,5,25,9
-	.half	.L183-.L182
-	.byte	1,5,23,9
-	.half	.L184-.L183
-	.byte	1,5,5,9
-	.half	.L185-.L184
-	.byte	3,1,1,5,21,9
-	.half	.L186-.L185
-	.byte	1,5,27,9
-	.half	.L187-.L186
-	.byte	1,5,5,9
-	.half	.L188-.L187
-	.byte	3,1,1,5,18,9
-	.half	.L189-.L188
-	.byte	1,5,29,9
-	.half	.L190-.L189
-	.byte	1,5,27,9
-	.half	.L191-.L190
-	.byte	1,5,5,9
-	.half	.L192-.L191
-	.byte	3,1,1,5,21,9
-	.half	.L193-.L192
-	.byte	1,5,27,9
-	.half	.L194-.L193
-	.byte	1,4,2,5,13,9
-	.half	.L122-.L194
-	.byte	3,156,5,1,4,1,5,5,9
-	.half	.L123-.L122
-	.byte	3,230,122,1,5,19,9
-	.half	.L195-.L123
-	.byte	1,5,9,9
-	.half	.L196-.L195
-	.byte	3,1,1,5,27,9
-	.half	.L197-.L196
-	.byte	1,5,5,9
-	.half	.L198-.L197
-	.byte	1,5,9,7,9
-	.half	.L199-.L198
-	.byte	3,1,1,5,26,9
-	.half	.L200-.L199
-	.byte	1,5,24,9
-	.half	.L201-.L200
-	.byte	1,5,1,9
-	.half	.L4-.L201
-	.byte	3,2,1,7,9
-	.half	.L44-.L4
-	.byte	0,1,1
 .L177:
+	.byte	5,5,7,0,5,2
+	.word	.L12
+	.byte	3,225,0,1,5,19,9
+	.half	.L178-.L12
+	.byte	1,5,30,9
+	.half	.L179-.L178
+	.byte	1,5,44,9
+	.half	.L180-.L179
+	.byte	1,5,29,9
+	.half	.L181-.L180
+	.byte	1,5,27,9
+	.half	.L182-.L181
+	.byte	1,5,5,9
+	.half	.L183-.L182
+	.byte	3,1,1,5,21,9
+	.half	.L184-.L183
+	.byte	1,5,27,9
+	.half	.L185-.L184
+	.byte	1,5,5,9
+	.half	.L186-.L185
+	.byte	3,1,1,5,18,9
+	.half	.L187-.L186
+	.byte	1,5,29,9
+	.half	.L188-.L187
+	.byte	1,5,27,9
+	.half	.L189-.L188
+	.byte	1,5,5,9
+	.half	.L190-.L189
+	.byte	3,1,1,5,21,9
+	.half	.L191-.L190
+	.byte	1,5,27,9
+	.half	.L192-.L191
+	.byte	1,4,2,5,13,9
+	.half	.L120-.L192
+	.byte	3,150,5,1,4,1,5,5,9
+	.half	.L121-.L120
+	.byte	3,236,122,1,5,19,9
+	.half	.L193-.L121
+	.byte	1,5,9,9
+	.half	.L194-.L193
+	.byte	3,1,1,5,5,9
+	.half	.L195-.L194
+	.byte	1,5,9,7,9
+	.half	.L196-.L195
+	.byte	3,1,1,5,26,9
+	.half	.L197-.L196
+	.byte	1,5,24,9
+	.half	.L198-.L197
+	.byte	1,5,1,9
+	.half	.L4-.L198
+	.byte	3,2,1,7,9
+	.half	.L42-.L4
+	.byte	0,1,1
+.L175:
 	.sdecl	'.debug_ranges',debug,cluster('gpt1_isr_exec')
 	.sect	'.debug_ranges'
-.L43:
-	.word	-1,.L14,0,.L44-.L14,0,0
+.L41:
+	.word	-1,.L12,0,.L42-.L12,0,0
 	.sdecl	'.debug_info',debug,cluster('gpt1_isr')
 	.sect	'.debug_info'
-.L45:
+.L43:
 	.word	232
 	.half	3
-	.word	.L46
+	.word	.L44
 	.byte	4,1
 	.byte	'../Cpu0_Main.c',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
 	.byte	'C:\\Users\\sray\\AURIX-v1.10.10-workspace\\hello_world_2\\TriCore Debug (TASKING)\\',0,12,1
-	.word	.L48,.L47
+	.word	.L46,.L45
 	.byte	2
-	.word	.L31
+	.word	.L29
 	.byte	3
-	.byte	'gpt1_isr',0,1,102,1,1,1,1
-	.word	.L16,.L125,.L15
+	.byte	'gpt1_isr',0,1,108,1,1,1,1
+	.word	.L14,.L123,.L13
 	.byte	4
-	.word	.L16,.L125
+	.word	.L14,.L123
 	.byte	0,0
 	.sdecl	'.debug_abbrev',debug,cluster('gpt1_isr')
 	.sect	'.debug_abbrev'
-.L46:
+.L44:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
 	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
 	.sdecl	'.debug_line',debug,cluster('gpt1_isr')
 	.sect	'.debug_line'
-.L47:
-	.word	.L203-.L202
-.L202:
+.L45:
+	.word	.L200-.L199
+.L199:
 	.half	3
-	.word	.L205-.L204
-.L204:
+	.word	.L202-.L201
+.L201:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
 	.byte	'../Cpu0_Main.c',0,0,0,0,0
-.L205:
+.L202:
 	.byte	5,1,7,0,5,2
-	.word	.L16
-	.byte	3,229,0,1,5,18,9
-	.half	.L206-.L16
+	.word	.L14
+	.byte	3,235,0,1,5,18,9
+	.half	.L203-.L14
 	.byte	3,1,1,5,1,9
-	.half	.L207-.L206
+	.half	.L204-.L203
 	.byte	3,1,1,9
-	.half	.L49-.L207
+	.half	.L47-.L204
 	.byte	0,1,1
-.L203:
+.L200:
 	.sdecl	'.debug_ranges',debug,cluster('gpt1_isr')
 	.sect	'.debug_ranges'
-.L48:
-	.word	-1,.L16,0,.L49-.L16,0,0
+.L46:
+	.word	-1,.L14,0,.L47-.L14,0,0
 	.sdecl	'.debug_info',debug,cluster('timer_0_isr_exec')
 	.sect	'.debug_info'
-.L50:
+.L48:
 	.word	335
 	.half	3
-	.word	.L51
+	.word	.L49
 	.byte	4,1
 	.byte	'../Cpu0_Main.c',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
 	.byte	'C:\\Users\\sray\\AURIX-v1.10.10-workspace\\hello_world_2\\TriCore Debug (TASKING)\\',0,12,1
-	.word	.L53,.L52
+	.word	.L51,.L50
 	.byte	2
-	.word	.L31
+	.word	.L29
 	.byte	3
-	.byte	'timer_0_isr_exec',0,1,114,6,1,1,1
-	.word	.L18,.L126,.L17
+	.byte	'timer_0_isr_exec',0,1,120,6,1,1,1
+	.word	.L16,.L124,.L15
 	.byte	4
-	.word	.L18,.L126
+	.word	.L16,.L124
 	.byte	5
-	.word	.L127,.L18,.L6
+	.word	.L125,.L16,.L6
 	.byte	6
-	.word	.L128,.L18,.L6
+	.word	.L126,.L16,.L6
 	.byte	7
 	.byte	'enabled',0,2,241,5,13
-	.word	.L129,.L130
+	.word	.L127,.L128
 	.byte	5
-	.word	.L131,.L18,.L5
+	.word	.L129,.L16,.L5
 	.byte	6
-	.word	.L132,.L18,.L5
+	.word	.L130,.L16,.L5
 	.byte	7
 	.byte	'reg',0,2,233,5,17
-	.word	.L133,.L134
+	.word	.L131,.L132
 	.byte	0,0,0,0,0,0,0
 	.sdecl	'.debug_abbrev',debug,cluster('timer_0_isr_exec')
 	.sect	'.debug_abbrev'
-.L51:
+.L49:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
 	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,1,17,1,18,1,0,0,5,29,1,49,16,17,1,18,1,0,0,6,11,1,49,16,17,1,18,1
 	.byte	0,0,7,52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,0
 	.sdecl	'.debug_line',debug,cluster('timer_0_isr_exec')
 	.sect	'.debug_line'
-.L52:
-	.word	.L209-.L208
-.L208:
+.L50:
+	.word	.L206-.L205
+.L205:
 	.half	3
-	.word	.L211-.L210
-.L210:
+	.word	.L208-.L207
+.L207:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1
 	.byte	'C:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Cpu\\\\Std',0
 	.byte	0
 	.byte	'../Cpu0_Main.c',0,0,0,0
 	.byte	'IfxCpu.h',0,1,0,0,0
-.L211:
+.L208:
 	.byte	4,2,5,19,7,0,5,2
-	.word	.L18
+	.word	.L16
 	.byte	3,233,5,1,5,5,9
-	.half	.L157-.L18
+	.half	.L155-.L16
 	.byte	3,1,1,5,14,9
-	.half	.L5-.L157
+	.half	.L5-.L155
 	.byte	3,8,1,5,10,9
-	.half	.L212-.L5
+	.half	.L209-.L5
 	.byte	3,1,1,5,5,9
-	.half	.L213-.L212
+	.half	.L210-.L209
 	.byte	3,1,1,4,1,9
-	.half	.L6-.L213
-	.byte	3,255,122,1,5,19,9
-	.half	.L214-.L6
-	.byte	1,5,28,9
-	.half	.L158-.L214
-	.byte	1,5,32,9
-	.half	.L215-.L158
-	.byte	3,1,1,5,48,9
-	.half	.L216-.L215
-	.byte	1,5,84,9
-	.half	.L217-.L216
-	.byte	1,5,31,9
-	.half	.L218-.L217
-	.byte	1,5,13,7,9
-	.half	.L219-.L218
-	.byte	3,1,1,5,27,9
-	.half	.L220-.L219
-	.byte	1,5,54,9
-	.half	.L7-.L220
-	.byte	1,5,5,9
-	.half	.L8-.L7
-	.byte	3,127,1,5,21,9
-	.half	.L221-.L8
+	.half	.L6-.L210
+	.byte	3,134,123,1,5,19,9
+	.half	.L211-.L6
 	.byte	1,5,29,9
-	.half	.L222-.L221
+	.half	.L156-.L211
 	.byte	1,5,5,9
-	.half	.L223-.L222
+	.half	.L212-.L156
+	.byte	3,5,1,5,21,9
+	.half	.L213-.L212
+	.byte	1,5,5,9
+	.half	.L214-.L213
+	.byte	1,5,21,9
+	.half	.L215-.L214
+	.byte	1,5,32,9
+	.half	.L216-.L215
+	.byte	1,5,29,9
+	.half	.L217-.L216
+	.byte	1,5,5,9
+	.half	.L218-.L217
 	.byte	3,2,1,5,19,9
-	.half	.L224-.L223
-	.byte	1,5,28,9
-	.half	.L225-.L224
+	.half	.L219-.L218
+	.byte	1,5,29,9
+	.half	.L220-.L219
 	.byte	1,5,24,9
-	.half	.L226-.L225
+	.half	.L221-.L220
 	.byte	3,1,1,5,15,9
-	.half	.L227-.L226
+	.half	.L222-.L221
 	.byte	1,5,1,9
-	.half	.L228-.L227
+	.half	.L223-.L222
 	.byte	3,1,1,7,9
-	.half	.L54-.L228
+	.half	.L52-.L223
 	.byte	0,1,1
-.L209:
+.L206:
 	.sdecl	'.debug_ranges',debug,cluster('timer_0_isr_exec')
 	.sect	'.debug_ranges'
-.L53:
-	.word	-1,.L18,0,.L54-.L18,0,0
+.L51:
+	.word	-1,.L16,0,.L52-.L16,0,0
 	.sdecl	'.debug_info',debug,cluster('timer_0_isr')
 	.sect	'.debug_info'
-.L55:
-	.word	235
+.L53:
+	.word	236
 	.half	3
-	.word	.L56
+	.word	.L54
 	.byte	4,1
 	.byte	'../Cpu0_Main.c',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
 	.byte	'C:\\Users\\sray\\AURIX-v1.10.10-workspace\\hello_world_2\\TriCore Debug (TASKING)\\',0,12,1
-	.word	.L58,.L57
+	.word	.L56,.L55
 	.byte	2
-	.word	.L31
+	.word	.L29
 	.byte	3
-	.byte	'timer_0_isr',0,1,122,1,1,1,1
-	.word	.L20,.L135,.L19
+	.byte	'timer_0_isr',0,1,133,1,1,1,1,1
+	.word	.L18,.L133,.L17
 	.byte	4
-	.word	.L20,.L135
+	.word	.L18,.L133
 	.byte	0,0
 	.sdecl	'.debug_abbrev',debug,cluster('timer_0_isr')
 	.sect	'.debug_abbrev'
-.L56:
+.L54:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
 	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
 	.sdecl	'.debug_line',debug,cluster('timer_0_isr')
 	.sect	'.debug_line'
-.L57:
-	.word	.L230-.L229
-.L229:
+.L55:
+	.word	.L225-.L224
+.L224:
 	.half	3
-	.word	.L232-.L231
-.L231:
+	.word	.L227-.L226
+.L226:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
 	.byte	'../Cpu0_Main.c',0,0,0,0,0
-.L232:
+.L227:
 	.byte	5,1,7,0,5,2
-	.word	.L20
-	.byte	3,249,0,1,5,21,9
-	.half	.L233-.L20
+	.word	.L18
+	.byte	3,132,1,1,5,21,9
+	.half	.L228-.L18
 	.byte	3,1,1,5,1,9
-	.half	.L234-.L233
+	.half	.L229-.L228
 	.byte	3,1,1,9
-	.half	.L59-.L234
+	.half	.L57-.L229
 	.byte	0,1,1
-.L230:
+.L225:
 	.sdecl	'.debug_ranges',debug,cluster('timer_0_isr')
 	.sect	'.debug_ranges'
-.L58:
-	.word	-1,.L20,0,.L59-.L20,0,0
+.L56:
+	.word	-1,.L18,0,.L57-.L18,0,0
 	.sdecl	'.debug_info',debug,cluster('task_5ms')
 	.sect	'.debug_info'
-.L60:
+.L58:
 	.word	232
 	.half	3
-	.word	.L61
+	.word	.L59
 	.byte	4,1
 	.byte	'../Cpu0_Main.c',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
 	.byte	'C:\\Users\\sray\\AURIX-v1.10.10-workspace\\hello_world_2\\TriCore Debug (TASKING)\\',0,12,1
-	.word	.L63,.L62
+	.word	.L61,.L60
 	.byte	2
-	.word	.L31
+	.word	.L29
 	.byte	3
-	.byte	'task_5ms',0,1,131,1,6,1,1
-	.word	.L22,.L136,.L21
+	.byte	'task_5ms',0,1,142,1,6,1,1
+	.word	.L20,.L134,.L19
 	.byte	4
-	.word	.L22,.L136
+	.word	.L20,.L134
 	.byte	0,0
 	.sdecl	'.debug_abbrev',debug,cluster('task_5ms')
 	.sect	'.debug_abbrev'
-.L61:
+.L59:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
 	.byte	63,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
 	.sdecl	'.debug_line',debug,cluster('task_5ms')
 	.sect	'.debug_line'
-.L62:
-	.word	.L236-.L235
-.L235:
+.L60:
+	.word	.L231-.L230
+.L230:
 	.half	3
-	.word	.L238-.L237
-.L237:
+	.word	.L233-.L232
+.L232:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
 	.byte	'../Cpu0_Main.c',0,0,0,0,0
-.L238:
+.L233:
 	.byte	5,5,7,0,5,2
-	.word	.L22
-	.byte	3,131,1,1,5,19,9
-	.half	.L239-.L22
+	.word	.L20
+	.byte	3,142,1,1,5,19,9
+	.half	.L234-.L20
 	.byte	1,5,27,9
-	.half	.L240-.L239
+	.half	.L235-.L234
 	.byte	1,5,41,9
-	.half	.L241-.L240
+	.half	.L236-.L235
 	.byte	1,5,26,9
-	.half	.L242-.L241
+	.half	.L237-.L236
 	.byte	1,5,24,9
-	.half	.L243-.L242
+	.half	.L238-.L237
 	.byte	1,5,1,9
-	.half	.L244-.L243
+	.half	.L239-.L238
 	.byte	3,1,1,7,9
-	.half	.L64-.L244
+	.half	.L62-.L239
 	.byte	0,1,1
-.L236:
+.L231:
 	.sdecl	'.debug_ranges',debug,cluster('task_5ms')
 	.sect	'.debug_ranges'
-.L63:
-	.word	-1,.L22,0,.L64-.L22,0,0
+.L61:
+	.word	-1,.L20,0,.L62-.L20,0,0
 	.sdecl	'.debug_info',debug,cluster('task_10ms')
 	.sect	'.debug_info'
-.L65:
+.L63:
 	.word	233
 	.half	3
-	.word	.L66
+	.word	.L64
 	.byte	4,1
 	.byte	'../Cpu0_Main.c',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
 	.byte	'C:\\Users\\sray\\AURIX-v1.10.10-workspace\\hello_world_2\\TriCore Debug (TASKING)\\',0,12,1
-	.word	.L68,.L67
+	.word	.L66,.L65
 	.byte	2
-	.word	.L31
+	.word	.L29
 	.byte	3
-	.byte	'task_10ms',0,1,134,1,6,1,1
-	.word	.L24,.L137,.L23
+	.byte	'task_10ms',0,1,145,1,6,1,1
+	.word	.L22,.L135,.L21
 	.byte	4
-	.word	.L24,.L137
+	.word	.L22,.L135
 	.byte	0,0
 	.sdecl	'.debug_abbrev',debug,cluster('task_10ms')
 	.sect	'.debug_abbrev'
-.L66:
+.L64:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
 	.byte	63,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
 	.sdecl	'.debug_line',debug,cluster('task_10ms')
 	.sect	'.debug_line'
-.L67:
-	.word	.L246-.L245
-.L245:
+.L65:
+	.word	.L241-.L240
+.L240:
 	.half	3
-	.word	.L248-.L247
-.L247:
+	.word	.L243-.L242
+.L242:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
 	.byte	'../Cpu0_Main.c',0,0,0,0,0
-.L248:
+.L243:
 	.byte	5,5,7,0,5,2
-	.word	.L24
-	.byte	3,134,1,1,5,19,9
-	.half	.L249-.L24
+	.word	.L22
+	.byte	3,145,1,1,5,19,9
+	.half	.L244-.L22
 	.byte	1,5,27,9
-	.half	.L250-.L249
+	.half	.L245-.L244
 	.byte	1,5,41,9
-	.half	.L251-.L250
+	.half	.L246-.L245
 	.byte	1,5,26,9
-	.half	.L252-.L251
+	.half	.L247-.L246
 	.byte	1,5,24,9
-	.half	.L253-.L252
+	.half	.L248-.L247
 	.byte	1,5,1,9
-	.half	.L254-.L253
+	.half	.L249-.L248
 	.byte	3,1,1,7,9
-	.half	.L69-.L254
+	.half	.L67-.L249
 	.byte	0,1,1
-.L246:
+.L241:
 	.sdecl	'.debug_ranges',debug,cluster('task_10ms')
 	.sect	'.debug_ranges'
-.L68:
-	.word	-1,.L24,0,.L69-.L24,0,0
+.L66:
+	.word	-1,.L22,0,.L67-.L22,0,0
 	.sdecl	'.debug_info',debug,cluster('task_20ms')
 	.sect	'.debug_info'
-.L70:
+.L68:
 	.word	233
 	.half	3
-	.word	.L71
+	.word	.L69
 	.byte	4,1
 	.byte	'../Cpu0_Main.c',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
 	.byte	'C:\\Users\\sray\\AURIX-v1.10.10-workspace\\hello_world_2\\TriCore Debug (TASKING)\\',0,12,1
-	.word	.L73,.L72
+	.word	.L71,.L70
 	.byte	2
-	.word	.L31
+	.word	.L29
 	.byte	3
-	.byte	'task_20ms',0,1,137,1,6,1,1
-	.word	.L26,.L138,.L25
+	.byte	'task_20ms',0,1,148,1,6,1,1
+	.word	.L24,.L136,.L23
 	.byte	4
-	.word	.L26,.L138
+	.word	.L24,.L136
 	.byte	0,0
 	.sdecl	'.debug_abbrev',debug,cluster('task_20ms')
 	.sect	'.debug_abbrev'
-.L71:
+.L69:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
 	.byte	63,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
 	.sdecl	'.debug_line',debug,cluster('task_20ms')
 	.sect	'.debug_line'
-.L72:
-	.word	.L256-.L255
-.L255:
+.L70:
+	.word	.L251-.L250
+.L250:
 	.half	3
-	.word	.L258-.L257
-.L257:
+	.word	.L253-.L252
+.L252:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
 	.byte	'../Cpu0_Main.c',0,0,0,0,0
-.L258:
+.L253:
 	.byte	5,5,7,0,5,2
-	.word	.L26
-	.byte	3,137,1,1,5,19,9
-	.half	.L259-.L26
+	.word	.L24
+	.byte	3,148,1,1,5,19,9
+	.half	.L254-.L24
 	.byte	1,5,27,9
-	.half	.L260-.L259
+	.half	.L255-.L254
 	.byte	1,5,41,9
-	.half	.L261-.L260
+	.half	.L256-.L255
 	.byte	1,5,26,9
-	.half	.L262-.L261
+	.half	.L257-.L256
 	.byte	1,5,24,9
-	.half	.L263-.L262
+	.half	.L258-.L257
 	.byte	1,5,1,9
-	.half	.L264-.L263
+	.half	.L259-.L258
 	.byte	3,1,1,7,9
-	.half	.L74-.L264
+	.half	.L72-.L259
 	.byte	0,1,1
-.L256:
+.L251:
 	.sdecl	'.debug_ranges',debug,cluster('task_20ms')
 	.sect	'.debug_ranges'
-.L73:
-	.word	-1,.L26,0,.L74-.L26,0,0
+.L71:
+	.word	-1,.L24,0,.L72-.L24,0,0
 	.sdecl	'.debug_info',debug,cluster('task_40ms')
 	.sect	'.debug_info'
-.L75:
+.L73:
 	.word	233
 	.half	3
-	.word	.L76
+	.word	.L74
 	.byte	4,1
 	.byte	'../Cpu0_Main.c',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
 	.byte	'C:\\Users\\sray\\AURIX-v1.10.10-workspace\\hello_world_2\\TriCore Debug (TASKING)\\',0,12,1
-	.word	.L78,.L77
+	.word	.L76,.L75
 	.byte	2
-	.word	.L31
+	.word	.L29
 	.byte	3
-	.byte	'task_40ms',0,1,140,1,6,1,1
-	.word	.L28,.L139,.L27
+	.byte	'task_40ms',0,1,151,1,6,1,1
+	.word	.L26,.L137,.L25
 	.byte	4
-	.word	.L28,.L139
+	.word	.L26,.L137
 	.byte	0,0
 	.sdecl	'.debug_abbrev',debug,cluster('task_40ms')
 	.sect	'.debug_abbrev'
-.L76:
+.L74:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
 	.byte	63,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
 	.sdecl	'.debug_line',debug,cluster('task_40ms')
 	.sect	'.debug_line'
-.L77:
-	.word	.L266-.L265
-.L265:
+.L75:
+	.word	.L261-.L260
+.L260:
 	.half	3
-	.word	.L268-.L267
-.L267:
+	.word	.L263-.L262
+.L262:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
 	.byte	'../Cpu0_Main.c',0,0,0,0,0
-.L268:
+.L263:
 	.byte	5,5,7,0,5,2
-	.word	.L28
-	.byte	3,140,1,1,5,19,9
-	.half	.L269-.L28
+	.word	.L26
+	.byte	3,151,1,1,5,19,9
+	.half	.L264-.L26
 	.byte	1,5,27,9
-	.half	.L270-.L269
+	.half	.L265-.L264
 	.byte	1,5,41,9
-	.half	.L271-.L270
+	.half	.L266-.L265
 	.byte	1,5,26,9
-	.half	.L272-.L271
+	.half	.L267-.L266
 	.byte	1,5,24,9
-	.half	.L273-.L272
+	.half	.L268-.L267
 	.byte	1,5,1,9
-	.half	.L274-.L273
+	.half	.L269-.L268
 	.byte	3,1,1,7,9
-	.half	.L79-.L274
+	.half	.L77-.L269
 	.byte	0,1,1
-.L266:
+.L261:
 	.sdecl	'.debug_ranges',debug,cluster('task_40ms')
 	.sect	'.debug_ranges'
-.L78:
-	.word	-1,.L28,0,.L79-.L28,0,0
+.L76:
+	.word	-1,.L26,0,.L77-.L26,0,0
 	.sdecl	'.debug_info',debug,cluster('core0_main')
 	.sect	'.debug_info'
-.L80:
+.L78:
 	.word	263
 	.half	3
-	.word	.L81
+	.word	.L79
 	.byte	4,1
 	.byte	'../Cpu0_Main.c',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
 	.byte	'C:\\Users\\sray\\AURIX-v1.10.10-workspace\\hello_world_2\\TriCore Debug (TASKING)\\',0,12,1
-	.word	.L83,.L82
+	.word	.L81,.L80
 	.byte	2
-	.word	.L31
+	.word	.L29
 	.byte	3
-	.byte	'core0_main',0,1,146,1,6,1,1,1
-	.word	.L30,.L140,.L29
+	.byte	'core0_main',0,1,157,1,6,1,1,1
+	.word	.L28,.L138,.L27
 	.byte	4
-	.word	.L30,.L140
+	.word	.L28,.L138
 	.byte	5
-	.word	.L121,.L30,.L141
+	.word	.L119,.L28,.L139
 	.byte	6
-	.word	.L124,.L30,.L141
+	.word	.L122,.L28,.L139
 	.byte	0,0,0,0
 	.sdecl	'.debug_abbrev',debug,cluster('core0_main')
 	.sect	'.debug_abbrev'
-.L81:
+.L79:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
 	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,1,17,1,18,1,0,0,5,29,1,49,16,17,1,18,1,0,0,6,11,0,49,16,17,1,18,1
 	.byte	0,0,0
 	.sdecl	'.debug_line',debug,cluster('core0_main')
 	.sect	'.debug_line'
-.L82:
-	.word	.L276-.L275
-.L275:
+.L80:
+	.word	.L271-.L270
+.L270:
 	.half	3
-	.word	.L278-.L277
-.L277:
+	.word	.L273-.L272
+.L272:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1
 	.byte	'C:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Cpu\\\\Std',0
 	.byte	0
 	.byte	'../Cpu0_Main.c',0,0,0,0
 	.byte	'IfxCpu.h',0,1,0,0,0
-.L278:
+.L273:
 	.byte	4,2,5,13,7,0,5,2
-	.word	.L30
+	.word	.L28
 	.byte	3,250,5,1,4,1,5,66,9
-	.half	.L141-.L30
-	.byte	3,157,123,1,5,72,9
-	.half	.L279-.L141
+	.half	.L139-.L28
+	.byte	3,168,123,1,5,72,9
+	.half	.L274-.L139
 	.byte	3,1,1,5,23,9
-	.half	.L280-.L279
+	.half	.L275-.L274
 	.byte	3,4,1,9
-	.half	.L281-.L280
+	.half	.L276-.L275
 	.byte	3,1,1,5,39,9
-	.half	.L282-.L281
+	.half	.L277-.L276
 	.byte	1,5,14,9
-	.half	.L283-.L282
+	.half	.L278-.L277
 	.byte	3,4,1,9
+	.half	.L279-.L278
+	.byte	3,1,1,5,25,9
+	.half	.L280-.L279
+	.byte	1,5,29,9
+	.half	.L281-.L280
+	.byte	1,5,14,9
+	.half	.L282-.L281
+	.byte	3,1,1,5,25,9
+	.half	.L283-.L282
+	.byte	1,5,29,9
 	.half	.L284-.L283
-	.byte	3,1,1,5,25,9
+	.byte	1,5,14,9
 	.half	.L285-.L284
-	.byte	1,5,29,9
+	.byte	3,1,1,5,25,9
 	.half	.L286-.L285
-	.byte	1,5,14,9
+	.byte	1,5,29,9
 	.half	.L287-.L286
-	.byte	3,1,1,5,25,9
+	.byte	1,5,14,9
 	.half	.L288-.L287
-	.byte	1,5,29,9
+	.byte	3,1,1,5,25,9
 	.half	.L289-.L288
-	.byte	1,5,14,9
+	.byte	1,5,29,9
 	.half	.L290-.L289
-	.byte	3,1,1,5,25,9
+	.byte	1,5,5,9
 	.half	.L291-.L290
-	.byte	1,5,29,9
-	.half	.L292-.L291
-	.byte	1,5,14,9
-	.half	.L293-.L292
-	.byte	3,1,1,5,25,9
-	.half	.L294-.L293
-	.byte	1,5,29,9
-	.half	.L295-.L294
-	.byte	1,5,5,9
-	.half	.L296-.L295
 	.byte	3,6,1,5,31,9
+	.half	.L292-.L291
+	.byte	1,5,37,9
+	.half	.L293-.L292
+	.byte	1,5,5,9
+	.half	.L294-.L293
+	.byte	3,1,1,5,31,9
+	.half	.L295-.L294
+	.byte	1,5,37,9
+	.half	.L296-.L295
+	.byte	1,5,5,9
 	.half	.L297-.L296
-	.byte	1,5,37,9
+	.byte	3,1,1,5,31,9
 	.half	.L298-.L297
-	.byte	1,5,5,9
+	.byte	1,5,37,9
 	.half	.L299-.L298
-	.byte	3,1,1,5,31,9
+	.byte	1,5,5,9
 	.half	.L300-.L299
-	.byte	1,5,37,9
-	.half	.L301-.L300
-	.byte	1,5,5,9
-	.half	.L302-.L301
-	.byte	3,1,1,5,31,9
-	.half	.L303-.L302
-	.byte	1,5,37,9
-	.half	.L304-.L303
-	.byte	1,5,5,9
-	.half	.L305-.L304
 	.byte	3,4,1,5,30,9
+	.half	.L301-.L300
+	.byte	1,5,36,9
+	.half	.L302-.L301
+	.byte	1,5,5,9
+	.half	.L303-.L302
+	.byte	3,1,1,5,30,9
+	.half	.L304-.L303
+	.byte	1,5,36,9
+	.half	.L305-.L304
+	.byte	1,5,5,9
 	.half	.L306-.L305
-	.byte	1,5,36,9
+	.byte	3,1,1,5,30,9
 	.half	.L307-.L306
-	.byte	1,5,5,9
+	.byte	1,5,36,9
 	.half	.L308-.L307
-	.byte	3,1,1,5,30,9
+	.byte	1,5,5,9
 	.half	.L309-.L308
-	.byte	1,5,36,9
-	.half	.L310-.L309
-	.byte	1,5,5,9
-	.half	.L311-.L310
-	.byte	3,1,1,5,30,9
-	.half	.L312-.L311
-	.byte	1,5,36,9
-	.half	.L313-.L312
-	.byte	1,5,5,9
-	.half	.L314-.L313
 	.byte	3,6,1,5,19,9
-	.half	.L315-.L314
+	.half	.L310-.L309
 	.byte	1,5,27,9
-	.half	.L316-.L315
+	.half	.L311-.L310
 	.byte	1,5,5,9
-	.half	.L317-.L316
+	.half	.L312-.L311
 	.byte	3,1,1,5,19,9
-	.half	.L318-.L317
+	.half	.L313-.L312
 	.byte	1,5,27,9
-	.half	.L319-.L318
+	.half	.L314-.L313
 	.byte	1,5,5,9
-	.half	.L320-.L319
+	.half	.L315-.L314
 	.byte	3,1,1,5,29,9
-	.half	.L321-.L320
+	.half	.L316-.L315
 	.byte	1,5,27,9
-	.half	.L322-.L321
+	.half	.L317-.L316
 	.byte	1,5,5,9
-	.half	.L323-.L322
+	.half	.L318-.L317
 	.byte	3,1,1,5,18,9
+	.half	.L319-.L318
+	.byte	1,5,29,9
+	.half	.L320-.L319
+	.byte	1,5,27,9
+	.half	.L321-.L320
+	.byte	1,5,5,9
+	.half	.L322-.L321
+	.byte	3,1,1,5,21,9
+	.half	.L323-.L322
+	.byte	1,5,27,9
 	.half	.L324-.L323
-	.byte	1,5,29,9
+	.byte	1,5,5,9
 	.half	.L325-.L324
-	.byte	1,5,27,9
+	.byte	3,1,1,5,21,9
 	.half	.L326-.L325
-	.byte	1,5,5,9
+	.byte	1,5,27,9
 	.half	.L327-.L326
-	.byte	3,1,1,5,21,9
+	.byte	1,5,5,9
 	.half	.L328-.L327
-	.byte	1,5,27,9
+	.byte	3,1,1,5,21,9
 	.half	.L329-.L328
-	.byte	1,5,5,9
+	.byte	1,5,27,9
 	.half	.L330-.L329
-	.byte	3,1,1,5,21,9
+	.byte	1,5,5,9
 	.half	.L331-.L330
-	.byte	1,5,27,9
+	.byte	3,1,1,5,21,9
 	.half	.L332-.L331
-	.byte	1,5,5,9
+	.byte	1,5,27,9
 	.half	.L333-.L332
-	.byte	3,1,1,5,21,9
+	.byte	1,5,5,9
 	.half	.L334-.L333
-	.byte	1,5,27,9
+	.byte	3,1,1,5,21,9
 	.half	.L335-.L334
-	.byte	1,5,5,9
-	.half	.L336-.L335
-	.byte	3,1,1,5,21,9
-	.half	.L337-.L336
-	.byte	1,5,27,9
-	.half	.L338-.L337
-	.byte	1,5,5,9
-	.half	.L339-.L338
-	.byte	3,1,1,5,21,9
-	.half	.L340-.L339
 	.byte	1,5,28,9
+	.half	.L336-.L335
+	.byte	1,5,5,9
+	.half	.L337-.L336
+	.byte	3,1,1,5,21,9
+	.half	.L338-.L337
+	.byte	1,5,27,9
+	.half	.L339-.L338
+	.byte	1,5,5,9
+	.half	.L340-.L339
+	.byte	3,1,1,5,21,9
 	.half	.L341-.L340
-	.byte	1,5,5,9
+	.byte	1,5,27,9
 	.half	.L342-.L341
-	.byte	3,1,1,5,21,9
+	.byte	1,5,5,9
 	.half	.L343-.L342
-	.byte	1,5,27,9
+	.byte	3,8,1,5,21,9
 	.half	.L344-.L343
-	.byte	1,5,5,9
+	.byte	1,5,31,9
 	.half	.L345-.L344
-	.byte	3,1,1,5,21,9
+	.byte	1,5,45,9
 	.half	.L346-.L345
-	.byte	1,5,27,9
+	.byte	1,5,57,9
 	.half	.L347-.L346
-	.byte	1,5,5,9
+	.byte	1,5,55,9
 	.half	.L348-.L347
-	.byte	3,4,1,5,21,9
+	.byte	1,5,29,9
 	.half	.L349-.L348
-	.byte	1,5,56,9
+	.byte	1,5,5,9
 	.half	.L350-.L349
-	.byte	1,5,29,9
-	.half	.L351-.L350
-	.byte	1,5,5,9
-	.half	.L352-.L351
 	.byte	3,1,1,5,21,9
+	.half	.L351-.L350
+	.byte	1,5,31,9
+	.half	.L352-.L351
+	.byte	1,5,29,9
 	.half	.L353-.L352
-	.byte	1,5,31,9
+	.byte	1,5,5,9
 	.half	.L354-.L353
-	.byte	1,5,29,9
+	.byte	3,2,1,5,20,9
 	.half	.L355-.L354
-	.byte	1,5,5,9
-	.half	.L356-.L355
-	.byte	3,1,1,5,20,9
-	.half	.L357-.L356
 	.byte	1,5,29,9
-	.half	.L358-.L357
+	.half	.L356-.L355
 	.byte	1,5,5,9
-	.half	.L359-.L358
+	.half	.L357-.L356
 	.byte	3,1,1,5,20,9
+	.half	.L358-.L357
+	.byte	1,5,29,9
+	.half	.L359-.L358
+	.byte	1,5,5,9
 	.half	.L360-.L359
-	.byte	1,5,31,9
+	.byte	3,1,1,5,20,9
 	.half	.L361-.L360
 	.byte	1,5,29,9
 	.half	.L362-.L361
@@ -22629,7 +22628,7 @@ exec_data:	.type	object
 	.half	.L365-.L364
 	.byte	1,5,5,9
 	.half	.L366-.L365
-	.byte	3,1,1,5,20,9
+	.byte	3,1,1,5,18,9
 	.half	.L367-.L366
 	.byte	1,5,29,9
 	.half	.L368-.L367
@@ -22653,45 +22652,45 @@ exec_data:	.type	object
 	.half	.L377-.L376
 	.byte	1,5,5,9
 	.half	.L378-.L377
-	.byte	3,1,1,5,18,9
+	.byte	3,6,1,5,30,9
 	.half	.L379-.L378
-	.byte	1,5,29,9
+	.byte	1,5,28,9
 	.half	.L380-.L379
 	.byte	1,5,5,9
 	.half	.L381-.L380
-	.byte	3,6,1,5,30,9
-	.half	.L382-.L381
-	.byte	1,5,28,9
-	.half	.L383-.L382
-	.byte	1,5,5,9
-	.half	.L384-.L383
 	.byte	3,1,1,5,21,9
+	.half	.L382-.L381
+	.byte	1,5,30,9
+	.half	.L383-.L382
+	.byte	1,5,28,9
+	.half	.L384-.L383
+	.byte	1,5,5,9
 	.half	.L385-.L384
-	.byte	1,5,30,9
+	.byte	3,1,1,5,22,9
 	.half	.L386-.L385
-	.byte	1,5,28,9
+	.byte	1,5,30,9
 	.half	.L387-.L386
-	.byte	1,5,5,9
+	.byte	1,5,28,9
 	.half	.L388-.L387
-	.byte	3,1,1,5,22,9
+	.byte	1,5,5,9
 	.half	.L389-.L388
-	.byte	1,5,30,9
+	.byte	3,1,1,5,22,9
 	.half	.L390-.L389
-	.byte	1,5,28,9
+	.byte	1,5,30,9
 	.half	.L391-.L390
-	.byte	1,5,5,9
-	.half	.L392-.L391
-	.byte	3,1,1,5,22,9
-	.half	.L393-.L392
-	.byte	1,5,30,9
-	.half	.L394-.L393
 	.byte	1,5,28,9
-	.half	.L395-.L394
+	.half	.L392-.L391
 	.byte	1,5,5,9
-	.half	.L396-.L395
+	.half	.L393-.L392
 	.byte	3,1,1,5,22,9
-	.half	.L397-.L396
+	.half	.L394-.L393
 	.byte	1,5,30,9
+	.half	.L395-.L394
+	.byte	1,5,28,9
+	.half	.L396-.L395
+	.byte	1,5,5,9
+	.half	.L397-.L396
+	.byte	3,1,1,5,19,9
 	.half	.L398-.L397
 	.byte	1,5,28,9
 	.half	.L399-.L398
@@ -22715,45 +22714,45 @@ exec_data:	.type	object
 	.half	.L408-.L407
 	.byte	1,5,5,9
 	.half	.L409-.L408
-	.byte	3,1,1,5,19,9
+	.byte	3,4,1,5,28,9
 	.half	.L410-.L409
-	.byte	1,5,28,9
+	.byte	1,5,26,9
 	.half	.L411-.L410
 	.byte	1,5,5,9
 	.half	.L412-.L411
-	.byte	3,4,1,5,28,9
+	.byte	3,1,1,5,21,9
 	.half	.L413-.L412
-	.byte	1,5,26,9
+	.byte	1,5,28,9
 	.half	.L414-.L413
-	.byte	1,5,5,9
+	.byte	1,5,26,9
 	.half	.L415-.L414
-	.byte	3,1,1,5,21,9
+	.byte	1,5,5,9
 	.half	.L416-.L415
-	.byte	1,5,28,9
+	.byte	3,1,1,5,21,9
 	.half	.L417-.L416
-	.byte	1,5,26,9
+	.byte	1,5,28,9
 	.half	.L418-.L417
-	.byte	1,5,5,9
+	.byte	1,5,26,9
 	.half	.L419-.L418
-	.byte	3,1,1,5,21,9
+	.byte	1,5,5,9
 	.half	.L420-.L419
-	.byte	1,5,28,9
+	.byte	3,1,1,5,21,9
 	.half	.L421-.L420
-	.byte	1,5,26,9
+	.byte	1,5,28,9
 	.half	.L422-.L421
-	.byte	1,5,5,9
-	.half	.L423-.L422
-	.byte	3,1,1,5,21,9
-	.half	.L424-.L423
-	.byte	1,5,28,9
-	.half	.L425-.L424
 	.byte	1,5,26,9
-	.half	.L426-.L425
+	.half	.L423-.L422
 	.byte	1,5,5,9
-	.half	.L427-.L426
+	.half	.L424-.L423
 	.byte	3,1,1,5,21,9
-	.half	.L428-.L427
+	.half	.L425-.L424
 	.byte	1,5,28,9
+	.half	.L426-.L425
+	.byte	1,5,26,9
+	.half	.L427-.L426
+	.byte	1,5,5,9
+	.half	.L428-.L427
+	.byte	3,1,1,5,19,9
 	.half	.L429-.L428
 	.byte	1,5,26,9
 	.half	.L430-.L429
@@ -22775,97 +22774,113 @@ exec_data:	.type	object
 	.half	.L438-.L437
 	.byte	1,5,26,9
 	.half	.L439-.L438
-	.byte	1,5,5,9
+	.byte	1,5,12,9
 	.half	.L440-.L439
-	.byte	3,1,1,5,19,9
-	.half	.L441-.L440
-	.byte	1,5,26,9
-	.half	.L442-.L441
-	.byte	1,5,12,9
-	.half	.L443-.L442
 	.byte	3,4,1,5,9,9
-	.half	.L10-.L443
+	.half	.L8-.L440
 	.byte	3,1,1,5,23,9
-	.half	.L444-.L10
+	.half	.L441-.L8
 	.byte	1,5,29,9
+	.half	.L442-.L441
+	.byte	1,5,27,9
+	.half	.L443-.L442
+	.byte	1,5,9,9
+	.half	.L444-.L443
+	.byte	3,1,1,5,23,9
 	.half	.L445-.L444
-	.byte	1,5,27,9
-	.half	.L446-.L445
-	.byte	1,5,9,9
-	.half	.L447-.L446
-	.byte	3,1,1,5,23,9
-	.half	.L448-.L447
 	.byte	1,5,29,9
-	.half	.L449-.L448
+	.half	.L446-.L445
 	.byte	1,5,42,9
-	.half	.L450-.L449
+	.half	.L447-.L446
 	.byte	1,5,27,9
-	.half	.L451-.L450
+	.half	.L448-.L447
 	.byte	1,5,9,9
-	.half	.L452-.L451
+	.half	.L449-.L448
 	.byte	3,1,1,5,33,9
-	.half	.L453-.L452
+	.half	.L450-.L449
 	.byte	1,5,31,9
-	.half	.L454-.L453
+	.half	.L451-.L450
 	.byte	1,5,27,9
-	.half	.L455-.L454
+	.half	.L452-.L451
 	.byte	1,5,12,9
-	.half	.L9-.L455
+	.half	.L7-.L452
 	.byte	3,125,1,5,1,9
-	.half	.L456-.L9
+	.half	.L453-.L7
 	.byte	3,5,1,7,9
-	.half	.L84-.L456
+	.half	.L82-.L453
 	.byte	0,1,1
-.L276:
+.L271:
 	.sdecl	'.debug_ranges',debug,cluster('core0_main')
 	.sect	'.debug_ranges'
-.L83:
-	.word	-1,.L30,0,.L84-.L30,0,0
+.L81:
+	.word	-1,.L28,0,.L82-.L28,0,0
 	.sdecl	'.debug_info',debug,cluster('g_cpuSyncEvent')
 	.sect	'.debug_info'
-.L85:
+.L83:
 	.word	216
+	.half	3
+	.word	.L84
+	.byte	4,1
+	.byte	'../Cpu0_Main.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\sray\\AURIX-v1.10.10-workspace\\hello_world_2\\TriCore Debug (TASKING)\\',0,12,1,2
+	.word	.L29
+	.byte	3
+	.byte	'g_cpuSyncEvent',0,12,36,31
+	.word	.L140
+	.byte	1,5,3
+	.word	g_cpuSyncEvent
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('g_cpuSyncEvent')
+	.sect	'.debug_abbrev'
+.L84:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('DELAY')
+	.sect	'.debug_info'
+.L85:
+	.word	207
 	.half	3
 	.word	.L86
 	.byte	4,1
 	.byte	'../Cpu0_Main.c',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
 	.byte	'C:\\Users\\sray\\AURIX-v1.10.10-workspace\\hello_world_2\\TriCore Debug (TASKING)\\',0,12,1,2
-	.word	.L31
+	.word	.L29
 	.byte	3
-	.byte	'g_cpuSyncEvent',0,12,36,31
-	.word	.L142
+	.byte	'DELAY',0,12,66,20
+	.word	.L141
 	.byte	1,5,3
-	.word	g_cpuSyncEvent
+	.word	DELAY
 	.byte	0
-	.sdecl	'.debug_abbrev',debug,cluster('g_cpuSyncEvent')
+	.sdecl	'.debug_abbrev',debug,cluster('DELAY')
 	.sect	'.debug_abbrev'
 .L86:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
 	.byte	0,0,0
-	.sdecl	'.debug_info',debug,cluster('DELAY')
+	.sdecl	'.debug_info',debug,cluster('p_pin20')
 	.sect	'.debug_info'
 .L87:
-	.word	207
+	.word	209
 	.half	3
 	.word	.L88
 	.byte	4,1
 	.byte	'../Cpu0_Main.c',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
 	.byte	'C:\\Users\\sray\\AURIX-v1.10.10-workspace\\hello_world_2\\TriCore Debug (TASKING)\\',0,12,1,2
-	.word	.L31
+	.word	.L29
 	.byte	3
-	.byte	'DELAY',0,12,60,20
-	.word	.L143
+	.byte	'p_pin20',0,12,70,21
+	.word	.L142
 	.byte	1,5,3
-	.word	DELAY
+	.word	p_pin20
 	.byte	0
-	.sdecl	'.debug_abbrev',debug,cluster('DELAY')
+	.sdecl	'.debug_abbrev',debug,cluster('p_pin20')
 	.sect	'.debug_abbrev'
 .L88:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
 	.byte	0,0,0
-	.sdecl	'.debug_info',debug,cluster('p_pin20')
+	.sdecl	'.debug_info',debug,cluster('p_pin33')
 	.sect	'.debug_info'
 .L89:
 	.word	209
@@ -22875,102 +22890,102 @@ exec_data:	.type	object
 	.byte	'../Cpu0_Main.c',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
 	.byte	'C:\\Users\\sray\\AURIX-v1.10.10-workspace\\hello_world_2\\TriCore Debug (TASKING)\\',0,12,1,2
-	.word	.L31
+	.word	.L29
 	.byte	3
-	.byte	'p_pin20',0,12,64,21
-	.word	.L144
+	.byte	'p_pin33',0,12,71,21
+	.word	.L142
 	.byte	1,5,3
-	.word	p_pin20
+	.word	p_pin33
 	.byte	0
-	.sdecl	'.debug_abbrev',debug,cluster('p_pin20')
+	.sdecl	'.debug_abbrev',debug,cluster('p_pin33')
 	.sect	'.debug_abbrev'
 .L90:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
 	.byte	0,0,0
-	.sdecl	'.debug_info',debug,cluster('p_pin33')
+	.sdecl	'.debug_info',debug,cluster('p_src')
 	.sect	'.debug_info'
 .L91:
-	.word	209
+	.word	207
 	.half	3
 	.word	.L92
 	.byte	4,1
 	.byte	'../Cpu0_Main.c',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
 	.byte	'C:\\Users\\sray\\AURIX-v1.10.10-workspace\\hello_world_2\\TriCore Debug (TASKING)\\',0,12,1,2
-	.word	.L31
+	.word	.L29
 	.byte	3
-	.byte	'p_pin33',0,12,65,21
-	.word	.L144
+	.byte	'p_src',0,12,72,21
+	.word	.L143
 	.byte	1,5,3
-	.word	p_pin33
+	.word	p_src
 	.byte	0
-	.sdecl	'.debug_abbrev',debug,cluster('p_pin33')
+	.sdecl	'.debug_abbrev',debug,cluster('p_src')
 	.sect	'.debug_abbrev'
 .L92:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
 	.byte	0,0,0
-	.sdecl	'.debug_info',debug,cluster('p_src')
+	.sdecl	'.debug_info',debug,cluster('p_stm0')
 	.sect	'.debug_info'
 .L93:
-	.word	207
+	.word	208
 	.half	3
 	.word	.L94
 	.byte	4,1
 	.byte	'../Cpu0_Main.c',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
 	.byte	'C:\\Users\\sray\\AURIX-v1.10.10-workspace\\hello_world_2\\TriCore Debug (TASKING)\\',0,12,1,2
-	.word	.L31
+	.word	.L29
 	.byte	3
-	.byte	'p_src',0,12,66,21
-	.word	.L145
+	.byte	'p_stm0',0,12,73,21
+	.word	.L144
 	.byte	1,5,3
-	.word	p_src
+	.word	p_stm0
 	.byte	0
-	.sdecl	'.debug_abbrev',debug,cluster('p_src')
+	.sdecl	'.debug_abbrev',debug,cluster('p_stm0')
 	.sect	'.debug_abbrev'
 .L94:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
 	.byte	0,0,0
-	.sdecl	'.debug_info',debug,cluster('p_stm0')
+	.sdecl	'.debug_info',debug,cluster('p_gpt12')
 	.sect	'.debug_info'
 .L95:
-	.word	208
+	.word	209
 	.half	3
 	.word	.L96
 	.byte	4,1
 	.byte	'../Cpu0_Main.c',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
 	.byte	'C:\\Users\\sray\\AURIX-v1.10.10-workspace\\hello_world_2\\TriCore Debug (TASKING)\\',0,12,1,2
-	.word	.L31
+	.word	.L29
 	.byte	3
-	.byte	'p_stm0',0,12,67,21
-	.word	.L146
+	.byte	'p_gpt12',0,12,74,21
+	.word	.L145
 	.byte	1,5,3
-	.word	p_stm0
+	.word	p_gpt12
 	.byte	0
-	.sdecl	'.debug_abbrev',debug,cluster('p_stm0')
+	.sdecl	'.debug_abbrev',debug,cluster('p_gpt12')
 	.sect	'.debug_abbrev'
 .L96:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
 	.byte	0,0,0
-	.sdecl	'.debug_info',debug,cluster('p_gpt12')
+	.sdecl	'.debug_info',debug,cluster('TOGGLE_VALUE')
 	.sect	'.debug_info'
 .L97:
-	.word	209
+	.word	214
 	.half	3
 	.word	.L98
 	.byte	4,1
 	.byte	'../Cpu0_Main.c',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
 	.byte	'C:\\Users\\sray\\AURIX-v1.10.10-workspace\\hello_world_2\\TriCore Debug (TASKING)\\',0,12,1,2
-	.word	.L31
+	.word	.L29
 	.byte	3
-	.byte	'p_gpt12',0,12,68,21
-	.word	.L147
+	.byte	'TOGGLE_VALUE',0,12,78,19
+	.word	.L146
 	.byte	1,5,3
-	.word	p_gpt12
+	.word	TOGGLE_VALUE
 	.byte	0
-	.sdecl	'.debug_abbrev',debug,cluster('p_gpt12')
+	.sdecl	'.debug_abbrev',debug,cluster('TOGGLE_VALUE')
 	.sect	'.debug_abbrev'
 .L98:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
@@ -22985,10 +23000,10 @@ exec_data:	.type	object
 	.byte	'../Cpu0_Main.c',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
 	.byte	'C:\\Users\\sray\\AURIX-v1.10.10-workspace\\hello_world_2\\TriCore Debug (TASKING)\\',0,12,1,2
-	.word	.L31
+	.word	.L29
 	.byte	3
-	.byte	'timer_0_isr_count',0,12,72,21
-	.word	.L148
+	.byte	'timer_0_isr_count',0,12,79,19
+	.word	.L147
 	.byte	1,5,3
 	.word	timer_0_isr_count
 	.byte	0
@@ -23007,10 +23022,10 @@ exec_data:	.type	object
 	.byte	'../Cpu0_Main.c',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
 	.byte	'C:\\Users\\sray\\AURIX-v1.10.10-workspace\\hello_world_2\\TriCore Debug (TASKING)\\',0,12,1,2
-	.word	.L31
+	.word	.L29
 	.byte	3
-	.byte	'gpt1_isr_count',0,12,73,21
-	.word	.L149
+	.byte	'gpt1_isr_count',0,12,80,19
+	.word	.L148
 	.byte	1,5,3
 	.word	gpt1_isr_count
 	.byte	0
@@ -23029,10 +23044,10 @@ exec_data:	.type	object
 	.byte	'../Cpu0_Main.c',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
 	.byte	'C:\\Users\\sray\\AURIX-v1.10.10-workspace\\hello_world_2\\TriCore Debug (TASKING)\\',0,12,1,2
-	.word	.L31
+	.word	.L29
 	.byte	3
-	.byte	'toggle',0,12,74,21
-	.word	.L150
+	.byte	'toggle',0,12,81,19
+	.word	.L149
 	.byte	1,5,3
 	.word	toggle
 	.byte	0
@@ -23051,10 +23066,10 @@ exec_data:	.type	object
 	.byte	'../Cpu0_Main.c',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
 	.byte	'C:\\Users\\sray\\AURIX-v1.10.10-workspace\\hello_world_2\\TriCore Debug (TASKING)\\',0,12,1,2
-	.word	.L31
+	.word	.L29
 	.byte	3
-	.byte	'int_toggle_p6',0,12,75,21
-	.word	.L151
+	.byte	'int_toggle_p6',0,12,82,19
+	.word	.L150
 	.byte	1,5,3
 	.word	int_toggle_p6
 	.byte	0
@@ -23073,10 +23088,10 @@ exec_data:	.type	object
 	.byte	'../Cpu0_Main.c',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
 	.byte	'C:\\Users\\sray\\AURIX-v1.10.10-workspace\\hello_world_2\\TriCore Debug (TASKING)\\',0,12,1,2
-	.word	.L31
+	.word	.L29
 	.byte	3
-	.byte	'int_toggle_p7',0,12,76,21
-	.word	.L152
+	.byte	'int_toggle_p7',0,12,83,19
+	.word	.L151
 	.byte	1,5,3
 	.word	int_toggle_p7
 	.byte	0
@@ -23085,167 +23100,145 @@ exec_data:	.type	object
 .L108:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
 	.byte	0,0,0
-	.sdecl	'.debug_info',debug,cluster('TOGGLE_VALUE')
+	.sdecl	'.debug_info',debug,cluster('compare_value')
 	.sect	'.debug_info'
 .L109:
-	.word	214
+	.word	215
 	.half	3
 	.word	.L110
 	.byte	4,1
 	.byte	'../Cpu0_Main.c',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
 	.byte	'C:\\Users\\sray\\AURIX-v1.10.10-workspace\\hello_world_2\\TriCore Debug (TASKING)\\',0,12,1,2
-	.word	.L31
+	.word	.L29
 	.byte	3
-	.byte	'TOGGLE_VALUE',0,12,77,21
-	.word	.L153
+	.byte	'compare_value',0,12,84,19
+	.word	.L152
 	.byte	1,5,3
-	.word	TOGGLE_VALUE
+	.word	compare_value
 	.byte	0
-	.sdecl	'.debug_abbrev',debug,cluster('TOGGLE_VALUE')
+	.sdecl	'.debug_abbrev',debug,cluster('compare_value')
 	.sect	'.debug_abbrev'
 .L110:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
 	.byte	0,0,0
-	.sdecl	'.debug_info',debug,cluster('compare_value')
+	.sdecl	'.debug_info',debug,cluster('exec_data')
 	.sect	'.debug_info'
 .L111:
-	.word	215
+	.word	210
 	.half	3
 	.word	.L112
 	.byte	4,1
 	.byte	'../Cpu0_Main.c',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
 	.byte	'C:\\Users\\sray\\AURIX-v1.10.10-workspace\\hello_world_2\\TriCore Debug (TASKING)\\',0,12,1,2
-	.word	.L31
+	.word	.L29
 	.byte	3
-	.byte	'compare_value',0,12,78,21
-	.word	.L154
-	.byte	1,5,3
-	.word	compare_value
-	.byte	0
-	.sdecl	'.debug_abbrev',debug,cluster('compare_value')
-	.sect	'.debug_abbrev'
-.L112:
-	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
-	.byte	0,0,0
-	.sdecl	'.debug_info',debug,cluster('exec_data')
-	.sect	'.debug_info'
-.L113:
-	.word	210
-	.half	3
-	.word	.L114
-	.byte	4,1
-	.byte	'../Cpu0_Main.c',0
-	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
-	.byte	'C:\\Users\\sray\\AURIX-v1.10.10-workspace\\hello_world_2\\TriCore Debug (TASKING)\\',0,12,1,2
-	.word	.L31
-	.byte	3
-	.byte	'exec_data',0,12,113,22
-	.word	.L155
+	.byte	'exec_data',0,12,119,22
+	.word	.L153
 	.byte	5,3
 	.word	exec_data
 	.byte	0
 	.sdecl	'.debug_abbrev',debug,cluster('exec_data')
 	.sect	'.debug_abbrev'
-.L114:
+.L112:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,2,9,0,0,0
 	.sdecl	'.debug_loc',debug,cluster('core0_main')
 	.sect	'.debug_loc'
-.L29:
-	.word	-1,.L30,0,.L140-.L30
+.L27:
+	.word	-1,.L28,0,.L138-.L28
 	.half	2
 	.byte	138,0
 	.word	0,0
 	.sdecl	'.debug_loc',debug,cluster('delay')
 	.sect	'.debug_loc'
-.L117:
-	.word	-1,.L12,0,.L115-.L12
+.L115:
+	.word	-1,.L10,0,.L113-.L10
 	.half	1
 	.byte	84
 	.word	0,0
-.L11:
-	.word	-1,.L12,0,.L156-.L12
+.L9:
+	.word	-1,.L10,0,.L154-.L10
 	.half	2
 	.byte	138,0
-	.word	.L156-.L12,.L115-.L12
+	.word	.L154-.L10,.L113-.L10
 	.half	2
 	.byte	138,8
-	.word	.L115-.L12,.L115-.L12
+	.word	.L113-.L10,.L113-.L10
 	.half	2
 	.byte	138,0
 	.word	0,0
-.L119:
-	.word	-1,.L12,0,.L115-.L12
+.L117:
+	.word	-1,.L10,0,.L113-.L10
 	.half	2
 	.byte	145,120
 	.word	0,0
 	.sdecl	'.debug_loc',debug,cluster('gpt1_isr')
 	.sect	'.debug_loc'
-.L15:
-	.word	-1,.L16,0,.L125-.L16
+.L13:
+	.word	-1,.L14,0,.L123-.L14
 	.half	2
 	.byte	138,0
 	.word	0,0
 	.sdecl	'.debug_loc',debug,cluster('gpt1_isr_exec')
 	.sect	'.debug_loc'
-.L13:
-	.word	-1,.L14,0,.L120-.L14
+.L11:
+	.word	-1,.L12,0,.L118-.L12
 	.half	2
 	.byte	138,0
 	.word	0,0
 	.sdecl	'.debug_loc',debug,cluster('task_10ms')
 	.sect	'.debug_loc'
-.L23:
-	.word	-1,.L24,0,.L137-.L24
+.L21:
+	.word	-1,.L22,0,.L135-.L22
 	.half	2
 	.byte	138,0
 	.word	0,0
 	.sdecl	'.debug_loc',debug,cluster('task_20ms')
 	.sect	'.debug_loc'
-.L25:
-	.word	-1,.L26,0,.L138-.L26
+.L23:
+	.word	-1,.L24,0,.L136-.L24
 	.half	2
 	.byte	138,0
 	.word	0,0
 	.sdecl	'.debug_loc',debug,cluster('task_40ms')
 	.sect	'.debug_loc'
-.L27:
-	.word	-1,.L28,0,.L139-.L28
+.L25:
+	.word	-1,.L26,0,.L137-.L26
 	.half	2
 	.byte	138,0
 	.word	0,0
 	.sdecl	'.debug_loc',debug,cluster('task_5ms')
 	.sect	'.debug_loc'
-.L21:
-	.word	-1,.L22,0,.L136-.L22
+.L19:
+	.word	-1,.L20,0,.L134-.L20
 	.half	2
 	.byte	138,0
 	.word	0,0
 	.sdecl	'.debug_loc',debug,cluster('timer_0_isr')
 	.sect	'.debug_loc'
-.L19:
-	.word	-1,.L20,0,.L135-.L20
+.L17:
+	.word	-1,.L18,0,.L133-.L18
 	.half	2
 	.byte	138,0
 	.word	0,0
 	.sdecl	'.debug_loc',debug,cluster('timer_0_isr_exec')
 	.sect	'.debug_loc'
-.L130:
+.L128:
 	.word	0,0
-.L134:
-	.word	-1,.L18,.L157-.L18,.L158-.L18
+.L132:
+	.word	-1,.L16,.L155-.L16,.L156-.L16
 	.half	1
 	.byte	95
 	.word	0,0
-.L17:
-	.word	-1,.L18,0,.L126-.L18
+.L15:
+	.word	-1,.L16,0,.L124-.L16
 	.half	2
 	.byte	138,0
 	.word	0,0
 	.sdecl	'.debug_frame',debug
 	.sect	'.debug_frame'
-.L457:
+.L454:
 	.word	48
 	.word	-1
 	.byte	3,0,2,1,27,12,26,0,8,26,8,27,8,30,8,29,8,28,8,16,8,17,8,24,8,25,8,31,8,32,8,33,8,34,8,35,8,36,8,37,8,38
@@ -23253,51 +23246,51 @@ exec_data:	.type	object
 	.sdecl	'.debug_frame',debug,cluster('delay')
 	.sect	'.debug_frame'
 	.word	48
-	.word	.L457,.L12,.L115-.L12
+	.word	.L454,.L10,.L113-.L10
 	.byte	8,18,8,19,8,20,8,21,8,22,8,23,4
-	.word	(.L156-.L12)/2
+	.word	(.L154-.L10)/2
 	.byte	19,8,22,26,3,19,138,8,4
-	.word	(.L115-.L156)/2
+	.word	(.L113-.L154)/2
 	.byte	19,0,8,26,0,0
 	.sdecl	'.debug_frame',debug,cluster('gpt1_isr_exec')
 	.sect	'.debug_frame'
 	.word	24
-	.word	.L457,.L14,.L120-.L14
+	.word	.L454,.L12,.L118-.L12
 	.byte	8,19,8,20,8,21,8,22,8,23,0,0
 	.sdecl	'.debug_frame',debug,cluster('gpt1_isr')
 	.sect	'.debug_frame'
 	.word	12
-	.word	.L457,.L16,.L125-.L16
+	.word	.L454,.L14,.L123-.L14
 	.sdecl	'.debug_frame',debug,cluster('timer_0_isr_exec')
 	.sect	'.debug_frame'
 	.word	12
-	.word	.L457,.L18,.L126-.L18
+	.word	.L454,.L16,.L124-.L16
 	.sdecl	'.debug_frame',debug,cluster('timer_0_isr')
 	.sect	'.debug_frame'
 	.word	12
-	.word	.L457,.L20,.L135-.L20
+	.word	.L454,.L18,.L133-.L18
 	.sdecl	'.debug_frame',debug,cluster('task_5ms')
 	.sect	'.debug_frame'
 	.word	24
-	.word	.L457,.L22,.L136-.L22
+	.word	.L454,.L20,.L134-.L20
 	.byte	8,19,8,20,8,21,8,22,8,23,0,0
 	.sdecl	'.debug_frame',debug,cluster('task_10ms')
 	.sect	'.debug_frame'
 	.word	24
-	.word	.L457,.L24,.L137-.L24
+	.word	.L454,.L22,.L135-.L22
 	.byte	8,19,8,20,8,21,8,22,8,23,0,0
 	.sdecl	'.debug_frame',debug,cluster('task_20ms')
 	.sect	'.debug_frame'
 	.word	24
-	.word	.L457,.L26,.L138-.L26
+	.word	.L454,.L24,.L136-.L24
 	.byte	8,19,8,20,8,21,8,22,8,23,0,0
 	.sdecl	'.debug_frame',debug,cluster('task_40ms')
 	.sect	'.debug_frame'
 	.word	24
-	.word	.L457,.L28,.L139-.L28
+	.word	.L454,.L26,.L137-.L26
 	.byte	8,19,8,20,8,21,8,22,8,23,0,0
 	.sdecl	'.debug_frame',debug,cluster('core0_main')
 	.sect	'.debug_frame'
 	.word	12
-	.word	.L457,.L30,.L140-.L30
+	.word	.L454,.L28,.L138-.L28
 	; Module end

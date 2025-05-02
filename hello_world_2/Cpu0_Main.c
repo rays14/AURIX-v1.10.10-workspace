@@ -51,9 +51,15 @@ IFX_ALIGN(4) IfxCpu_syncEvent g_cpuSyncEvent = 0;
 //      Therefore x = 20, so 2^20 is approximately 10ms toggle, so every 10ms the
 //      LED should toggle
 ///////////////////////////////////////////////////////////////////////////////
-#define BIT_NUM  16
-#define BIT_SZ   0
-#define TIME_ADD 20000
+#define COMPARE_BIT 0
+#if (COMPARE_BIT == 1)
+  #define BIT_NUM  16
+  #define BIT_SZ   0
+#else
+  #define BIT_NUM  0
+  #define BIT_SZ   31
+  #define TIME_ADD 125000 /* Add this to comparator should provide a 5ms interrupt */
+#endif
 ///////////////////////////////////////////////////////////////////////////////
 // Constants
 ///////////////////////////////////////////////////////////////////////////////
@@ -113,9 +119,14 @@ struct exec_t {
 static struct exec_t exec_data = {{0}};
 void timer_0_isr_exec(void) {
     IfxCpu_disableInterrupts();
+    //p_pin33->OUT.B.P6 = ~p_pin33->OUT.B.P6;
     p_stm0->ISCR.B.CMP0IRR  = 1;
+#if (COMPARE_BIT == 1)
     p_stm0->CMP[0].B.CMPVAL = (p_stm0->CMP[0].B.CMPVAL == (uint32_t)((uint32_t)0x1 << (BIT_NUM)))
             ? (uint32_t)0 : (uint32_t)((uint32_t)0x1 << (BIT_NUM));
+#else
+    p_stm0->CMP[0].B.CMPVAL += TIME_ADD;
+#endif
     p_stm0->ISCR.B.CMP0IRR  = 0;
     task_exec((void *)&exec_data);
 }
@@ -197,8 +208,13 @@ void core0_main(void) {
     ///////////////////////////////////////////////////////////////////////////
     // STM0 Set Up
     ///////////////////////////////////////////////////////////////////////////
+#if (COMPARE_BIT == 1)
     p_stm0->CMP[0].B.CMPVAL = (uint32_t)((uint32_t)0x1 << (BIT_NUM));
     p_stm0->CMP[1].B.CMPVAL = (uint32_t)0;
+#else
+    p_stm0->CMP[0].B.CMPVAL = p_stm0->TIM0.B.STM_31_0 + TIME_ADD;
+    p_stm0->CMP[1].B.CMPVAL = (uint32_t)0;
+#endif
     p_stm0->CMCON.B.MSIZE0  = BIT_SZ;  // 32 bit count value CMP[0]
     p_stm0->CMCON.B.MSTART0 = BIT_NUM; // CMP0 register start-bit
     p_stm0->CMCON.B.MSIZE1  = BIT_SZ;  // 32 bit count value

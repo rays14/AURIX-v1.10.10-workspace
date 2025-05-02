@@ -44,14 +44,10 @@ void task_exec(void *data) {
     static uint32_t time_mod;
     // Turn off interrupts.
     task_interrupt_disable();
-    if (tick <= tick_period) {
-        tick++;
-    } else {
-        tick = 1;
-    }
+    tick = (tick + 1) % tick_period;
     for (uint32_t i = 0; i < num_tasks; i++) {
         struct task_list_t *tp = &task_list[i];
-        time_mod = ((tick  + tp->offset) % (tp->period));
+        time_mod = ((tick + tp->offset) % (tp->period));
         if ((STARTED == tp->state) && (0 == time_mod)) {
             tp->overrun++;
             goto task_exec_exit;
