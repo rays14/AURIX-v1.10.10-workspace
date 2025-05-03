@@ -6,24 +6,30 @@
  */
 #include "IfxCpu.h"
 #include "task.h"
+
 uint32_t num_tasks;
 uint32_t tick_period;
 uint32_t tick;
 struct task_list_t task_list[MAX_TASKS];
+
 static void task_interrupt_disable() {
     IfxCpu_disableInterrupts();
 }
+
 static void task_interrupt_enable() {
     IfxCpu_enableInterrupts();
 }
+
 void task_init(void) {
     num_tasks   = 0;
     tick_period = TICK_PERIOD;
     tick        = 0;
 }
+
 void task_start(void) {
 
 }
+
 void task_add(task_ptr_t tb, uint32_t period, uint32_t offset) {
     if (tb && (num_tasks < MAX_TASKS) && (period < TICK_PERIOD) && (offset < TICK_PERIOD)) {
         struct task_list_t *tp = &task_list[num_tasks];
@@ -38,10 +44,10 @@ void task_add(task_ptr_t tb, uint32_t period, uint32_t offset) {
     // earlier in the task list and slower tasks later in
     // array.
 }
+
 void task_exec(void *data) {
     static uint32_t tick = 0;
     static uint32_t time_mod = 0;
-
     task_interrupt_disable();
     tick = (tick + 1) % tick_period;
     for (uint32_t i = 0; i < num_tasks; i++) {

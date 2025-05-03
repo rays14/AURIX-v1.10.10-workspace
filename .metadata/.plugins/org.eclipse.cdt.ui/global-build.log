@@ -9371,3 +9371,47 @@ ROM: 0x43f3 (17395) = code: 0x3044 (12356) + romdata: 0x13af (5039)
 RAM: 0xc919 (51481) = data + bss
 Finished building: hello_world_2.siz
  
+Build started...
+23:18:27 **** Incremental Build of configuration TriCore Debug (TASKING) for project hello_world_2 ****
+amk -j16 all 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): program builder v1.1r8 Build 22011964
+cctc -cs --dep-file="Cpu0_Main.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Cpu0_Main.src" "../Cpu0_Main.c"
+cctc -cs --dep-file="Cpu1_Main.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Cpu1_Main.src" "../Cpu1_Main.c"
+cctc -cs --dep-file="Cpu2_Main.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Cpu2_Main.src" "../Cpu2_Main.c"
+cctc -cs --dep-file="Cpu3_Main.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "Cpu3_Main.src" "../Cpu3_Main.c"
+cctc -cs --dep-file="sem.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "sem.src" "../sem.c"
+cctc -cs --dep-file="task.d" --misrac-version=2004 -D__CPU__=tc38x "-fC:/Users/sray/AURIX-v1.10.10-workspace/hello_world_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc38x -Y0 -N0 -Z0 -o "task.src" "../task.c"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "sem.o" "sem.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Cpu0_Main.o" "Cpu0_Main.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Cpu1_Main.o" "Cpu1_Main.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Cpu2_Main.o" "Cpu2_Main.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Cpu3_Main.o" "Cpu3_Main.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "task.o" "task.src"
+Building target: hello_world_2.elf
+Invoking: TASKING Linker
+cctc -f .hello_world_2.elf.opt
+Finished building target: hello_world_2.elf
+ 
+Invoking: Print Size
+elfsize  "hello_world_2.elf"
+Total sizes:
+ROM: 0x43f7 (17399) = code: 0x3044 (12356) + romdata: 0x13b3 (5043)
+RAM: 0xc919 (51481) = data + bss
+Finished building: hello_world_2.siz
+ 
+Build started...
+23:22:25 **** Incremental Build of configuration TriCore Debug (TASKING) for project hello_world_2 ****
+amk -j16 all 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): program builder v1.1r8 Build 22011964
+Building target: hello_world_2.elf
+Invoking: TASKING Linker
+cctc -f .hello_world_2.elf.opt
+Finished building target: hello_world_2.elf
+ 
+Invoking: Print Size
+elfsize  "hello_world_2.elf"
+Total sizes:
+ROM: 0x43f7 (17399) = code: 0x3044 (12356) + romdata: 0x13b3 (5043)
+RAM: 0xc919 (51481) = data + bss
+Finished building: hello_world_2.siz
+ 

@@ -1,6 +1,6 @@
 	; Module start
 	.compiler_version	"TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler v1.1r8 Build 22011964"
-	.compiler_invocation	"ctc -f cc42096a --dep-file=task.d -c99 --fp-model=3cflnrSTz -D__CPU__=tc38x -D__CPU_TC38X__ --core=tc1.6.2 --fp-model=+float -D__CPU__=tc38x -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2 -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Configurations -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\Infra -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\Infra\\\\Platform -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore\\\\Compilers -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\Infra\\\\Sfr -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\Infra\\\\Sfr\\\\TC38A -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\Infra\\\\Sfr\\\\TC38A\\\\_Reg -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\Infra\\\\Ssw -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\Infra\\\\Ssw\\\\TC38A -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\Infra\\\\Ssw\\\\TC38A\\\\Tricore -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\Service -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\Service\\\\CpuGeneric -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\Service\\\\CpuGeneric\\\\_Utilities -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\iLLD -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\iLLD\\\\TC38A -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\iLLD\\\\TC38A\\\\Tricore -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Cpu -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Cpu\\\\Irq -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Cpu\\\\Std -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Cpu\\\\Trap -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Gtm -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Gtm\\\\Std -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Mtu -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Mtu\\\\Std -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Pms -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Pms\\\\Std -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Port -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Port\\\\Std -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Scu -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Scu\\\\Std -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Src -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Src\\\\Std -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\_Impl -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\_PinMap -g2 -w544 -w557 -t4 --language=+volatile -N0 -O0 -Y0 -Z0 --compact-max-size=200 --misrac-version=2004 -o task.src ../task.c"
+	.compiler_invocation	"ctc -f cc28556a --dep-file=task.d -c99 --fp-model=3cflnrSTz -D__CPU__=tc38x -D__CPU_TC38X__ --core=tc1.6.2 --fp-model=+float -D__CPU__=tc38x -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2 -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Configurations -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\Infra -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\Infra\\\\Platform -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore\\\\Compilers -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\Infra\\\\Sfr -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\Infra\\\\Sfr\\\\TC38A -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\Infra\\\\Sfr\\\\TC38A\\\\_Reg -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\Infra\\\\Ssw -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\Infra\\\\Ssw\\\\TC38A -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\Infra\\\\Ssw\\\\TC38A\\\\Tricore -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\Service -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\Service\\\\CpuGeneric -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\Service\\\\CpuGeneric\\\\_Utilities -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\iLLD -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\iLLD\\\\TC38A -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\iLLD\\\\TC38A\\\\Tricore -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Cpu -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Cpu\\\\Irq -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Cpu\\\\Std -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Cpu\\\\Trap -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Gtm -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Gtm\\\\Std -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Mtu -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Mtu\\\\Std -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Pms -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Pms\\\\Std -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Port -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Port\\\\Std -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Scu -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Scu\\\\Std -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Src -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Src\\\\Std -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\_Impl -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\_PinMap -g2 -w544 -w557 -t4 --language=+volatile -N0 -O0 -Y0 -Z0 --compact-max-size=200 --misrac-version=2004 -o task.src ../task.c"
 	.compiler_name		"ctc"
 	;source	'../task.c'
 
@@ -325,8 +325,8 @@ task_list:	.type	object
 _999001_tick:	.type	object
 	.size	_999001_tick,4
 	.space	4
-	.sdecl	'.bss.task._999002_time_mod',data,cluster('_999002_time_mod')
-	.sect	'.bss.task._999002_time_mod'
+	.sdecl	'.data.task._999002_time_mod',data,cluster('_999002_time_mod')
+	.sect	'.data.task._999002_time_mod'
 	.align	2
 _999002_time_mod:	.type	object
 	.size	_999002_time_mod,4
@@ -19745,24 +19745,24 @@ _999002_time_mod:	.type	object
 	.byte	5
 	.word	.L26,.L80
 	.byte	6
-	.byte	'tick',0,1,43,21
+	.byte	'tick',0,1,42,21
 	.word	.L74
 	.byte	5,3
 	.word	_999001_tick
 	.byte	6
-	.byte	'time_mod',0,1,44,21
+	.byte	'time_mod',0,1,43,21
 	.word	.L74
 	.byte	5,3
 	.word	_999002_time_mod
 	.byte	5
 	.word	.L83,.L12
 	.byte	7
-	.byte	'i',0,1,55,19
+	.byte	'i',0,1,47,19
 	.word	.L74,.L84
 	.byte	5
 	.word	.L9,.L13
 	.byte	7
-	.byte	'tp',0,1,56,29
+	.byte	'tp',0,1,48,29
 	.word	.L78,.L85
 	.byte	0,0,0,0,0
 	.sdecl	'.debug_abbrev',debug,cluster('task_exec')
@@ -19784,9 +19784,9 @@ _999002_time_mod:	.type	object
 .L152:
 	.byte	5,27,7,0,5,2
 	.word	.L26
-	.byte	3,45,1,5,5,9
+	.byte	3,44,1,5,5,9
 	.half	.L103-.L26
-	.byte	3,8,1,5,13,9
+	.byte	3,1,1,5,13,9
 	.half	.L153-.L103
 	.byte	1,5,18,9
 	.half	.L154-.L153
@@ -19846,7 +19846,7 @@ _999002_time_mod:	.type	object
 	.half	.L176-.L175
 	.byte	3,1,1,5,19,9
 	.half	.L177-.L176
-	.byte	3,2,1,5,13,9
+	.byte	3,1,1,5,13,9
 	.half	.L178-.L177
 	.byte	1,5,19,7,9
 	.half	.L179-.L178
@@ -19854,19 +19854,19 @@ _999002_time_mod:	.type	object
 	.half	.L180-.L179
 	.byte	1,5,35,9
 	.half	.L14-.L180
-	.byte	3,3,1,5,25,9
+	.byte	3,2,1,5,25,9
 	.half	.L181-.L14
 	.byte	3,1,1,5,23,9
 	.half	.L182-.L181
 	.byte	1,5,42,9
 	.half	.L13-.L182
-	.byte	3,113,1,5,30,9
+	.byte	3,115,1,5,30,9
 	.half	.L8-.L13
 	.byte	1,5,39,9
 	.half	.L183-.L8
 	.byte	1,5,26,7,9
 	.half	.L12-.L183
-	.byte	3,19,1,5,1,9
+	.byte	3,17,1,5,1,9
 	.half	.L184-.L12
 	.byte	3,1,1,7,9
 	.half	.L50-.L184

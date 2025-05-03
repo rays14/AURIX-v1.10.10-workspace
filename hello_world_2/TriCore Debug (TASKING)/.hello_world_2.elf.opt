@@ -108,4 +108,5 @@
 "Cpu1_Main.o"
 "Cpu2_Main.o"
 "Cpu3_Main.o"
+"sem.o"
 "task.o"
