@@ -8,6 +8,7 @@
 #ifndef SRC_TASK_H_
 #define SRC_TASK_H_
 #include "stdint.h"
+#include "IfxCpu.h"
 
 #define TICK_PERIOD 256
 #define MAX_TASKS   100

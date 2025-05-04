@@ -6,27 +6,42 @@
  */
 #include "sem.h"
 
-int32_t sem_init(struct sem_t *self) {
-    int32_t val = -1;
-    if (self) {
-        self->val = 1;
-        val = 0;
-    }
-    return val;
+static void sem_interrupt_disable() {
+    IfxCpu_disableInterrupts();
 }
 
-bool sem_take(struct sem_t *self) {
-    bool val = false;
-    if (self && (self->val == 1)) {
-        self->val = 0;
-        val = true;
+static void sem_interrupts_enable() {
+    IfxCpu_enableInterrupts();
+}
+int32_t sem_init(struct sem_t *self) {
+    int32_t status = -1;
+    if (self) {
+        self->val = 1;
+        status = 0;
     }
-    return val;
+    return status;
+}
+
+int32_t sem_take(struct sem_t *self) {
+    int32_t status = -1;
+    if (self && (self->val > 0)) {
+        // We dont need to do this because this
+        // a priority based preemptive system
+        sem_interrupt_disable();
+        self->val = 0;
+        status = 0;
+        sem_interrupts_enable();
+    }
+    return status;
 }
 
 void sem_give(struct sem_t *self) {
     if (self) {
+        // We dont need to do this because this
+        // a priority based preemptive system
+        sem_interrupt_disable();
         self->val = 1;
+        sem_interrupts_enable();
     }
 }
 

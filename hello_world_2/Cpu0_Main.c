@@ -33,6 +33,7 @@
 #include "IfxGPt12_reg.h"
 #include "stdint.h"
 #include "task.h"
+#include "cbuff.h"
 IFX_ALIGN(4) IfxCpu_syncEvent g_cpuSyncEvent = 0;
 ///////////////////////////////////////////////////////////////////////////////
 // Defines
@@ -82,6 +83,9 @@ volatile uint32_t toggle            = 0;
 volatile uint32_t int_toggle_p6     = 0;
 volatile uint32_t int_toggle_p7     = 0;
 volatile uint64_t compare_value     = (uint64_t)0;
+#define MAX_DATA 100
+volatile int32_t  data[MAX_DATA]    = {0,};
+volatile struct cbuff_t buffer      = {{0}};
 ///////////////////////////////////////////////////////////////////////////////
 // Delay
 ///////////////////////////////////////////////////////////////////////////////
@@ -129,6 +133,7 @@ void timer_0_isr_exec(void) {
 #endif
     p_stm0->ISCR.B.CMP0IRR  = 0;
     task_exec((void *)&exec_data);
+    IfxCpu_enableInterrupts();
 }
 IFX_INTERRUPT (timer_0_isr, 0, TIMER_0_INTERRUPT_PRIORITY) {
     timer_0_isr_exec();
@@ -140,13 +145,18 @@ IFX_INTERRUPT (timer_0_isr, 0, TIMER_0_INTERRUPT_PRIORITY) {
 // Tasks - Foreground task
 ///////////////////////////////////////////////////////////////////////////////
 void task_5ms() {
+    static int32_t i = 22;
     p_pin20->OUT.B.P11 = ~p_pin20->OUT.B.P11;
+    cbuff_put((struct cbuff_t *)&buffer, i);
+    i++;
 }
 void task_10ms() {
     p_pin20->OUT.B.P12 = ~p_pin20->OUT.B.P12;
 }
 void task_20ms() {
+    static int32_t j = 0;
     p_pin20->OUT.B.P13 = ~p_pin20->OUT.B.P13;
+    cbuff_get((struct cbuff_t *)&buffer, &j);
 }
 void task_40ms() {
     p_pin20->OUT.B.P14 = ~p_pin20->OUT.B.P14;
@@ -170,6 +180,7 @@ void core0_main(void) {
     ///////////////////////////////////////////////////////////////////////////
     // Tasks
     ///////////////////////////////////////////////////////////////////////////
+    cbuff_init((struct cbuff_t *)&buffer, (int32_t *)data, MAX_DATA);
     task_init();
     task_add(task_5ms,  4,  0); // Approx. 5ms
     task_add(task_10ms, 8,  0); // Approx. 10ms

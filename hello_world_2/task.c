@@ -4,7 +4,6 @@
  *  Created on: May 1, 2025
  *      Author: sray
  */
-#include "IfxCpu.h"
 #include "task.h"
 
 uint32_t num_tasks;
