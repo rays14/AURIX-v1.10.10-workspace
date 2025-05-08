@@ -31,6 +31,7 @@
 #include "IfxSrc_reg.h"
 #include "IfxStm_reg.h"
 #include "IfxGPt12_reg.h"
+#include "IfxAsclin_reg.h"
 #include "stdint.h"
 #include "task.h"
 #include "cbuff.h"
@@ -68,11 +69,13 @@ const unsigned int DELAY = 1000000;
 ///////////////////////////////////////////////////////////////////////////////
 // Modules
 ///////////////////////////////////////////////////////////////////////////////
-volatile Ifx_P     *p_pin20 = (volatile Ifx_P     *)0xF003B400u; // IfxPort_reg.h  - LED
-volatile Ifx_P     *p_pin33 = (volatile Ifx_P     *)0xF003C100u; // IfxPort_reg.h  - LED
-volatile Ifx_SRC   *p_src   = (volatile Ifx_SRC   *)0xF0038000u; // IfxSrc_reg.h   - Service Request Controller
-volatile Ifx_STM   *p_stm0  = (volatile Ifx_STM   *)0xF0001000u; // IfxStm_reg.h   - Timer using p-src
-volatile Ifx_GPT12 *p_gpt12 = (volatile Ifx_GPT12 *)0xF0001800u; // IfxGPt12_reg.h -
+volatile Ifx_P      *p_pin20   = (volatile Ifx_P      *)0xF003B400u; // IfxPort_reg.h  - LED
+volatile Ifx_P      *p_pin33   = (volatile Ifx_P      *)0xF003C100u; // IfxPort_reg.h  - LED
+volatile Ifx_P      *p_pin14   = (volatile Ifx_P      *)0xF003AE00u; // IfxPort_reg.h  - UART 0 - RX, 1 - TX
+volatile Ifx_SRC    *p_src     = (volatile Ifx_SRC    *)0xF0038000u; // IfxSrc_reg.h   - Service Request Controller
+volatile Ifx_STM    *p_stm0    = (volatile Ifx_STM    *)0xF0001000u; // IfxStm_reg.h   - Timer using p-src
+volatile Ifx_GPT12  *p_gpt12   = (volatile Ifx_GPT12  *)0xF0001800u; // IfxGPt12_reg.h - General purpose timer
+volatile Ifx_ASCLIN *p_asclin0 = (volatile Ifx_ASCLIN *)0xF0000600u; // IfxAsclin_reg.h - Async/Sync interface - UART, SPI, I2C, LIN
 ///////////////////////////////////////////////////////////////////////////////
 // Globals
 ///////////////////////////////////////////////////////////////////////////////
@@ -109,6 +112,7 @@ void gpt1_isr_exec() {
         gpt1_isr_count = 0;
     }
 }
+
 IFX_INTERRUPT (gpt1_isr, 0, GPT1_INTERRUPT_PRIORITY) {
     gpt1_isr_exec();
 }
@@ -120,6 +124,7 @@ IFX_INTERRUPT (gpt1_isr, 0, GPT1_INTERRUPT_PRIORITY) {
 struct exec_t {
     int data;
 };
+
 static struct exec_t exec_data = {{0}};
 void timer_0_isr_exec(void) {
     IfxCpu_disableInterrupts();
@@ -135,6 +140,7 @@ void timer_0_isr_exec(void) {
     task_exec((void *)&exec_data);
     IfxCpu_enableInterrupts();
 }
+
 IFX_INTERRUPT (timer_0_isr, 0, TIMER_0_INTERRUPT_PRIORITY) {
     timer_0_isr_exec();
 }
@@ -150,16 +156,21 @@ void task_5ms() {
     cbuff_put((struct cbuff_t *)&buffer, i);
     i++;
 }
+
 void task_10ms() {
     p_pin20->OUT.B.P12 = ~p_pin20->OUT.B.P12;
 }
+
 void task_20ms() {
     static int32_t j = 0;
     p_pin20->OUT.B.P13 = ~p_pin20->OUT.B.P13;
     cbuff_get((struct cbuff_t *)&buffer, &j);
 }
+
 void task_40ms() {
     p_pin20->OUT.B.P14 = ~p_pin20->OUT.B.P14;
+    p_asclin0->TXDATA.B.DATA = 0x5A;
+    p_asclin0->TXFIFOCON.B.FLUSH = 0x01; // Flush it
 }
 ///////////////////////////////////////////////////////////////////////////
 // Main - Background task
@@ -203,21 +214,21 @@ void core0_main(void) {
     ///////////////////////////////////////////////////////////////////////////
     // MODULE SET UP
     ///////////////////////////////////////////////////////////////////////////
-    // GPT12 SET UP
+    // GPT12 SET UP (General Purpose Timer/Counter)
     ///////////////////////////////////////////////////////////////////////////
-    p_gpt12->CLC.B.DISR   = 0;            // Enable the clock module
-    p_gpt12->CLC.B.EDIS   = 1;            // Disable sleep mode request
-    p_gpt12->ACCEN0.U     = 0xffffffffu;  // Enable everything
-    p_gpt12->T3.B.T3      = TOGGLE_VALUE; // Put some value into the timer
-    p_gpt12->T3CON.B.T3I  = 0x2;          // Timer mode, input parameter selection
-    p_gpt12->T3CON.B.BPS1 = 3;            // f/64
-    p_gpt12->T3CON.B.T3M  = 0;            // Timer mode, timer mode control
-    p_gpt12->T3CON.B.T3UD = 1;            // Count down, count direction, should underflow and produce interrupt
+    p_gpt12->CLC.B.DISR    = 0;            // Enable the clock module
+    p_gpt12->CLC.B.EDIS    = 1;            // Disable sleep mode request
+    p_gpt12->ACCEN0.U      = 0xffffffffu;  // Enable everything
+    p_gpt12->T3.B.T3       = TOGGLE_VALUE; // Put some value into the timer
+    p_gpt12->T3CON.B.T3I   = 0x2;          // Timer mode, input parameter selection
+    p_gpt12->T3CON.B.BPS1  = 3;            // f/64
+    p_gpt12->T3CON.B.T3M   = 0;            // Timer mode, timer mode control
+    p_gpt12->T3CON.B.T3UD  = 1;            // Count down, count direction, should underflow and produce interrupt
     p_gpt12->T3CON.B.T3UDE = 0;           // External up/down disabled
-    p_gpt12->T3CON.B.T3OE = 0;            // alternate function disabled
-    p_gpt12->T3CON.B.T3R  = 1;            // Timer run, timer run bit, 1 - timer run, 0 - timer stop
+    p_gpt12->T3CON.B.T3OE  = 0;            // alternate function disabled
+    p_gpt12->T3CON.B.T3R   = 1;            // Timer run, timer run bit, 1 - timer run, 0 - timer stop
     ///////////////////////////////////////////////////////////////////////////
-    // STM0 Set Up
+    // STM0 Set Up (System Timer)
     ///////////////////////////////////////////////////////////////////////////
 #if (COMPARE_BIT == 1)
     p_stm0->CMP[0].B.CMPVAL = (uint32_t)((uint32_t)0x1 << (BIT_NUM));
@@ -235,11 +246,47 @@ void core0_main(void) {
     p_stm0->ICR.B.CMP1EN    = 0;       // Enable CMP1
     p_stm0->ICR.B.CMP1OS    = 0;       // Sel STMIR1 if enabled
     ///////////////////////////////////////////////////////////////////////////
+    // ASC (Async/Sync or UART Set Up
+    ///////////////////////////////////////////////////////////////////////////
+    p_asclin0->CLC.B.DISR   = 0x00; // Enable the module
+    p_asclin0->IOCR.B.ALTI  = 0x00; // Alternate input selection
+    p_asclin0->IOCR.B.DEPTH = 0x05; // Digital glitch filter
+    p_asclin0->IOCR.B.CTS   = 0x00; // CTS ACTSA select, this needs to be shutdown
+    p_asclin0->IOCR.B.RCPOL = 0x00; // RTS CTS Polarity, active high
+    p_asclin0->IOCR.B.CPOL  = 0x00; // Clock Polarity, idle low
+    p_asclin0->IOCR.B.SPOL  = 0x00; // Slave Polarity Sync Mode
+    p_asclin0->IOCR.B.LB    = 0x00; // Loop-Back Mode, disabled
+    p_asclin0->IOCR.B.CTSEN = 0x00; // Input Signal CTS Enable, disabled
+    // p_asclin0->IOCR.B.RXM = read-only
+    // p_asclin0->IOCR.B.TXM = read-only
+    p_asclin0->DATCON.B.DATLEN   = 0x07; // 8 Bit data
+    p_asclin0->DATCON.B.HO       = 0x00; // Header Only, LIN stuff, Header and response expected
+    p_asclin0->DATCON.B.RM       = 0x00; // Response Mode, LIN stuff
+    p_asclin0->DATCON.B.CSM      = 0x00; // Classic CRC
+    p_asclin0->DATCON.B.RESPONSE = 0xff; // Response timeout threshold limit
+    p_asclin0->FRAMECON.B.IDLE   = 0x07; // Idle time between TXFIFO data
+    p_asclin0->FRAMECON.B.STOP   = 0x01; // 1 Stop bit
+    p_asclin0->FRAMECON.B.LEAD   = 0x00; // Lead time (for SPI mode)
+    p_asclin0->FRAMECON.B.MODE   = 0x01; // ASC mode
+    p_asclin0->FRAMECON.B.MSB    = 0x00; // lsb first
+    p_asclin0->FRAMECON.B.CEN    = 0x00; // Collision detection
+    p_asclin0->FRAMECON.B.PEN    = 0x00; // Parity disabled
+    p_asclin0->FRAMECON.B.ODD    = 0x00; // Odd if enabled, in this case disabled so don't-care
+    p_asclin0->BRG.B.NUMERATOR   = 100;  // Baud Rate Generator
+    p_asclin0->BRG.B.DENOMINATOR = 1;    // Baud Rate Generator
+    p_asclin0->BITCON.B.PRESCALER    = 0x05; // See Digital Glitch Filter above
+    p_asclin0->BITCON.B.OVERSAMPLING = 0x0A; // Oversampling factor
+    p_asclin0->BITCON.B.SAMPLEPOINT  = 0x07; // Sample point at 7
+    p_asclin0->BITCON.B.SM = 0x01; // Samples per bit 1 - 3 samples/bit
+    p_asclin0->RXFIFOCON.U = 0x00000000; // Don't use the RX FIFO
+    p_asclin0->TXFIFOCON.U = 0x00000000; // Don't use the TX FIFO
+    p_asclin0->TXFIFOCON.B.FLUSH = 0x01; // Flush it
+    ///////////////////////////////////////////////////////////////////////////
     // GPIO Set Up
     ///////////////////////////////////////////////////////////////////////////
     // BLUE LEDS - PORT 20, PINS 11 to 14
     ///////////////////////////////////////////////////////////////////////////
-    p_pin20->PDISC.U       = 0;    // Set the input as digital input via the schmidtt trigger
+    p_pin20->PDISC.U       = 0x00;    // Set the input as digital input via the schmidtt trigger
     p_pin20->IOCR8.B.PC11  = 0x10; // Digital output, not alt-func, LED should turn on immediately
     p_pin20->IOCR12.B.PC12 = 0x10;
     p_pin20->IOCR12.B.PC13 = 0x10;
@@ -251,7 +298,7 @@ void core0_main(void) {
     ///////////////////////////////////////////////////////////////////////////
     // GREEN LEDS - PORT 33, PINS 4 to 7
     ///////////////////////////////////////////////////////////////////////////
-    p_pin33->PDISC.U     = 0;    // Set the input as digital input via the schmidtt trigger
+    p_pin33->PDISC.U     = 0x00; // Digital function, not analog
     p_pin33->IOCR4.B.PC4 = 0x10; // Digital output, not alt-func, LED should turn on immediately
     p_pin33->IOCR4.B.PC5 = 0x10;
     p_pin33->IOCR4.B.PC6 = 0x10;
@@ -260,6 +307,12 @@ void core0_main(void) {
     p_pin33->OUT.B.P5    = 1;
     p_pin33->OUT.B.P6    = 1;
     p_pin33->OUT.B.P7    = 1;
+    ///////////////////////////////////////////////////////////////////////////
+    // UART - PORT 14, PINS 0 (RX) and 1 (TX)
+    ///////////////////////////////////////////////////////////////////////////
+    p_pin14->PDISC.U     = 0x00; // Digital function, not analog
+    p_pin14->IOCR0.B.PC0 = 0x00; // UART RX, pin 0, disc-in
+    p_pin14->IOCR0.B.PC1 = 0x02; // UART TX, pin 1, alt-func (see table 2.8, Infineon-TC38x-DataSheet-v01_02-EN.pdf)
     ///////////////////////////////////////////////////////////////////////////
     // Background Task
     ///////////////////////////////////////////////////////////////////////////
