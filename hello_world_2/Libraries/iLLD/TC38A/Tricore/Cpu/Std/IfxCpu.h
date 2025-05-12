@@ -760,6 +760,7 @@ IFX_INLINE boolean IfxCpu_disableInterrupts(void)
 
 IFX_INLINE void IfxCpu_enableInterrupts(void)
 {
+
     __enable();
 }
 

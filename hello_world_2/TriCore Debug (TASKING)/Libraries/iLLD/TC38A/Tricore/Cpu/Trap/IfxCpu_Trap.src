@@ -1,6 +1,6 @@
 	; Module start
 	.compiler_version	"TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler v1.1r8 Build 22011964"
-	.compiler_invocation	"ctc -f cc38932a --dep-file=Libraries/iLLD/TC38A/Tricore/Cpu/Trap/IfxCpu_Trap.d -c99 --fp-model=3cflnrSTz -D__CPU__=tc38x -D__CPU_TC38X__ --core=tc1.6.2 --fp-model=+float -D__CPU__=tc38x -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2 -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Configurations -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\Infra -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\Infra\\\\Platform -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore\\\\Compilers -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\Infra\\\\Sfr -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\Infra\\\\Sfr\\\\TC38A -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\Infra\\\\Sfr\\\\TC38A\\\\_Reg -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\Infra\\\\Ssw -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\Infra\\\\Ssw\\\\TC38A -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\Infra\\\\Ssw\\\\TC38A\\\\Tricore -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\Service -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\Service\\\\CpuGeneric -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\Service\\\\CpuGeneric\\\\_Utilities -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\iLLD -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\iLLD\\\\TC38A -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\iLLD\\\\TC38A\\\\Tricore -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Cpu -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Cpu\\\\Irq -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Cpu\\\\Std -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Cpu\\\\Trap -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Gtm -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Gtm\\\\Std -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Mtu -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Mtu\\\\Std -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Pms -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Pms\\\\Std -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Port -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Port\\\\Std -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Scu -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Scu\\\\Std -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Src -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Src\\\\Std -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\_Impl -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\_PinMap -g2 -w544 -w557 -t4 --language=+volatile -N0 -O0 -Y0 -Z0 --compact-max-size=200 --misrac-version=2004 -o Libraries/iLLD/TC38A/Tricore/Cpu/Trap/IfxCpu_Trap.src ../Libraries/iLLD/TC38A/Tricore/Cpu/Trap/IfxCpu_Trap.c"
+	.compiler_invocation	"ctc -f cc28024a --dep-file=Libraries/iLLD/TC38A/Tricore/Cpu/Trap/IfxCpu_Trap.d -c99 --fp-model=3cflnrSTz -D__CPU__=tc38x -D__CPU_TC38X__ --core=tc1.6.2 --fp-model=+float -D__CPU__=tc38x -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2 -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Configurations -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\Infra -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\Infra\\\\Platform -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore\\\\Compilers -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\Infra\\\\Sfr -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\Infra\\\\Sfr\\\\TC38A -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\Infra\\\\Sfr\\\\TC38A\\\\_Reg -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\Infra\\\\Ssw -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\Infra\\\\Ssw\\\\TC38A -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\Infra\\\\Ssw\\\\TC38A\\\\Tricore -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\Service -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\Service\\\\CpuGeneric -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\Service\\\\CpuGeneric\\\\_Utilities -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\iLLD -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\iLLD\\\\TC38A -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\iLLD\\\\TC38A\\\\Tricore -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Cpu -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Cpu\\\\Irq -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Cpu\\\\Std -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Cpu\\\\Trap -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Gtm -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Gtm\\\\Std -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Mtu -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Mtu\\\\Std -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Pms -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Pms\\\\Std -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Port -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Port\\\\Std -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Scu -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Scu\\\\Std -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Src -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Src\\\\Std -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\_Impl -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\_PinMap -g2 -w544 -w557 -t4 --language=+volatile -N0 -O0 -Y0 -Z0 --compact-max-size=200 --misrac-version=2004 -o Libraries/iLLD/TC38A/Tricore/Cpu/Trap/IfxCpu_Trap.src ../Libraries/iLLD/TC38A/Tricore/Cpu/Trap/IfxCpu_Trap.c"
 	.compiler_name		"ctc"
 	;source	'../Libraries/iLLD/TC38A/Tricore/Cpu/Trap/IfxCpu_Trap.c'
 
@@ -2617,7 +2617,7 @@ __IfxCpu_Trap_vectorTable3_function_end:
 	.byte	'IfxCpu_Id_none',0,4,0
 .L164:
 	.byte	8
-	.byte	'IfxCpu_getCoreId',0,3,8,225,6,22
+	.byte	'IfxCpu_getCoreId',0,3,8,226,6,22
 	.word	9474
 	.byte	1,1
 .L166:
@@ -2627,7 +2627,7 @@ __IfxCpu_Trap_vectorTable3_function_end:
 	.byte	'IfxCpu_ResourceCpu_2',0,2,18
 	.byte	'IfxCpu_ResourceCpu_3',0,3,18
 	.byte	'IfxCpu_ResourceCpu_none',0,4,0,8
-	.byte	'IfxCpu_getCoreIndex',0,3,8,233,6,31
+	.byte	'IfxCpu_getCoreIndex',0,3,8,234,6,31
 	.word	9584
 	.byte	1,1,6,0,8
 	.byte	'IfxCpu_areInterruptsEnabled',0,3,8,231,5,20
@@ -2636,23 +2636,23 @@ __IfxCpu_Trap_vectorTable3_function_end:
 .L145:
 	.byte	7
 	.byte	'unsigned long int',0,4,7,8
-	.byte	'IfxCpu_getPerformanceCounter',0,3,8,253,6,19
+	.byte	'IfxCpu_getPerformanceCounter',0,3,8,254,6,19
 	.word	9785
 	.byte	1,1,5
-	.byte	'address',0,8,253,6,55
+	.byte	'address',0,8,254,6,55
 	.word	710
 	.byte	6,0,8
-	.byte	'IfxCpu_getPerformanceCounterStickyOverflow',0,3,8,154,7,20
+	.byte	'IfxCpu_getPerformanceCounterStickyOverflow',0,3,8,155,7,20
 	.word	693
 	.byte	1,1,5
-	.byte	'address',0,8,154,7,70
+	.byte	'address',0,8,155,7,70
 	.word	710
 	.byte	6,0,4
-	.byte	'IfxCpu_updatePerformanceCounter',0,3,8,136,9,17,1,1,5
-	.byte	'address',0,8,136,9,56
+	.byte	'IfxCpu_updatePerformanceCounter',0,3,8,137,9,17,1,1,5
+	.byte	'address',0,8,137,9,56
 	.word	9785
 	.byte	5
-	.byte	'count',0,8,136,9,72
+	.byte	'count',0,8,137,9,72
 	.word	9785
 	.byte	19,6,0,0
 .L157:
@@ -20365,7 +20365,7 @@ __IfxCpu_Trap_vectorTable3_function_end:
 	.byte	9
 	.word	.L166,.L165,.L3
 	.byte	6
-	.byte	'reg',0,3,227,6,21
+	.byte	'reg',0,3,228,6,21
 	.word	.L167,.L168
 	.byte	0,0,0,0,0,0,0
 	.sdecl	'.debug_abbrev',debug,cluster('IfxCpu_Trap_memoryManagementError')
@@ -20408,13 +20408,13 @@ __IfxCpu_Trap_vectorTable3_function_end:
 	.half	.L368-.L367
 	.byte	1,4,3,5,19,9
 	.half	.L165-.L368
-	.byte	3,236,5,1,5,28,9
+	.byte	3,237,5,1,5,28,9
 	.half	.L306-.L165
 	.byte	3,1,1,5,5,9
 	.half	.L307-.L306
 	.byte	1,4,1,5,13,9
 	.half	.L3-.L307
-	.byte	3,148,122,1,5,21,9
+	.byte	3,147,122,1,5,21,9
 	.half	.L369-.L3
 	.byte	1,5,5,9
 	.half	.L370-.L369
@@ -20485,7 +20485,7 @@ __IfxCpu_Trap_vectorTable3_function_end:
 	.byte	9
 	.word	.L166,.L180,.L6
 	.byte	6
-	.byte	'reg',0,3,227,6,21
+	.byte	'reg',0,3,228,6,21
 	.word	.L167,.L181
 	.byte	0,0,0,0,0,0,0
 	.sdecl	'.debug_abbrev',debug,cluster('IfxCpu_Trap_internalProtectionError')
@@ -20528,13 +20528,13 @@ __IfxCpu_Trap_vectorTable3_function_end:
 	.half	.L381-.L380
 	.byte	1,4,3,5,19,9
 	.half	.L180-.L381
-	.byte	3,236,5,1,5,28,9
+	.byte	3,237,5,1,5,28,9
 	.half	.L311-.L180
 	.byte	3,1,1,5,5,9
 	.half	.L312-.L311
 	.byte	1,4,1,5,13,9
 	.half	.L6-.L312
-	.byte	3,148,122,1,5,21,9
+	.byte	3,147,122,1,5,21,9
 	.half	.L382-.L6
 	.byte	1,5,5,9
 	.half	.L383-.L382
@@ -20605,7 +20605,7 @@ __IfxCpu_Trap_vectorTable3_function_end:
 	.byte	9
 	.word	.L166,.L193,.L9
 	.byte	6
-	.byte	'reg',0,3,227,6,21
+	.byte	'reg',0,3,228,6,21
 	.word	.L167,.L194
 	.byte	0,0,0,0,0,0,0
 	.sdecl	'.debug_abbrev',debug,cluster('IfxCpu_Trap_instructionError')
@@ -20648,13 +20648,13 @@ __IfxCpu_Trap_vectorTable3_function_end:
 	.half	.L394-.L393
 	.byte	1,4,3,5,19,9
 	.half	.L193-.L394
-	.byte	3,236,5,1,5,28,9
+	.byte	3,237,5,1,5,28,9
 	.half	.L316-.L193
 	.byte	3,1,1,5,5,9
 	.half	.L317-.L316
 	.byte	1,4,1,5,13,9
 	.half	.L9-.L317
-	.byte	3,148,122,1,5,21,9
+	.byte	3,147,122,1,5,21,9
 	.half	.L395-.L9
 	.byte	1,5,5,9
 	.half	.L396-.L395
@@ -20725,7 +20725,7 @@ __IfxCpu_Trap_vectorTable3_function_end:
 	.byte	9
 	.word	.L166,.L206,.L12
 	.byte	6
-	.byte	'reg',0,3,227,6,21
+	.byte	'reg',0,3,228,6,21
 	.word	.L167,.L207
 	.byte	0,0,0,0,0,0,0
 	.sdecl	'.debug_abbrev',debug,cluster('IfxCpu_Trap_contextManagementError')
@@ -20768,13 +20768,13 @@ __IfxCpu_Trap_vectorTable3_function_end:
 	.half	.L407-.L406
 	.byte	1,4,3,5,19,9
 	.half	.L206-.L407
-	.byte	3,236,5,1,5,28,9
+	.byte	3,237,5,1,5,28,9
 	.half	.L321-.L206
 	.byte	3,1,1,5,5,9
 	.half	.L322-.L321
 	.byte	1,4,1,5,13,9
 	.half	.L12-.L322
-	.byte	3,148,122,1,5,21,9
+	.byte	3,147,122,1,5,21,9
 	.half	.L408-.L12
 	.byte	1,5,5,9
 	.half	.L409-.L408
@@ -20845,7 +20845,7 @@ __IfxCpu_Trap_vectorTable3_function_end:
 	.byte	9
 	.word	.L166,.L219,.L15
 	.byte	6
-	.byte	'reg',0,3,227,6,21
+	.byte	'reg',0,3,228,6,21
 	.word	.L167,.L220
 	.byte	0,0,0,0,0,0,0
 	.sdecl	'.debug_abbrev',debug,cluster('IfxCpu_Trap_busError')
@@ -20888,13 +20888,13 @@ __IfxCpu_Trap_vectorTable3_function_end:
 	.half	.L420-.L419
 	.byte	1,4,3,5,19,9
 	.half	.L219-.L420
-	.byte	3,236,5,1,5,28,9
+	.byte	3,237,5,1,5,28,9
 	.half	.L326-.L219
 	.byte	3,1,1,5,5,9
 	.half	.L327-.L326
 	.byte	1,4,1,5,13,9
 	.half	.L15-.L327
-	.byte	3,148,122,1,5,21,9
+	.byte	3,147,122,1,5,21,9
 	.half	.L421-.L15
 	.byte	1,5,5,9
 	.half	.L422-.L421
@@ -20965,7 +20965,7 @@ __IfxCpu_Trap_vectorTable3_function_end:
 	.byte	9
 	.word	.L166,.L232,.L18
 	.byte	6
-	.byte	'reg',0,3,227,6,21
+	.byte	'reg',0,3,228,6,21
 	.word	.L167,.L233
 	.byte	0,0,0,0,0,0,0
 	.sdecl	'.debug_abbrev',debug,cluster('IfxCpu_Trap_assertion')
@@ -21008,13 +21008,13 @@ __IfxCpu_Trap_vectorTable3_function_end:
 	.half	.L433-.L432
 	.byte	1,4,3,5,19,9
 	.half	.L232-.L433
-	.byte	3,236,5,1,5,28,9
+	.byte	3,237,5,1,5,28,9
 	.half	.L331-.L232
 	.byte	3,1,1,5,5,9
 	.half	.L332-.L331
 	.byte	1,4,1,5,13,9
 	.half	.L18-.L332
-	.byte	3,148,122,1,5,21,9
+	.byte	3,147,122,1,5,21,9
 	.half	.L434-.L18
 	.byte	1,5,5,9
 	.half	.L435-.L434
@@ -21085,7 +21085,7 @@ __IfxCpu_Trap_vectorTable3_function_end:
 	.byte	9
 	.word	.L166,.L245,.L21
 	.byte	6
-	.byte	'reg',0,3,227,6,21
+	.byte	'reg',0,3,228,6,21
 	.word	.L167,.L246
 	.byte	0,0,0,0,0,0,0
 	.sdecl	'.debug_abbrev',debug,cluster('IfxCpu_Trap_systemCall_Cpu0')
@@ -21128,13 +21128,13 @@ __IfxCpu_Trap_vectorTable3_function_end:
 	.half	.L446-.L445
 	.byte	1,4,3,5,19,9
 	.half	.L245-.L446
-	.byte	3,236,5,1,5,28,9
+	.byte	3,237,5,1,5,28,9
 	.half	.L336-.L245
 	.byte	3,1,1,5,5,9
 	.half	.L337-.L336
 	.byte	1,4,1,5,13,9
 	.half	.L21-.L337
-	.byte	3,148,122,1,5,21,9
+	.byte	3,147,122,1,5,21,9
 	.half	.L447-.L21
 	.byte	1,5,5,9
 	.half	.L448-.L447
@@ -21203,7 +21203,7 @@ __IfxCpu_Trap_vectorTable3_function_end:
 	.byte	9
 	.word	.L166,.L258,.L24
 	.byte	6
-	.byte	'reg',0,3,227,6,21
+	.byte	'reg',0,3,228,6,21
 	.word	.L167,.L259
 	.byte	0,0,0,0,0,0,0
 	.sdecl	'.debug_abbrev',debug,cluster('IfxCpu_Trap_systemCall_Cpu1')
@@ -21246,13 +21246,13 @@ __IfxCpu_Trap_vectorTable3_function_end:
 	.half	.L458-.L457
 	.byte	1,4,3,5,19,9
 	.half	.L258-.L458
-	.byte	3,236,5,1,5,28,9
+	.byte	3,237,5,1,5,28,9
 	.half	.L341-.L258
 	.byte	3,1,1,5,5,9
 	.half	.L342-.L341
 	.byte	1,4,1,5,13,9
 	.half	.L24-.L342
-	.byte	3,148,122,1,5,21,9
+	.byte	3,147,122,1,5,21,9
 	.half	.L459-.L24
 	.byte	1,5,5,9
 	.half	.L460-.L459
@@ -21321,7 +21321,7 @@ __IfxCpu_Trap_vectorTable3_function_end:
 	.byte	9
 	.word	.L166,.L271,.L27
 	.byte	6
-	.byte	'reg',0,3,227,6,21
+	.byte	'reg',0,3,228,6,21
 	.word	.L167,.L272
 	.byte	0,0,0,0,0,0,0
 	.sdecl	'.debug_abbrev',debug,cluster('IfxCpu_Trap_systemCall_Cpu2')
@@ -21364,13 +21364,13 @@ __IfxCpu_Trap_vectorTable3_function_end:
 	.half	.L470-.L469
 	.byte	1,4,3,5,19,9
 	.half	.L271-.L470
-	.byte	3,236,5,1,5,28,9
+	.byte	3,237,5,1,5,28,9
 	.half	.L346-.L271
 	.byte	3,1,1,5,5,9
 	.half	.L347-.L346
 	.byte	1,4,1,5,13,9
 	.half	.L27-.L347
-	.byte	3,148,122,1,5,21,9
+	.byte	3,147,122,1,5,21,9
 	.half	.L471-.L27
 	.byte	1,5,5,9
 	.half	.L472-.L471
@@ -21439,7 +21439,7 @@ __IfxCpu_Trap_vectorTable3_function_end:
 	.byte	9
 	.word	.L166,.L284,.L30
 	.byte	6
-	.byte	'reg',0,3,227,6,21
+	.byte	'reg',0,3,228,6,21
 	.word	.L167,.L285
 	.byte	0,0,0,0,0,0,0
 	.sdecl	'.debug_abbrev',debug,cluster('IfxCpu_Trap_systemCall_Cpu3')
@@ -21482,13 +21482,13 @@ __IfxCpu_Trap_vectorTable3_function_end:
 	.half	.L482-.L481
 	.byte	1,4,3,5,19,9
 	.half	.L284-.L482
-	.byte	3,236,5,1,5,28,9
+	.byte	3,237,5,1,5,28,9
 	.half	.L351-.L284
 	.byte	3,1,1,5,5,9
 	.half	.L352-.L351
 	.byte	1,4,1,5,13,9
 	.half	.L30-.L352
-	.byte	3,148,122,1,5,21,9
+	.byte	3,147,122,1,5,21,9
 	.half	.L483-.L30
 	.byte	1,5,5,9
 	.half	.L484-.L483
@@ -21557,7 +21557,7 @@ __IfxCpu_Trap_vectorTable3_function_end:
 	.byte	9
 	.word	.L166,.L297,.L33
 	.byte	6
-	.byte	'reg',0,3,227,6,21
+	.byte	'reg',0,3,228,6,21
 	.word	.L167,.L298
 	.byte	0,0,0,0,0,0,0
 	.sdecl	'.debug_abbrev',debug,cluster('IfxCpu_Trap_nonMaskableInterrupt')
@@ -21600,13 +21600,13 @@ __IfxCpu_Trap_vectorTable3_function_end:
 	.half	.L494-.L493
 	.byte	1,4,3,5,19,9
 	.half	.L297-.L494
-	.byte	3,236,5,1,5,28,9
+	.byte	3,237,5,1,5,28,9
 	.half	.L356-.L297
 	.byte	3,1,1,5,5,9
 	.half	.L357-.L356
 	.byte	1,4,1,5,13,9
 	.half	.L33-.L357
-	.byte	3,148,122,1,5,21,9
+	.byte	3,147,122,1,5,21,9
 	.half	.L495-.L33
 	.byte	1,5,5,9
 	.half	.L496-.L495

@@ -32,6 +32,7 @@
 #include "IfxStm_reg.h"
 #include "IfxGPt12_reg.h"
 #include "IfxAsclin_reg.h"
+#include "IfxScu_reg.h"
 #include "stdint.h"
 #include "task.h"
 #include "cbuff.h"
@@ -72,10 +73,12 @@ const unsigned int DELAY = 1000000;
 volatile Ifx_P      *p_pin20   = (volatile Ifx_P      *)0xF003B400u; // IfxPort_reg.h  - LED
 volatile Ifx_P      *p_pin33   = (volatile Ifx_P      *)0xF003C100u; // IfxPort_reg.h  - LED
 volatile Ifx_P      *p_pin14   = (volatile Ifx_P      *)0xF003AE00u; // IfxPort_reg.h  - UART 0 - RX, 1 - TX
+volatile Ifx_P      *p_pin15   = (volatile Ifx_P      *)0xF003AF00u; // IfxPort_reg.h  - UART 0 - RX, 1 - TX
 volatile Ifx_SRC    *p_src     = (volatile Ifx_SRC    *)0xF0038000u; // IfxSrc_reg.h   - Service Request Controller
 volatile Ifx_STM    *p_stm0    = (volatile Ifx_STM    *)0xF0001000u; // IfxStm_reg.h   - Timer using p-src
 volatile Ifx_GPT12  *p_gpt12   = (volatile Ifx_GPT12  *)0xF0001800u; // IfxGPt12_reg.h - General purpose timer
 volatile Ifx_ASCLIN *p_asclin0 = (volatile Ifx_ASCLIN *)0xF0000600u; // IfxAsclin_reg.h - Async/Sync interface - UART, SPI, I2C, LIN
+volatile Ifx_SCU    *p_scu     = (volatile Ifx_SCU    *)0xF0036000u;
 ///////////////////////////////////////////////////////////////////////////////
 // Globals
 ///////////////////////////////////////////////////////////////////////////////
@@ -169,8 +172,11 @@ void task_20ms() {
 
 void task_40ms() {
     p_pin20->OUT.B.P14 = ~p_pin20->OUT.B.P14;
-    p_asclin0->TXDATA.B.DATA = 0x5A;
-    p_asclin0->TXFIFOCON.B.FLUSH = 0x01; // Flush it
+    //p_asclin0->TXFIFOCON.B.FLUSH = 0x00; // Flush it
+    p_asclin0->TXDATA.B.DATA = 0x5A5A5A5A;
+    //p_asclin0->TXFIFOCON.B.FLUSH = 0x01; // Flush it
+    //p_pin14->OUT.B.P0 = p_pin20->OUT.B.P14;
+    //p_pin14->OUT.B.P1 = p_pin20->OUT.B.P14;
 }
 ///////////////////////////////////////////////////////////////////////////
 // Main - Background task
@@ -248,39 +254,117 @@ void core0_main(void) {
     ///////////////////////////////////////////////////////////////////////////
     // ASC (Async/Sync or UART Set Up
     ///////////////////////////////////////////////////////////////////////////
-    p_asclin0->CLC.B.DISR   = 0x00; // Enable the module
-    p_asclin0->IOCR.B.ALTI  = 0x00; // Alternate input selection
-    p_asclin0->IOCR.B.DEPTH = 0x05; // Digital glitch filter
-    p_asclin0->IOCR.B.CTS   = 0x00; // CTS ACTSA select, this needs to be shutdown
-    p_asclin0->IOCR.B.RCPOL = 0x00; // RTS CTS Polarity, active high
-    p_asclin0->IOCR.B.CPOL  = 0x00; // Clock Polarity, idle low
-    p_asclin0->IOCR.B.SPOL  = 0x00; // Slave Polarity Sync Mode
-    p_asclin0->IOCR.B.LB    = 0x00; // Loop-Back Mode, disabled
-    p_asclin0->IOCR.B.CTSEN = 0x00; // Input Signal CTS Enable, disabled
-    // p_asclin0->IOCR.B.RXM = read-only
-    // p_asclin0->IOCR.B.TXM = read-only
-    p_asclin0->DATCON.B.DATLEN   = 0x07; // 8 Bit data
-    p_asclin0->DATCON.B.HO       = 0x00; // Header Only, LIN stuff, Header and response expected
-    p_asclin0->DATCON.B.RM       = 0x00; // Response Mode, LIN stuff
-    p_asclin0->DATCON.B.CSM      = 0x00; // Classic CRC
-    p_asclin0->DATCON.B.RESPONSE = 0xff; // Response timeout threshold limit
-    p_asclin0->FRAMECON.B.IDLE   = 0x07; // Idle time between TXFIFO data
-    p_asclin0->FRAMECON.B.STOP   = 0x01; // 1 Stop bit
-    p_asclin0->FRAMECON.B.LEAD   = 0x00; // Lead time (for SPI mode)
-    p_asclin0->FRAMECON.B.MODE   = 0x01; // ASC mode
-    p_asclin0->FRAMECON.B.MSB    = 0x00; // lsb first
-    p_asclin0->FRAMECON.B.CEN    = 0x00; // Collision detection
-    p_asclin0->FRAMECON.B.PEN    = 0x00; // Parity disabled
-    p_asclin0->FRAMECON.B.ODD    = 0x00; // Odd if enabled, in this case disabled so don't-care
-    p_asclin0->BRG.B.NUMERATOR   = 100;  // Baud Rate Generator
-    p_asclin0->BRG.B.DENOMINATOR = 1;    // Baud Rate Generator
-    p_asclin0->BITCON.B.PRESCALER    = 0x05; // See Digital Glitch Filter above
-    p_asclin0->BITCON.B.OVERSAMPLING = 0x0A; // Oversampling factor
-    p_asclin0->BITCON.B.SAMPLEPOINT  = 0x07; // Sample point at 7
-    p_asclin0->BITCON.B.SM = 0x01; // Samples per bit 1 - 3 samples/bit
-    p_asclin0->RXFIFOCON.U = 0x00000000; // Don't use the RX FIFO
-    p_asclin0->TXFIFOCON.U = 0x00000000; // Don't use the TX FIFO
-    p_asclin0->TXFIFOCON.B.FLUSH = 0x01; // Flush it
+/*
+ * (1)   SCU_vResetENDINIT (0); // enable ENDINIT register
+ * (2)   ASCLIN0_CLC = 0x000; // disable module control
+ * (3)   dummy = ASCLIN0_CLC; //read back
+ * (4)   SCU_vSetENDINIT (0); // lock ENDINIT register
+ * (5)   ASCLIN0_CSR = 0; // clk source, no clk
+ * (6)   ASCLIN0_IOCR = 0x10000001; // Loopback
+ * (7)   ASCLIN0_TXFIFOCON = 0x00000043; // init TXFIFO
+ * (8)   ASCLIN0_RXFIFOCON = 0x00000043; // init RXFIFO
+ * (9)   ASCLIN0_BITCON = 0x830F0009; // OS 16, SP 7,8,9, PS 10
+ * (10)  ASCLIN0_FRAMECON = 0x40000200; // 1 Stop, Init Mode, P
+ * (11)  ASCLIN0_DATCON = 0x7; //8 Data Bits
+ * (12)  ASCLIN0_BRG = 0x00300C35; //divider for Baudrate
+ * (13)  ASCLIN0_FLAGSCLEAR = 0xFFFFFFFFF;// Clear all Flags
+ * (14)  ASCLIN0_FLAGSENABLE = 0xF0000000; // Enable TX/RX Int.
+ * (15)  SRC_ASCLIN0TX = (1 << 10) | ASC0TX_PRIO;
+ * (16)  SRC_ASCLIN0RX = (1 << 10) | ASC0RX_PRIO;
+ * (17)  interruptHandlerInstall (ASC0TX_PRIO, & ASC0_TX_irq);
+ * (18)  interruptHandlerInstall (ASC0RX_PRIO, & ASC0_RX_irq);
+ * (19)  ASCLIN0_FRAMECON |= 0x00010000;// Mode ASC
+ *
+ *
+ * */
+
+    // (1) SCU_vResetENDINIT(0); // enable ENDINIT register
+    p_scu->EICON0.B.ENDINIT = 0;
+    // (2) Enable module control
+    p_asclin0->CLC.B.DISR   = 0x0; // Enable the module
+    // (3) dummy = ASCLIN0_CLC; //read back
+    uint32_t dummy = p_asclin0->CLC.U;
+    (void)dummy;
+    // (4) SCU_vSetENDINIT (0); // lock ENDINIT register
+    p_scu->EICON0.B.ENDINIT = 1;
+    // (5) No clk
+    p_asclin0->CSR.B.CLKSEL = 0x0;
+    // (6)
+    p_asclin0->IOCR.U = 0x10000001;
+    // (7) Init TxFIFO (8) Init RxFIFO
+    p_asclin0->TXFIFOCON.U = 0x00000043;
+    p_asclin0->RXFIFOCON.U = 0x00000043;
+    // (9)
+    p_asclin0->BITCON.U = 0x830F0009;
+    // (10)
+    p_asclin0->FRAMECON.U = 0x40000200;
+    // (11)
+    p_asclin0->DATCON.U = 0x7;
+    // (12)
+    p_asclin0->BRG.U = 0x00300C35;
+    p_asclin0->FLAGSCLEAR.U = 0xFFFFFFFF;
+    p_asclin0->FLAGSENABLE.U = 0x00000000;
+    // (19)
+    p_asclin0->FRAMECON.U |= 0x00010000;
+    p_asclin0->CSR.B.CLKSEL = 0x2;
+// //    // Initialize follows this sequence (see
+// //    p_asclin0->CSR.B.CLKSEL = 0;
+// //    while (p_asclin0->CSR.B.CON == 1);
+// //    //delay(1000);
+// //    p_asclin0->FRAMECON.B.MODE   = 0x00; // INIT mode
+// //    p_asclin0->CSR.B.CLKSEL = 2;
+// //    while (p_asclin0->CSR.B.CON == 0);
+// //    //delay(1000);
+// //    p_asclin0->CSR.B.CLKSEL = 0;
+// //    while (p_asclin0->CSR.B.CON == 1);
+// //    //delay(1000);
+// //    p_asclin0->FRAMECON.B.MODE   = 0x01; // ASC mode
+// //    p_asclin0->CSR.B.CLKSEL = 2;
+// //    while (p_asclin0->CSR.B.CON == 0);
+// //    //delay(1000);
+//
+//     p_asclin0->FRAMECON.B.MODE = 0x01; // ASC mode
+//     p_asclin0->FRAMECON.B.IDLE = 0x00; // Idle time between TXFIFO data
+//     p_asclin0->FRAMECON.B.STOP = 0x01; // 1 Stop bit
+//     p_asclin0->FRAMECON.B.LEAD = 0x00; // Lead time (for SPI mode)
+//     p_asclin0->FRAMECON.B.MSB  = 0x00; // lsb first
+//     p_asclin0->FRAMECON.B.CEN  = 0x00; // Collision detection
+//     p_asclin0->FRAMECON.B.PEN  = 0x00; // Parity disabled
+//     p_asclin0->FRAMECON.B.ODD  = 0x00; // Odd if enabled, in this case disabled so don't-care
+//     p_asclin0->IOCR.B.ALTI  = 0x00; // Alternate input selection
+//     p_asclin0->IOCR.B.DEPTH = 0x05; // Digital glitch filter
+//     p_asclin0->IOCR.B.CTS   = 0x00; // CTS ACTSA select, this needs to be shutdown
+//     p_asclin0->IOCR.B.RCPOL = 0x00; // RTS CTS Polarity, active high
+//     p_asclin0->IOCR.B.CPOL  = 0x00; // Clock Polarity, idle low
+//     p_asclin0->IOCR.B.SPOL  = 0x00; // Slave Polarity Sync Mode
+//     p_asclin0->IOCR.B.LB    = 0x00; // Loop-Back Mode, disabled
+//     p_asclin0->IOCR.B.CTSEN = 0x00; // Input Signal CTS Enable, disabled
+//     // p_asclin0->IOCR.B.RXM = read-only
+//     // p_asclin0->IOCR.B.TXM = read-only
+//     p_asclin0->DATCON.B.DATLEN   = 0x07; // 8 Bit data
+//     p_asclin0->DATCON.B.HO       = 0x00; // Header Only, LIN stuff, Header and response expected
+//     p_asclin0->DATCON.B.RM       = 0x00; // Response Mode, LIN stuff
+//     p_asclin0->DATCON.B.CSM      = 0x00; // Classic CRC
+//     p_asclin0->DATCON.B.RESPONSE = 0x00; // Response timeout threshold limit
+//
+//     //p_asclin0->BRG.B.NUMERATOR   = 1;  // Baud Rate Generator
+//     //p_asclin0->BRG.B.DENOMINATOR = 1;    // Baud Rate Generator
+//
+//     p_asclin0->BRG.U = 0x00300C35;
+//
+//
+//     //p_asclin0->BITCON.B.PRESCALER    = 5; // See Digital Glitch Filter above
+//     //p_asclin0->BITCON.B.OVERSAMPLING = 15; // Oversampling factor
+//     //p_asclin0->BITCON.B.SAMPLEPOINT  = 0x07; // Sample point at 7
+//     //p_asclin0->BITCON.B.SM = 0x01; // Samples per bit 1 - 3 samples/bit
+//     p_asclin0->BITCON.U = 0x830F0009;
+//     p_asclin0->RXFIFOCON.U = 0x00000043; // Don't use the RX FIFO
+//     p_asclin0->TXFIFOCON.U = 0x00000043; // 0x00000043 is same as below
+// //    p_asclin0->TXFIFOCON.B.ENO   = 1; // TXFIFO Outlet Enable
+// //    p_asclin0->TXFIFOCON.B.FLUSH = 0; // Flush FIFO immediately
+// //    p_asclin0->TXFIFOCON.B.INW   = 1; // 8-bit
+// //    p_asclin0->TXFIFOCON.B.FM = 0; // FIFO mode, 1 - single move mode
+// //    p_asclin0->TXFIFOCON.B.INTLEVEL = 0; // Make interrupt level 5 so interrupt will be triggered here, for now don't do interrupts
     ///////////////////////////////////////////////////////////////////////////
     // GPIO Set Up
     ///////////////////////////////////////////////////////////////////////////
@@ -312,7 +396,16 @@ void core0_main(void) {
     ///////////////////////////////////////////////////////////////////////////
     p_pin14->PDISC.U     = 0x00; // Digital function, not analog
     p_pin14->IOCR0.B.PC0 = 0x00; // UART RX, pin 0, disc-in
-    p_pin14->IOCR0.B.PC1 = 0x02; // UART TX, pin 1, alt-func (see table 2.8, Infineon-TC38x-DataSheet-v01_02-EN.pdf)
+    p_pin14->IOCR0.B.PC1 = 0x12; // UART TX, pin 1, alt-func (see table 2.8, Infineon-TC38x-DataSheet-v01_02-EN.pdf)
+    p_pin14->PDR0.B.PD0  = 0x00; // Strong driver, sharp edge
+    p_pin14->PDR0.B.PD1  = 0x00; // Strong driver, sharp edge
+    p_pin14->PDR0.B.PL0  = 0x02; // 3.3v
+    p_pin14->PDR0.B.PL1  = 0x02; // 3.3v
+    //p_pin14->IOCR0.B.PC0 = 0x10; // UART RX, pin 0, disc-in TEST
+    //p_pin14->IOCR0.B.PC1 = 0x10; // UART TX, pin 1, alt-func (see table 2.8, Infineon-TC38x-DataSheet-v01_02-EN.pdf) TEST
+    //p_pin15->PDISC.U     = 0x00; // Digital function, not analog
+    //p_pin15->IOCR0.B.PC2 = 0x00; // UART RX, pin 0, disc-in
+    //p_pin15->IOCR0.B.PC3 = 0x12; // UART TX, pin 1, alt-func (see table 2.8, Infineon-TC38x-DataSheet-v01_02-EN.pdf)
     ///////////////////////////////////////////////////////////////////////////
     // Background Task
     ///////////////////////////////////////////////////////////////////////////

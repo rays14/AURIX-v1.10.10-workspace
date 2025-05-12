@@ -1,6 +1,6 @@
 	; Module start
 	.compiler_version	"TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler v1.1r8 Build 22011964"
-	.compiler_invocation	"ctc -f cc17268a --dep-file=Libraries/iLLD/TC38A/Tricore/Scu/Std/IfxScuWdt.d -c99 --fp-model=3cflnrSTz -D__CPU__=tc38x -D__CPU_TC38X__ --core=tc1.6.2 --fp-model=+float -D__CPU__=tc38x -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2 -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Configurations -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\Infra -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\Infra\\\\Platform -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore\\\\Compilers -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\Infra\\\\Sfr -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\Infra\\\\Sfr\\\\TC38A -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\Infra\\\\Sfr\\\\TC38A\\\\_Reg -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\Infra\\\\Ssw -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\Infra\\\\Ssw\\\\TC38A -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\Infra\\\\Ssw\\\\TC38A\\\\Tricore -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\Service -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\Service\\\\CpuGeneric -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\Service\\\\CpuGeneric\\\\_Utilities -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\iLLD -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\iLLD\\\\TC38A -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\iLLD\\\\TC38A\\\\Tricore -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Cpu -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Cpu\\\\Irq -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Cpu\\\\Std -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Cpu\\\\Trap -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Gtm -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Gtm\\\\Std -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Mtu -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Mtu\\\\Std -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Pms -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Pms\\\\Std -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Port -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Port\\\\Std -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Scu -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Scu\\\\Std -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Src -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Src\\\\Std -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\_Impl -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\_PinMap -g2 -w544 -w557 -t4 --language=+volatile -N0 -O0 -Y0 -Z0 --compact-max-size=200 --misrac-version=2004 -o Libraries/iLLD/TC38A/Tricore/Scu/Std/IfxScuWdt.src ../Libraries/iLLD/TC38A/Tricore/Scu/Std/IfxScuWdt.c"
+	.compiler_invocation	"ctc -f cc1616a --dep-file=Libraries/iLLD/TC38A/Tricore/Scu/Std/IfxScuWdt.d -c99 --fp-model=3cflnrSTz -D__CPU__=tc38x -D__CPU_TC38X__ --core=tc1.6.2 --fp-model=+float -D__CPU__=tc38x -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2 -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Configurations -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\Infra -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\Infra\\\\Platform -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore\\\\Compilers -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\Infra\\\\Sfr -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\Infra\\\\Sfr\\\\TC38A -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\Infra\\\\Sfr\\\\TC38A\\\\_Reg -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\Infra\\\\Ssw -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\Infra\\\\Ssw\\\\TC38A -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\Infra\\\\Ssw\\\\TC38A\\\\Tricore -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\Service -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\Service\\\\CpuGeneric -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\Service\\\\CpuGeneric\\\\_Utilities -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\iLLD -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\iLLD\\\\TC38A -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\iLLD\\\\TC38A\\\\Tricore -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Cpu -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Cpu\\\\Irq -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Cpu\\\\Std -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Cpu\\\\Trap -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Gtm -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Gtm\\\\Std -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Mtu -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Mtu\\\\Std -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Pms -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Pms\\\\Std -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Port -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Port\\\\Std -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Scu -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Scu\\\\Std -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Src -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\Src\\\\Std -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\_Impl -IC:\\\\Users\\\\sray\\\\AURIX-v1.10.10-workspace\\\\hello_world_2\\\\Libraries\\\\iLLD\\\\TC38A\\\\Tricore\\\\_PinMap -g2 -w544 -w557 -t4 --language=+volatile -N0 -O0 -Y0 -Z0 --compact-max-size=200 --misrac-version=2004 -o Libraries/iLLD/TC38A/Tricore/Scu/Std/IfxScuWdt.src ../Libraries/iLLD/TC38A/Tricore/Scu/Std/IfxScuWdt.c"
 	.compiler_name		"ctc"
 	;source	'../Libraries/iLLD/TC38A/Tricore/Scu/Std/IfxScuWdt.c'
 
@@ -3591,7 +3591,7 @@ __IfxScuWdt_getCpuWatchdogStatus_function_end:
 	.byte	'IfxCpu_ResourceCpu_none',0,4,0
 .L399:
 	.byte	8
-	.byte	'IfxCpu_getCoreIndex',0,3,8,233,6,31
+	.byte	'IfxCpu_getCoreIndex',0,3,8,234,6,31
 	.word	9515
 	.byte	1,1
 .L400:
@@ -3602,23 +3602,23 @@ __IfxScuWdt_getCpuWatchdogStatus_function_end:
 .L463:
 	.byte	7
 	.byte	'unsigned long int',0,4,7,8
-	.byte	'IfxCpu_getPerformanceCounter',0,3,8,253,6,19
+	.byte	'IfxCpu_getPerformanceCounter',0,3,8,254,6,19
 	.word	9716
 	.byte	1,1,5
-	.byte	'address',0,8,253,6,55
+	.byte	'address',0,8,254,6,55
 	.word	681
 	.byte	6,0,8
-	.byte	'IfxCpu_getPerformanceCounterStickyOverflow',0,3,8,154,7,20
+	.byte	'IfxCpu_getPerformanceCounterStickyOverflow',0,3,8,155,7,20
 	.word	664
 	.byte	1,1,5
-	.byte	'address',0,8,154,7,70
+	.byte	'address',0,8,155,7,70
 	.word	681
 	.byte	6,0,4
-	.byte	'IfxCpu_updatePerformanceCounter',0,3,8,136,9,17,1,1,5
-	.byte	'address',0,8,136,9,56
+	.byte	'IfxCpu_updatePerformanceCounter',0,3,8,137,9,17,1,1,5
+	.byte	'address',0,8,137,9,56
 	.word	9716
 	.byte	5
-	.byte	'count',0,8,136,9,72
+	.byte	'count',0,8,137,9,72
 	.word	9716
 	.byte	19,6,0,0,14
 	.word	505
@@ -21857,7 +21857,7 @@ __IfxScuWdt_getCpuWatchdogStatus_function_end:
 	.byte	7
 	.word	.L400,.L164,.L22
 	.byte	8
-	.byte	'reg',0,2,235,6,21
+	.byte	'reg',0,2,236,6,21
 	.word	.L401,.L402
 	.byte	0,0,6
 	.word	.L403,.L404,.L405
@@ -21891,13 +21891,13 @@ __IfxScuWdt_getCpuWatchdogStatus_function_end:
 .L841:
 	.byte	4,2,5,19,7,0,5,2
 	.word	.L164
-	.byte	3,235,6,1,5,37,9
+	.byte	3,236,6,1,5,37,9
 	.half	.L593-.L164
 	.byte	3,1,1,5,5,9
 	.half	.L594-.L593
 	.byte	1,4,1,5,55,9
 	.half	.L22-.L594
-	.byte	3,144,123,1,4,3,5,25,9
+	.byte	3,143,123,1,4,3,5,25,9
 	.half	.L404-.L22
 	.byte	3,171,2,1,5,5,9
 	.half	.L842-.L404
@@ -22199,7 +22199,7 @@ __IfxScuWdt_getCpuWatchdogStatus_function_end:
 	.byte	7
 	.word	.L400,.L200,.L131
 	.byte	8
-	.byte	'reg',0,2,235,6,21
+	.byte	'reg',0,2,236,6,21
 	.word	.L401,.L430
 	.byte	0,0,6
 	.word	.L431,.L432,.L433
@@ -22233,13 +22233,13 @@ __IfxScuWdt_getCpuWatchdogStatus_function_end:
 .L893:
 	.byte	4,2,5,19,7,0,5,2
 	.word	.L200
-	.byte	3,235,6,1,5,37,9
+	.byte	3,236,6,1,5,37,9
 	.half	.L646-.L200
 	.byte	3,1,1,5,5,9
 	.half	.L647-.L646
 	.byte	1,4,1,5,53,9
 	.half	.L131-.L647
-	.byte	3,252,125,1,4,3,5,25,9
+	.byte	3,251,125,1,4,3,5,25,9
 	.half	.L432-.L131
 	.byte	3,43,1,5,5,9
 	.half	.L894-.L432
@@ -22550,7 +22550,7 @@ __IfxScuWdt_getCpuWatchdogStatus_function_end:
 	.byte	8
 	.word	.L400,.L152,.L2
 	.byte	6
-	.byte	'reg',0,2,235,6,21
+	.byte	'reg',0,2,236,6,21
 	.word	.L401,.L459
 	.byte	0,0,0,0,0
 	.sdecl	'.debug_abbrev',debug,cluster('IfxScuWdt_changeCpuWatchdogPassword')
@@ -22574,13 +22574,13 @@ __IfxScuWdt_getCpuWatchdogStatus_function_end:
 .L947:
 	.byte	4,2,5,19,7,0,5,2
 	.word	.L152
-	.byte	3,235,6,1,5,37,9
+	.byte	3,236,6,1,5,37,9
 	.half	.L572-.L152
 	.byte	3,1,1,5,5,9
 	.half	.L573-.L572
 	.byte	1,4,1,5,54,9
 	.half	.L2-.L573
-	.byte	3,213,121,1,5,32,9
+	.byte	3,212,121,1,5,32,9
 	.half	.L574-.L2
 	.byte	3,4,1,5,5,9
 	.half	.L575-.L574
@@ -22654,7 +22654,7 @@ __IfxScuWdt_getCpuWatchdogStatus_function_end:
 	.byte	8
 	.word	.L400,.L154,.L6
 	.byte	6
-	.byte	'reg',0,2,235,6,21
+	.byte	'reg',0,2,236,6,21
 	.word	.L401,.L467
 	.byte	0,0,0,0,0
 	.sdecl	'.debug_abbrev',debug,cluster('IfxScuWdt_changeCpuWatchdogReload')
@@ -22678,13 +22678,13 @@ __IfxScuWdt_getCpuWatchdogStatus_function_end:
 .L961:
 	.byte	4,2,5,19,7,0,5,2
 	.word	.L154
-	.byte	3,235,6,1,5,37,9
+	.byte	3,236,6,1,5,37,9
 	.half	.L576-.L154
 	.byte	3,1,1,5,5,9
 	.half	.L577-.L576
 	.byte	1,4,1,5,45,9
 	.half	.L6-.L577
-	.byte	3,246,121,1,5,52,9
+	.byte	3,245,121,1,5,52,9
 	.half	.L962-.L6
 	.byte	1,5,27,9
 	.half	.L578-.L962
@@ -23098,7 +23098,7 @@ __IfxScuWdt_getCpuWatchdogStatus_function_end:
 	.byte	8
 	.word	.L400,.L172,.L35
 	.byte	6
-	.byte	'reg',0,2,235,6,21
+	.byte	'reg',0,2,236,6,21
 	.word	.L401,.L492
 	.byte	0,0,7
 	.word	.L403,.L493,.L494
@@ -23140,13 +23140,13 @@ __IfxScuWdt_getCpuWatchdogStatus_function_end:
 .L1032:
 	.byte	4,2,5,19,7,0,5,2
 	.word	.L172
-	.byte	3,235,6,1,5,37,9
+	.byte	3,236,6,1,5,37,9
 	.half	.L603-.L172
 	.byte	3,1,1,5,5,9
 	.half	.L604-.L603
 	.byte	1,4,1,5,41,9
 	.half	.L35-.L604
-	.byte	3,208,123,1,5,48,9
+	.byte	3,207,123,1,5,48,9
 	.half	.L1033-.L35
 	.byte	1,4,3,5,25,9
 	.half	.L493-.L1033
@@ -23380,7 +23380,7 @@ __IfxScuWdt_getCpuWatchdogStatus_function_end:
 	.byte	8
 	.word	.L400,.L176,.L48
 	.byte	6
-	.byte	'reg',0,2,235,6,21
+	.byte	'reg',0,2,236,6,21
 	.word	.L401,.L512
 	.byte	0,0,7
 	.word	.L403,.L513,.L514
@@ -23422,13 +23422,13 @@ __IfxScuWdt_getCpuWatchdogStatus_function_end:
 .L1091:
 	.byte	4,2,5,19,7,0,5,2
 	.word	.L176
-	.byte	3,235,6,1,5,37,9
+	.byte	3,236,6,1,5,37,9
 	.half	.L607-.L176
 	.byte	3,1,1,5,5,9
 	.half	.L608-.L607
 	.byte	1,4,1,5,41,9
 	.half	.L48-.L608
-	.byte	3,228,123,1,5,48,9
+	.byte	3,227,123,1,5,48,9
 	.half	.L1092-.L48
 	.byte	1,4,3,5,25,9
 	.half	.L513-.L1092
@@ -23655,7 +23655,7 @@ __IfxScuWdt_getCpuWatchdogStatus_function_end:
 	.byte	6
 	.word	.L400,.L180,.L61
 	.byte	7
-	.byte	'reg',0,2,235,6,21
+	.byte	'reg',0,2,236,6,21
 	.word	.L401,.L529
 	.byte	0,0,5
 	.word	.L530,.L531,.L62
@@ -23689,13 +23689,13 @@ __IfxScuWdt_getCpuWatchdogStatus_function_end:
 .L1150:
 	.byte	4,2,5,19,7,0,5,2
 	.word	.L180
-	.byte	3,235,6,1,5,37,9
+	.byte	3,236,6,1,5,37,9
 	.half	.L610-.L180
 	.byte	3,1,1,5,5,9
 	.half	.L611-.L610
 	.byte	1,4,1,5,69,9
 	.half	.L61-.L611
-	.byte	3,246,123,1,4,3,5,33,9
+	.byte	3,245,123,1,4,3,5,33,9
 	.half	.L531-.L61
 	.byte	3,130,2,1,5,14,9
 	.half	.L612-.L531
@@ -23738,7 +23738,7 @@ __IfxScuWdt_getCpuWatchdogStatus_function_end:
 	.byte	6
 	.word	.L400,.L182,.L64
 	.byte	7
-	.byte	'reg',0,2,235,6,21
+	.byte	'reg',0,2,236,6,21
 	.word	.L401,.L538
 	.byte	0,0,5
 	.word	.L539,.L540,.L65
@@ -23769,13 +23769,13 @@ __IfxScuWdt_getCpuWatchdogStatus_function_end:
 .L1154:
 	.byte	4,2,5,19,7,0,5,2
 	.word	.L182
-	.byte	3,235,6,1,5,37,9
+	.byte	3,236,6,1,5,37,9
 	.half	.L614-.L182
 	.byte	3,1,1,5,5,9
 	.half	.L615-.L614
 	.byte	1,4,1,5,77,9
 	.half	.L64-.L615
-	.byte	3,252,123,1,4,3,5,37,9
+	.byte	3,251,123,1,4,3,5,37,9
 	.half	.L540-.L64
 	.byte	3,133,2,1,5,5,9
 	.half	.L1155-.L540
@@ -24110,7 +24110,7 @@ __IfxScuWdt_getCpuWatchdogStatus_function_end:
 	.byte	7
 	.word	.L400,.L561,.L149
 	.byte	5
-	.byte	'reg',0,2,235,6,21
+	.byte	'reg',0,2,236,6,21
 	.word	.L401,.L562
 	.byte	0,0,0,0,0
 	.sdecl	'.debug_abbrev',debug,cluster('IfxScuWdt_getCpuWatchdogStatus')
@@ -24136,13 +24136,13 @@ __IfxScuWdt_getCpuWatchdogStatus_function_end:
 	.word	.L210
 	.byte	3,219,5,1,4,2,5,19,9
 	.half	.L561-.L210
-	.byte	3,144,1,1,5,37,9
+	.byte	3,145,1,1,5,37,9
 	.half	.L666-.L561
 	.byte	3,1,1,5,5,9
 	.half	.L667-.L666
 	.byte	1,4,1,5,23,9
 	.half	.L149-.L667
-	.byte	3,240,126,1,5,51,9
+	.byte	3,239,126,1,5,51,9
 	.half	.L665-.L149
 	.byte	1,5,5,9
 	.half	.L1183-.L665
