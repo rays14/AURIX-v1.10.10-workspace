@@ -63,7 +63,7 @@ IFX_ALIGN(4) IfxCpu_syncEvent g_cpuSyncEvent = 0;
   #define BIT_SZ   31
   #define TIME_ADD 125000 /* Add this to comparator should provide a 5ms interrupt */
 #endif
-#define MAX_DATA 100
+#define MAX_DATA 1000
 ///////////////////////////////////////////////////////////////////////////////
 // Constants
 ///////////////////////////////////////////////////////////////////////////////
@@ -172,9 +172,11 @@ void task_20ms() {
 }
 void task_40ms() {
     static int32_t task_40ms_data = 0;
+    static uint32_t j = 0;
     cbuff_get((struct cbuff_t *)&buffer_40ms, &task_40ms_data);
     p_pin20->OUT.B.P14       = ~p_pin20->OUT.B.P14;
-    p_asclin0->TXDATA.B.DATA = task_40ms_data;
+    p_asclin0->TXDATA.B.DATA = (uint32_t)task_40ms_data;
+    j++;
 }
 ///////////////////////////////////////////////////////////////////////////
 // Main - Background task

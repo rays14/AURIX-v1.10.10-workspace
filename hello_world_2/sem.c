@@ -22,14 +22,14 @@ int32_t sem_init(struct sem_t *self) {
     return status;
 }
 
-int32_t sem_take(struct sem_t *self) {
-    int32_t status = -1;
+bool sem_take(struct sem_t *self) {
+    bool status = false;
     if (self && (self->val > 0)) {
         // We dont need to do this because this
         // a priority based preemptive system
         sem_interrupt_disable();
         self->val = 0;
-        status = 0;
+        status = true;
         sem_interrupts_enable();
     }
     return status;
