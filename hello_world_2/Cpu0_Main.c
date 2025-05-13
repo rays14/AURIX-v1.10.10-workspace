@@ -173,7 +173,7 @@ void task_20ms() {
 void task_40ms() {
     p_pin20->OUT.B.P14 = ~p_pin20->OUT.B.P14;
     //p_asclin0->TXFIFOCON.B.FLUSH = 0x00; // Flush it
-    p_asclin0->TXDATA.B.DATA = 0x5A5A5A5A;
+    p_asclin0->TXDATA.B.DATA = 0x000000AA;
     //p_asclin0->TXFIFOCON.B.FLUSH = 0x01; // Flush it
     //p_pin14->OUT.B.P0 = p_pin20->OUT.B.P14;
     //p_pin14->OUT.B.P1 = p_pin20->OUT.B.P14;
@@ -254,30 +254,29 @@ void core0_main(void) {
     ///////////////////////////////////////////////////////////////////////////
     // ASC (Async/Sync or UART Set Up
     ///////////////////////////////////////////////////////////////////////////
-/*
- * (1)   SCU_vResetENDINIT (0); // enable ENDINIT register
- * (2)   ASCLIN0_CLC = 0x000; // disable module control
- * (3)   dummy = ASCLIN0_CLC; //read back
- * (4)   SCU_vSetENDINIT (0); // lock ENDINIT register
- * (5)   ASCLIN0_CSR = 0; // clk source, no clk
- * (6)   ASCLIN0_IOCR = 0x10000001; // Loopback
- * (7)   ASCLIN0_TXFIFOCON = 0x00000043; // init TXFIFO
- * (8)   ASCLIN0_RXFIFOCON = 0x00000043; // init RXFIFO
- * (9)   ASCLIN0_BITCON = 0x830F0009; // OS 16, SP 7,8,9, PS 10
- * (10)  ASCLIN0_FRAMECON = 0x40000200; // 1 Stop, Init Mode, P
- * (11)  ASCLIN0_DATCON = 0x7; //8 Data Bits
- * (12)  ASCLIN0_BRG = 0x00300C35; //divider for Baudrate
- * (13)  ASCLIN0_FLAGSCLEAR = 0xFFFFFFFFF;// Clear all Flags
- * (14)  ASCLIN0_FLAGSENABLE = 0xF0000000; // Enable TX/RX Int.
- * (15)  SRC_ASCLIN0TX = (1 << 10) | ASC0TX_PRIO;
- * (16)  SRC_ASCLIN0RX = (1 << 10) | ASC0RX_PRIO;
- * (17)  interruptHandlerInstall (ASC0TX_PRIO, & ASC0_TX_irq);
- * (18)  interruptHandlerInstall (ASC0RX_PRIO, & ASC0_RX_irq);
- * (19)  ASCLIN0_FRAMECON |= 0x00010000;// Mode ASC
- *
- *
- * */
-
+    /*
+     * (1)   SCU_vResetENDINIT (0); // enable ENDINIT register
+     * (2)   ASCLIN0_CLC = 0x000; // disable module control
+     * (3)   dummy = ASCLIN0_CLC; //read back
+     * (4)   SCU_vSetENDINIT (0); // lock ENDINIT register
+     * (5)   ASCLIN0_CSR = 0; // clk source, no clk
+     * (6)   ASCLIN0_IOCR = 0x10000001; // Loopback
+     * (7)   ASCLIN0_TXFIFOCON = 0x00000043; // init TXFIFO
+     * (8)   ASCLIN0_RXFIFOCON = 0x00000043; // init RXFIFO
+     * (9)   ASCLIN0_BITCON = 0x830F0009; // OS 16, SP 7,8,9, PS 10
+     * (10)  ASCLIN0_FRAMECON = 0x40000200; // 1 Stop, Init Mode, P
+     * (11)  ASCLIN0_DATCON = 0x7; //8 Data Bits
+     * (12)  ASCLIN0_BRG = 0x00300C35; //divider for Baudrate
+     * (13)  ASCLIN0_FLAGSCLEAR = 0xFFFFFFFFF;// Clear all Flags
+     * (14)  ASCLIN0_FLAGSENABLE = 0xF0000000; // Enable TX/RX Int.
+     * (15)  SRC_ASCLIN0TX = (1 << 10) | ASC0TX_PRIO;
+     * (16)  SRC_ASCLIN0RX = (1 << 10) | ASC0RX_PRIO;
+     * (17)  interruptHandlerInstall (ASC0TX_PRIO, & ASC0_TX_irq);
+     * (18)  interruptHandlerInstall (ASC0RX_PRIO, & ASC0_RX_irq);
+     * (19)  ASCLIN0_FRAMECON |= 0x00010000;// Mode ASC
+     *
+     *
+     * */
     // (1) SCU_vResetENDINIT(0); // enable ENDINIT register
     p_scu->EICON0.B.ENDINIT = 0;
     // (2) Enable module control
@@ -301,7 +300,7 @@ void core0_main(void) {
     // (11)
     p_asclin0->DATCON.U = 0x7;
     // (12)
-    p_asclin0->BRG.U = 0x00300C35;
+    p_asclin0->BRG.U = 0x01752FFF; // 0x01752FFF - 115200KBaud, 0x00300C35 - 19.2KBaud
     p_asclin0->FLAGSCLEAR.U = 0xFFFFFFFF;
     p_asclin0->FLAGSENABLE.U = 0x00000000;
     // (19)
