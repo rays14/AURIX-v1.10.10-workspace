@@ -173,7 +173,7 @@ void task_20ms() {
 void task_40ms() {
     p_pin20->OUT.B.P14 = ~p_pin20->OUT.B.P14;
     //p_asclin0->TXFIFOCON.B.FLUSH = 0x00; // Flush it
-    p_asclin0->TXDATA.B.DATA = 0x000000AA;
+    p_asclin0->TXDATA.B.DATA = 'a'; //0x000000AA;
     //p_asclin0->TXFIFOCON.B.FLUSH = 0x01; // Flush it
     //p_pin14->OUT.B.P0 = p_pin20->OUT.B.P14;
     //p_pin14->OUT.B.P1 = p_pin20->OUT.B.P14;
