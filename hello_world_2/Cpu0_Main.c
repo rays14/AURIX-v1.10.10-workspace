@@ -63,6 +63,7 @@ IFX_ALIGN(4) IfxCpu_syncEvent g_cpuSyncEvent = 0;
   #define BIT_SZ   31
   #define TIME_ADD 125000 /* Add this to comparator should provide a 5ms interrupt */
 #endif
+#define MAX_DATA 100
 ///////////////////////////////////////////////////////////////////////////////
 // Constants
 ///////////////////////////////////////////////////////////////////////////////
@@ -82,16 +83,17 @@ volatile Ifx_SCU    *p_scu     = (volatile Ifx_SCU    *)0xF0036000u;
 ///////////////////////////////////////////////////////////////////////////////
 // Globals
 ///////////////////////////////////////////////////////////////////////////////
-const    uint16_t TOGGLE_VALUE      = 0xfffe;
-volatile uint32_t timer_0_isr_count = 0;
-volatile uint32_t gpt1_isr_count    = 0;
-volatile uint32_t toggle            = 0;
-volatile uint32_t int_toggle_p6     = 0;
-volatile uint32_t int_toggle_p7     = 0;
-volatile uint64_t compare_value     = (uint64_t)0;
-#define MAX_DATA 100
-volatile int32_t  data[MAX_DATA]    = {0,};
-volatile struct cbuff_t buffer      = {{0}};
+const    uint16_t TOGGLE_VALUE        = 0xfffe;
+volatile uint32_t timer_0_isr_count   = 0;
+volatile uint32_t gpt1_isr_count      = 0;
+volatile uint32_t toggle              = 0;
+volatile uint32_t int_toggle_p6       = 0;
+volatile uint32_t int_toggle_p7       = 0;
+volatile uint64_t compare_value       = (uint64_t)0;
+volatile int32_t  data_20ms[MAX_DATA] = {0,};
+volatile int32_t  data_40ms[MAX_DATA] = {0,};
+volatile struct cbuff_t buffer_20ms   = {{0}};
+volatile struct cbuff_t buffer_40ms   = {{0}};
 ///////////////////////////////////////////////////////////////////////////////
 // Delay
 ///////////////////////////////////////////////////////////////////////////////
@@ -115,20 +117,20 @@ void gpt1_isr_exec() {
         gpt1_isr_count = 0;
     }
 }
-
 IFX_INTERRUPT (gpt1_isr, 0, GPT1_INTERRUPT_PRIORITY) {
     gpt1_isr_exec();
 }
 // ----------------------------------------------------------------------------
 ///////////////////////////////////////////////////////////////////////////////
 // Timer-0 Interrupt Handler
+//     This ISR runs the task scheduler.
 // ----------------------------------------------------------------------------
 ///////////////////////////////////////////////////////////////////////////////
 struct exec_t {
     int data;
 };
-
 static struct exec_t exec_data = {{0}};
+
 void timer_0_isr_exec(void) {
     IfxCpu_disableInterrupts();
     //p_pin33->OUT.B.P6 = ~p_pin33->OUT.B.P6;
@@ -154,29 +156,25 @@ IFX_INTERRUPT (timer_0_isr, 0, TIMER_0_INTERRUPT_PRIORITY) {
 // Tasks - Foreground task
 ///////////////////////////////////////////////////////////////////////////////
 void task_5ms() {
-    static int32_t i = 22;
+    static int32_t task_5ms_data = 22;
     p_pin20->OUT.B.P11 = ~p_pin20->OUT.B.P11;
-    cbuff_put((struct cbuff_t *)&buffer, i);
-    i++;
+    cbuff_put((struct cbuff_t *)&buffer_20ms, task_5ms_data);
+    cbuff_put((struct cbuff_t *)&buffer_40ms, task_5ms_data);
+    task_5ms_data++;
 }
-
 void task_10ms() {
     p_pin20->OUT.B.P12 = ~p_pin20->OUT.B.P12;
 }
-
 void task_20ms() {
-    static int32_t j = 0;
+    static int32_t task_20ms_data = 0;
+    cbuff_get((struct cbuff_t *)&buffer_20ms, &task_20ms_data);
     p_pin20->OUT.B.P13 = ~p_pin20->OUT.B.P13;
-    cbuff_get((struct cbuff_t *)&buffer, &j);
 }
-
 void task_40ms() {
-    p_pin20->OUT.B.P14 = ~p_pin20->OUT.B.P14;
-    //p_asclin0->TXFIFOCON.B.FLUSH = 0x00; // Flush it
-    p_asclin0->TXDATA.B.DATA = 'a'; //0x000000AA;
-    //p_asclin0->TXFIFOCON.B.FLUSH = 0x01; // Flush it
-    //p_pin14->OUT.B.P0 = p_pin20->OUT.B.P14;
-    //p_pin14->OUT.B.P1 = p_pin20->OUT.B.P14;
+    static int32_t task_40ms_data = 0;
+    cbuff_get((struct cbuff_t *)&buffer_40ms, &task_40ms_data);
+    p_pin20->OUT.B.P14       = ~p_pin20->OUT.B.P14;
+    p_asclin0->TXDATA.B.DATA = task_40ms_data;
 }
 ///////////////////////////////////////////////////////////////////////////
 // Main - Background task
@@ -197,7 +195,8 @@ void core0_main(void) {
     ///////////////////////////////////////////////////////////////////////////
     // Tasks
     ///////////////////////////////////////////////////////////////////////////
-    cbuff_init((struct cbuff_t *)&buffer, (int32_t *)data, MAX_DATA);
+    cbuff_init((struct cbuff_t *)&buffer_20ms, (int32_t *)data_20ms, MAX_DATA);
+    cbuff_init((struct cbuff_t *)&buffer_40ms, (int32_t *)data_40ms, MAX_DATA);
     task_init();
     task_add(task_5ms,  4,  0); // Approx. 5ms
     task_add(task_10ms, 8,  0); // Approx. 10ms
