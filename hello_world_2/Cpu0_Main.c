@@ -157,10 +157,16 @@ IFX_INTERRUPT (timer_0_isr, 0, TIMER_0_INTERRUPT_PRIORITY) {
 ///////////////////////////////////////////////////////////////////////////////
 void task_5ms() {
     static int32_t task_5ms_data = 22;
+    static uint32_t timer_5ms = 0;
     p_pin20->OUT.B.P11 = ~p_pin20->OUT.B.P11;
-    cbuff_put((struct cbuff_t *)&buffer_20ms, task_5ms_data);
-    cbuff_put((struct cbuff_t *)&buffer_40ms, task_5ms_data);
-    task_5ms_data++;
+    // Every second put a value in the queue.
+    timer_5ms++;
+    if (timer_5ms >= 200) {
+        timer_5ms = 0;
+        cbuff_put((struct cbuff_t *)&buffer_20ms, task_5ms_data);
+        cbuff_put((struct cbuff_t *)&buffer_40ms, task_5ms_data);
+        task_5ms_data++;
+    }
 }
 void task_10ms() {
     p_pin20->OUT.B.P12 = ~p_pin20->OUT.B.P12;
@@ -173,9 +179,15 @@ void task_20ms() {
 void task_40ms() {
     static int32_t task_40ms_data = 0;
     static uint32_t j = 0;
-    cbuff_get((struct cbuff_t *)&buffer_40ms, &task_40ms_data);
-    p_pin20->OUT.B.P14       = ~p_pin20->OUT.B.P14;
-    p_asclin0->TXDATA.B.DATA = (uint32_t)task_40ms_data;
+    static uint32_t timer_40ms = 0;
+    // Every second pull a value out
+    timer_40ms++;
+    if (timer_40ms >= 25) {
+        timer_40ms = 0;
+        cbuff_get((struct cbuff_t *)&buffer_40ms, &task_40ms_data);
+        p_pin20->OUT.B.P14       = ~p_pin20->OUT.B.P14;
+        p_asclin0->TXDATA.B.DATA = (uint32_t)task_40ms_data;
+    }
     j++;
 }
 ///////////////////////////////////////////////////////////////////////////
