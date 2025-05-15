@@ -159,9 +159,8 @@ void task_5ms() {
     static int32_t task_5ms_data = 22;
     static uint32_t timer_5ms = 0;
     p_pin20->OUT.B.P11 = ~p_pin20->OUT.B.P11;
-    // Every second put a value in the queue.
     timer_5ms++;
-    if (timer_5ms >= 100) {
+    if (timer_5ms >= 25) { // Count of 200 is 1 second
         timer_5ms = 0;
         cbuff_put((struct cbuff_t *)&buffer_20ms, task_5ms_data);
         cbuff_put((struct cbuff_t *)&buffer_40ms, task_5ms_data);
@@ -180,12 +179,11 @@ void task_40ms() {
     static int32_t task_40ms_data = 0;
     static uint32_t j = 0;
     static uint32_t timer_40ms = 0;
-    // Every second pull a value out
     timer_40ms++;
-    if (timer_40ms >= 12) {
+    if (timer_40ms >= 6) { // Count of 25 is 1 second
         timer_40ms = 0;
         cbuff_get((struct cbuff_t *)&buffer_40ms, &task_40ms_data);
-        p_pin20->OUT.B.P14       = ~p_pin20->OUT.B.P14;
+        p_pin20->OUT.B.P14 = ~p_pin20->OUT.B.P14;
         p_asclin0->TXDATA.B.DATA = (uint32_t)task_40ms_data;
     }
     j++;
@@ -243,7 +241,7 @@ void core0_main(void) {
     p_gpt12->T3CON.B.BPS1  = 3;            // f/64
     p_gpt12->T3CON.B.T3M   = 0;            // Timer mode, timer mode control
     p_gpt12->T3CON.B.T3UD  = 1;            // Count down, count direction, should underflow and produce interrupt
-    p_gpt12->T3CON.B.T3UDE = 0;           // External up/down disabled
+    p_gpt12->T3CON.B.T3UDE = 0;            // External up/down disabled
     p_gpt12->T3CON.B.T3OE  = 0;            // alternate function disabled
     p_gpt12->T3CON.B.T3R   = 1;            // Timer run, timer run bit, 1 - timer run, 0 - timer stop
     ///////////////////////////////////////////////////////////////////////////
