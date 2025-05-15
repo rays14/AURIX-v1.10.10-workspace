@@ -23,25 +23,25 @@ int32_t sem_init(struct sem_t *self) {
 }
 
 bool sem_take(struct sem_t *self) {
+    sem_interrupt_disable();
     bool status = false;
     if (self && (self->val > 0)) {
         // We dont need to do this because this
         // a priority based preemptive system
-        sem_interrupt_disable();
         self->val = 0;
         status = true;
-        sem_interrupts_enable();
     }
+    sem_interrupts_enable();
     return status;
 }
 
 void sem_give(struct sem_t *self) {
+    sem_interrupt_disable();
     if (self) {
         // We dont need to do this because this
         // a priority based preemptive system
-        sem_interrupt_disable();
         self->val = 1;
-        sem_interrupts_enable();
     }
+    sem_interrupts_enable();
 }
 

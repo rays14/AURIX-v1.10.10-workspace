@@ -30,18 +30,16 @@ int32_t cbuff_init(struct cbuff_t *self, int32_t *buf, uint32_t sz) {
 int32_t cbuff_put(struct cbuff_t *self, int32_t val) {
     int32_t status = -1;
     if (self) {
-        //bool succ = sem_take(&self->sem) == 0 ? true : false;
-        //bool succ = sem_take(&self->sem);
-        //if ((succ == true) && self->num < (self->sz - 1)) {
-        cbuff_interrupt_disable();
-        if (self->num < (self->sz - 1)) {
-            self->buf[self->h] = val;
-            self->h = (self->h + 1) % self->sz;
-            self->num++;
-            status = 0;
-            //sem_give(&self->sem);
+        bool succ = sem_take(&self->sem);
+        if (succ == true) {
+            if (self->num < (self->sz - 1)) {
+                self->buf[self->h] = val;
+                self->h = (self->h + 1) % self->sz;
+                self->num++;
+                status = 0;
+            }
+            sem_give(&self->sem);
         }
-        cbuff_interrupt_enable();
     }
     return status;
 }
@@ -49,18 +47,16 @@ int32_t cbuff_put(struct cbuff_t *self, int32_t val) {
 int32_t cbuff_get(struct cbuff_t *self, int32_t *val) {
     int32_t status = -1;
     if (self) {
-        //bool succ = sem_take(&self->sem) == 0 ? true : false;
-        //bool succ = sem_take(&self->sem);
-        //if ((succ == true) && (self->num > 0)) {
-        cbuff_interrupt_disable();
-        if ((self->num > 0)) {
-            *val = self->buf[self->t];
-            self->t = (self->t + 1) % self->sz;
-            self->num--;
-            status = 0;
-            //sem_give(&self->sem);
+        bool succ = sem_take(&self->sem);
+        if (succ == true) {
+            if (self->num > 0) {
+                *val = self->buf[self->t];
+                self->t = (self->t + 1) % self->sz;
+                self->num--;
+                status = 0;
+            }
+            sem_give(&self->sem);
         }
-        cbuff_interrupt_enable();
     }
     return status;
 }
